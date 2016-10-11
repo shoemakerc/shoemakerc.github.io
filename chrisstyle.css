@@ -1,0 +1,72 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.center-cropped {
+  width: 50%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.biobox {
+	position: absolute;
+	left: 50%;
+	height: 100%;
+	width: 50%;
+    text-align: center;
+}
+
+.biotitle {
+	color: #444444;
+	line-height: 5.8vmin;
+	padding: 7%;
+	position: relative;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 5.7vmin;
+}
+
+.bioname {
+    font-size: 3.8vmin;
+    line-height: 3.8vmin;
+}
+
+.biotext {
+	line-height: 4.4vmin;
+	font-size: 2.9vmin;
+}
+
+/*a:hover, a:visited, a:active, a:link {
+	border-bottom: 2px solid black;
+	color: #666666;
+	text-decoration: none;
+	color: white;
+}*/
+
+a:link {
+	color: white;
+	border-bottom: 2px solid black;
+}
+
+a:visited {
+	color: #444444;
+	text-decoration: none;
+	border-bottom: white;
+}
+
+a:hover {
+	border-bottom: white;
+	color: black;
+}
+/*
+a:hover {
+	color: #666666;
+	text-decoration: none;
+	border-bottom: white;
+}*/
