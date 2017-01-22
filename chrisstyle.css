@@ -1,3 +1,11 @@
+/* brandico
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+*/
 html,body
 {
     width: 100%;
@@ -24,7 +32,7 @@ html,body
 }
 
 .biotitle {
-	color: #444444;
+	color: black;
 	line-height: 5.8vmin;
 	padding: 7%;
 	position: relative;
@@ -42,31 +50,20 @@ html,body
 	font-size: 2.9vmin;
 }
 
-/*a:hover, a:visited, a:active, a:link {
-	border-bottom: 2px solid black;
-	color: #666666;
-	text-decoration: none;
-	color: white;
-}*/
-
+/* TODO
 a:link {
-	color: white;
+	color: black;
 	border-bottom: 2px solid black;
 }
 
 a:visited {
-	color: #444444;
+	color: #purple;
 	text-decoration: none;
-	border-bottom: white;
+	border-bottom: 2px solid purple;
 }
 
 a:hover {
-	border-bottom: white;
-	color: black;
+  color: blue;
+	border-bottom: 2px solid blue;
 }
-/*
-a:hover {
-	color: #666666;
-	text-decoration: none;
-	border-bottom: white;
-}*/
+*/
