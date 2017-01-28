@@ -37,16 +37,14 @@ html,body
 }
 
 .fa fa-spotify fa-2x {
-  color: #1ED760 !important;
+  color: #1ED760;
 }
 
 a:link {
-	color: black;
 }
 
 a:visited {
 	color: purple;
-	text-decoration: none;
 }
 
 a:hover {
