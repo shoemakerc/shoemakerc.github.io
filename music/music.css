@@ -1,0 +1,45 @@
+html,body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+}
+h2
+{
+  text-align: center;
+  font-weight: bold;
+}
+.title-separator
+{
+  height: 30px;
+  margin-top: 1.0em;
+  margin-bottom: 1.0em;
+  margin-left: 30.0em;
+  margin-right: 30.0em;
+  border-style: solid;
+}
+.post-title
+{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.date
+{
+  margin-top: 0em;
+  font-style: italic;
+}
+.playlist-title
+{
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+.playlist-spotify
+{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
