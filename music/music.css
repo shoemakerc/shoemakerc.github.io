@@ -5,6 +5,10 @@ html,body
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  /*font-family: 'Lato', sans-serif;*/
+}
+.page-text
+{
   font-family: 'Lato', sans-serif;
 }
 h2
