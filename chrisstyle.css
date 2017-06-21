@@ -4,15 +4,22 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
 }
 
-.center-cropped {
-  width: 50%;
-  height: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: absolute;
+.biophoto {
+  display: block;
+  margin: auto;
+  border-radius: 95%;
+  max-width: 60%;
+  height: auto;
+}
+
+.menu {
+  width: inherit;
+  position: initial;
+  background-color: #4d4d4d;
+  color: white;
+  font-family: 'Lato', sans-serif;
 }
 
 .biobox {
@@ -20,20 +27,19 @@ html,body
 	height: 100%;
 	width: 100%;
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
-.biotitle {
-	color: black;
-	line-height: 5.8vmin;
+.biobox_title {
+	line-height: 5.1vmin;
 	padding: 7%;
 	position: relative;
-    font-family: 'Lato', sans-serif;
-    font-size: 5.7vmin;
+  font-size: 5vmin;
 }
 
-.biotext {
-	line-height: 4.4vmin;
-	font-size: 2.9vmin;
+.biobox_text {
+	line-height: 4vmin;
+	font-size: 2.5vmin;
 }
 
 .fa fa-spotify fa-2x {
@@ -49,4 +55,8 @@ a:visited {
 
 a:hover {
   color: blue;
+}
+
+.last_update {
+  font-size: 10px;
 }
