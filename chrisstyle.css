@@ -54,10 +54,3 @@ html,body
 i {
 	color: grey;
 }
-
-.last_update {
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-	bottom: 1em;
-	font-size: 1.5vmin;
-}

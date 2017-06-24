@@ -1,49 +1,86 @@
 html,body
 {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
-  /*font-family: 'Lato', sans-serif;*/
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
 }
-.page-text
-{
-  font-family: 'Lato', sans-serif;
+
+.menu {
+	width: inherit;
+	position: initial;
+	background-color: #4d4d4d;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	padding: 12px 0px 12px 0px;
 }
-h2
-{
-  text-align: center;
-  font-weight: bold;
+
+.menu-title {
+	font-size: 5vmin;
 }
-.title-separator
-{
-  height: 30px;
-  margin-top: 1.0em;
-  margin-bottom: 1.0em;
-  margin-left: 30.0em;
-  margin-right: 30.0em;
-  border-style: solid;
+
+.menu-links {
+	font-size: 3vmin;
+	padding: 12px 0px 12px 0px;
 }
-.post-title
-{
-  font-weight: bold;
-  font-size: 1.5em;
+
+.music-title {
+	line-height: 5.5vmin;
+	position: relative;
+	font-size: 5vmin;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding-top: 50px;
 }
+
+.music-body {
+	padding: 0px 250px 0px 250px;
+	text-align: justify;
+	line-height: 4vmin;
+	font-size: 2.5vmin;
+	font-family: 'Lato', sans-serif;
+}
+
+.post-title {
+	line-height: 4.8vmin;
+	font-size: 3.0vmin;
+
+}
+
+.title-separator {
+	height: 30px;
+	margin-top: 1.0em;
+	margin-bottom: 1.0em;
+	margin-left: 30.0em;
+	margin-right: 30.0em;
+	border-style: solid;
+}
+
 .date
 {
-  margin-top: 0em;
-  font-style: italic;
+	line-height: 3.0vmin;
+	font-size: 1.9vmin;
+	font-style: italic;
+
 }
+
+.post
+{
+	line-height: 3.0vmin;
+	font-size: 1.9vmin;
+}
+
 .playlist-title
 {
-  font-weight: bold;
-  font-size: 1.5em;
-  text-align: center;
+	font-weight: bold;
+	line-height: 4.0vmin;
+	font-size: 2.5vmin;
+	text-align: center;
 }
+
 .playlist-spotify
 {
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 }
