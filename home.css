@@ -8,11 +8,13 @@ html,body
 
 .menu {
 	width: inherit;
+	height: 5vw;
 	position: initial;
 	background-color: #4d4d4d;
 	color: white;
 	font-family: 'Lato', sans-serif;
-	padding: 12px 0px 12px 0px;
+	padding-top: 0.75vw;
+	padding-bottom: 0.75vw;
 }
 
 .menu-title {
@@ -21,7 +23,8 @@ html,body
 
 .menu-links {
 	font-size: 1.5vw;
-	padding: 12px 0px 12px 0px;
+	padding-top: 0.75vw;
+	padding-bottom: 0.75vw;
 }
 
 .biophoto {
