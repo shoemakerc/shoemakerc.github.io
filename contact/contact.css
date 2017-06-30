@@ -44,14 +44,26 @@ html,body
 	font-family: 'Lato', sans-serif;
 }
 
-a:link {
+.menu-link:link {
 	color: white;
 }
 
-a:visited {
+.menu-link:visited {
 	color: white;
 }
 
-a:hover {
+.menu-link:hover {
 	color: hotpink;
+}
+
+.body-link:link {
+	color: #3b5998;
+}
+
+.body-link:visited {
+	color: #dfe3ee;
+}
+
+.body-link:hover {
+	color: green;
 }
