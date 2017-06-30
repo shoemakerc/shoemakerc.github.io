@@ -25,6 +25,7 @@ html,body
 	font-size: 1.5vw;
 	padding-top: 0.75vw;
 	padding-bottom: 0.75vw;
+	text-align: center;
 }
 
 .music-title {
@@ -86,4 +87,16 @@ html,body
 	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: hotpink;
 }

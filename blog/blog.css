@@ -28,32 +28,6 @@ html,body
 	text-align: center;
 }
 
-.biophoto {
-	display: block;
-	margin: auto;
-	border-radius: 95%;
-	max-width: 58%;
-}
-
-.biobox {
-	height: 100%;
-	width: 100%;
-	text-align: center;
-	font-family: 'Lato', sans-serif;
-}
-
-.biobox_title {
-	line-height: 3vw;
-	padding: 5%;
-	position: relative;
-	font-size: 2.75vw;
-	}
-
-.biobox_text {
-	line-height: 1.75vw;
-	font-size: 1.25vw;
-}
-
 a:link {
 	color: white;
 }
