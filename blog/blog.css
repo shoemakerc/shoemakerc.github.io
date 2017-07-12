@@ -37,17 +37,17 @@ html,body
 }
 
 .menu-link:hover {
-  color: #8b9dc3;
+  color: #6fd08c;
 }
 
 .body-link:link {
-  color: #3b5998;
+  color: #7b9ea8;
 }
 
 .body-link:visited {
-  color: #dfe3ee;
+  color: #c4f1be;
 }
 
 .body-link:hover {
-  color: #8b9dc3;
+  color: #6fd08c;
 }
