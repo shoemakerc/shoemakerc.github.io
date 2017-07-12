@@ -1,79 +1,78 @@
-html,body
-{
-	width: 100%;
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .menu {
-	width: inherit;
-	height: 5vw;
-	position: initial;
-	background-color: #4d4d4d;
-	color: white;
-	font-family: 'Lato', sans-serif;
-	padding-top: 0.75vw;
-	padding-bottom: 0.75vw;
+  width: inherit;
+  height: 5vw;
+  position: initial;
+  background-color: #4d4d4d;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding-top: 0.75vw;
+  padding-bottom: 0.75vw;
 }
 
 .menu-title {
-	font-size: 2.4vw;
+  font-size: 2.4vw;
 }
 
 .menu-links {
-	font-size: 1.5vw;
-	padding-top: 0.75vw;
-	padding-bottom: 0.75vw;
-	text-align: center;
+  font-size: 1.5vw;
+  padding-top: 0.75vw;
+  padding-bottom: 0.75vw;
+  text-align: center;
 }
 
 .biophoto {
-	display: block;
-	margin: auto;
-	border-radius: 95%;
-	max-width: 58%;
+  display: block;
+  margin: auto;
+  border-radius: 95%;
+  max-width: 58%;
 }
 
 .biobox {
-	height: 100%;
-	width: 100%;
-	text-align: center;
-	font-family: 'Lato', sans-serif;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .biobox_title {
-	line-height: 3vw;
-	padding: 5%;
-	position: relative;
-	font-size: 2.75vw;
-	}
+  line-height: 3vw;
+  padding: 5%;
+  position: relative;
+  font-size: 2.75vw;
+  }
 
 .biobox_text {
-	line-height: 1.75vw;
-	font-size: 1.25vw;
+  line-height: 1.75vw;
+  font-size: 1.25vw;
 }
 
 .menu-link:link {
-	color: white;
+  color: white;
 }
 
 .menu-link:visited {
-	color: white;
+  color: white;
 }
 
 .menu-link:hover {
-	color: hotpink;
+  color: #8b9dc3;
 }
 
 .body-link:link {
-	color: #3b5998;
+  color: #3b5998;
 }
 
 .body-link:visited {
-	color: #dfe3ee;
+  color: #dfe3ee;
 }
 
 .body-link:hover {
-	color: green;
+  color: #8b9dc3;
 }

@@ -1,114 +1,128 @@
-html,body
-{
-	width: 100%;
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .menu {
-	width: inherit;
-	height: 5vw;
-	position: initial;
-	background-color: #4d4d4d;
-	color: white;
-	font-family: 'Lato', sans-serif;
-	padding-top: 0.75vw;
-	padding-bottom: 0.75vw;
+  width: inherit;
+  height: 5vw;
+  position: initial;
+  background-color: #4d4d4d;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding-top: 0.75vw;
+  padding-bottom: 0.75vw;
 }
 
 .menu-title {
-	font-size: 2.4vw;
+  font-size: 2.4vw;
 }
 
 .menu-links {
-	font-size: 1.5vw;
-	padding-top: 0.75vw;
-	padding-bottom: 0.75vw;
-	text-align: center;
+  font-size: 1.5vw;
+  padding-top: 0.75vw;
+  padding-bottom: 0.75vw;
+  text-align: center;
 }
 
 .music-title {
-	line-height: 5.5vmin;
-	position: relative;
-	font-size: 5vmin;
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-	padding-top: 50px;
+  line-height: 5.5vmin;
+  position: relative;
+  font-size: 5vmin;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .music-body {
-	padding: 0px 250px 0px 250px;
-	text-align: justify;
-	line-height: 4vmin;
-	font-size: 2.5vmin;
-	font-family: 'Lato', sans-serif;
+  padding-right: 15.8vw;
+  padding-left: 15.8vw;
+  text-align: justify;
+  line-height: 4vmin;
+  font-size: 2.5vmin;
+  font-family: 'Lato', sans-serif;
 }
 
 .post-title {
-	line-height: 4.8vmin;
-	font-size: 3.0vmin;
+  line-height: 4.8vmin;
+  font-size: 3.0vmin;
 
 }
 
 .title-separator {
-	height: 30px;
-	margin-top: 1.0em;
-	margin-bottom: 1.0em;
-	margin-left: 30.0em;
-	margin-right: 30.0em;
-	border-style: solid;
+  height: 30px;
+  margin-top: 1.0em;
+  margin-bottom: 1.0em;
+  margin-left: 30.0em;
+  margin-right: 30.0em;
+  border-style: solid;
 }
 
-.date
-{
-	line-height: 3.0vmin;
-	font-size: 1.9vmin;
-	font-style: italic;
+.date {
+  /*
+  line-height: 3.0vmin;
+  font-size: 1.9vmin;
+  */
+  
+  line-height: 1.58vw;
+  font-size: 1vw;
+  
+  font-style: italic;
 
 }
 
-.post
-{
-	line-height: 3.0vmin;
-	font-size: 1.9vmin;
+.post {
+  /*
+  line-height: 3.0vmin;
+  font-size: 1.9vmin;
+  */
+  
+  line-height: 1.58vw;
+  font-size: 1vw;
+  
 }
 
-.playlist-title
-{
-	font-weight: bold;
-	line-height: 4.0vmin;
-	font-size: 2.5vmin;
-	text-align: center;
+.playlist-title {
+  font-weight: bold;
+  line-height: 4.0vmin;
+  font-size: 2.5vmin;
+  text-align: center;
 }
 
-.playlist-spotify
-{
-	width: 300px;
-	margin-left: auto;
-	margin-right: auto;
+.playlist-spotify {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-link:link {
-	color: white;
+  color: white;
 }
 
 .menu-link:visited {
-	color: white;
+  color: white;
 }
 
 .menu-link:hover {
-	color: hotpink;
+  color: #8b9dc3;
 }
 
 .body-link:link {
-	color: #3b5998;
+  color: #3b5998;
 }
 
 .body-link:visited {
-	color: #dfe3ee;
+  color: #dfe3ee;
 }
 
 .body-link:hover {
-	color: green;
+  color: #8b9dc3;
+}
+
+.trin {
+  display: block;
+  margin: auto;
+  max-width: 25%;
 }
