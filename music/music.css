@@ -5,30 +5,27 @@ html,body {
   width: 100%;
 }
 
-/*@media screen and (min-width: 992px) {*/
-  .menu {
-    background-color: #4d4d4d;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    height: 5vw;
-    padding-bottom: 0.75vw;
-    padding-top: 0.75vw;
-    position: initial;
-    width: inherit;
-  }
+.menu {
+  background-color: #4d4d4d;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  height: 5vw;
+  padding-bottom: 0.75vw;
+  padding-top: 0.75vw;
+  position: initial;
+  width: inherit;
+}
 
-  .menu-title {
-    font-size: 2.3vw;
-  }
+.menu-title {
+  font-size: 2.3vw;
+}
 
-  .menu-links {
-    font-size: 1.5vw;
-    padding-bottom: 0.75vw;
-    padding-top: 0.75vw;
-    text-align: center;
-  }
-/*}*/
-
+.menu-links {
+  font-size: 1.5vw;
+  padding-bottom: 0.75vw;
+  padding-top: 0.75vw;
+  text-align: center;
+}
 
 .music-title {
   font-family: 'Lato', sans-serif;
@@ -47,19 +44,26 @@ html,body {
   line-height: 1.58vw;
   text-align: justify;
 }
-
+/*mobile devices*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .menu {
     height: 15vw;
-    /*padding-bottom: 4.75vw;*/
-    padding-top: 4.75vw;
   }
   .menu-title {
-    font-size: 5vw;
+    font-size: 5.0vw;
+    line-height: 15vw;
+    margin-bottom: -0.75vw;
+    margin-top: -0.75vw;
   }
   .music-body {
     font-size: 30px;
     line-height: 48px;
+  }
+  .menu-links {
+    font-size: 2.5vw;
+    line-height: 15vw;
+    margin-bottom: -1.5vw;
+    margin-top: -1.5vw;
   }
 }
 

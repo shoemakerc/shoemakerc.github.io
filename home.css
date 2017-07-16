@@ -8,7 +8,7 @@ html,body {
 .menu {
   width: inherit;
   height: 5vw;
-  position: initial;
+  position: relative;
   background-color: #4d4d4d;
   color: white;
   font-family: 'Lato', sans-serif;
@@ -25,6 +25,17 @@ html,body {
   padding-top: 0.75vw;
   padding-bottom: 0.75vw;
   text-align: center;
+}
+
+#blog-menu {
+  padding-top: 0.75vw;
+  padding-bottom: 0.75vw;
+  width: 6.43vw;
+  position: absolute;
+  background-color: black;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 4%;
 }
 
 .biophoto {
