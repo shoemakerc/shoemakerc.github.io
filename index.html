@@ -20,11 +20,15 @@
   <script>
   $(document).ready(function() {
     $("#blog-menu").hide();
-    $("#blog").hover(function() {
-      $("#blog-menu").show();
-    }, function() {
-      $("#blog-menu").hide();
+
+    $("#blog").mouseenter(function() {
+      $("#blog").find("div").slideDown();
     });
+
+    $("#blog").mouseleave(function() {
+        $("#blog-menu").slideUp(2000);
+    });
+
   });
   </script>
 
@@ -42,10 +46,10 @@
                     <a class="menu-link" id="home" href="https://shoemakerc.github.io/">Home</a>
                   </div>
 
-                  <div class="col-xs-3 col-md-3">
-                    <a class="menu-link" id="blog">Blog</a>
+                  <div class="col-xs-3 col-md-3" id="blog">
+                    <a class="menu-link">Blog</a>
                     <div id="blog-menu">
-                        <p>Test<p>
+                        Test
                     </div>
                   </div>
 
