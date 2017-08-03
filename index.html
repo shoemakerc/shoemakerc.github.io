@@ -19,16 +19,20 @@
 
   <script>
   $(document).ready(function() {
+    var count = 0;
+    var tolerance = 5000;
     $("#blog-menu").hide();
-
     $("#blog").mouseenter(function() {
-      $("#blog").find("div").slideDown();
+      count++;
+      $("#blog-menu").slideDown(750);
+    }).mouseleave(function() {
+      count--;
+      setTimeout(function() {
+        if (!count) {
+          $("#blog-menu").slideUp(750);
+        }
+      }, tolerance);
     });
-
-    $("#blog").mouseleave(function() {
-        $("#blog-menu").slideUp(2000);
-    });
-
   });
   </script>
 
@@ -47,12 +51,12 @@
                   </div>
 
                   <div class="col-xs-3 col-md-3" id="blog">
-                    <a class="menu-link">Blog</a>
+                    Hover
+                    <!--<a class="menu-link">Blog</a>-->
                     <div id="blog-menu">
-                        Test
+                        <a class="menu-link" href="https://shoemakerc.github.io/blog/">Blog</a>
                     </div>
                   </div>
-
                   <div class="col-xs-3 col-md-3">
                     <a class="menu-link" id="music" href="https://shoemakerc.github.io/music/">Music</a>
                   </div>
