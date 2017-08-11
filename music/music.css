@@ -27,6 +27,17 @@ html,body {
   text-align: center;
 }
 
+#blog-menu {
+  padding-top: 0.75vw;
+  padding-bottom: 0.75vw;
+  width: 6.43vw;
+  position: absolute;
+  background-color: #4d4d4d;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 4%;
+}
+
 .music-title {
   font-family: 'Lato', sans-serif;
   font-size: 5vmin;
@@ -45,7 +56,7 @@ html,body {
   text-align: justify;
 }
 /*mobile devices*/
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .menu {
     height: 15vw;
   }
@@ -85,17 +96,13 @@ html,body {
   font-style: italic;
 }
 
-.post {
-
-}
-
 .playlist-title {
   font-size: 2.5vmin;
   font-weight: bold;
   line-height: 4.0vmin;
   text-align: center;
-}
 
+}
 .playlist-spotify {
   margin-left: auto;
   margin-right: auto;
