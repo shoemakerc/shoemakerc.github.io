@@ -17,25 +17,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   </head>
 
-  <!--<script>
-  $(document).ready(function() {
-    var count = 0;
-    var tolerance = 5000;
-    $("#blog-menu").hide();
-    $("#blog").mouseenter(function() {
-      count++;
-      $("#blog-menu").slideDown(750);
-    }).mouseleave(function() {
-      count-;
-      setTimeout(function() {
-        if (!count) {
-          $("#blog-menu").slideUp(750);
-        }
-      }, tolerance);
-    });
-  });
-  </script>-->
-
   <body>
     <div class="container-fluid">   
       <div class="row menu">
@@ -46,21 +27,20 @@
           </div>
           <div class="col-xs-6 col-md-4">
               <div class="row menu-links">
-                  <div class="col-xs-3 col-md-3">
-                    <a class="menu-link" id="home" href="https://shoemakerc.github.io/">Home</a>
+                  <div class="col-xs-3 col-md-3" id="home">
+                    <a class="menu-link" href="https://shoemakerc.github.io/">Home</a>
                   </div>
-
                   <div class="col-xs-3 col-md-3" id="blog">
                     Hover
                     <div id="blog-menu">
                         <a class="menu-link" href="https://shoemakerc.github.io/blog/">Blog</a>
                     </div>
                   </div>
-                  <div class="col-xs-3 col-md-3">
-                    <a class="menu-link" id="music" href="https://shoemakerc.github.io/music/">Music</a>
+                  <div class="col-xs-3 col-md-3" id="music">
+                    <a class="menu-link" href="https://shoemakerc.github.io/music/">Music</a>
                   </div>
-                  <div class="col-xs-3 col-md-3">
-                    <a class="menu-link" id="contact" href="https://shoemakerc.github.io/contact/">Contact</a>
+                  <div class="col-xs-3 col-md-3" id="contact">
+                    <a class="menu-link" href="https://shoemakerc.github.io/contact/">Contact</a>
                   </div>
               </div>
           </div>
