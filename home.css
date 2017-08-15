@@ -5,25 +5,30 @@ html,body {
   padding: 0px;
 }
 
+/*                             *
+ * DEFAULT: full-size devices; *
+ *                             */
+
+/* BEGIN menu bar */
 .menu {
-  width: inherit;
-  height: 5vw;
-  position: relative;
   background-color: #4d4d4d;
   color: white;
   font-family: 'Lato', sans-serif;
-  padding-top: 0.75vw;
+  height: 5vw;
   padding-bottom: 0.75vw;
+  padding-top: 0.75vw;
+  position: initial;
+  width: inherit;
 }
 
 .menu-title {
-  font-size: 2.4vw;
+  font-size: 2.3vw;
 }
 
 .menu-links {
   font-size: 1.5vw;
-  padding-top: 0.75vw;
   padding-bottom: 0.75vw;
+  padding-top: 0.75vw;
   text-align: center;
 }
 
@@ -37,12 +42,13 @@ html,body {
   vertical-align: middle;
   border-radius: 4%;
 }
+/* END menu bar */  
 
 .biophoto {
   display: block;
   margin: auto;
   border-radius: 95%;
-  max-width: 58%;
+  max-width: 50%;
 }
 
 .biobox {
@@ -53,10 +59,10 @@ html,body {
 }
 
 .biobox_title {
-  line-height: 3vw;
+  line-height: 2.72vw;
   padding: 5%;
   position: relative;
-  font-size: 2.75vw;
+  font-size: 2.5vw;
   }
 
 .biobox_text {
@@ -93,7 +99,7 @@ html,body {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: #efefef;
   text-align: center;
   font-family: 'Lato', sans-serif;

@@ -5,25 +5,30 @@ html,body {
   padding: 0px;
 }
 
+/*                             *
+ * DEFAULT: full-size devices; *
+ *                             */
+
+/* BEGIN menu bar */
 .menu {
-  width: inherit;
-  height: 5vw;
-  position: initial;
   background-color: #4d4d4d;
   color: white;
   font-family: 'Lato', sans-serif;
-  padding-top: 0.75vw;
+  height: 5vw;
   padding-bottom: 0.75vw;
+  padding-top: 0.75vw;
+  position: initial;
+  width: inherit;
 }
 
 .menu-title {
-  font-size: 2.4vw;
+  font-size: 2.3vw;
 }
 
 .menu-links {
   font-size: 1.5vw;
-  padding-top: 0.75vw;
   padding-bottom: 0.75vw;
+  padding-top: 0.75vw;
   text-align: center;
 }
 
@@ -37,6 +42,7 @@ html,body {
   vertical-align: middle;
   border-radius: 4%;
 }
+/* END menu bar */
 
 .menu-link:link {
   color: white;

@@ -5,6 +5,11 @@ html,body {
   width: 100%;
 }
 
+/*                             *
+ * DEFAULT: full-size devices; *
+ *                             */
+
+/* BEGIN menu bar */
 .menu {
   background-color: #4d4d4d;
   color: white;
@@ -30,52 +35,30 @@ html,body {
 #blog-menu {
   padding-top: 0.75vw;
   padding-bottom: 0.75vw;
-  width: 6.43vw;
+  width: 75%;
   position: absolute;
   background-color: #4d4d4d;
   text-align: center;
   vertical-align: middle;
   border-radius: 4%;
 }
+/* END menu bar */
 
+/* BEGIN body content */
 .music-title {
   font-family: 'Lato', sans-serif;
-  font-size: 5vmin;
-  line-height: 5.5vmin;
+  font-size: 2.5vw;
+  line-height: 2.72vw;
   padding-top: 50px;
   position: relative;
   text-align: center;
 }
 
 .music-body {
-  /*padding-right: 15.8vw;
-  padding-left: 15.8vw;*/
   font-family: 'Lato', sans-serif;
   font-size: 1vw;
   line-height: 1.58vw;
   text-align: justify;
-}
-/*mobile devices*/
-@media screen and (max-width: 991px) {
-  .menu {
-    height: 15vw;
-  }
-  .menu-title {
-    font-size: 5.0vw;
-    line-height: 15vw;
-    margin-bottom: -0.75vw;
-    margin-top: -0.75vw;
-  }
-  .music-body {
-    font-size: 30px;
-    line-height: 48px;
-  }
-  .menu-links {
-    font-size: 2.5vw;
-    line-height: 15vw;
-    margin-bottom: -1.5vw;
-    margin-top: -1.5vw;
-  }
 }
 
 .post-title {
@@ -96,6 +79,12 @@ html,body {
   font-style: italic;
 }
 
+.trin {
+  display: block; 
+  margin: auto;
+  max-width: 20%;
+}
+
 .playlist-title {
   font-size: 2.5vmin;
   font-weight: bold;
@@ -108,7 +97,9 @@ html,body {
   margin-right: auto;
   width: 300px;
 }
+/* END body content */
 
+/* BEGIN links */
 .menu-link:link {
   color: white;
 }
@@ -132,9 +123,29 @@ html,body {
 .body-link:hover {
   color: #6fd08c;
 }
+/* END links */
 
-.trin {
-  display: block; 
-  margin: auto;
-  max-width: 17%;
+/*                *
+ * mobile devices *
+ *                */
+@media screen and (max-width: 991px) {
+  .menu {
+    height: 15vw;
+  }
+  .menu-title {
+    font-size: 5.0vw;
+    line-height: 15vw;
+    margin-bottom: -0.75vw;
+    margin-top: -0.75vw;
+  }
+  .music-body {
+    font-size: 3.0vw;
+    line-height: 4.84vw;
+  }
+  .menu-links {
+    font-size: 2.5vw;
+    line-height: 15vw;
+    margin-bottom: -1.5vw;
+    margin-top: -1.5vw;
+  }
 }
