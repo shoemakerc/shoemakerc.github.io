@@ -5,29 +5,34 @@ html,body {
   padding: 0px;
 }
 
-.menu {
-  width: inherit;
-  height: 5vw;
-  position: initial;
+/*                             *
+ * DEFAULT: full-size devices; *
+ *                             */
+
+/* BEGIN navigation menu */
+.navbar {
   background-color: #4d4d4d;
   color: white;
   font-family: 'Lato', sans-serif;
-  padding-top: 0.75vw;
+  height: 5vw;
   padding-bottom: 0.75vw;
+  padding-top: 0.75vw;
+  position: initial;
+  width: inherit;
 }
 
-.menu-title {
-  font-size: 2.4vw;
+.navbar-header {
+  font-size: 2.3vw;
 }
 
-.menu-links {
+.navbar-links {
   font-size: 1.5vw;
-  padding-top: 0.75vw;
   padding-bottom: 0.75vw;
+  padding-top: 0.75vw;
   text-align: center;
 }
 
-#blog-menu {
+#blogs-submenu {
   padding-top: 0.75vw;
   padding-bottom: 0.75vw;
   width: 6.43vw;
@@ -36,7 +41,9 @@ html,body {
   text-align: center;
   vertical-align: middle;
   border-radius: 4%;
+  z-index: 1;
 }
+/* END navigation menu */ 
 
 .contact_title {
   line-height: 5.5vmin;

@@ -1,15 +1,15 @@
 $(document).ready(function() {
   var count = 0;
-  var tolerance = 5000;
-  $("#blog-menu").hide();
-  $("#blog").mouseenter(function() {
+  var tolerance = 2500;
+  $("#blogs-submenu").hide();
+  $("#blogs").mouseenter(function() {
     count++;
-    $("#blog-menu").slideDown(750);
+    $("#blogs-submenu").slideDown(750);
   }).mouseleave(function() {
     count--;
     setTimeout(function() {
       if (!count) {
-        $("#blog-menu").slideUp(750);
+        $("#blogs-submenu").slideUp(750);
       }
     }, tolerance);
   });
