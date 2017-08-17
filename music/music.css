@@ -50,7 +50,7 @@ html,body {
   font-family: 'Lato', sans-serif;
   font-size: 2.5vw;
   line-height: 2.72vw;
-  padding-top: 50px;
+  padding-top: 3.15vw;
   position: relative;
   text-align: center;
 }
@@ -63,8 +63,8 @@ html,body {
 }
 
 .post-title {
-  font-size: 3.0vmin;
-  line-height: 4.8vmin;
+  font-size: 1.5vw;
+  line-height: 2.2vw;
 }
 
 .title-separator {
@@ -139,9 +139,21 @@ html,body {
     margin-bottom: -0.75vw;
     margin-top: -0.75vw;
   }
+  .music-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 7.5vw;
+    line-height: 8.16vw;
+    padding-top: 8vw;
+    position: relative;
+    text-align: center;
+  }
   .music-body {
     font-size: 3.0vw;
     line-height: 4.84vw;
+  }
+  .post-title {
+    font-size: 4.5vw;
+    line-height: 6.6vw;
   }
   .menu-links {
     font-size: 2.5vw;
