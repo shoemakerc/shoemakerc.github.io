@@ -162,3 +162,14 @@ html,body {
     margin-top: -1.5vw;
   }
 }
+
+.footer {
+  position: sticky;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #efefef;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}

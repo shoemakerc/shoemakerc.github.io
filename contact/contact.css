@@ -46,19 +46,19 @@ html,body {
 /* END navigation menu */ 
 
 .contact_title {
-  line-height: 5.5vmin;
-  position: relative;
-  font-size: 5vmin;
   font-family: 'Lato', sans-serif;
+  font-size: 2.5vw;
+  line-height: 2.72vw;
+  padding-top: 3.15vw;
+  position: relative;
   text-align: center;
-  padding-top: 50px;
 }
 
 .contact_info {
-  text-align: center;
-  line-height: 4vmin;
-  font-size: 2.5vmin;
   font-family: 'Lato', sans-serif;
+  font-size: 1.5vw;
+  line-height: 2.2vw;
+  text-align: center;
 }
 
 .menu-link:link {
@@ -83,4 +83,15 @@ html,body {
 
 .body-link:hover {
   color: #6fd08c;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #efefef;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
 }
