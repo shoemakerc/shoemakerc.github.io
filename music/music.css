@@ -10,7 +10,7 @@ html,body {
  *                             */
 
 /* BEGIN navigation menu */
-.navbar {
+.navigation {
   background-color: #4d4d4d;
   color: white;
   font-family: 'Lato', sans-serif;
@@ -21,11 +21,11 @@ html,body {
   width: inherit;
 }
 
-.navbar-header {
+.navigation-header {
   font-size: 2.3vw;
 }
 
-.navbar-links {
+.navigation-links {
   font-size: 1.5vw;
   padding-bottom: 0.75vw;
   padding-top: 0.75vw;
@@ -33,17 +33,18 @@ html,body {
 }
 
 #blogs-submenu {
-  padding-top: 0.75vw;
-  padding-bottom: 0.75vw;
-  width: 6.43vw;
-  position: absolute;
   background-color: #4d4d4d;
-  text-align: center;
-  vertical-align: middle;
   border-radius: 4%;
+  list-style: none;
+  padding-bottom: 0.75vw;
+  padding-left: 0;
+  padding-top: 0.75vw;
+  position: absolute;
+  right: 0;
+  width: 100%;
   z-index: 1;
 }
-/* END navigation menu */  
+/* END navigation menu */
 
 /* BEGIN body content */
 .music-title {
@@ -130,15 +131,15 @@ html,body {
  * mobile devices *
  *                */
 @media screen and (max-width: 991px) {
-  .menu {
+  .navbar {
     height: 15vw;
   }
-  .menu-title {
-    font-size: 5.0vw;
-    line-height: 15vw;
-    margin-bottom: -0.75vw;
-    margin-top: -0.75vw;
+
+  .navbar-header {
+  font-size: 5.75vw;
+  vertical-align: middle;
   }
+
   .music-title {
     font-family: 'Lato', sans-serif;
     font-size: 7.5vw;
@@ -147,6 +148,7 @@ html,body {
     position: relative;
     text-align: center;
   }
+  
   .music-body {
     font-size: 3.0vw;
     line-height: 4.84vw;
