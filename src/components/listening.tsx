@@ -8,6 +8,10 @@ const plays = (n: number) => `${n.toLocaleString("en-US")} ${n === 1 ? "play" : 
 const monthName = (date: string) =>
   new Date(`${date}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", timeZone: "UTC" });
 
+// Years shown before the "Show all" toggle, newest first, so this column
+// doesn't run far past the month beside it.
+const RECENT_YEARS = 6;
+
 const syncedFormat = new Intl.DateTimeFormat("en-US", {
   month: "short",
   day: "numeric",
@@ -119,42 +123,63 @@ function MonthSummary({ month }: { month: Month }) {
 }
 
 function YearsAgo({ weeks }: { weeks: YearAgo[] }) {
+  const recent = weeks.slice(0, RECENT_YEARS);
+  const earlier = weeks.slice(RECENT_YEARS);
   return (
     <div className="listening-block">
       <h3 className="meta listening-block-title">This week, years ago</h3>
       <ol className="years-ago">
-        {weeks.map((week) => {
-          const others = week.artists
-            .filter((a) => a.name !== week.album?.artist)
-            .slice(0, 2);
-          return (
-            <li key={week.year}>
-              <span className="meta years-ago-year">{week.year}</span>
-              {week.album ? (
-                <AlbumCover album={week.album} className="years-ago-cover" />
-              ) : (
-                <span className="cover cover-square years-ago-cover" />
-              )}
-              <span className="years-ago-text">
-                {week.album ? (
-                  <span>
-                    <a href={week.album.url}>
-                      <em>{week.album.title}</em>
-                    </a>
-                    {week.album.artist && <> — {week.album.artist}</>}
-                  </span>
-                ) : (
-                  <a href={week.artists[0]?.url}>{week.artists[0]?.name}</a>
-                )}
-                <span className="years-ago-detail">
-                  {others.length > 0 && <>Also {others.map((a) => a.name).join(", ")} · </>}
-                  {plays(week.plays)} that week
-                </span>
-              </span>
-            </li>
-          );
-        })}
+        {recent.map((week) => (
+          <YearRow key={week.year} week={week} />
+        ))}
       </ol>
+      {earlier.length > 0 && (
+        <details className="years-ago-more">
+          <summary>
+            <span className="meta">
+              <span className="show-label">Show all {weeks.length} years</span>
+              <span className="hide-label">Show fewer</span>
+            </span>
+          </summary>
+          <ol className="years-ago">
+            {earlier.map((week) => (
+              <YearRow key={week.year} week={week} />
+            ))}
+          </ol>
+        </details>
+      )}
     </div>
+  );
+}
+
+function YearRow({ week }: { week: YearAgo }) {
+  const others = week.artists
+    .filter((a) => a.name !== week.album?.artist)
+    .slice(0, 2);
+  return (
+    <li>
+      <span className="meta years-ago-year">{week.year}</span>
+      {week.album ? (
+        <AlbumCover album={week.album} className="years-ago-cover" />
+      ) : (
+        <span className="cover cover-square years-ago-cover" />
+      )}
+      <span className="years-ago-text">
+        {week.album ? (
+          <span>
+            <a href={week.album.url}>
+              <em>{week.album.title}</em>
+            </a>
+            {week.album.artist && <> — {week.album.artist}</>}
+          </span>
+        ) : (
+          <a href={week.artists[0]?.url}>{week.artists[0]?.name}</a>
+        )}
+        <span className="years-ago-detail">
+          {others.length > 0 && <>Also {others.map((a) => a.name).join(", ")} · </>}
+          {plays(week.plays)} that week
+        </span>
+      </span>
+    </li>
   );
 }

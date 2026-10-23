@@ -278,11 +278,13 @@ a.cover:hover {
   margin-bottom: 1.5rem;
 }
 
-.to-read summary .meta {
+.to-read summary .meta,
+.years-ago-more summary .meta {
   color: var(--ink);
 }
 
-.to-read summary:hover .meta {
+.to-read summary:hover .meta,
+.years-ago-more summary:hover .meta {
   color: var(--accent);
 }
 
@@ -443,6 +445,16 @@ a.cover:hover {
 .years-ago-detail {
   font-size: 0.875rem;
   color: var(--muted);
+}
+
+.years-ago-more summary {
+  cursor: pointer;
+  padding: 0.75rem 0;
+}
+
+.years-ago-more[open] .show-label,
+.years-ago-more:not([open]) .hide-label {
+  display: none;
 }
 
 .listening-synced {
