@@ -417,31 +417,132 @@ a.post-row:hover .post-row-title {
 
 /* ---------- Reading ---------- */
 
-.reading-tally {
-  margin-top: 1.5rem;
+.reading-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 1.25rem 2rem;
+  margin: 2.5rem 0 0;
+  max-width: 46rem;
 }
 
-.now-reading {
+.reading-stats div {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.25rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--ink);
+}
+
+.reading-stats dd {
+  margin: 0;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.cover-grid {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-  gap: 1.75rem 2.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+  gap: 2rem 1.5rem;
 }
 
-.now-reading li {
-  display: grid;
-  align-content: start;
-  gap: 0.35rem;
-  padding-top: 1rem;
-  border-top: 2px solid var(--accent);
+.cover-grid-large {
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: 2rem 2.5rem;
 }
 
-.now-reading-title {
-  font-size: 1.5rem;
+.cover-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.875rem;
+  line-height: 1.3;
+}
+
+.cover-grid-large .cover-card {
+  font-size: 1rem;
+}
+
+.cover-card-title {
+  margin-top: 0.6rem;
+  text-wrap: pretty;
+}
+
+.cover-card-title a,
+.book-text a {
+  text-decoration: none;
+}
+
+.cover {
+  display: block;
+  aspect-ratio: 2 / 3;
+  background: var(--highlight);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.08), 0 10px 24px -14px rgb(0 0 0 / 0.35);
+  overflow: hidden;
+  transition: transform 160ms ease;
+}
+
+a.cover:hover {
+  transform: translateY(-3px);
+}
+
+.cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cover-blank {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  padding: 0.75rem;
+  font-style: italic;
   line-height: 1.2;
-  letter-spacing: -0.01em;
+  color: var(--ink-soft);
+  border-top: 3px solid var(--accent);
+}
+
+.stars {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.stars-empty {
+  color: var(--rule);
+}
+
+.set-aside {
+  margin: 2rem 0 0;
+  color: var(--ink-soft);
+  line-height: 1.7;
+}
+
+.set-aside .meta {
+  margin-right: 0.5rem;
+}
+
+.reading-year + .reading-year {
+  margin-top: 3.5rem;
+}
+
+.reading-year-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin: 0 0 1.5rem;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: -0.015em;
 }
 
 .book-list {
@@ -471,23 +572,21 @@ a.post-row:hover .post-row-title {
   font-size: 0.95em;
 }
 
-.book-status {
-  flex-shrink: 0;
-  font-size: 0.6875rem;
+.to-read summary {
+  cursor: pointer;
+  margin-bottom: 1.5rem;
 }
 
-.book-reading > .book-line .book-status {
+.to-read summary .meta {
+  color: var(--ink);
+}
+
+.to-read summary:hover .meta {
   color: var(--accent);
 }
 
-.book-series {
-  list-style: none;
-  margin: 0;
-  padding: 0 0 0 1.25rem;
-}
-
-.book-series .book-line {
-  font-size: 0.95em;
+.reading-synced {
+  margin-top: 4rem;
 }
 
 .project-status {

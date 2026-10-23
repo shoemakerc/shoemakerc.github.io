@@ -74,8 +74,8 @@ export default function Projects() {
         <p className="meta">Projects</p>
         <h1 className="page-title">Things I’ve built</h1>
         <p className="lede">
-          Mostly experiments where code meets sound, plus one for the morning
-          cup.
+          Mostly experiments where code meets sound, plus a platformer in the
+          works and one for the morning cup.
         </p>
       </section>
       <Staff />
