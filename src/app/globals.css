@@ -491,3 +491,7 @@ a.post-row:hover .post-row-title {
 .project-status {
   color: var(--accent);
 }
+
+.listening-more {
+  margin-top: 1rem;
+}

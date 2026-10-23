@@ -101,6 +101,10 @@ export function Listening() {
             A rotating playlist of whatever has been on repeat lately. Currently
             spinning: <em>{site.playlist.label}</em>.
           </p>
+          <p className="lede-small listening-more">
+            Ratings and reviews of everything else live on{" "}
+            <a href={site.rateYourMusic}>RateYourMusic</a>.
+          </p>
         </div>
         <iframe
           title={`Spotify playlist: ${site.playlist.label}`}

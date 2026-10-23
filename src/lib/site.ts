@@ -1,3 +1,5 @@
+const rateYourMusic = "https://rateyourmusic.com/~shoeman27";
+
 export const site = {
   name: "Chris Shoemaker",
   url: "https://shoemakerc.github.io",
@@ -7,9 +9,11 @@ export const site = {
     id: "7KkKPxl0qHqa9bpLzg3ekY",
     label: "August ’26",
   },
+  rateYourMusic,
   links: [
     { label: "Email", href: "mailto:chriskimshoemaker@gmail.com" },
     { label: "GitHub", href: "https://github.com/shoemakerc" },
     { label: "Spotify", href: "https://open.spotify.com/user/someguy_886" },
+    { label: "RateYourMusic", href: rateYourMusic },
   ],
 };
