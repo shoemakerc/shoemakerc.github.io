@@ -12,6 +12,15 @@ export const site = {
   },
   rateYourMusic,
   lastFm,
+  // Shared with the coffee calculator through /shared/site.json, along with
+  // name, url and links, so changes here reach it on its next build.
+  nav: [
+    { label: "Writing", path: "/music/" },
+    { label: "Listening", path: "/#listening" },
+    { label: "Reading", path: "/reading/" },
+    { label: "Projects", path: "/projects/" },
+    { label: "About", path: "/about/" },
+  ],
   links: [
     { label: "Email", href: "mailto:chriskimshoemaker@gmail.com" },
     { label: "GitHub", href: "https://github.com/shoemakerc" },

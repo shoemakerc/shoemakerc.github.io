@@ -17,6 +17,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      shared-changed: ${{ steps.shared.outputs.changed }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -25,6 +27,16 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+      # The coffee calculator builds its header, footer and base styles from
+      # these two files. Note whether this deploy changes them.
+      - id: shared
+        run: |
+          changed=false
+          for f in site.json base.css; do
+            curl -fsS "https://shoemakerc.github.io/shared/$f?t=$(date +%s)" -o "/tmp/live-$f" \
+              && cmp -s "/tmp/live-$f" "out/shared/$f" || changed=true
+          done
+          echo "changed=$changed" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-pages-artifact@v5
         with:
           path: out
@@ -38,3 +50,16 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v5
+
+  # Rebuild the coffee calculator so it picks up the new nav, links or styles.
+  # Needs a CALCULATOR_DEPLOY_TOKEN secret: a fine-grained token for
+  # shoemakerc/coffee-calculator with Actions read/write. Skipped without it.
+  calculator:
+    needs: [build, deploy]
+    if: needs.build.outputs.shared-changed == 'true'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.CALCULATOR_DEPLOY_TOKEN }}
+    steps:
+      - if: env.GH_TOKEN != ''
+        run: gh workflow run deploy.yml --repo shoemakerc/coffee-calculator --ref master
