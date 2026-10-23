@@ -1,5 +1,7 @@
 import Link from "next/link";
-import { Listening, PostList, Staff } from "@/components/ui";
+import { Listening } from "@/components/listening";
+import { PostList, Staff } from "@/components/ui";
+import { getListening } from "@/lib/lastfm";
 import { getPosts } from "@/lib/posts";
 
 export default function Home() {
@@ -30,7 +32,7 @@ export default function Home() {
         <PostList posts={posts.slice(0, 5)} />
       </section>
 
-      <Listening />
+      <Listening data={getListening()} />
     </>
   );
 }

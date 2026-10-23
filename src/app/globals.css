@@ -609,3 +609,182 @@ a.cover:hover {
 .listening-more {
   margin-top: 1rem;
 }
+
+/* ---------- Listening: Last.fm ---------- */
+
+.last-heard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.6rem;
+  max-width: 24rem;
+  margin: 1.25rem 0 0;
+  padding: 0.65rem 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  line-height: 1.35;
+}
+
+.last-heard a {
+  text-decoration: none;
+}
+
+.last-heard-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--accent);
+}
+
+.last-heard-pulse {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: last-heard-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes last-heard-pulse {
+  50% {
+    opacity: 0.25;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .last-heard-pulse {
+    animation: none;
+  }
+}
+
+.last-heard-artist {
+  color: var(--ink-soft);
+}
+
+.listening-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 3.5rem;
+}
+
+.listening-block-title {
+  font-weight: 400;
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.listening-tally {
+  margin: 0 0 1.5rem;
+  color: var(--ink-soft);
+}
+
+.listening-tally-number {
+  font-size: 2.5rem;
+  line-height: 1;
+  color: var(--ink);
+  font-variant-numeric: lining-nums;
+}
+
+.cover-square {
+  aspect-ratio: 1;
+}
+
+.cover-square .cover-blank {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.album-row {
+  list-style: none;
+  margin: 0 0 2rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.album-row .cover-card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.artist-chart,
+.years-ago {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.artist-chart li {
+  display: grid;
+  grid-template-columns: 2rem 1fr auto;
+  align-items: baseline;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.artist-chart a,
+.years-ago a {
+  text-decoration: none;
+}
+
+.years-ago li {
+  display: grid;
+  grid-template-columns: 2.75rem 3.5rem 1fr;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.years-ago li:first-child {
+  padding-top: 0;
+}
+
+.years-ago-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  line-height: 1.35;
+  min-width: 0;
+}
+
+.years-ago-detail {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.listening-synced {
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 48rem) {
+  .listening-stats {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+.album-row .book-byline {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 30rem) {
+  .album-row {
+    gap: 0.75rem;
+  }
+
+  .album-row .cover-card {
+    font-size: 0.8rem;
+  }
+
+  .album-row .meta {
+    font-size: 0.65rem;
+    letter-spacing: 0.04em;
+  }
+}

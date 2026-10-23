@@ -1,0 +1,44 @@
+name: Sync Last.fm
+
+on:
+  schedule:
+    - cron: "47 10 * * *" # daily, before the Goodreads sync
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: sync-lastfm
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      # Skips itself, leaving the snapshot alone, until the secret exists.
+      - run: node scripts/sync-lastfm.mjs
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+      - name: Commit snapshot and deploy if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add content/lastfm.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Listening unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync Last.fm listening"
+          git pull --rebase
+          git push
+          # Pushes made with the workflow token don't trigger other workflows,
+          # so start the deploy explicitly.
+          gh workflow run deploy.yml --ref master

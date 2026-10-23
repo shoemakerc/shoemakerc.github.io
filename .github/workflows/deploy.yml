@@ -10,6 +10,12 @@ permissions:
   pages: write
   id-token: write
 
+# A read-only Last.fm key for the live "Last heard" line on the home page. It
+# ends up in the page's JavaScript, which is fine for this kind of key; without
+# it the line shows the last track from the daily snapshot.
+env:
+  NEXT_PUBLIC_LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+
 concurrency:
   group: pages
   cancel-in-progress: false

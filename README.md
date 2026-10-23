@@ -32,6 +32,15 @@ coverAlt: "Description of the cover"
 - `content/goodreads.json`, a snapshot of the [Goodreads shelves](https://www.goodreads.com/user/show/166556608), refreshed daily by `.github/workflows/sync-goodreads.yml` (which redeploys when anything changed). Run `npm run sync:goodreads` to refresh it locally.
 - `content/reading.md`, the old list from [shoemakerc/books](https://github.com/shoemakerc/books). Books on both lists use the Goodreads details; books only on the old list still show up, without a cover or rating.
 
+## Listening
+
+The Listening section on the home page pulls from [Last.fm](https://www.last.fm/user/shoeman27):
+
+- `content/lastfm.json`, a snapshot of this month's plays and of this week in each earlier year, refreshed daily by `.github/workflows/sync-lastfm.yml` (which redeploys when anything changed). Run `LASTFM_API_KEY=… npm run sync:lastfm` to refresh it locally.
+- The "Last heard" line, which asks Last.fm what's playing each minute while the page is open.
+
+Both need a `LASTFM_API_KEY` repository secret (create a key at [last.fm/api](https://www.last.fm/api/account/create)). Without it the sync skips itself, and the section shows just the playlist and links.
+
 ## Change the playlist
 
 Edit `playlist` in `src/lib/site.ts`.

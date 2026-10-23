@@ -89,33 +89,3 @@ export function PostList({ posts }: { posts: Post[] }) {
     </ol>
   );
 }
-
-export function Listening() {
-  return (
-    <section id="listening" className="listening">
-      <Staff label="Now playing" />
-      <div className="listening-grid">
-        <div>
-          <h2 className="section-title">Listening</h2>
-          <p className="lede-small">
-            A rotating playlist of whatever has been on repeat lately. Currently
-            spinning: <em>{site.playlist.label}</em>.
-          </p>
-          <p className="lede-small listening-more">
-            Ratings and reviews of everything else live on{" "}
-            <a href={site.rateYourMusic}>RateYourMusic</a>, and every play gets
-            logged on <a href={site.lastFm}>Last.fm</a>.
-          </p>
-        </div>
-        <iframe
-          title={`Spotify playlist: ${site.playlist.label}`}
-          src={`https://open.spotify.com/embed/playlist/${site.playlist.id}?theme=0`}
-          width="100%"
-          height="352"
-          loading="lazy"
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        />
-      </div>
-    </section>
-  );
-}

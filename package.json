@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "sync:goodreads": "node scripts/sync-goodreads.mjs"
+    "sync:goodreads": "node scripts/sync-goodreads.mjs",
+    "sync:lastfm": "node scripts/sync-lastfm.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
