@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-23T06:19:46.377Z",
+  "syncedAt": "2026-10-23T15:28:10.044Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66501,
@@ -15,7 +15,7 @@
     "label": "October 2026",
     "partial": true,
     "from": "2026-10-01",
-    "to": "2026-10-22",
+    "to": "2026-10-23",
     "plays": 218,
     "artistCount": 104,
     "artists": [
@@ -79,25 +79,25 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-10-15",
-      "to": "2025-10-22",
-      "plays": 78,
+      "from": "2025-10-16",
+      "to": "2025-10-23",
+      "plays": 85,
       "album": {
-        "title": "Fun House",
-        "artist": "The Stooges",
-        "plays": 5,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c1bc149e960d80c3bd55e3920695b663.jpg",
-        "url": "https://www.last.fm/music/The+Stooges/Fun+House"
+        "title": "Aspect",
+        "artist": "Seventeen Years Old and Berlin Wall",
+        "plays": 6,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/394c15d9e5e1f4144a1804e97d7160f0.jpg",
+        "url": "https://www.last.fm/music/Seventeen+Years+Old+and+Berlin+Wall/Aspect"
       },
       "artists": [
         {
           "name": "Seventeen Years Old and Berlin Wall",
-          "plays": 5,
+          "plays": 7,
           "url": "https://www.last.fm/music/Seventeen+Years+Old+and+Berlin+Wall"
         },
         {
           "name": "Kyuss",
-          "plays": 5,
+          "plays": 6,
           "url": "https://www.last.fm/music/Kyuss"
         },
         {
@@ -109,9 +109,9 @@
     },
     {
       "year": 2024,
-      "from": "2024-10-15",
-      "to": "2024-10-22",
-      "plays": 43,
+      "from": "2024-10-16",
+      "to": "2024-10-23",
+      "plays": 44,
       "album": {
         "title": "Hammer of My Own",
         "artist": "Closebye",
@@ -139,8 +139,8 @@
     },
     {
       "year": 2023,
-      "from": "2023-10-15",
-      "to": "2023-10-22",
+      "from": "2023-10-16",
+      "to": "2023-10-23",
       "plays": 209,
       "album": {
         "title": "A Place You Grew Up In",
@@ -169,9 +169,9 @@
     },
     {
       "year": 2022,
-      "from": "2022-10-15",
-      "to": "2022-10-22",
-      "plays": 70,
+      "from": "2022-10-16",
+      "to": "2022-10-23",
+      "plays": 71,
       "album": {
         "title": "Being Funny in a Foreign Language",
         "artist": "The 1975",
@@ -199,8 +199,8 @@
     },
     {
       "year": 2021,
-      "from": "2021-10-15",
-      "to": "2021-10-22",
+      "from": "2021-10-16",
+      "to": "2021-10-23",
       "plays": 51,
       "album": {
         "title": "Midsommar (Original Motion Picture Score)",
@@ -229,8 +229,8 @@
     },
     {
       "year": 2020,
-      "from": "2020-10-15",
-      "to": "2020-10-22",
+      "from": "2020-10-16",
+      "to": "2020-10-23",
       "plays": 51,
       "album": {
         "title": "Conatus",
@@ -259,14 +259,14 @@
     },
     {
       "year": 2019,
-      "from": "2019-10-15",
-      "to": "2019-10-22",
+      "from": "2019-10-16",
+      "to": "2019-10-23",
       "plays": 74,
       "album": {
         "title": "Ghosteen",
         "artist": "Nick Cave & the Bad Seeds",
         "plays": 11,
-        "image": null,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e29fc81188122118c72e4bb8b592831f.jpg",
         "url": "https://www.last.fm/music/Nick+Cave+%26+the+Bad+Seeds/Ghosteen"
       },
       "artists": [
@@ -289,8 +289,8 @@
     },
     {
       "year": 2018,
-      "from": "2018-10-15",
-      "to": "2018-10-22",
+      "from": "2018-10-16",
+      "to": "2018-10-23",
       "plays": 92,
       "album": {
         "title": "So Long, See You Tomorrow",
@@ -319,8 +319,8 @@
     },
     {
       "year": 2017,
-      "from": "2017-10-15",
-      "to": "2017-10-22",
+      "from": "2017-10-16",
+      "to": "2017-10-23",
       "plays": 15,
       "album": {
         "title": "22, a Million",
@@ -349,8 +349,8 @@
     },
     {
       "year": 2016,
-      "from": "2016-10-15",
-      "to": "2016-10-22",
+      "from": "2016-10-16",
+      "to": "2016-10-23",
       "plays": 74,
       "album": {
         "title": "Oh My My",
@@ -379,9 +379,9 @@
     },
     {
       "year": 2015,
-      "from": "2015-10-15",
-      "to": "2015-10-22",
-      "plays": 112,
+      "from": "2015-10-16",
+      "to": "2015-10-23",
+      "plays": 119,
       "album": {
         "title": "Yume",
         "artist": "Helios",
@@ -402,16 +402,16 @@
         },
         {
           "name": "Mas Ysa",
-          "plays": 6,
+          "plays": 5,
           "url": "https://www.last.fm/music/Mas+Ysa"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-10-15",
-      "to": "2014-10-22",
-      "plays": 201,
+      "from": "2014-10-16",
+      "to": "2014-10-23",
+      "plays": 202,
       "album": {
         "title": "Young Blood",
         "artist": "Bea Miller",
