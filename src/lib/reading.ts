@@ -243,16 +243,35 @@ export function getLibrary(): Library {
   };
 }
 
-/** The surname-ish word used to sort a byline: "by Ursula K. Le Guin" → "le guin". */
+// Names that don't sort by their last word: family name first, surnames of
+// more than one word, and people known by a single name.
+const sortNames: Record<string, string> = {
+  "Augustine of Hippo": "augustine",
+  "Bessel van der Kolk": "van der kolk",
+  "Gabriel García Márquez": "garcia marquez",
+  "Giuseppe Tomasi di Lampedusa": "tomasi di lampedusa",
+  "Han Kang": "han kang",
+  "Hu Anyan": "hu anyan",
+  "Johann Wolfgang von Goethe": "goethe",
+  "Lao Tzu": "lao tzu",
+  "Liu Cixin": "liu cixin",
+  "Madame de La Fayette": "la fayette",
+  "Marcus Aurelius": "marcus aurelius",
+  "Mario Vargas Llosa": "vargas llosa",
+  "Quintus Curtius Rufus": "curtius rufus",
+  "Robert van Gulik": "van gulik",
+  "Sun Tzu": "sun tzu",
+  "Thich Nhat Hanh": "nhat hanh",
+  "Ursula K. Le Guin": "le guin",
+};
+
+/** The name to sort a byline by: "by Ursula K. Le Guin" → "le guin". */
 export function authorSortKey(byline: string): string {
   const name = byline
     .replace(/^.*?\bby\s+/, "")
     .split(/,| and /)[0]
-    .replace(/\b(M\.D\.?|Jr\.?|Sr\.?)$/, "")
+    .replace(/\s+/g, " ")
+    .replace(/\s(M\.D\.?|Jr\.?|Sr\.?)$/, "")
     .trim();
-  const words = name.split(/\s+/);
-  const particle = words.findIndex(
-    (w, i) => i > 0 && i < words.length - 1 && /^(le|de|van|von|da|del|st\.)$/i.test(w),
-  );
-  return (particle > 0 ? words.slice(particle) : words.slice(-1)).join(" ").toLowerCase();
+  return (sortNames[name] ?? name.split(" ").at(-1) ?? "").toLowerCase();
 }
