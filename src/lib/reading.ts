@@ -32,6 +32,8 @@ export type Book = {
   cover: string | null;
   /** The book's Goodreads page. Null for books only on the old list. */
   url: string | null;
+  /** Shelved as "owned" on Goodreads. */
+  owned: boolean;
 };
 
 type GoodreadsBook = {
@@ -76,7 +78,7 @@ const squash = (title: string) =>
   title.replace(/^(the|a|an)\s+/, "").replace(/[^a-z0-9]/g, "");
 
 /** Matches two editions of the same book, but keeps volumes of a series apart. */
-function editionKey(title: string): string {
+export function editionKey(title: string): string {
   return squash(plainTitle(title));
 }
 
@@ -196,6 +198,7 @@ export function getLibrary(): Library {
       pages: gr.pages,
       cover: gr.cover,
       url: gr.url,
+      owned: gr.tags.includes("owned"),
     };
     const existing = byKey.get(key);
     if (!existing || progress[book.status] > progress[existing.status]) {
@@ -233,6 +236,7 @@ export function getLibrary(): Library {
       pages: null,
       cover: null,
       url: null,
+      owned: false,
     });
   }
 

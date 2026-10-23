@@ -1,0 +1,386 @@
+{
+  "syncedAt": "2026-10-23T18:09:47.639Z",
+  "source": "https://www.espn.com",
+  "teams": [
+    {
+      "league": "mlb",
+      "name": "Minnesota Twins",
+      "nickname": "Twins",
+      "url": "https://www.espn.com/mlb/team/_/name/min/minnesota-twins",
+      "season": "2026",
+      "phase": "offseason",
+      "wins": 77,
+      "losses": 85,
+      "ties": 0,
+      "otLosses": 0,
+      "division": {
+        "name": "AL Central",
+        "rank": 3,
+        "teams": 5
+      },
+      "streak": "W1",
+      "clincher": "e",
+      "recent": [
+        {
+          "date": "2026-09-18T01:38Z",
+          "home": false,
+          "opponent": "Angels",
+          "us": 4,
+          "them": 5,
+          "result": "L",
+          "extra": "10",
+          "postseason": false
+        },
+        {
+          "date": "2026-09-19T01:38Z",
+          "home": false,
+          "opponent": "Angels",
+          "us": 3,
+          "them": 0,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-09-20T01:38Z",
+          "home": false,
+          "opponent": "Angels",
+          "us": 5,
+          "them": 6,
+          "result": "L",
+          "extra": "11",
+          "postseason": false
+        },
+        {
+          "date": "2026-09-20T20:07Z",
+          "home": false,
+          "opponent": "Angels",
+          "us": 8,
+          "them": 0,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-09-22T01:45Z",
+          "home": false,
+          "opponent": "Giants",
+          "us": 2,
+          "them": 5,
+          "result": "L",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-09-23T01:45Z",
+          "home": false,
+          "opponent": "Giants",
+          "us": 3,
+          "them": 2,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-09-23T19:45Z",
+          "home": false,
+          "opponent": "Giants",
+          "us": 4,
+          "them": 2,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-09-26T00:10Z",
+          "home": true,
+          "opponent": "Rangers",
+          "us": 10,
+          "them": 2,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-09-26T20:10Z",
+          "home": true,
+          "opponent": "Rangers",
+          "us": 2,
+          "them": 6,
+          "result": "L",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-09-27T19:10Z",
+          "home": true,
+          "opponent": "Rangers",
+          "us": 6,
+          "them": 4,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        }
+      ],
+      "next": {
+        "date": "2027-02-19T05:00Z",
+        "timeKnown": false,
+        "home": true,
+        "opponent": "Tampa Bay Rays",
+        "seasonType": 1,
+        "stage": "Spring Training",
+        "note": null
+      }
+    },
+    {
+      "league": "nhl",
+      "name": "Minnesota Wild",
+      "nickname": "Wild",
+      "url": "https://www.espn.com/nhl/team/_/name/min/minnesota-wild",
+      "season": "2026-27",
+      "phase": "regular",
+      "wins": 6,
+      "losses": 3,
+      "ties": 0,
+      "otLosses": 2,
+      "division": {
+        "name": "Central",
+        "rank": 2,
+        "teams": 8
+      },
+      "streak": "L2",
+      "clincher": null,
+      "recent": [
+        {
+          "date": "2026-10-04T00:00Z",
+          "home": true,
+          "opponent": "Bruins",
+          "us": 4,
+          "them": 1,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-10-06T23:00Z",
+          "home": false,
+          "opponent": "Sabres",
+          "us": 2,
+          "them": 3,
+          "result": "OTL",
+          "extra": "OT",
+          "postseason": false
+        },
+        {
+          "date": "2026-10-08T23:00Z",
+          "home": false,
+          "opponent": "Lightning",
+          "us": 2,
+          "them": 3,
+          "result": "L",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-10-10T22:00Z",
+          "home": false,
+          "opponent": "Panthers",
+          "us": 4,
+          "them": 1,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-10-13T00:00Z",
+          "home": true,
+          "opponent": "Golden Knights",
+          "us": 4,
+          "them": 2,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-10-14T00:15Z",
+          "home": false,
+          "opponent": "Jets",
+          "us": 2,
+          "them": 5,
+          "result": "L",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-10-16T00:00Z",
+          "home": true,
+          "opponent": "Blues",
+          "us": 5,
+          "them": 4,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-10-18T22:00Z",
+          "home": true,
+          "opponent": "Blue Jackets",
+          "us": 2,
+          "them": 1,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-10-21T01:00Z",
+          "home": false,
+          "opponent": "Oilers",
+          "us": 3,
+          "them": 4,
+          "result": "OTL",
+          "extra": "OT",
+          "postseason": false
+        },
+        {
+          "date": "2026-10-23T01:00Z",
+          "home": false,
+          "opponent": "Flames",
+          "us": 1,
+          "them": 2,
+          "result": "L",
+          "extra": null,
+          "postseason": false
+        }
+      ],
+      "next": {
+        "date": "2026-10-25T02:00Z",
+        "timeKnown": true,
+        "home": false,
+        "opponent": "Seattle Kraken",
+        "seasonType": 2,
+        "stage": null,
+        "note": null
+      }
+    },
+    {
+      "league": "nba",
+      "name": "Minnesota Timberwolves",
+      "nickname": "Timberwolves",
+      "url": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
+      "season": "2026-27",
+      "phase": "regular",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "otLosses": 0,
+      "division": {
+        "name": "Northwest",
+        "rank": 2,
+        "teams": 5
+      },
+      "streak": "W1",
+      "clincher": null,
+      "recent": [
+        {
+          "date": "2026-10-21T23:30Z",
+          "home": false,
+          "opponent": "Heat",
+          "us": 131,
+          "them": 106,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        }
+      ],
+      "next": {
+        "date": "2026-10-23T23:00Z",
+        "timeKnown": true,
+        "home": false,
+        "opponent": "Orlando Magic",
+        "seasonType": 2,
+        "stage": null,
+        "note": null
+      }
+    },
+    {
+      "league": "nfl",
+      "name": "Minnesota Vikings",
+      "nickname": "Vikings",
+      "url": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings",
+      "season": "2026",
+      "phase": "regular",
+      "wins": 5,
+      "losses": 0,
+      "ties": 0,
+      "otLosses": 0,
+      "division": {
+        "name": "NFC North",
+        "rank": 1,
+        "teams": 4
+      },
+      "streak": "W5",
+      "clincher": null,
+      "recent": [
+        {
+          "date": "2026-09-13T20:25Z",
+          "home": true,
+          "opponent": "Packers",
+          "us": 39,
+          "them": 22,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-09-20T17:00Z",
+          "home": false,
+          "opponent": "Bears",
+          "us": 9,
+          "them": 3,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-09-27T20:05Z",
+          "home": false,
+          "opponent": "Buccaneers",
+          "us": 23,
+          "them": 16,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-10-04T20:05Z",
+          "home": true,
+          "opponent": "Dolphins",
+          "us": 15,
+          "them": 10,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-10-11T17:00Z",
+          "home": false,
+          "opponent": "Saints",
+          "us": 23,
+          "them": 13,
+          "result": "W",
+          "extra": null,
+          "postseason": false
+        }
+      ],
+      "next": {
+        "date": "2026-10-25T17:00Z",
+        "timeKnown": true,
+        "home": true,
+        "opponent": "Indianapolis Colts",
+        "seasonType": 2,
+        "stage": null,
+        "note": null
+      }
+    }
+  ]
+}

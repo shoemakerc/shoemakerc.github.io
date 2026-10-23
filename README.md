@@ -32,6 +32,16 @@ coverAlt: "Description of the cover"
 - `content/goodreads.json`, a snapshot of the [Goodreads shelves](https://www.goodreads.com/user/show/166556608), refreshed daily by `.github/workflows/sync-goodreads.yml` (which redeploys when anything changed). Run `npm run sync:goodreads` to refresh it locally.
 - `content/reading.md`, the old list from [shoemakerc/books](https://github.com/shoemakerc/books). Books on both lists use the Goodreads details; books only on the old list still show up, without a cover or rating.
 
+The Pynchon & Wallace shelves list every book each of them published (`src/lib/authors.ts`) and color in each spine from the same Goodreads snapshot: read, currently reading, shelved as `owned`, or neither.
+
+## Pastimes
+
+`/pastimes/` has three sections:
+
+- Minnesota sports, from `content/sports.json`: the Twins, Wild, Timberwolves and Vikings, pulled from ESPN daily by `.github/workflows/sync-sports.yml` (which redeploys when anything changed). Run `npm run sync:sports` to refresh it locally. The teams are ordered by `byAttention` in `src/lib/sports.ts`, which starts from baseball, hockey, basketball, football and adjusts for who's in season and who's winning.
+- Restaurants, from `content/restaurants.md`, a table of the top of the Beli list. Beli has no API or export, so it's kept by hand; the section is hidden while the table is empty.
+- The woodshed (bass and DJing), written straight into `src/app/pastimes/page.tsx`.
+
 ## Listening
 
 The Listening section on the home page pulls from [Last.fm](https://www.last.fm/user/shoeman27):

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Staff } from "@/components/ui";
+import { getAuthors, type Author, type Volume } from "@/lib/authors";
 import { authorSortKey, getLibrary, type Book } from "@/lib/reading";
 
 export const metadata: Metadata = {
@@ -91,6 +92,159 @@ function BookLine({ book }: { book: Book }) {
   );
 }
 
+const shelfLabel: Record<Volume["status"], string> = {
+  read: "Read",
+  reading: "Reading",
+  owned: "On the shelf",
+  unowned: "Not yet",
+};
+
+function describe(work: Volume) {
+  const { book } = work;
+  if (work.status === "reading") return "Reading now";
+  if (work.status === "owned") return "On the shelf, not read yet";
+  if (work.status === "unowned" || !book) return "Not on the shelf yet";
+  return [
+    book.dateRead ? `Read ${dateFormat.format(new Date(book.dateRead))}` : "Read",
+    book.rating && `${book.rating} of 5 stars`,
+  ]
+    .filter(Boolean)
+    .join(", ");
+}
+
+/** Between 90% and 100% of the shelf's height, the same for a title every time. */
+function spineHeight(title: string) {
+  let hash = 0;
+  for (const char of title) hash = (hash * 31 + char.charCodeAt(0)) % 997;
+  return 90 + (hash % 11);
+}
+
+/** A book's spine, as wide as the book is long. */
+function Spine({ work }: { work: Volume }) {
+  const label = `${work.title}, ${work.year}. ${describe(work)}`;
+  const props = {
+    className: `spine spine-${work.status}`,
+    title: label,
+    "aria-label": label,
+    style: {
+      "--pages": work.book?.pages ?? work.pages,
+      "--height": `${spineHeight(work.title)}%`,
+    } as React.CSSProperties,
+  };
+  const face = (
+    <>
+      <span className="spine-title">{work.spine ?? work.title}</span>
+      <span className="spine-year">{work.year}</span>
+    </>
+  );
+  return (
+    <li>
+      {work.book?.url ? (
+        <a href={work.book.url} {...props}>
+          {face}
+        </a>
+      ) : (
+        <span role="img" {...props}>
+          {face}
+        </span>
+      )}
+    </li>
+  );
+}
+
+function AuthorShelf({ author }: { author: Author }) {
+  const count = (status: Volume["status"]) =>
+    author.works.filter((work) => work.status === status).length;
+  const progress = [
+    count("reading") > 0 && `${count("reading")} under way`,
+    count("owned") > 0 && `${count("owned")} more on the shelf`,
+  ].filter(Boolean);
+  return (
+    <div className="author-shelf">
+      <div className="author-shelf-head">
+        <h3 className="author-shelf-name">{author.name}</h3>
+        <p className="author-shelf-tally">
+          <span className="author-shelf-number">{count("read")}</span> of{" "}
+          {author.works.length} read
+        </p>
+        {progress.length > 0 && <p className="meta">{progress.join(" · ")}</p>}
+      </div>
+      <ol className="shelf" aria-label={`Books by ${author.name}, oldest first`}>
+        {author.works.map((work) => (
+          <Spine key={work.title} work={work} />
+        ))}
+      </ol>
+    </div>
+  );
+}
+
+function AuthorShelves({ authors }: { authors: Author[] }) {
+  return (
+    <section>
+      <Staff label="Completist" />
+      <h2 className="section-title">Pynchon &amp; Wallace</h2>
+      <p className="lede-small shelves-lede">
+        Two writers I’m reading my way through: paranoia on one shelf, footnotes
+        on the other. Every book each of them published, in the order they came
+        out, filled in as I go.
+      </p>
+      {authors.map((author) => (
+        <AuthorShelf key={author.name} author={author} />
+      ))}
+      <ul className="shelf-legend">
+        {(["read", "reading", "owned", "unowned"] as const).map((status) => (
+          <li key={status} className="meta">
+            <span className={`shelf-swatch spine-${status}`} aria-hidden="true" />
+            {shelfLabel[status]}
+          </li>
+        ))}
+      </ul>
+      <details className="shelf-list">
+        <summary>
+          <span className="meta">Show as a list</span>
+        </summary>
+        <div className="shelf-list-columns">
+          {authors.map((author) => (
+            <div key={author.name}>
+              <h3 className="meta shelf-list-author">{author.name}</h3>
+              <ol className="book-list">
+                {author.works.map((work) => (
+                  <li key={work.title} className="book">
+                    <div className="book-line">
+                      <span className="book-text">
+                        {work.book?.url ? (
+                          <a href={work.book.url}>
+                            <em>{work.title}</em>
+                          </a>
+                        ) : (
+                          <em>{work.title}</em>
+                        )}
+                        <span className="book-byline"> {work.year}</span>
+                      </span>
+                      {work.book?.rating ? (
+                        <Stars rating={work.book.rating} />
+                      ) : (
+                        <span className="meta">{shelfLabel[work.status]}</span>
+                      )}
+                    </div>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          ))}
+        </div>
+      </details>
+      <p className="shelves-companions">
+        Good company along the way: the{" "}
+        <a href="https://pynchonwiki.com/">Pynchon Wiki</a>’s page-by-page
+        annotations, and{" "}
+        <a href="https://www.thehowlingfantods.com/dfw/">The Howling Fantods</a>{" "}
+        for all things Wallace.
+      </p>
+    </section>
+  );
+}
+
 const keyOf = (book: Book) => `${book.title}|${book.byline}`;
 
 const byAuthor = (a: Book, b: Book) =>
@@ -167,6 +321,8 @@ export default function Reading() {
           )}
         </section>
       )}
+
+      <AuthorShelves authors={getAuthors()} />
 
       <section>
         <Staff label="Finished" />

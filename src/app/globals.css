@@ -279,17 +279,419 @@ a.cover:hover {
 }
 
 .to-read summary .meta,
-.years-ago-more summary .meta {
+.years-ago-more summary .meta,
+.shelf-list summary .meta {
   color: var(--ink);
 }
 
 .to-read summary:hover .meta,
-.years-ago-more summary:hover .meta {
+.years-ago-more summary:hover .meta,
+.shelf-list summary:hover .meta {
   color: var(--accent);
 }
 
 .reading-synced {
   margin-top: 4rem;
+}
+
+/* ---------- Reading: Pynchon & Wallace ---------- */
+
+.shelves-lede {
+  max-width: var(--measure);
+  margin-bottom: 2.5rem;
+}
+
+.author-shelf {
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  gap: 1.25rem 2.5rem;
+  align-items: end;
+}
+
+.author-shelf + .author-shelf {
+  margin-top: 2.5rem;
+}
+
+.author-shelf-name {
+  font-size: 1.375rem;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  margin: 0 0 0.75rem;
+}
+
+.author-shelf-tally {
+  margin: 0 0 0.35rem;
+  color: var(--ink-soft);
+}
+
+.author-shelf-number {
+  font-size: 2.5rem;
+  line-height: 1;
+  color: var(--ink);
+  font-variant-numeric: lining-nums;
+}
+
+.shelf {
+  --shelf-height: 12.5rem;
+  --shelf-gap: 1.75rem;
+  --board: 3px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 3px;
+  row-gap: var(--shelf-gap);
+  /* A board under every row of spines, however many rows they wrap to. */
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0 calc(var(--shelf-height) - var(--board)),
+    var(--ink) 0 var(--shelf-height),
+    transparent 0 calc(var(--shelf-height) + var(--shelf-gap))
+  );
+}
+
+.shelf li {
+  display: flex;
+  align-items: flex-end;
+  height: var(--shelf-height);
+  padding-bottom: var(--board);
+}
+
+.spine {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  /* As wide as the book is long, give or take. */
+  width: calc(1.3rem + var(--pages) * 0.003rem);
+  height: var(--height);
+  padding: 0.65rem 0 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1;
+  text-decoration: none;
+  transition: transform 160ms ease;
+}
+
+a.spine:hover {
+  transform: translateY(-4px);
+}
+
+.spine-title {
+  writing-mode: vertical-rl;
+  min-height: 0;
+  font-style: italic;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spine-year {
+  font-family: var(--mono);
+  font-size: 0.5625rem;
+  letter-spacing: 0.02em;
+  opacity: 0.75;
+}
+
+.spine-read {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.spine-reading {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+a.spine-read:hover,
+a.spine-reading:hover {
+  color: var(--paper);
+}
+
+/* A slip of paper sticking out of the top, marking the place. */
+.spine.spine-reading::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 28%;
+  width: 0.5rem;
+  height: 0.8rem;
+  background: var(--paper);
+  box-shadow: inset 0 0 0 1px var(--ink);
+}
+
+.spine-owned {
+  box-shadow: inset 0 0 0 1px var(--ink);
+  color: var(--ink);
+}
+
+.spine-unowned {
+  border: 1px dashed var(--muted);
+  color: var(--muted);
+}
+
+.shelf-legend {
+  list-style: none;
+  margin: 2.25rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.75rem;
+}
+
+.shelf-legend li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.shelf-swatch {
+  width: 0.6rem;
+  height: 0.95rem;
+}
+
+.shelf-list summary {
+  cursor: pointer;
+  padding: 0.75rem 0;
+}
+
+.shelf-list-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 3rem;
+}
+
+.shelf-list .book-list {
+  columns: auto;
+}
+
+.shelf-list-author {
+  font-weight: 400;
+  margin: 1rem 0 0.25rem;
+}
+
+.shelves-companions {
+  max-width: var(--measure);
+  margin: 1.5rem 0 0;
+  color: var(--ink-soft);
+}
+
+@media (max-width: 48rem) {
+  .author-shelf {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .shelf-list-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 40rem) {
+  .shelf {
+    --shelf-gap: 1.5rem;
+    column-gap: 2px;
+  }
+
+  /* Thin enough that each author fits on one shelf on most phones. */
+  .spine {
+    width: calc(0.95rem + var(--pages) * 0.0016rem);
+    font-size: 0.6875rem;
+    padding: 0.55rem 0 0.45rem;
+  }
+
+  .spine-year {
+    writing-mode: vertical-rl;
+  }
+}
+
+/* ---------- Pastimes ---------- */
+
+.teams-lede {
+  max-width: var(--measure);
+  margin-bottom: 2.5rem;
+}
+
+.teams {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem 3rem;
+}
+
+.team {
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--ink);
+}
+
+.team-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0;
+}
+
+.team-postseason .team-phase {
+  color: var(--accent);
+}
+
+.team-name {
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  margin: 0.5rem 0 0.75rem;
+}
+
+.team-name a {
+  text-decoration: none;
+}
+
+.team-record {
+  margin: 0;
+}
+
+.team-record-number {
+  font-size: 2.5rem;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: lining-nums;
+}
+
+.team-standing {
+  margin: 0.35rem 0 1rem;
+  color: var(--ink-soft);
+}
+
+.form {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.form li {
+  display: grid;
+  place-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-family: var(--mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.02em;
+  box-shadow: inset 0 0 0 1px var(--rule);
+  color: var(--muted);
+  cursor: default;
+}
+
+.form .form-w {
+  background: var(--accent);
+  box-shadow: none;
+  color: var(--paper);
+}
+
+.team-games {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.team-games div {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  gap: 0.75rem;
+  align-items: baseline;
+  padding: 0.45rem 0;
+  border-top: 1px solid var(--rule);
+}
+
+.team-games dd {
+  margin: 0;
+}
+
+.team-games dd .meta {
+  margin-left: 0.25rem;
+  white-space: nowrap;
+}
+
+.teams-synced {
+  margin-top: 2.5rem;
+}
+
+.restaurants {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  max-width: 40rem;
+}
+
+.restaurants li {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr auto;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.restaurant {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.restaurant-name {
+  font-size: 1.125rem;
+  line-height: 1.3;
+}
+
+.restaurant-detail {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.restaurant-score {
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.woodshed {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem 3rem;
+  margin-top: 2rem;
+}
+
+.woodshed-title {
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.woodshed p {
+  margin: 1rem 0 0;
+  max-width: var(--measure);
+  text-wrap: pretty;
+}
+
+@media (max-width: 48rem) {
+  .teams,
+  .woodshed {
+    grid-template-columns: 1fr;
+  }
+
+  .teams {
+    gap: 2.5rem;
+  }
 }
 
 .project-status {

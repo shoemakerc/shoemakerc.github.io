@@ -20,6 +20,7 @@ export const site = {
     { label: "Listening", path: "/#listening" },
     { label: "Reading", path: "/reading/" },
     { label: "Projects", path: "/projects/" },
+    { label: "Pastimes", path: "/pastimes/" },
     { label: "About", path: "/about/" },
   ],
   links: [
