@@ -41,6 +41,18 @@ The Listening section on the home page pulls from [Last.fm](https://www.last.fm/
 
 Both need a `LASTFM_API_KEY` repository secret (create a key at [last.fm/api](https://www.last.fm/api/account/create)). Without it the sync skips itself, and the section shows just the playlist and links.
 
+## Dance Judge
+
+`/dance-judge/` is the 2017 [spotify-dance-judge](https://github.com/shoemakerc/spotify-dance-judge), rebuilt to run in the browser. Spotify no longer gives hobby apps audio features, so the page finds songs and 30-second previews with the [iTunes Search API](https://performance-partners.apple.com/search-api) and analyzes the audio itself (`src/lib/dance-judge/analyze.ts`): tempo, beat strength, key, loudness, and timbre.
+
+`src/lib/dance-judge/judge.ts` turns those measurements into Spotify-style danceability and energy scores, using weights fit against Spotify's archived scores for a few hundred songs. To refit them, edit `scripts/dance-judge-songs.txt` if you like, then run (macOS only, since it decodes audio with `afconvert`; about 30 minutes the first time, seconds after that):
+
+```bash
+npm run calibrate:dance-judge
+```
+
+It prints new weights to paste into `judge.ts`.
+
 ## Change the playlist
 
 Edit `playlist` in `src/lib/site.ts`.

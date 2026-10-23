@@ -1,0 +1,347 @@
+# Calibration songs for the Dance Judge: "Title | Artist", one per line.
+# See scripts/calibrate-dance-judge.mjs. A spread of genres and tempos
+# matters more than any one song; misses are skipped.
+September | Earth, Wind & Fire
+Let's Groove | Earth, Wind & Fire
+Boogie Wonderland | Earth, Wind & Fire
+Le Freak | Chic
+Good Times | Chic
+Stayin' Alive | Bee Gees
+I Will Survive | Gloria Gaynor
+Superstition | Stevie Wonder
+Billie Jean | Michael Jackson
+Don't Stop 'Til You Get Enough | Michael Jackson
+Rock with You | Michael Jackson
+Get Lucky | Daft Punk
+One More Time | Daft Punk
+Around the World | Daft Punk
+Uptown Funk | Mark Ronson
+Dancing Queen | ABBA
+Gimme! Gimme! Gimme! | ABBA
+Celebration | Kool & The Gang
+Funkytown | Lipps Inc.
+Respect | Aretha Franklin
+I Feel Love | Donna Summer
+Espresso | Sabrina Carpenter
+Blinding Lights | The Weeknd
+Levitating | Dua Lipa
+Houdini | Dua Lipa
+Shape of You | Ed Sheeran
+bad guy | Billie Eilish
+Birds of a Feather | Billie Eilish
+Anti-Hero | Taylor Swift
+Shake It Off | Taylor Swift
+Love Story | Taylor Swift
+Flowers | Miley Cyrus
+As It Was | Harry Styles
+Watermelon Sugar | Harry Styles
+Toxic | Britney Spears
+...Baby One More Time | Britney Spears
+Hips Don't Lie | Shakira
+Rolling in the Deep | Adele
+Someone Like You | Adele
+Hello | Adele
+Skyfall | Adele
+Call Me Maybe | Carly Rae Jepsen
+Dancing On My Own | Robyn
+Pink Pony Club | Chappell Roan
+Good Luck, Babe! | Chappell Roan
+good 4 u | Olivia Rodrigo
+drivers license | Olivia Rodrigo
+Happy | Pharrell Williams
+CAN'T STOP THE FEELING! | Justin Timberlake
+SexyBack | Justin Timberlake
+Sorry | Justin Bieber
+Bad Romance | Lady Gaga
+Poker Face | Lady Gaga
+Die With A Smile | Lady Gaga
+Single Ladies (Put a Ring on It) | Beyoncé
+Crazy In Love | Beyoncé
+TEXAS HOLD 'EM | Beyoncé
+Umbrella | Rihanna
+We Found Love | Rihanna
+Pon de Replay | Rihanna
+Since U Been Gone | Kelly Clarkson
+Hey Ya! | Outkast
+Ms. Jackson | Outkast
+Royals | Lorde
+Green Light | Lorde
+Liability | Lorde
+APT. | ROSÉ
+Dynamite | BTS
+How You Like That | BLACKPINK
+Padam Padam | Kylie Minogue
+Can't Get You Out of My Head | Kylie Minogue
+Vogue | Madonna
+Like a Prayer | Madonna
+Wannabe | Spice Girls
+Hollaback Girl | Gwen Stefani
+Africa | TOTO
+Take On Me | a-ha
+Don't Stop Believin' | Journey
+Girls Just Want to Have Fun | Cyndi Lauper
+Everybody Wants to Rule the World | Tears for Fears
+Sweet Dreams (Are Made of This) | Eurythmics
+Tainted Love | Soft Cell
+Blue Monday | New Order
+Bizarre Love Triangle | New Order
+HUMBLE. | Kendrick Lamar
+Not Like Us | Kendrick Lamar
+Money Trees | Kendrick Lamar
+SICKO MODE | Travis Scott
+In Da Club | 50 Cent
+Lose Yourself | Eminem
+Gold Digger | Kanye West
+Stronger | Kanye West
+Hotline Bling | Drake
+God's Plan | Drake
+Old Town Road | Lil Nas X
+Juicy | The Notorious B.I.G.
+Hypnotize | The Notorious B.I.G.
+California Love | 2Pac
+Super Bass | Nicki Minaj
+Bodak Yellow | Cardi B
+Gin and Juice | Snoop Dogg
+Drop It Like It's Hot | Snoop Dogg
+Kill Bill | SZA
+Snooze | SZA
+No Scrubs | TLC
+Yeah! | Usher
+Get Ur Freak On | Missy Elliott
+Work It | Missy Elliott
+Hot In Herre | Nelly
+Redbone | Childish Gambino
+Thinkin Bout You | Frank Ocean
+Nights | Frank Ocean
+Pink + White | Frank Ocean
+Mask Off | Future
+Bad and Boujee | Migos
+Crank That (Soulja Boy) | Soulja Boy
+Ice Ice Baby | Vanilla Ice
+U Can't Touch This | MC Hammer
+Party Rock Anthem | LMFAO
+Low | Flo Rida
+Macarena | Los Del Rio
+Mambo No. 5 | Lou Bega
+Levels | Avicii
+Wake Me Up | Avicii
+Titanium | David Guetta
+Don't You Worry Child | Swedish House Mafia
+Strobe | deadmau5
+Midnight City | M83
+Windowlicker | Aphex Twin
+Avril 14th | Aphex Twin
+Xtal | Aphex Twin
+Music Sounds Better With You | Stardust
+Show Me Love | Robin S
+Finally | CeCe Peniston
+Praise You | Fatboy Slim
+Insomnia | Faithless
+Sandstorm | Darude
+Scary Monsters and Nice Sprites | Skrillex
+Lean On | Major Lazer
+Turn Down for What | DJ Snake
+Losing It | FISHER
+Cola | CamelPhat
+Blue (Da Ba Dee) | Eiffel 65
+Teardrop | Massive Attack
+Porcelain | Moby
+Breathe | The Prodigy
+Genesis | Justice
+Rhythm Is a Dancer | SNAP!
+Gypsy Woman (She's Homeless) | Crystal Waters
+Pump Up the Jam | Technotronic
+What Is Love | Haddaway
+Freed from Desire | Gala
+Lady (Hear Me Tonight) | Modjo
+Hey Boy Hey Girl | The Chemical Brothers
+Groove Is in the Heart | Deee-Lite
+Smells Like Teen Spirit | Nirvana
+Come As You Are | Nirvana
+Paranoid Android | Radiohead
+Creep | Radiohead
+Karma Police | Radiohead
+Fake Plastic Trees | Radiohead
+Bohemian Rhapsody | Queen
+Another One Bites the Dust | Queen
+Stairway to Heaven | Led Zeppelin
+Back In Black | AC/DC
+Highway to Hell | AC/DC
+Seven Nation Army | The White Stripes
+Mr. Brightside | The Killers
+Take Me Out | Franz Ferdinand
+Do I Wanna Know? | Arctic Monkeys
+R U Mine? | Arctic Monkeys
+Last Nite | The Strokes
+Reptilia | The Strokes
+Song 2 | Blur
+Wonderwall | Oasis
+Under the Bridge | Red Hot Chili Peppers
+Give It Away | Red Hot Chili Peppers
+Hotel California | Eagles
+Sweet Child O' Mine | Guns N' Roses
+Livin' On A Prayer | Bon Jovi
+Born to Run | Bruce Springsteen
+Like a Rolling Stone | Bob Dylan
+(I Can't Get No) Satisfaction | The Rolling Stones
+Miss You | The Rolling Stones
+Hey Jude | The Beatles
+Come Together | The Beatles
+Here Comes The Sun | The Beatles
+Let It Be | The Beatles
+Blackbird | The Beatles
+Psycho Killer | Talking Heads
+Once in a Lifetime | Talking Heads
+Burning Down the House | Talking Heads
+Heroes | David Bowie
+Let's Dance | David Bowie
+Rebel Rebel | David Bowie
+Lust for Life | Iggy Pop
+Blitzkrieg Bop | Ramones
+Should I Stay or Should I Go | The Clash
+Rock the Casbah | The Clash
+Love Will Tear Us Apart | Joy Division
+This Charming Man | The Smiths
+There Is a Light That Never Goes Out | The Smiths
+Just Like Heaven | The Cure
+Boys Don't Cry | The Cure
+Enter Sandman | Metallica
+Master of Puppets | Metallica
+Paranoid | Black Sabbath
+Chop Suey! | System Of A Down
+Killing In the Name | Rage Against the Machine
+Everlong | Foo Fighters
+The Less I Know The Better | Tame Impala
+Let It Happen | Tame Impala
+Feel It Still | Portugal. The Man
+Electric Feel | MGMT
+Kids | MGMT
+Pumped Up Kicks | Foster the People
+Dog Days Are Over | Florence + The Machine
+Float On | Modest Mouse
+Such Great Heights | The Postal Service
+Holocene | Bon Iver
+Skinny Love | Bon Iver
+Motion Sickness | Phoebe Bridgers
+Kyoto | Phoebe Bridgers
+Seventeen | Sharon Van Etten
+Lemon | N.E.R.D
+Jolene | Dolly Parton
+9 to 5 | Dolly Parton
+Ring of Fire | Johnny Cash
+Hurt | Johnny Cash
+Take Me Home, Country Roads | John Denver
+Fast Car | Tracy Chapman
+Landslide | Fleetwood Mac
+Dreams | Fleetwood Mac
+Go Your Own Way | Fleetwood Mac
+The Sound of Silence | Simon & Garfunkel
+Mrs. Robinson | Simon & Garfunkel
+Hallelujah | Jeff Buckley
+Fade Into You | Mazzy Star
+Harvest Moon | Neil Young
+Heart of Gold | Neil Young
+Tennessee Whiskey | Chris Stapleton
+Before He Cheats | Carrie Underwood
+Need You Now | Lady A
+Pink Moon | Nick Drake
+River | Joni Mitchell
+Big Yellow Taxi | Joni Mitchell
+The Night We Met | Lord Huron
+Ho Hey | The Lumineers
+Riptide | Vance Joy
+So What | Miles Davis
+Blue in Green | Miles Davis
+Take Five | The Dave Brubeck Quartet
+Fly Me To The Moon | Frank Sinatra
+What A Wonderful World | Louis Armstrong
+Feeling Good | Nina Simone
+My Favorite Things | John Coltrane
+In a Sentimental Mood | Duke Ellington
+My Funny Valentine | Chet Baker
+Moanin' | Art Blakey & The Jazz Messengers
+Cantaloupe Island | Herbie Hancock
+Chameleon | Herbie Hancock
+Song for My Father | Horace Silver
+Sing, Sing, Sing | Benny Goodman
+Strange Fruit | Billie Holiday
+Experience | Ludovico Einaudi
+Nuvole Bianche | Ludovico Einaudi
+Una Mattina | Ludovico Einaudi
+Divenire | Ludovico Einaudi
+Comptine d'un autre été, l'après-midi | Yann Tiersen
+Time | Hans Zimmer
+Cornfield Chase | Hans Zimmer
+Now We Are Free | Hans Zimmer
+On the Nature of Daylight | Max Richter
+An Ending (Ascent) | Brian Eno
+1/1 | Brian Eno
+Weightless | Marconi Union
+Hoppípolla | Sigur Rós
+Svefn-g-englar | Sigur Rós
+River Flows in You | Yiruma
+Kiss the Rain | Yiruma
+Mia & Sebastian's Theme | Justin Hurwitz
+Married Life | Michael Giacchino
+Says | Nils Frahm
+Saman | Ólafur Arnalds
+Flight from the City | Jóhann Jóhannsson
+Opening | Philip Glass
+Metamorphosis One | Philip Glass
+Arrival of the Birds | The Cinematic Orchestra
+To Build A Home | The Cinematic Orchestra
+Merry Christmas Mr. Lawrence | Ryuichi Sakamoto
+Despacito | Luis Fonsi
+Gasolina | Daddy Yankee
+Tití Me Preguntó | Bad Bunny
+DtMF | Bad Bunny
+Bailando | Enrique Iglesias
+La Bamba | Ritchie Valens
+Oye Como Va | Santana
+Smooth | Santana
+Could You Be Loved | Bob Marley & The Wailers
+Three Little Birds | Bob Marley & The Wailers
+Is This Love | Bob Marley & The Wailers
+Calm Down | Rema
+Essence | Wizkid
+Pata Pata | Miriam Makeba
+Chan Chan | Buena Vista Social Club
+Mas Que Nada | Sérgio Mendes
+The Girl from Ipanema | Stan Getz
+My Heart Will Go On | Céline Dion
+I Will Always Love You | Whitney Houston
+I Wanna Dance with Somebody (Who Loves Me) | Whitney Houston
+All of Me | John Legend
+Perfect | Ed Sheeran
+Thinking Out Loud | Ed Sheeran
+Yellow | Coldplay
+Fix You | Coldplay
+Viva La Vida | Coldplay
+The Scientist | Coldplay
+Mad World | Gary Jules
+Everybody Hurts | R.E.M.
+Losing My Religion | R.E.M.
+Nothing Compares 2 U | Sinéad O'Connor
+Purple Rain | Prince
+Kiss | Prince
+When Doves Cry | Prince
+1999 | Prince
+Stand By Me | Ben E. King
+Unchained Melody | The Righteous Brothers
+(Sittin' On) the Dock of the Bay | Otis Redding
+A Change Is Gonna Come | Sam Cooke
+What's Going On | Marvin Gaye
+Sexual Healing | Marvin Gaye
+Ain't No Mountain High Enough | Marvin Gaye
+Let's Stay Together | Al Green
+Lovely Day | Bill Withers
+Ain't No Sunshine | Bill Withers
+Video Games | Lana Del Rey
+Summertime Sadness | Lana Del Rey
+ocean eyes | Billie Eilish
+when the party's over | Billie Eilish
+lovely | Billie Eilish
+Glimpse of Us | Joji
+Clair de Lune | Claude Debussy
+Gymnopédie No. 1 | Erik Satie
+Spiegel im Spiegel | Arvo Pärt

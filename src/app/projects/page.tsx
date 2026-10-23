@@ -35,20 +35,20 @@ const projects: Project[] = [
       "Brew ratios, pour schedules, and a timer for pour-over, French press, AeroPress, espresso, moka pot, and cold brew. Change the coffee, the water, or the number of cups and the rest follow. Saved recipes stay in your browser.",
   },
   {
+    name: "Dance Judge",
+    year: "2026",
+    tags: ["TypeScript", "Web Audio", "DSP"],
+    href: "/dance-judge/",
+    summary:
+      "How cool (or not cool) would you look dancing to a given song? Pick a track and the judge listens to its 30-second preview, finds the beat and the key, and delivers a verdict. It started in 2017 as the Spotify Dance Judge; when Spotify shut off the data it relied on, it learned to listen for itself.",
+  },
+  {
     name: "Qt-Looper",
     year: "2017",
     tags: ["C++", "Qt", "MIDI"],
     href: "https://github.com/shoemakerc/qt-looper",
     summary:
       "A virtual track looper for recording simple MIDI tracks and playing them back in loops. The engine is C++ built on a handful of MIDI libraries, with an interface made in Qt. Final project for CS 312: Audio Programming at Carleton.",
-  },
-  {
-    name: "Spotify Dance Judge",
-    year: "2017",
-    tags: ["Node.js", "Spotify Web API"],
-    href: "https://github.com/shoemakerc/spotify-dance-judge",
-    summary:
-      "How cool (or not cool) would you look dancing to a given song? Search a track and the Dance Judge pulls its danceability and a few other attributes from the Spotify Web API to deliver a verdict.",
   },
 ];
 
