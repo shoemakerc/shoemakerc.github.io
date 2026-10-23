@@ -40,11 +40,11 @@ export function Header() {
         {site.name}
       </Link>
       <nav aria-label="Main">
-        <Link href="/music/">Writing</Link>
-        <Link href="/#listening">Listening</Link>
-        <Link href="/reading/">Reading</Link>
-        <Link href="/projects/">Projects</Link>
-        <Link href="/about/">About</Link>
+        {site.nav.map((item) => (
+          <Link key={item.path} href={item.path}>
+            {item.label}
+          </Link>
+        ))}
       </nav>
     </header>
   );
