@@ -1,0 +1,441 @@
+{
+  "syncedAt": "2026-10-23T06:19:46.377Z",
+  "profile": "https://www.last.fm/user/shoeman27",
+  "registered": "2013-02-18",
+  "totalPlays": 66501,
+  "lastTrack": {
+    "name": "Giraffe",
+    "artist": "Gilla Band",
+    "album": "Pugnello",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
+    "url": "https://www.last.fm/music/Gilla+Band/_/Giraffe",
+    "playedAt": 1792533076000
+  },
+  "month": {
+    "label": "October 2026",
+    "partial": true,
+    "from": "2026-10-01",
+    "to": "2026-10-22",
+    "plays": 218,
+    "artistCount": 104,
+    "artists": [
+      {
+        "name": "Gilla Band",
+        "plays": 25,
+        "url": "https://www.last.fm/music/Gilla+Band"
+      },
+      {
+        "name": "Modest Mussorgsky",
+        "plays": 21,
+        "url": "https://www.last.fm/music/Modest+Mussorgsky"
+      },
+      {
+        "name": "N*E*R*D",
+        "plays": 17,
+        "url": "https://www.last.fm/music/N*E*R*D"
+      },
+      {
+        "name": "Hot Snakes",
+        "plays": 12,
+        "url": "https://www.last.fm/music/Hot+Snakes"
+      },
+      {
+        "name": "Torche",
+        "plays": 8,
+        "url": "https://www.last.fm/music/Torche"
+      }
+    ],
+    "albums": [
+      {
+        "title": "Pugnello",
+        "artist": "Gilla Band",
+        "plays": 23,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
+        "url": "https://www.last.fm/music/Gilla+Band/Pugnello"
+      },
+      {
+        "title": "Mussorgsky: Pictures at an Exhibition",
+        "artist": "Modest Mussorgsky",
+        "plays": 21,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7b55fe590c5f90865b10e4aa1a1841eb.jpg",
+        "url": "https://www.last.fm/music/Modest+Mussorgsky/Mussorgsky%3A+Pictures+at+an+Exhibition"
+      },
+      {
+        "title": "In Search Of...",
+        "artist": "N*E*R*D",
+        "plays": 17,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/007c6d2e5f8c6422ad669b65a1987b6f.jpg",
+        "url": "https://www.last.fm/music/N*E*R*D/In+Search+Of..."
+      },
+      {
+        "title": "Audit In Progress",
+        "artist": "Hot Snakes",
+        "plays": 12,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/565facdb037e4b93aaceb8242b1e6814.jpg",
+        "url": "https://www.last.fm/music/Hot+Snakes/Audit+In+Progress"
+      }
+    ]
+  },
+  "yearsAgo": [
+    {
+      "year": 2025,
+      "from": "2025-10-15",
+      "to": "2025-10-22",
+      "plays": 78,
+      "album": {
+        "title": "Fun House",
+        "artist": "The Stooges",
+        "plays": 5,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c1bc149e960d80c3bd55e3920695b663.jpg",
+        "url": "https://www.last.fm/music/The+Stooges/Fun+House"
+      },
+      "artists": [
+        {
+          "name": "Seventeen Years Old and Berlin Wall",
+          "plays": 5,
+          "url": "https://www.last.fm/music/Seventeen+Years+Old+and+Berlin+Wall"
+        },
+        {
+          "name": "Kyuss",
+          "plays": 5,
+          "url": "https://www.last.fm/music/Kyuss"
+        },
+        {
+          "name": "The Stooges",
+          "plays": 5,
+          "url": "https://www.last.fm/music/The+Stooges"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "from": "2024-10-15",
+      "to": "2024-10-22",
+      "plays": 43,
+      "album": {
+        "title": "Hammer of My Own",
+        "artist": "Closebye",
+        "plays": 3,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/508347cf30f0680743b94e1a9e845fd6.jpg",
+        "url": "https://www.last.fm/music/Closebye/Hammer+of+My+Own"
+      },
+      "artists": [
+        {
+          "name": "HighSchool",
+          "plays": 7,
+          "url": "https://www.last.fm/music/HighSchool"
+        },
+        {
+          "name": "Drop Nineteens",
+          "plays": 4,
+          "url": "https://www.last.fm/music/Drop+Nineteens"
+        },
+        {
+          "name": "Closebye",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Closebye"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "from": "2023-10-15",
+      "to": "2023-10-22",
+      "plays": 209,
+      "album": {
+        "title": "A Place You Grew Up In",
+        "artist": "Laveda",
+        "plays": 21,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/83729a704d4fe46f01415f3d1e8d4c7e.jpg",
+        "url": "https://www.last.fm/music/Laveda/A+Place+You+Grew+Up+In"
+      },
+      "artists": [
+        {
+          "name": "Mitski",
+          "plays": 24,
+          "url": "https://www.last.fm/music/Mitski"
+        },
+        {
+          "name": "Laveda",
+          "plays": 23,
+          "url": "https://www.last.fm/music/Laveda"
+        },
+        {
+          "name": "Gilla Band",
+          "plays": 19,
+          "url": "https://www.last.fm/music/Gilla+Band"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "from": "2022-10-15",
+      "to": "2022-10-22",
+      "plays": 70,
+      "album": {
+        "title": "Being Funny in a Foreign Language",
+        "artist": "The 1975",
+        "plays": 9,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0dc221a4f275b250669990082e7f5f29.jpg",
+        "url": "https://www.last.fm/music/The+1975/Being+Funny+in+a+Foreign+Language"
+      },
+      "artists": [
+        {
+          "name": "The 1975",
+          "plays": 10,
+          "url": "https://www.last.fm/music/The+1975"
+        },
+        {
+          "name": "Brambles",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Brambles"
+        },
+        {
+          "name": "Arkells",
+          "plays": 4,
+          "url": "https://www.last.fm/music/Arkells"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "from": "2021-10-15",
+      "to": "2021-10-22",
+      "plays": 51,
+      "album": {
+        "title": "Midsommar (Original Motion Picture Score)",
+        "artist": "Bobby Krlic",
+        "plays": 3,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/bfdf19afb7ce5477756056ed825602a7.jpg",
+        "url": "https://www.last.fm/music/Bobby+Krlic/Midsommar+(Original+Motion+Picture+Score)"
+      },
+      "artists": [
+        {
+          "name": "John Adams",
+          "plays": 3,
+          "url": "https://www.last.fm/music/John+Adams"
+        },
+        {
+          "name": "Blood Cultures",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Blood+Cultures"
+        },
+        {
+          "name": "Bobby Krlic",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Bobby+Krlic"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "from": "2020-10-15",
+      "to": "2020-10-22",
+      "plays": 51,
+      "album": {
+        "title": "Conatus",
+        "artist": "Zola Jesus",
+        "plays": 12,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/58729d691fc93666a07f44d78772d1ca.jpg",
+        "url": "https://www.last.fm/music/Zola+Jesus/Conatus"
+      },
+      "artists": [
+        {
+          "name": "Zola Jesus",
+          "plays": 15,
+          "url": "https://www.last.fm/music/Zola+Jesus"
+        },
+        {
+          "name": "Daughters",
+          "plays": 9,
+          "url": "https://www.last.fm/music/Daughters"
+        },
+        {
+          "name": "Huun-Huur-Tu",
+          "plays": 8,
+          "url": "https://www.last.fm/music/Huun-Huur-Tu"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "from": "2019-10-15",
+      "to": "2019-10-22",
+      "plays": 74,
+      "album": {
+        "title": "Ghosteen",
+        "artist": "Nick Cave & the Bad Seeds",
+        "plays": 11,
+        "image": null,
+        "url": "https://www.last.fm/music/Nick+Cave+%26+the+Bad+Seeds/Ghosteen"
+      },
+      "artists": [
+        {
+          "name": "Nick Cave & the Bad Seeds",
+          "plays": 11,
+          "url": "https://www.last.fm/music/Nick+Cave+%26+the+Bad+Seeds"
+        },
+        {
+          "name": "The Midnight",
+          "plays": 10,
+          "url": "https://www.last.fm/music/The+Midnight"
+        },
+        {
+          "name": "The Limousines",
+          "plays": 6,
+          "url": "https://www.last.fm/music/The+Limousines"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "from": "2018-10-15",
+      "to": "2018-10-22",
+      "plays": 92,
+      "album": {
+        "title": "So Long, See You Tomorrow",
+        "artist": "Bombay Bicycle Club",
+        "plays": 10,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b75fa2424e8a4766c7e8a2721d3d7fbf.png",
+        "url": "https://www.last.fm/music/Bombay+Bicycle+Club/So+Long%2C+See+You+Tomorrow"
+      },
+      "artists": [
+        {
+          "name": "Bombay Bicycle Club",
+          "plays": 10,
+          "url": "https://www.last.fm/music/Bombay+Bicycle+Club"
+        },
+        {
+          "name": "The 1975",
+          "plays": 8,
+          "url": "https://www.last.fm/music/The+1975"
+        },
+        {
+          "name": "Aminé",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Amin%C3%A9"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "from": "2017-10-15",
+      "to": "2017-10-22",
+      "plays": 15,
+      "album": {
+        "title": "22, a Million",
+        "artist": "Bon Iver",
+        "plays": 2,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/cd5a54c0665691d78477d301755d7706.jpg",
+        "url": "https://www.last.fm/music/Bon+Iver/22%2C+a+Million"
+      },
+      "artists": [
+        {
+          "name": "Bon Iver",
+          "plays": 2,
+          "url": "https://www.last.fm/music/Bon+Iver"
+        },
+        {
+          "name": "Papertwin",
+          "plays": 2,
+          "url": "https://www.last.fm/music/Papertwin"
+        },
+        {
+          "name": "BROCKHAMPTON",
+          "plays": 2,
+          "url": "https://www.last.fm/music/BROCKHAMPTON"
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "from": "2016-10-15",
+      "to": "2016-10-22",
+      "plays": 74,
+      "album": {
+        "title": "Oh My My",
+        "artist": "OneRepublic",
+        "plays": 16,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d8585efa5f75112c97af0b466861787d.jpg",
+        "url": "https://www.last.fm/music/OneRepublic/Oh+My+My"
+      },
+      "artists": [
+        {
+          "name": "OneRepublic",
+          "plays": 16,
+          "url": "https://www.last.fm/music/OneRepublic"
+        },
+        {
+          "name": "Francis and the Lights",
+          "plays": 5,
+          "url": "https://www.last.fm/music/Francis+and+the+Lights"
+        },
+        {
+          "name": "Bayonne",
+          "plays": 4,
+          "url": "https://www.last.fm/music/Bayonne"
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "from": "2015-10-15",
+      "to": "2015-10-22",
+      "plays": 112,
+      "album": {
+        "title": "Yume",
+        "artist": "Helios",
+        "plays": 10,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6e46d54d7ef6f164232867205f53a636.png",
+        "url": "https://www.last.fm/music/Helios/Yume"
+      },
+      "artists": [
+        {
+          "name": "Helios",
+          "plays": 10,
+          "url": "https://www.last.fm/music/Helios"
+        },
+        {
+          "name": "Battles",
+          "plays": 8,
+          "url": "https://www.last.fm/music/Battles"
+        },
+        {
+          "name": "Mas Ysa",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Mas+Ysa"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "from": "2014-10-15",
+      "to": "2014-10-22",
+      "plays": 201,
+      "album": {
+        "title": "Young Blood",
+        "artist": "Bea Miller",
+        "plays": 15,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a7484928ca7a426dc2211cc82ea1cc3a.png",
+        "url": "https://www.last.fm/music/Bea+Miller/Young+Blood"
+      },
+      "artists": [
+        {
+          "name": "Bea Miller",
+          "plays": 15,
+          "url": "https://www.last.fm/music/Bea+Miller"
+        },
+        {
+          "name": "Baths",
+          "plays": 15,
+          "url": "https://www.last.fm/music/Baths"
+        },
+        {
+          "name": "The Magician",
+          "plays": 13,
+          "url": "https://www.last.fm/music/The+Magician"
+        }
+      ]
+    }
+  ]
+}
