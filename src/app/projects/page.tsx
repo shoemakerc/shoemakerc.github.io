@@ -44,11 +44,11 @@ const projects: Project[] = [
   },
   {
     name: "Qt-Looper",
-    year: "2017",
-    tags: ["C++", "Qt", "MIDI"],
-    href: "https://github.com/shoemakerc/qt-looper",
+    year: "2026",
+    tags: ["TypeScript", "Web Audio", "Web MIDI"],
+    href: "/qt-looper/",
     summary:
-      "A virtual track looper for recording simple MIDI tracks and playing them back in loops. The engine is C++ built on a handful of MIDI libraries, with an interface made in Qt. Final project for CS 312: Audio Programming at Carleton.",
+      "A six-track MIDI looper. Record a phrase on any General MIDI instrument or a vintage drum machine and it becomes the loop; play five more over it, then save it as a MIDI file. It started as my 2016 final project for CS 312: Audio Programming at Carleton, in C++ and Qt.",
   },
 ];
 
