@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-// Two sources make up the shelf:
+// Three sources make up the shelf:
 //
 // - content/goodreads.json, a snapshot of the Goodreads shelves written by
 //   scripts/sync-goodreads.mjs. This is where reading gets tracked now.
@@ -9,9 +9,14 @@ import path from "node:path";
 //   the reading list before Goodreads. Format: `## Section` headings, then
 //   `* _Title_ by Author` bullets, where ~~struck~~ means read and **bold**
 //   means currently reading. Indented bullets are entries in a series.
+// - content/storygraph.json, the ratings from The StoryGraph's library export,
+//   written by scripts/import-storygraph.mjs. Ratings there go in quarter
+//   stars rather than whole ones, so they win over Goodreads' ratings.
 //
 // A book on both lists takes its details from Goodreads. A book that is only
-// on the old list still shows up, just without a cover or rating.
+// on the old list still shows up, just without a cover or a Goodreads rating.
+// The StoryGraph only adds ratings: it never changes which books there are or
+// how far along each one is.
 
 export type Status = "reading" | "paused" | "read" | "to-read" | "dnf";
 
@@ -23,7 +28,10 @@ export type Book = {
   byline: string;
   series: string | null;
   status: Status;
-  /** 1–5 stars, if rated on Goodreads. */
+  /**
+   * Out of 5 stars: The StoryGraph's rating, in quarter stars, or else the
+   * whole-star one from Goodreads.
+   */
   rating: number | null;
   /** ISO date the book was finished, if Goodreads has one. */
   dateRead: string | null;
@@ -52,6 +60,15 @@ type GoodreadsBook = {
 };
 
 type Snapshot = { profile: string; syncedAt: string; books: GoodreadsBook[] };
+
+type StoryGraphBook = {
+  title: string;
+  author: string;
+  /** 0.25–5 stars, in steps of a quarter. */
+  rating: number;
+};
+
+type StoryGraphSnapshot = { profile: string; syncedAt: string; books: StoryGraphBook[] };
 
 type ListBook = {
   title: string;
@@ -95,6 +112,40 @@ function listKey(title: string): string {
       // "The Gulag Archipelago 1918–1956" is "The Gulag Archipelago".
       .replace(/\s*\d{4}\s*[-–]\s*\d{4}$/, ""),
   );
+}
+
+/** The words of a name worth comparing: "by J.R.R. Tolkien" → ["jrr", "tolkien"]. */
+function nameWords(byline: string): string[] {
+  return byline
+    .replace(/^.*?\bby\s+/, "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .replace(/[^a-z\s]/g, "")
+    .split(/\s+/)
+    .filter((word) => word.length > 2 && word !== "and");
+}
+
+type Findable = { title: string; author: string; rating: number | null };
+
+/**
+ * Looks a book up in another site's list. Titles have to match the way two
+ * Goodreads editions do; authors only have to share a name, since the sites
+ * can spell or order names differently ("Liu Cixin", "Cixin Liu"). A list can
+ * hold more than one edition of a book, so this finds them all, rated first.
+ */
+export function bookFinder<T extends Findable>(books: T[]) {
+  const byTitle = new Map<string, T[]>();
+  const ratedFirst = [...books].sort((a, b) => Number(!!b.rating) - Number(!!a.rating));
+  for (const book of ratedFirst) {
+    const key = editionKey(book.title);
+    byTitle.set(key, [...(byTitle.get(key) ?? []), book]);
+  }
+  return (title: string, byline: string): T[] => {
+    const names = new Set(nameWords(byline));
+    const sameAuthor = (book: T) => nameWords(book.author).some((w) => names.has(w));
+    return byTitle.get(editionKey(title))?.filter(sameAuthor) ?? [];
+  };
 }
 
 function parseListEntry(raw: string): Omit<ListBook, "series"> {
@@ -153,6 +204,12 @@ function readSnapshot(): Snapshot {
   );
 }
 
+/** Null until the first StoryGraph import. */
+function readStoryGraph(): StoryGraphSnapshot | null {
+  const file = path.join(process.cwd(), "content", "storygraph.json");
+  return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : null;
+}
+
 const shelfStatus = (book: GoodreadsBook): Status =>
   book.shelf === "currently-reading"
     ? book.tags.includes("paused")
@@ -178,6 +235,8 @@ export type Library = {
   books: Book[];
   profile: string;
   syncedAt: string;
+  /** Where the finer ratings come from, once there's been a StoryGraph import. */
+  storygraph: { profile: string; syncedAt: string } | null;
 };
 
 export function getLibrary(): Library {
@@ -240,10 +299,23 @@ export function getLibrary(): Library {
     });
   }
 
+  const books = [...byKey.values()];
+  const storygraph = readStoryGraph();
+  if (storygraph) {
+    const find = bookFinder(storygraph.books);
+    for (const book of books) {
+      // Stars on the to-read list would be odd, whatever The StoryGraph says.
+      if (book.status === "to-read") continue;
+      const rating = find(book.title, book.byline)[0]?.rating;
+      if (rating) book.rating = rating;
+    }
+  }
+
   return {
-    books: [...byKey.values()],
+    books,
     profile: snapshot.profile,
     syncedAt: snapshot.syncedAt,
+    storygraph: storygraph && { profile: storygraph.profile, syncedAt: storygraph.syncedAt },
   };
 }
 
