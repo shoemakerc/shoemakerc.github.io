@@ -25,6 +25,13 @@ coverAlt: "Description of the cover"
 ---
 ```
 
+## Reading
+
+`/reading/` is built from two files:
+
+- `content/goodreads.json`, a snapshot of the [Goodreads shelves](https://www.goodreads.com/user/show/166556608), refreshed daily by `.github/workflows/sync-goodreads.yml` (which redeploys when anything changed). Run `npm run sync:goodreads` to refresh it locally.
+- `content/reading.md`, the old list from [shoemakerc/books](https://github.com/shoemakerc/books). Books on both lists use the Goodreads details; books only on the old list still show up, without a cover or rating.
+
 ## Change the playlist
 
 Edit `playlist` in `src/lib/site.ts`.

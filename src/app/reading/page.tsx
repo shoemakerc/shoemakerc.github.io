@@ -14,18 +14,25 @@ const dateFormat = new Intl.DateTimeFormat("en-US", {
   timeZone: "UTC",
 });
 
-function BookTitle({ book }: { book: Book }) {
-  return book.quoted ? <>“{book.title}”</> : <em>{book.title}</em>;
+/** Drops edition notes like "(Penguin Classics)", and with `short`, the subtitle too. */
+function displayTitle(title: string, short: boolean) {
+  const trimmed = title.replace(/\s*\([^)]*\)$/, "");
+  return short ? trimmed.split(/:\s/)[0] : trimmed;
+}
+
+function BookTitle({ book, short = false }: { book: Book; short?: boolean }) {
+  const title = displayTitle(book.title, short);
+  return book.quoted ? <>“{title}”</> : <em>{title}</em>;
 }
 
 /** The title, linked to Goodreads when the book is there. */
-function LinkedTitle({ book }: { book: Book }) {
+function LinkedTitle({ book, short }: { book: Book; short?: boolean }) {
   return book.url ? (
     <a href={book.url}>
-      <BookTitle book={book} />
+      <BookTitle book={book} short={short} />
     </a>
   ) : (
-    <BookTitle book={book} />
+    <BookTitle book={book} short={short} />
   );
 }
 
@@ -45,7 +52,7 @@ function Cover({ book }: { book: Book }) {
     <img src={book.cover} alt="" loading="lazy" decoding="async" />
   ) : (
     <span className="cover-blank" aria-hidden="true">
-      {book.title}
+      {displayTitle(book.title, true)}
     </span>
   );
   return book.url ? (
@@ -57,15 +64,14 @@ function Cover({ book }: { book: Book }) {
   );
 }
 
-function CoverCard({ book, note }: { book: Book; note?: string }) {
+function CoverCard({ book }: { book: Book }) {
   return (
     <li className="cover-card">
       <Cover book={book} />
       <span className="cover-card-title">
-        <LinkedTitle book={book} />
+        <LinkedTitle book={book} short />
       </span>
       <span className="book-byline">{book.byline}</span>
-      {note && <span className="meta">{note}</span>}
       <Stars rating={book.rating} />
     </li>
   );
@@ -154,7 +160,7 @@ export default function Reading() {
               {paused.map((book, i) => (
                 <span key={keyOf(book)}>
                   {i > 0 && " · "}
-                  <LinkedTitle book={book} />
+                  <LinkedTitle book={book} short />
                 </span>
               ))}
             </p>

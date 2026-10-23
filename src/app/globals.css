@@ -427,13 +427,14 @@ a.post-row:hover .post-row-title {
 
 .reading-stats div {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   gap: 0.25rem;
   padding-top: 0.75rem;
   border-top: 1px solid var(--ink);
 }
 
 .reading-stats dd {
+  order: -1;
   margin: 0;
   font-size: clamp(1.75rem, 4vw, 2.5rem);
   line-height: 1;
@@ -453,6 +454,17 @@ a.post-row:hover .post-row-title {
 .cover-grid-large {
   grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
   gap: 2rem 2.5rem;
+}
+
+@media (max-width: 40rem) {
+  .cover-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem 1rem;
+  }
+  .cover-grid-large {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem 1.25rem;
+  }
 }
 
 .cover-card {
@@ -483,6 +495,7 @@ a.post-row:hover .post-row-title {
   background: var(--highlight);
   box-shadow: 0 1px 2px rgb(0 0 0 / 0.08), 0 10px 24px -14px rgb(0 0 0 / 0.35);
   overflow: hidden;
+  text-decoration: none;
   transition: transform 160ms ease;
 }
 

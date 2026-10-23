@@ -67,6 +67,7 @@ function titleKey(title: string): string {
     .replace(/[̀-ͯ]/g, "")
     .replace(/\(.*?\)/g, "")
     .split(":")[0]
+    .replace(/,?\s+and other (essays|stories|writings)$/, "")
     .replace(/^(the|a|an)\s+/, "")
     .replace(/[^a-z0-9]/g, "");
 }

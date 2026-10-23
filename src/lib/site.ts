@@ -18,5 +18,6 @@ export const site = {
     { label: "Spotify", href: "https://open.spotify.com/user/someguy_886" },
     { label: "RateYourMusic", href: rateYourMusic },
     { label: "Last.fm", href: lastFm },
+    { label: "Goodreads", href: "https://www.goodreads.com/user/show/166556608" },
   ],
 };

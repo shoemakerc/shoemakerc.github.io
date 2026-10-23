@@ -1,0 +1,39 @@
+name: Sync Goodreads
+
+on:
+  schedule:
+    - cron: "17 11 * * *" # daily, early morning US time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: sync-goodreads
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - run: node scripts/sync-goodreads.mjs
+      - name: Commit snapshot and deploy if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet content/goodreads.json; then
+            echo "Shelves unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Sync Goodreads shelves"
+          git push
+          # Pushes made with the workflow token don't trigger other workflows,
+          # so start the deploy explicitly.
+          gh workflow run deploy.yml --ref master
