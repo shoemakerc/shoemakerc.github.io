@@ -73,7 +73,7 @@ A list of books I've read, am reading at the moment, or would like to read somet
 * _The Elephant Vanishes_ by Haruki Murakami
 * ~~_Kafka on the Shore_ by Haruki Murakami~~
 * _Killing Commendatore_ by Haruki Murakami
-* _Norweigan Wood_ by Haruki Murakami
+* _Norwegian Wood_ by Haruki Murakami
 * ~~_Animal Farm_ by George Orwell (reread)~~
 * ~~_My Year of Meat_ by Ruth Ozeki~~
 * _A Tale for the Time Being_ by Ruth Ozeki
