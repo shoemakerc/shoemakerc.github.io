@@ -27,10 +27,19 @@ coverAlt: "Description of the cover"
 
 ## Reading
 
-`/reading/` is built from two files:
+`/reading/` is built from three files:
 
 - `content/goodreads.json`, a snapshot of the [Goodreads shelves](https://www.goodreads.com/user/show/166556608), refreshed daily by `.github/workflows/sync-goodreads.yml` (which redeploys when anything changed). Run `npm run sync:goodreads` to refresh it locally.
-- `content/reading.md`, the old list from [shoemakerc/books](https://github.com/shoemakerc/books). Books on both lists use the Goodreads details; books only on the old list still show up, without a cover or rating.
+- `content/reading.md`, the old list from [shoemakerc/books](https://github.com/shoemakerc/books). Books on both lists use the Goodreads details; books only on the old list still show up, without a cover or Goodreads rating.
+- `content/storygraph.json`, the ratings from [The StoryGraph](https://app.thestorygraph.com/profile/shoeman27). The StoryGraph rates in quarter stars, so its ratings replace the whole-star Goodreads ones wherever both sites have the book; Goodreads still decides which books are on the page and how far along each one is.
+
+The StoryGraph has no API and turns automated visits away, so its ratings come in by hand. After rating something there, export the library from the Manage Account page and run
+
+```bash
+npm run import:storygraph -- ~/Downloads/<the export>.csv
+```
+
+then commit `content/storygraph.json`. Only titles, authors and ratings go into it, not reviews. The import also lists the books that don't line up between the two sites, shelf by shelf, for bringing The StoryGraph in line with Goodreads.
 
 The Pynchon & Wallace shelves list every book each of them published (`src/lib/authors.ts`) and color in each spine from the same Goodreads snapshot: read, currently reading, shelved as `owned`, or neither.
 
