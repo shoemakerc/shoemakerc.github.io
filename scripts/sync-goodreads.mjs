@@ -117,7 +117,14 @@ const previous = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) :
 const previousCovers = new Map(previous?.books.map((b) => [b.id, b.cover]));
 
 // Some resized covers 403, so check each one that's new since the last sync.
+// A cover saved as public/covers/<Goodreads id>.jpg replaces Goodreads' own,
+// for books whose Goodreads cover is missing or broken.
 for (const book of books) {
+  const local = `/covers/${book.id}.jpg`;
+  if (fs.existsSync(path.join(process.cwd(), "public", local))) {
+    book.cover = local;
+    continue;
+  }
   const candidates = book.cover;
   const known = previousCovers.get(book.id);
   if (known && candidates.includes(known)) {

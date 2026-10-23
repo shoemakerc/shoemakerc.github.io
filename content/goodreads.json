@@ -1,6 +1,6 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-10-23T06:26:33.480Z",
+  "syncedAt": "2026-10-23T06:50:53.668Z",
   "books": [
     {
       "id": "11",
@@ -5712,7 +5712,7 @@
       "dateAdded": "2026-06-09",
       "pages": 160,
       "year": 1958,
-      "cover": null,
+      "cover": "/covers/10533475.jpg",
       "url": "https://www.goodreads.com/book/show/10533475"
     },
     {
