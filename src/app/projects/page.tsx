@@ -32,7 +32,7 @@ const projects: Project[] = [
     tags: ["Next.js", "TypeScript"],
     href: "/coffee-calculator/",
     summary:
-      "Brew ratios, pour schedules, and a timer for pour-over, French press, AeroPress, espresso, and cold brew. Change the coffee, the water, or the number of cups and the rest follow. Saved recipes stay in your browser.",
+      "Brew ratios, pour schedules, and a timer for pour-over, French press, AeroPress, espresso, moka pot, and cold brew. Change the coffee, the water, or the number of cups and the rest follow. Saved recipes stay in your browser.",
   },
   {
     name: "Qt-Looper",
