@@ -8,6 +8,14 @@ export const metadata: Metadata = {
 
 const projects = [
   {
+    name: "Coffee Calculator",
+    year: "2026",
+    tags: ["Next.js", "TypeScript"],
+    href: "/coffee-calculator/",
+    summary:
+      "Brew ratios, pour schedules, and a timer for pour-over, French press, AeroPress, espresso, and cold brew. Change the coffee, the water, or the number of cups and the rest follow. Saved recipes stay in your browser.",
+  },
+  {
     name: "Qt-Looper",
     year: "2017",
     tags: ["C++", "Qt", "MIDI"],
@@ -31,7 +39,10 @@ export default function Projects() {
       <section className="page-intro">
         <p className="meta">Projects</p>
         <h1 className="page-title">Things I’ve built</h1>
-        <p className="lede">Mostly experiments where code meets sound.</p>
+        <p className="lede">
+          Mostly experiments where code meets sound, plus one for the morning
+          cup.
+        </p>
       </section>
       <Staff />
       <ol className="post-list">
