@@ -6,7 +6,25 @@ export const metadata: Metadata = {
   description: "Things I've built, mostly involving sound.",
 };
 
-const projects = [
+type Project = {
+  name: string;
+  year: string;
+  tags: string[];
+  summary: string;
+  /** Omit for private repos. */
+  href?: string;
+  status?: string;
+};
+
+const projects: Project[] = [
+  {
+    name: "Bong Quest",
+    year: "2026",
+    status: "In progress",
+    tags: ["TypeScript", "Phaser", "Vite"],
+    summary:
+      "A keyboard-only 2D platformer about a guy who collects bongs, each of which grants a new power. Early days: the movement and level systems are in, and the art is still placeholder rectangles.",
+  },
   {
     name: "Qt-Looper",
     year: "2017",
@@ -25,6 +43,22 @@ const projects = [
   },
 ];
 
+function ProjectRow({
+  project,
+  children,
+}: {
+  project: Project;
+  children: React.ReactNode;
+}) {
+  return project.href ? (
+    <a href={project.href} className="post-row">
+      {children}
+    </a>
+  ) : (
+    <div className="post-row">{children}</div>
+  );
+}
+
 export default function Projects() {
   return (
     <>
@@ -37,15 +71,21 @@ export default function Projects() {
       <ol className="post-list">
         {projects.map((project, i) => (
           <li key={project.name}>
-            <a href={project.href} className="post-row">
+            <ProjectRow project={project}>
               <span className="meta">{`No. ${String(i + 1).padStart(2, "0")}`}</span>
               <span className="post-row-main">
                 <span className="post-row-title">{project.name}</span>
                 <span className="post-row-excerpt">{project.summary}</span>
                 <span className="meta">{project.tags.join(" · ")}</span>
               </span>
-              <span className="meta">{project.year}</span>
-            </a>
+              <span className="meta">
+                {project.status ? (
+                  <span className="project-status">{project.status}</span>
+                ) : (
+                  project.year
+                )}
+              </span>
+            </ProjectRow>
           </li>
         ))}
       </ol>

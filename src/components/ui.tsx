@@ -42,6 +42,7 @@ export function Header() {
       <nav aria-label="Main">
         <Link href="/music/">Writing</Link>
         <Link href="/#listening">Listening</Link>
+        <Link href="/reading/">Reading</Link>
         <Link href="/projects/">Projects</Link>
         <Link href="/about/">About</Link>
       </nav>

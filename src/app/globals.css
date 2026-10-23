@@ -273,7 +273,7 @@ main {
   color: inherit;
 }
 
-.post-row:hover .post-row-title {
+a.post-row:hover .post-row-title {
   color: var(--accent);
 }
 
@@ -411,4 +411,83 @@ main {
   .article-nav-next {
     text-align: left;
   }
+}
+
+/* ---------- Reading ---------- */
+
+.reading-tally {
+  margin-top: 1.5rem;
+}
+
+.now-reading {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  gap: 1.75rem 2.5rem;
+}
+
+.now-reading li {
+  display: grid;
+  align-content: start;
+  gap: 0.35rem;
+  padding-top: 1rem;
+  border-top: 2px solid var(--accent);
+}
+
+.now-reading-title {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.book-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 2 22rem;
+  column-gap: 3rem;
+}
+
+.book {
+  break-inside: avoid;
+}
+
+.book-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--rule);
+  line-height: 1.35;
+}
+
+.book-byline {
+  color: var(--muted);
+  font-size: 0.95em;
+}
+
+.book-status {
+  flex-shrink: 0;
+  font-size: 0.6875rem;
+}
+
+.book-reading > .book-line .book-status {
+  color: var(--accent);
+}
+
+.book-series {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1.25rem;
+}
+
+.book-series .book-line {
+  font-size: 0.95em;
+}
+
+.project-status {
+  color: var(--accent);
 }
