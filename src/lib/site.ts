@@ -12,8 +12,9 @@ export const site = {
   },
   rateYourMusic,
   lastFm,
-  // Shared with the coffee calculator through /shared/site.json, along with
-  // name, url and links, so changes here reach it on its next build.
+  // Shared with the coffee calculator and the looper through /shared/site.json,
+  // along with name, url and links, so changes here reach them on their next
+  // build.
   nav: [
     { label: "Writing", path: "/music/" },
     { label: "Listening", path: "/#listening" },

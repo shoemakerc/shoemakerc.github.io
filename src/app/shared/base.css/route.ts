@@ -1,8 +1,8 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 
-// Publishes src/app/base.css at /shared/base.css so the coffee calculator can
-// pick up the same base styles at build time.
+// Publishes src/app/base.css at /shared/base.css so the coffee calculator and
+// the looper can pick up the same base styles at build time.
 export const dynamic = "force-static";
 
 export async function GET() {

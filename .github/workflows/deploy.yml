@@ -33,8 +33,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-      # The coffee calculator builds its header, footer and base styles from
-      # these two files. Note whether this deploy changes them.
+      # The coffee calculator and the looper build their header, footer and
+      # base styles from these two files. Note whether this deploy changes them.
       - id: shared
         run: |
           changed=false
@@ -57,15 +57,22 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v5
 
-  # Rebuild the coffee calculator so it picks up the new nav, links or styles.
-  # Needs a CALCULATOR_DEPLOY_TOKEN secret: a fine-grained token for
-  # shoemakerc/coffee-calculator with Actions read/write. Skipped without it.
-  calculator:
+  # Rebuild the coffee calculator and the looper so they pick up the new nav,
+  # links or styles. Needs a CALCULATOR_DEPLOY_TOKEN secret (named for the
+  # first app that used it): a fine-grained token for
+  # shoemakerc/coffee-calculator and shoemakerc/qt-looper with Actions
+  # read/write. Skipped without it.
+  apps:
     needs: [build, deploy]
     if: needs.build.outputs.shared-changed == 'true'
     runs-on: ubuntu-latest
+    strategy:
+      # One app failing to rebuild shouldn't stop the other.
+      fail-fast: false
+      matrix:
+        repo: [coffee-calculator, qt-looper]
     env:
       GH_TOKEN: ${{ secrets.CALCULATOR_DEPLOY_TOKEN }}
     steps:
       - if: env.GH_TOKEN != ''
-        run: gh workflow run deploy.yml --repo shoemakerc/coffee-calculator --ref master
+        run: gh workflow run deploy.yml --repo shoemakerc/${{ matrix.repo }} --ref master

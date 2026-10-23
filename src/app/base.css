@@ -1,8 +1,8 @@
 /*
- * Base styles shared with the coffee calculator (shoemakerc/coffee-calculator).
- * The build publishes this file at /shared/base.css and the calculator pulls
- * it in at build time, so anything here shows up on both. Site-only styles
- * go in globals.css.
+ * Base styles shared with the coffee calculator (shoemakerc/coffee-calculator)
+ * and the looper (shoemakerc/qt-looper). The build publishes this file at
+ * /shared/base.css and both pull it in at build time, so anything here shows
+ * up on all three. Site-only styles go in globals.css.
  */
 
 :root {
