@@ -1,6 +1,6 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-10-23T05:41:59.415Z",
+  "syncedAt": "2026-10-23T06:26:33.480Z",
   "books": [
     {
       "id": "11",
@@ -33,6 +33,22 @@
       "year": 1955,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566425108l/33._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/33"
+    },
+    {
+      "id": "110",
+      "title": "The Road to Dune",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Frank Herbert",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 426,
+      "year": 2005,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388428492l/110._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/110"
     },
     {
       "id": "264",
@@ -223,6 +239,22 @@
       "url": "https://www.goodreads.com/book/show/421"
     },
     {
+      "id": "656",
+      "title": "War and Peace",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Leo Tolstoy",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 1392,
+      "year": 1868,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413215930l/656._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/656"
+    },
+    {
       "id": "667",
       "title": "Anthem",
       "series": null,
@@ -253,6 +285,22 @@
       "year": 1999,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/816"
+    },
+    {
+      "id": "840",
+      "title": "The Design of Everyday Things",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Donald A. Norman",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 257,
+      "year": 1988,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442460745l/840._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/840"
     },
     {
       "id": "890",
@@ -1251,6 +1299,22 @@
       "url": "https://www.goodreads.com/book/show/7820"
     },
     {
+      "id": "9555",
+      "title": "The Elephant Vanishes",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Haruki Murakami",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 327,
+      "year": 1993,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1642991320l/9555._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/9555"
+    },
+    {
       "id": "9597",
       "title": "Player Piano",
       "series": null,
@@ -1317,6 +1381,22 @@
       "url": "https://www.goodreads.com/book/show/10210"
     },
     {
+      "id": "10534",
+      "title": "The Art of War",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Sun Tzu",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 170,
+      "year": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630683326l/10534._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/10534"
+    },
+    {
       "id": "11229",
       "title": "The Sea, the Sea",
       "series": null,
@@ -1363,6 +1443,22 @@
       "year": 1987,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713542603l/11297._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/11297"
+    },
+    {
+      "id": "11299",
+      "title": "After the Quake",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Haruki Murakami",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 147,
+      "year": 2000,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388271916l/11299._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/11299"
     },
     {
       "id": "11378",
@@ -1427,6 +1523,22 @@
       "year": 1947,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1503362434l/11989._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/11989"
+    },
+    {
+      "id": "11990",
+      "title": "The Rebel: An Essay on Man in Revolt",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Albert Camus",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 318,
+      "year": 1951,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547122397l/11990._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/11990"
     },
     {
       "id": "11991",
@@ -1769,6 +1881,38 @@
       "url": "https://www.goodreads.com/book/show/16981"
     },
     {
+      "id": "17698",
+      "title": "The Cossacks",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Leo Tolstoy",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 161,
+      "year": 1863,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320406903l/17698._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/17698"
+    },
+    {
+      "id": "17800",
+      "title": "Dance Dance Dance",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Haruki Murakami",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 393,
+      "year": 1988,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1514582521l/17800._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/17800"
+    },
+    {
       "id": "17803",
       "title": "After Dark",
       "series": null,
@@ -1849,6 +1993,22 @@
       "url": "https://www.goodreads.com/book/show/18414"
     },
     {
+      "id": "18736",
+      "title": "Going to Pieces without Falling Apart: A Buddhist Perspective on Wholeness",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Mark Epstein",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 200,
+      "year": 1998,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403174011l/18736._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/18736"
+    },
+    {
       "id": "18825",
       "title": "Money",
       "series": null,
@@ -1879,6 +2039,22 @@
       "year": 1759,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345060082l/19380._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/19380"
+    },
+    {
+      "id": "19506",
+      "title": "The World as Will and Representation, Volume I",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Arthur Schopenhauer",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 534,
+      "year": 1818,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924341l/19506._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/19506"
     },
     {
       "id": "22200",
@@ -2322,6 +2498,22 @@
       "url": "https://www.goodreads.com/book/show/38169"
     },
     {
+      "id": "38315",
+      "title": "Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets (Incerto)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Nassim Nicholas Taleb",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 368,
+      "year": 2001,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388180506l/38315._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/38315"
+    },
+    {
       "id": "38412",
       "title": "Fermat's Enigma",
       "series": null,
@@ -2432,6 +2624,22 @@
       "year": 1969,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663597516l/43945._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/43945"
+    },
+    {
+      "id": "45876",
+      "title": "Psychotherapy East and West",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Alan W. Watts",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 196,
+      "year": 1961,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390194257l/45876._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/45876"
     },
     {
       "id": "48335",
@@ -2680,6 +2888,22 @@
       "url": "https://www.goodreads.com/book/show/59721"
     },
     {
+      "id": "60551",
+      "title": "The Book: On the Taboo Against Knowing Who You Are",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Alan W. Watts",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 163,
+      "year": 1966,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403166178l/60551._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/60551"
+    },
+    {
       "id": "60930",
       "title": "Bloodchild and Other Stories",
       "series": null,
@@ -2712,6 +2936,22 @@
       "url": "https://www.goodreads.com/book/show/62446"
     },
     {
+      "id": "62794",
+      "title": "Confessions of a Mask",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Yukio Mishima",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 224,
+      "year": 1949,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441790556l/62794._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/62794"
+    },
+    {
       "id": "62798",
       "title": "The Temple of the Golden Pavilion",
       "series": null,
@@ -2726,6 +2966,22 @@
       "year": 1956,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342696904l/62798._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/62798"
+    },
+    {
+      "id": "62804",
+      "title": "Sun & Steel",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Yukio Mishima",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 108,
+      "year": 1968,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388355908l/62804._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/62804"
     },
     {
       "id": "63697",
@@ -2758,6 +3014,38 @@
       "year": 1987,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327941595l/64582._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/64582"
+    },
+    {
+      "id": "66354",
+      "title": "Flow: The Psychology of Optimal Experience",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Mihály Csíkszentmihályi",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 303,
+      "year": 1990,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1748892272l/66354._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/66354"
+    },
+    {
+      "id": "67896",
+      "title": "Tao Te Ching",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Lao Tzu",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 107,
+      "year": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333578861l/67896._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/67896"
     },
     {
       "id": "68210",
@@ -2872,6 +3160,22 @@
       "year": 1968,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432468943l/70535._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/70535"
+    },
+    {
+      "id": "70561",
+      "title": "The Gulag Archipelago 1918–1956 (Abridged)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Aleksandr Solzhenitsyn",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 512,
+      "year": 1973,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388293026l/70561._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/70561"
     },
     {
       "id": "71552",
@@ -3232,6 +3536,22 @@
       "url": "https://www.goodreads.com/book/show/95558"
     },
     {
+      "id": "101157",
+      "title": "Sexual Personae: Art and Decadence from Nefertiti to Emily Dickinson (Yale Nota Bene)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Camille Paglia",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 736,
+      "year": 1990,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171476565l/101157._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/101157"
+    },
+    {
       "id": "102908",
       "title": "Beautiful Losers",
       "series": null,
@@ -3556,6 +3876,22 @@
       "url": "https://www.goodreads.com/book/show/194746"
     },
     {
+      "id": "196329",
+      "title": "Tao: The Watercourse Way",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Alan W. Watts",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 160,
+      "year": 1975,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1369100144l/196329._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/196329"
+    },
+    {
       "id": "209574",
       "title": "The Heart of the Buddha's Teaching: Transforming Suffering into Peace, Joy, and Liberation",
       "series": null,
@@ -3570,6 +3906,22 @@
       "year": 1998,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360857814l/209574._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/209574"
+    },
+    {
+      "id": "209576",
+      "title": "In the Buddha's Words: An Anthology of Discourses from the Pali Canon (The Teachings of the Buddha)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Venerable Bhikkhu Bodhi",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 486,
+      "year": 2005,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428915308l/209576._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/209576"
     },
     {
       "id": "209577",
@@ -3684,6 +4036,22 @@
       "year": 1987,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328126537l/239404._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/239404"
+    },
+    {
+      "id": "242472",
+      "title": "The Black Swan: The Impact of the Highly Improbable",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Nassim Nicholas Taleb",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 480,
+      "year": 2007,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714172313l/242472._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/242472"
     },
     {
       "id": "272642",
@@ -4044,6 +4412,22 @@
       "url": "https://www.goodreads.com/book/show/441200"
     },
     {
+      "id": "463500",
+      "title": "The Bhagavad Gita",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Krishna-Dwaipayana Vyasa",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 234,
+      "year": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710806858l/463500._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/463500"
+    },
+    {
       "id": "469571",
       "title": "All the Pretty Horses",
       "series": "The Border Trilogy",
@@ -4078,6 +4462,54 @@
       "url": "https://www.goodreads.com/book/show/485894"
     },
     {
+      "id": "499653",
+      "title": "Judge Dee at Work: Eight Chinese Detective Stories",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Robert van Gulik",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 184,
+      "year": 1967,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345486299l/499653._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/499653"
+    },
+    {
+      "id": "514210",
+      "title": "The Way of Zen",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Alan W. Watts",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 236,
+      "year": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348297121l/514210._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/514210"
+    },
+    {
+      "id": "523494",
+      "title": "Beethoven: The Composer as Hero",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Philippe A. Autexier",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 143,
+      "year": 1976,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1175527065l/523494._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/523494"
+    },
+    {
       "id": "525461",
       "title": "The Looming Tower: Al Qaeda and the Road to 9/11",
       "series": null,
@@ -4110,6 +4542,54 @@
       "year": 1996,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1175565523l/530415._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/530415"
+    },
+    {
+      "id": "534307",
+      "title": "MW",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Osamu Tezuka",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 582,
+      "year": 1976,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328042079l/534307._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/534307"
+    },
+    {
+      "id": "534309",
+      "title": "Black Jack, Vol. 1",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Osamu Tezuka",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 184,
+      "year": 1974,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1175607723l/534309._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/534309"
+    },
+    {
+      "id": "536387",
+      "title": "The Flowers of Evil",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Charles Baudelaire",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 464,
+      "year": 1857,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1756677317l/536387._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/536387"
     },
     {
       "id": "551520",
@@ -4212,6 +4692,22 @@
       "url": "https://www.goodreads.com/book/show/625094"
     },
     {
+      "id": "646453",
+      "title": "The History of Alexander",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Quintus Curtius Rufus",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 352,
+      "year": 50,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1791659060l/646453._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/646453"
+    },
+    {
       "id": "716381",
       "title": "Strait is the Gate",
       "series": null,
@@ -4280,6 +4776,22 @@
       "year": 1946,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344664360l/822361._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/822361"
+    },
+    {
+      "id": "832225",
+      "title": "Eyeshield 21, Vol. 1: The Boy With the Golden Legs",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Riichiro Inagaki",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 208,
+      "year": 2002,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348699441l/832225._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/832225"
     },
     {
       "id": "981522",
@@ -4384,6 +4896,22 @@
       "url": "https://www.goodreads.com/book/show/1297985"
     },
     {
+      "id": "1311355",
+      "title": "Slam Dunk, Vol. 1",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Takehiko Inoue",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 192,
+      "year": 1991,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330196571l/1311355._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1311355"
+    },
+    {
       "id": "1542752",
       "title": "The Short-Timers",
       "series": null,
@@ -4398,6 +4926,38 @@
       "year": 1979,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328232441l/1542752._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/1542752"
+    },
+    {
+      "id": "1681741",
+      "title": "Phoenix, Vol. 1: Dawn",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Osamu Tezuka",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 344,
+      "year": 1967,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348905227l/1681741._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1681741"
+    },
+    {
+      "id": "1725523",
+      "title": "PLUTO: Naoki Urasawa x Ozamu Tezuka, Vol.1",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Naoki Urasawa",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 192,
+      "year": 2004,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1187433885l/1725523._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1725523"
     },
     {
       "id": "1772910",
@@ -4514,6 +5074,38 @@
       "year": 1927,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405478013l/2419393._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/2419393"
+    },
+    {
+      "id": "2429135",
+      "title": "The Girl With the Dragon Tattoo",
+      "series": "Millennium",
+      "seriesNumber": "1",
+      "author": "Stieg Larsson",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 480,
+      "year": 2005,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684638853l/2429135._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/2429135"
+    },
+    {
+      "id": "2475251",
+      "title": "The Cellist of Sarajevo",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Steven Galloway",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 235,
+      "year": 2008,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442797420l/2475251._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/2475251"
     },
     {
       "id": "2786094",
@@ -4644,6 +5236,22 @@
       "year": 2009,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364258693l/4957350._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/4957350"
+    },
+    {
+      "id": "5060378",
+      "title": "The Girl Who Played with Fire",
+      "series": "Millennium",
+      "seriesNumber": "2",
+      "author": "Stieg Larsson",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 503,
+      "year": 2006,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351778881l/5060378._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/5060378"
     },
     {
       "id": "5933841",
@@ -4782,6 +5390,22 @@
       "url": "https://www.goodreads.com/book/show/6577631"
     },
     {
+      "id": "6617037",
+      "title": "Debt: The First 5,000 Years",
+      "series": null,
+      "seriesNumber": null,
+      "author": "David Graeber",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 534,
+      "year": 2011,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1728517587l/6617037._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/6617037"
+    },
+    {
       "id": "6658129",
       "title": "Tokyo Vice: An American Reporter on the Police Beat in Japan",
       "series": null,
@@ -4812,6 +5436,22 @@
       "year": 2009,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1732718088l/6763725._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/6763725"
+    },
+    {
+      "id": "6892870",
+      "title": "The Girl Who Kicked the Hornet’s Nest",
+      "series": "Millennium",
+      "seriesNumber": "3",
+      "author": "Stieg Larsson",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 576,
+      "year": 2007,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327708260l/6892870._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/6892870"
     },
     {
       "id": "7897556",
@@ -4928,6 +5568,22 @@
       "year": 2011,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454428541l/9118135._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/9118135"
+    },
+    {
+      "id": "9402297",
+      "title": "The Bed of Procrustes: Philosophical and Practical Aphorisms",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Nassim Nicholas Taleb",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 112,
+      "year": 2010,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665067245l/9402297._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/9402297"
     },
     {
       "id": "9443405",
@@ -5126,6 +5782,22 @@
       "url": "https://www.goodreads.com/book/show/10875089"
     },
     {
+      "id": "11084145",
+      "title": "Steve Jobs",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Walter Isaacson",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 630,
+      "year": 2011,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511288482l/11084145._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/11084145"
+    },
+    {
       "id": "11870085",
       "title": "The Fault in Our Stars",
       "series": null,
@@ -5236,6 +5908,22 @@
       "year": 1963,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383718290l/13079982._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/13079982"
+    },
+    {
+      "id": "13316815",
+      "title": "The First and Last Freedom",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Jiddu Krishnamurti",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 290,
+      "year": 1954,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394260193l/13316815._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/13316815"
     },
     {
       "id": "13530973",
@@ -5366,6 +6054,22 @@
       "year": 2013,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364852559l/16085481._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/16085481"
+    },
+    {
+      "id": "16158591",
+      "title": "The Trauma of Everyday Life",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Mark Epstein",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 240,
+      "year": 2013,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356195332l/16158591._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/16158591"
     },
     {
       "id": "16241799",
@@ -5516,6 +6220,22 @@
       "url": "https://www.goodreads.com/book/show/18453218"
     },
     {
+      "id": "18453268",
+      "title": "Stronger",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Jeff Bauman",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 256,
+      "year": 2014,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403175123l/18453268._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/18453268"
+    },
+    {
       "id": "18465509",
       "title": "The Birth of Korean Cool: How One Nation is Conquering the World Through Pop Culture",
       "series": null,
@@ -5582,6 +6302,38 @@
       "year": 2012,
       "cover": null,
       "url": "https://www.goodreads.com/book/show/18932432"
+    },
+    {
+      "id": "19087989",
+      "title": "Vinland Saga Omnibus, Vol. 1",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Makoto Yukimura",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 460,
+      "year": 2013,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623122286l/19087989._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/19087989"
+    },
+    {
+      "id": "19279571",
+      "title": "Vagabond, vol. 1",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Takehiko Inoue",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 260,
+      "year": 1999,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386478043l/19279571._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/19279571"
     },
     {
       "id": "19520499",
@@ -5764,6 +6516,22 @@
       "url": "https://www.goodreads.com/book/show/21054576"
     },
     {
+      "id": "21563974",
+      "title": "The World Atlas of Coffee: From Beans to Brewing",
+      "series": null,
+      "seriesNumber": null,
+      "author": "James Hoffmann",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 256,
+      "year": 2014,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403197222l/21563974._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/21563974"
+    },
+    {
       "id": "21853621",
       "title": "The Nightingale",
       "series": null,
@@ -5778,6 +6546,22 @@
       "year": 2015,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681839850l/21853621._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/21853621"
+    },
+    {
+      "id": "21856367",
+      "title": "The Innovators: How a Group of Hackers, Geniuses and Geeks Created the Digital Revolution",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Walter Isaacson",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 542,
+      "year": 2014,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410191571l/21856367._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/21856367"
     },
     {
       "id": "22237171",
@@ -5990,11 +6774,11 @@
       "series": null,
       "seriesNumber": null,
       "author": "Makoto Yukimura",
-      "shelf": "read",
+      "shelf": "to-read",
       "tags": [],
       "rating": 4,
       "dateRead": "2023-01-01",
-      "dateAdded": "2024-04-10",
+      "dateAdded": "2026-10-23",
       "pages": 528,
       "year": 1999,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437058339l/25241923._SY300_.jpg",
@@ -6035,6 +6819,22 @@
       "url": "https://www.goodreads.com/book/show/25490360"
     },
     {
+      "id": "25499919",
+      "title": "Why Do Men Stupefy Themselves",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Leo Tolstoy",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 164,
+      "year": 1890,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431016819l/25499919._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/25499919"
+    },
+    {
       "id": "25744928",
       "title": "Deep Work: Rules for Focused Success in a Distracted World",
       "series": null,
@@ -6051,6 +6851,22 @@
       "url": "https://www.goodreads.com/book/show/25744928"
     },
     {
+      "id": "25776606",
+      "title": "Journey to Munich",
+      "series": "Maisie Dobbs",
+      "seriesNumber": "12",
+      "author": "Jacqueline Winspear",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 233,
+      "year": 2016,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448215544l/25776606._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/25776606"
+    },
+    {
       "id": "25816741",
       "title": "Meet Me in the Bathroom: Rebirth and Rock and Roll in New York City 2001-2011",
       "series": null,
@@ -6065,6 +6881,22 @@
       "year": 2017,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492870833l/25816741._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/25816741"
+    },
+    {
+      "id": "25953369",
+      "title": "Hidden Figures",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Margot Lee Shetterly",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 349,
+      "year": 2016,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464022031l/25953369._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/25953369"
     },
     {
       "id": "26067689",
@@ -6129,6 +6961,22 @@
       "year": 2010,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446581171l/26889576._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/26889576"
+    },
+    {
+      "id": "27161156",
+      "title": "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis",
+      "series": null,
+      "seriesNumber": null,
+      "author": "J.D. Vance",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 264,
+      "year": 2016,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463569814l/27161156._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/27161156"
     },
     {
       "id": "27209433",
@@ -6229,6 +7077,22 @@
       "url": "https://www.goodreads.com/book/show/29496076"
     },
     {
+      "id": "29845449",
+      "title": "The Weird and the Eerie",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Mark Fisher",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 134,
+      "year": 2016,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460911059l/29845449._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/29845449"
+    },
+    {
       "id": "30079724",
       "title": "Homesick for Another World",
       "series": null,
@@ -6277,6 +7141,86 @@
       "year": 2018,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1512705866l/30257963._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/30257963"
+    },
+    {
+      "id": "30555488",
+      "title": "The Underground Railroad",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Colson Whitehead",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 306,
+      "year": 2016,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493178362l/30555488._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/30555488"
+    },
+    {
+      "id": "31170723",
+      "title": "Behave: The Biology of Humans at Our Best and Worst",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Robert M. Sapolsky",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 790,
+      "year": 2017,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517732866l/31170723._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/31170723"
+    },
+    {
+      "id": "32722510",
+      "title": "The Zookeeper's Wife: A War Story",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Diane Ackerman",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 368,
+      "year": 2007,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480717162l/32722510._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/32722510"
+    },
+    {
+      "id": "32830355",
+      "title": "Isonomia and the Origins of Philosophy",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Kōjin Karatani",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 176,
+      "year": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493507262l/32830355._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/32830355"
+    },
+    {
+      "id": "32919052",
+      "title": "Golden Kamuy, Vol. 1",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Satoru Noda",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 192,
+      "year": 2015,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488107091l/32919052._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/32919052"
     },
     {
       "id": "32929156",
@@ -6331,6 +7275,54 @@
       "year": 2017,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481084931l/33155369._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/33155369"
+    },
+    {
+      "id": "34196063",
+      "title": "The Know-it-alls: The Rise of Silicon Valley as a Political Powerhouse and Social Wrecking Ball",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Noam  Cohen",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 224,
+      "year": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500758827l/34196063._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/34196063"
+    },
+    {
+      "id": "34466958",
+      "title": "Bullshit Jobs: A Theory",
+      "series": null,
+      "seriesNumber": null,
+      "author": "David Graeber",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 335,
+      "year": 2018,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523865380l/34466958._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/34466958"
+    },
+    {
+      "id": "34555335",
+      "title": "Hiddensee: A Tale of the Once and Future Nutcracker",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Gregory Maguire",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 304,
+      "year": 2017,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494431478l/34555335._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/34555335"
     },
     {
       "id": "34848070",
@@ -6415,6 +7407,22 @@
       "url": "https://www.goodreads.com/book/show/35886439"
     },
     {
+      "id": "36064445",
+      "title": "Skin in the Game: The Hidden Asymmetries in Daily Life",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Nassim Nicholas Taleb",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 272,
+      "year": 2018,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510319798l/36064445._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/36064445"
+    },
+    {
       "id": "36070337",
       "title": "Swing Time",
       "series": null,
@@ -6431,6 +7439,38 @@
       "year": 2016,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617578030l/36070337._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/36070337"
+    },
+    {
+      "id": "36289256",
+      "title": "Everybody, Always: Becoming Love in a World Full of Setbacks and Difficult People",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Bob       Goff",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 240,
+      "year": 2018,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518673735l/36289256._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/36289256"
+    },
+    {
+      "id": "36303302",
+      "title": "Francis of the Filth",
+      "series": null,
+      "seriesNumber": null,
+      "author": "George Miller",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 256,
+      "year": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506362299l/36303302._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/36303302"
     },
     {
       "id": "36373497",
@@ -6517,6 +7557,38 @@
       "url": "https://www.goodreads.com/book/show/37647493"
     },
     {
+      "id": "37901607",
+      "title": "Black Klansman: A Memoir",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Ron Stallworth",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 191,
+      "year": 2014,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522357130l/37901607._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/37901607"
+    },
+    {
+      "id": "37903770",
+      "title": "Norse Mythology",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Neil Gaiman",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 301,
+      "year": 2017,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516128292l/37903770._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/37903770"
+    },
+    {
       "id": "37976541",
       "title": "Bad Blood: Secrets and Lies in a Silicon Valley Startup",
       "series": null,
@@ -6549,6 +7621,22 @@
       "year": 1978,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519082992l/38212112._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/38212112"
+    },
+    {
+      "id": "38532183",
+      "title": "How to Be Alone: If You Want To, and Even If You Don't",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Lane Moore",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 224,
+      "year": 2018,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538302550l/38532183._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/38532183"
     },
     {
       "id": "38820047",
@@ -6631,6 +7719,22 @@
       "url": "https://www.goodreads.com/book/show/40121985"
     },
     {
+      "id": "40672036",
+      "title": "Digital Minimalism: Choosing a Focused Life in a Noisy World",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Cal Newport",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 302,
+      "year": 2019,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549433350l/40672036._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/40672036"
+    },
+    {
       "id": "40718304",
       "title": "Bonfire",
       "series": null,
@@ -6645,6 +7749,22 @@
       "year": 2017,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1530714599l/40718304._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/40718304"
+    },
+    {
+      "id": "40940205",
+      "title": "Tribe: On Homecoming and Belonging",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Sebastian Junger",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 182,
+      "year": 2016,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532479315l/40940205._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/40940205"
     },
     {
       "id": "41022133",
@@ -6921,6 +8041,22 @@
       "year": 1984,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564027750l/44492287._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/44492287"
+    },
+    {
+      "id": "44716583",
+      "title": "The Art of Living: Peace and Freedom in the Here and Now",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Thich Nhat Hanh",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": null,
+      "year": 2017,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554137963l/44716583._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/44716583"
     },
     {
       "id": "44767458",
@@ -7313,6 +8449,22 @@
       "year": null,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611556328l/56269147._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/56269147"
+    },
+    {
+      "id": "56269264",
+      "title": "The Dawn of Everything: A New History of Humanity",
+      "series": null,
+      "seriesNumber": null,
+      "author": "David Graeber",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 692,
+      "year": 2021,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1717101866l/56269264._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/56269264"
     },
     {
       "id": "56823192",

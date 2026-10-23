@@ -19,7 +19,7 @@ A list of books I've read, am reading at the moment, or would like to read somet
 * ~~_Moonglow_ by Michael Chabon~~
 * _Telegraph Avenue_ by Michael Chabon (reread)
 * _The Yiddish Policemen's Union_ by Michael Chabon
-* _La Princesse de Clèves_ by Madame de La Fayette
+* _The Princess of Clèves_ by Madame de La Fayette
 * _Do Androids Dream of Electric Sheep?_ by Philip K. Dick
 * **_The Man in the High Castle_ by Philip K. Dick**
 * _The Brothers Karamazov_ by Fyodor Dostoevsky
@@ -75,7 +75,7 @@ A list of books I've read, am reading at the moment, or would like to read somet
 * _Killing Commendatore_ by Haruki Murakami
 * _Norwegian Wood_ by Haruki Murakami
 * ~~_Animal Farm_ by George Orwell (reread)~~
-* ~~_My Year of Meat_ by Ruth Ozeki~~
+* ~~_My Year of Meats_ by Ruth Ozeki~~
 * _A Tale for the Time Being_ by Ruth Ozeki
 * ~~_Commonwealth_ by Ann Patchett~~
 * ~~_State of Wonder_ by Ann Patchett~~
@@ -131,7 +131,7 @@ A list of books I've read, am reading at the moment, or would like to read somet
 * _The Burnout Society_ by Byung-Chul Han
 * _The Palliative Society: Pain Today_ by Byung-Chul Han
 * _The Art of Living: Peace and Freedom in the Here and Now_ by Thich Nhat Hanh
-* ~~_The Heart of Buddha's Teaching_ by Thich Nhat Hanh~~
+* ~~_The Heart of the Buddha's Teaching_ by Thich Nhat Hanh~~
 * ~~_Empire of Illusion: The End of Literacy and the Triumph of the Spectacle_ by Chris Hedges~~
 * ~~_The World Atlas of Coffee_ by James Hoffmann~~
 * _The Innovators_ by Walter Isaacson

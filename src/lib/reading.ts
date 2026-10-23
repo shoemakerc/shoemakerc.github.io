@@ -59,17 +59,40 @@ type ListBook = {
   status: "read" | "reading" | "unread";
 };
 
-/** A loose key for matching the same book across both lists. */
-function titleKey(title: string): string {
+/** The title without accents, subtitle or edition notes, in lowercase. */
+function plainTitle(title: string): string {
   return title
     .toLowerCase()
     .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
+    .replace(/\p{Diacritic}/gu, "")
+    .replace(/&/g, " and ")
     .replace(/\(.*?\)/g, "")
     .split(":")[0]
-    .replace(/,?\s+and other (essays|stories|writings)$/, "")
-    .replace(/^(the|a|an)\s+/, "")
-    .replace(/[^a-z0-9]/g, "");
+    .trim()
+    .replace(/,?\s+and other (essays|stories|writings)$/, "");
+}
+
+const squash = (title: string) =>
+  title.replace(/^(the|a|an)\s+/, "").replace(/[^a-z0-9]/g, "");
+
+/** Matches two editions of the same book, but keeps volumes of a series apart. */
+function editionKey(title: string): string {
+  return squash(plainTitle(title));
+}
+
+/**
+ * Matches an old-list entry to Goodreads, where the old list often names a
+ * series or a work that Goodreads has by volume or by edition.
+ */
+function listKey(title: string): string {
+  return squash(
+    plainTitle(title)
+      // "Eyeshield 21, Vol. 1" and "Planetes Omnibus, Volume 2" belong to the series.
+      .replace(/,?\s*vol(ume)?\.?\s*(\d+|[ivx]+)$/, "")
+      .replace(/\s+omnibus$/, "")
+      // "The Gulag Archipelago 1918–1956" is "The Gulag Archipelago".
+      .replace(/\s*\d{4}\s*[-–]\s*\d{4}$/, ""),
+  );
 }
 
 function parseListEntry(raw: string): Omit<ListBook, "series"> {
@@ -160,7 +183,7 @@ export function getLibrary(): Library {
   const byKey = new Map<string, Book>();
 
   for (const gr of snapshot.books) {
-    const key = titleKey(gr.title);
+    const key = editionKey(gr.title);
     const book: Book = {
       title: gr.title,
       quoted: false,
@@ -180,15 +203,23 @@ export function getLibrary(): Library {
     }
   }
 
+  const byListKey = new Map<string, Book[]>();
+  for (const book of byKey.values()) {
+    const key = listKey(book.title);
+    byListKey.set(key, [...(byListKey.get(key) ?? []), book]);
+  }
+
   for (const item of readList()) {
-    const key = titleKey(item.title);
-    const match = byKey.get(key);
-    if (match) {
+    const key = listKey(item.title);
+    const matches = byListKey.get(key);
+    if (matches) {
       // Once read, always read, even if Goodreads has it back on to-read.
-      if (item.status === "read" && match.status === "to-read") match.status = "read";
+      for (const match of matches) {
+        if (item.status === "read" && match.status === "to-read") match.status = "read";
+      }
       continue;
     }
-    byKey.set(key, {
+    byKey.set(`list:${key}`, {
       title: item.title,
       quoted: item.quoted,
       byline: item.byline,

@@ -82,7 +82,10 @@ function parseItem(item, shelf) {
 async function fetchShelf(shelf) {
   const books = [];
   for (let page = 1; page <= MAX_PAGES; page++) {
-    const url = `https://www.goodreads.com/review/list_rss/${USER_ID}?shelf=${shelf}&page=${page}`;
+    // The unsorted feed can lag behind by days, and sorting by date added
+    // reshuffles books added at the same moment between pages. Sorting by
+    // title is both current and stable.
+    const url = `https://www.goodreads.com/review/list_rss/${USER_ID}?shelf=${shelf}&sort=title&order=a&page=${page}`;
     const res = await fetch(url, { headers: { "User-Agent": "shoemakerc.github.io reading sync" } });
     if (!res.ok) throw new Error(`${url} → HTTP ${res.status}`);
     const xml = await res.text();
@@ -98,7 +101,9 @@ async function fetchShelf(shelf) {
 const byId = new Map();
 for (const shelf of SHELVES) {
   const books = await fetchShelf(shelf);
-  console.log(`${shelf}: ${books.length}`);
+  const unique = new Set(books.map((b) => b.id)).size;
+  console.log(`${shelf}: ${unique}`);
+  if (unique < books.length) console.warn(`  ${books.length - unique} repeated across pages`);
   for (const book of books) if (!byId.has(book.id)) byId.set(book.id, book);
 }
 
