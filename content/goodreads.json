@@ -1,6 +1,6 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-10-23T06:50:53.668Z",
+  "syncedAt": "2026-10-23T06:59:36.151Z",
   "books": [
     {
       "id": "11",
@@ -4990,7 +4990,7 @@
       "dateAdded": "2026-03-16",
       "pages": 170,
       "year": 1678,
-      "cover": null,
+      "cover": "/covers/1979250.jpg",
       "url": "https://www.goodreads.com/book/show/1979250"
     },
     {
@@ -6118,7 +6118,7 @@
       "dateAdded": "2026-06-24",
       "pages": 224,
       "year": 1947,
-      "cover": null,
+      "cover": "/covers/17489103.jpg",
       "url": "https://www.goodreads.com/book/show/17489103"
     },
     {
@@ -6300,7 +6300,7 @@
       "dateAdded": "2025-08-19",
       "pages": 388,
       "year": 2012,
-      "cover": null,
+      "cover": "/covers/18932432.jpg",
       "url": "https://www.goodreads.com/book/show/18932432"
     },
     {
@@ -6645,7 +6645,7 @@
       "dateAdded": "2026-09-01",
       "pages": 15,
       "year": null,
-      "cover": null,
+      "cover": "/covers/23128334.jpg",
       "url": "https://www.goodreads.com/book/show/23128334"
     },
     {
