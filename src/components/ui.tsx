@@ -103,7 +103,8 @@ export function Listening() {
           </p>
           <p className="lede-small listening-more">
             Ratings and reviews of everything else live on{" "}
-            <a href={site.rateYourMusic}>RateYourMusic</a>.
+            <a href={site.rateYourMusic}>RateYourMusic</a>, and every play gets
+            logged on <a href={site.lastFm}>Last.fm</a>.
           </p>
         </div>
         <iframe
