@@ -1,27 +1,27 @@
 {
-  "syncedAt": "2026-10-23T15:28:10.044Z",
+  "syncedAt": "2026-10-24T14:07:26.699Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66501,
+  "totalPlays": 66506,
   "lastTrack": {
-    "name": "Giraffe",
-    "artist": "Gilla Band",
-    "album": "Pugnello",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
-    "url": "https://www.last.fm/music/Gilla+Band/_/Giraffe",
-    "playedAt": 1792533076000
+    "name": "Flame - Roosevelt Remix",
+    "artist": "Sundara Karma",
+    "album": "Flame (Roosevelt Remix)",
+    "image": null,
+    "url": "https://www.last.fm/music/Sundara+Karma/_/Flame+-+Roosevelt+Remix",
+    "playedAt": 1792814741000
   },
   "month": {
     "label": "October 2026",
     "partial": true,
     "from": "2026-10-01",
-    "to": "2026-10-23",
-    "plays": 218,
-    "artistCount": 104,
+    "to": "2026-10-24",
+    "plays": 223,
+    "artistCount": 107,
     "artists": [
       {
         "name": "Gilla Band",
-        "plays": 25,
+        "plays": 26,
         "url": "https://www.last.fm/music/Gilla+Band"
       },
       {
@@ -49,7 +49,7 @@
       {
         "title": "Pugnello",
         "artist": "Gilla Band",
-        "plays": 23,
+        "plays": 24,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
         "url": "https://www.last.fm/music/Gilla+Band/Pugnello"
       },
@@ -79,25 +79,25 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-10-16",
-      "to": "2025-10-23",
-      "plays": 85,
+      "from": "2025-10-17",
+      "to": "2025-10-24",
+      "plays": 105,
       "album": {
         "title": "Aspect",
         "artist": "Seventeen Years Old and Berlin Wall",
-        "plays": 6,
+        "plays": 10,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/394c15d9e5e1f4144a1804e97d7160f0.jpg",
         "url": "https://www.last.fm/music/Seventeen+Years+Old+and+Berlin+Wall/Aspect"
       },
       "artists": [
         {
           "name": "Seventeen Years Old and Berlin Wall",
-          "plays": 7,
+          "plays": 11,
           "url": "https://www.last.fm/music/Seventeen+Years+Old+and+Berlin+Wall"
         },
         {
           "name": "Kyuss",
-          "plays": 6,
+          "plays": 7,
           "url": "https://www.last.fm/music/Kyuss"
         },
         {
@@ -109,15 +109,15 @@
     },
     {
       "year": 2024,
-      "from": "2024-10-16",
-      "to": "2024-10-23",
-      "plays": 44,
+      "from": "2024-10-17",
+      "to": "2024-10-24",
+      "plays": 62,
       "album": {
-        "title": "Hammer of My Own",
-        "artist": "Closebye",
-        "plays": 3,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/508347cf30f0680743b94e1a9e845fd6.jpg",
-        "url": "https://www.last.fm/music/Closebye/Hammer+of+My+Own"
+        "title": "abasement tapes",
+        "artist": "semiwestern",
+        "plays": 5,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/68e077eaab664605fe9c84b6ede3b656.jpg",
+        "url": "https://www.last.fm/music/semiwestern/abasement+tapes"
       },
       "artists": [
         {
@@ -126,22 +126,22 @@
           "url": "https://www.last.fm/music/HighSchool"
         },
         {
-          "name": "Drop Nineteens",
-          "plays": 4,
-          "url": "https://www.last.fm/music/Drop+Nineteens"
+          "name": "semiwestern",
+          "plays": 5,
+          "url": "https://www.last.fm/music/semiwestern"
         },
         {
           "name": "Closebye",
-          "plays": 3,
+          "plays": 4,
           "url": "https://www.last.fm/music/Closebye"
         }
       ]
     },
     {
       "year": 2023,
-      "from": "2023-10-16",
-      "to": "2023-10-23",
-      "plays": 209,
+      "from": "2023-10-17",
+      "to": "2023-10-24",
+      "plays": 222,
       "album": {
         "title": "A Place You Grew Up In",
         "artist": "Laveda",
@@ -169,21 +169,21 @@
     },
     {
       "year": 2022,
-      "from": "2022-10-16",
-      "to": "2022-10-23",
-      "plays": 71,
+      "from": "2022-10-17",
+      "to": "2022-10-24",
+      "plays": 105,
       "album": {
-        "title": "Being Funny in a Foreign Language",
-        "artist": "The 1975",
-        "plays": 9,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0dc221a4f275b250669990082e7f5f29.jpg",
-        "url": "https://www.last.fm/music/The+1975/Being+Funny+in+a+Foreign+Language"
+        "title": "Charcoal",
+        "artist": "Brambles",
+        "plays": 6,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f832fb180121cd419ddbdb75ed47340f.jpg",
+        "url": "https://www.last.fm/music/Brambles/Charcoal"
       },
       "artists": [
         {
-          "name": "The 1975",
-          "plays": 10,
-          "url": "https://www.last.fm/music/The+1975"
+          "name": "Arkells",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Arkells"
         },
         {
           "name": "Brambles",
@@ -191,23 +191,23 @@
           "url": "https://www.last.fm/music/Brambles"
         },
         {
-          "name": "Arkells",
-          "plays": 4,
-          "url": "https://www.last.fm/music/Arkells"
+          "name": "The 1975",
+          "plays": 6,
+          "url": "https://www.last.fm/music/The+1975"
         }
       ]
     },
     {
       "year": 2021,
-      "from": "2021-10-16",
-      "to": "2021-10-23",
-      "plays": 51,
+      "from": "2021-10-17",
+      "to": "2021-10-24",
+      "plays": 44,
       "album": {
-        "title": "Midsommar (Original Motion Picture Score)",
-        "artist": "Bobby Krlic",
+        "title": "Mr. Beast",
+        "artist": "Mogwai",
         "plays": 3,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/bfdf19afb7ce5477756056ed825602a7.jpg",
-        "url": "https://www.last.fm/music/Bobby+Krlic/Midsommar+(Original+Motion+Picture+Score)"
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c9549e95ea6e455ba52445e13ef0649a.png",
+        "url": "https://www.last.fm/music/Mogwai/Mr.+Beast"
       },
       "artists": [
         {
@@ -221,28 +221,28 @@
           "url": "https://www.last.fm/music/Blood+Cultures"
         },
         {
-          "name": "Bobby Krlic",
+          "name": "Swans",
           "plays": 3,
-          "url": "https://www.last.fm/music/Bobby+Krlic"
+          "url": "https://www.last.fm/music/Swans"
         }
       ]
     },
     {
       "year": 2020,
-      "from": "2020-10-16",
-      "to": "2020-10-23",
-      "plays": 51,
+      "from": "2020-10-17",
+      "to": "2020-10-24",
+      "plays": 52,
       "album": {
         "title": "Conatus",
         "artist": "Zola Jesus",
-        "plays": 12,
+        "plays": 13,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/58729d691fc93666a07f44d78772d1ca.jpg",
         "url": "https://www.last.fm/music/Zola+Jesus/Conatus"
       },
       "artists": [
         {
           "name": "Zola Jesus",
-          "plays": 15,
+          "plays": 16,
           "url": "https://www.last.fm/music/Zola+Jesus"
         },
         {
@@ -251,17 +251,17 @@
           "url": "https://www.last.fm/music/Daughters"
         },
         {
-          "name": "Huun-Huur-Tu",
-          "plays": 8,
-          "url": "https://www.last.fm/music/Huun-Huur-Tu"
+          "name": "M83",
+          "plays": 5,
+          "url": "https://www.last.fm/music/M83"
         }
       ]
     },
     {
       "year": 2019,
-      "from": "2019-10-16",
-      "to": "2019-10-23",
-      "plays": 74,
+      "from": "2019-10-17",
+      "to": "2019-10-24",
+      "plays": 85,
       "album": {
         "title": "Ghosteen",
         "artist": "Nick Cave & the Bad Seeds",
@@ -276,52 +276,52 @@
           "url": "https://www.last.fm/music/Nick+Cave+%26+the+Bad+Seeds"
         },
         {
-          "name": "The Midnight",
-          "plays": 10,
-          "url": "https://www.last.fm/music/The+Midnight"
+          "name": "Now, Now",
+          "plays": 8,
+          "url": "https://www.last.fm/music/Now%2C+Now"
         },
         {
-          "name": "The Limousines",
-          "plays": 6,
-          "url": "https://www.last.fm/music/The+Limousines"
+          "name": "California Wives",
+          "plays": 5,
+          "url": "https://www.last.fm/music/California+Wives"
         }
       ]
     },
     {
       "year": 2018,
-      "from": "2018-10-16",
-      "to": "2018-10-23",
-      "plays": 92,
+      "from": "2018-10-17",
+      "to": "2018-10-24",
+      "plays": 87,
       "album": {
-        "title": "So Long, See You Tomorrow",
-        "artist": "Bombay Bicycle Club",
-        "plays": 10,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b75fa2424e8a4766c7e8a2721d3d7fbf.png",
-        "url": "https://www.last.fm/music/Bombay+Bicycle+Club/So+Long%2C+See+You+Tomorrow"
+        "title": "It's Not Living (If It's Not With You)",
+        "artist": "The 1975",
+        "plays": 8,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/15fa7f8122818e3394b040ef345324de.jpg",
+        "url": "https://www.last.fm/music/The+1975/It's+Not+Living+(If+It's+Not+With+You)"
       },
       "artists": [
         {
-          "name": "Bombay Bicycle Club",
-          "plays": 10,
-          "url": "https://www.last.fm/music/Bombay+Bicycle+Club"
-        },
-        {
           "name": "The 1975",
-          "plays": 8,
+          "plays": 9,
           "url": "https://www.last.fm/music/The+1975"
         },
         {
           "name": "Aminé",
-          "plays": 6,
+          "plays": 8,
           "url": "https://www.last.fm/music/Amin%C3%A9"
+        },
+        {
+          "name": "Turnover",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Turnover"
         }
       ]
     },
     {
       "year": 2017,
-      "from": "2017-10-16",
-      "to": "2017-10-23",
-      "plays": 15,
+      "from": "2017-10-17",
+      "to": "2017-10-24",
+      "plays": 19,
       "album": {
         "title": "22, a Million",
         "artist": "Bon Iver",
@@ -331,6 +331,11 @@
       },
       "artists": [
         {
+          "name": "The 1975",
+          "plays": 2,
+          "url": "https://www.last.fm/music/The+1975"
+        },
+        {
           "name": "Bon Iver",
           "plays": 2,
           "url": "https://www.last.fm/music/Bon+Iver"
@@ -339,49 +344,44 @@
           "name": "Papertwin",
           "plays": 2,
           "url": "https://www.last.fm/music/Papertwin"
-        },
-        {
-          "name": "BROCKHAMPTON",
-          "plays": 2,
-          "url": "https://www.last.fm/music/BROCKHAMPTON"
         }
       ]
     },
     {
       "year": 2016,
-      "from": "2016-10-16",
-      "to": "2016-10-23",
+      "from": "2016-10-17",
+      "to": "2016-10-24",
       "plays": 74,
       "album": {
         "title": "Oh My My",
         "artist": "OneRepublic",
-        "plays": 16,
+        "plays": 6,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d8585efa5f75112c97af0b466861787d.jpg",
         "url": "https://www.last.fm/music/OneRepublic/Oh+My+My"
       },
       "artists": [
         {
           "name": "OneRepublic",
-          "plays": 16,
+          "plays": 6,
           "url": "https://www.last.fm/music/OneRepublic"
+        },
+        {
+          "name": "Grouplove",
+          "plays": 5,
+          "url": "https://www.last.fm/music/Grouplove"
         },
         {
           "name": "Francis and the Lights",
           "plays": 5,
           "url": "https://www.last.fm/music/Francis+and+the+Lights"
-        },
-        {
-          "name": "Bayonne",
-          "plays": 4,
-          "url": "https://www.last.fm/music/Bayonne"
         }
       ]
     },
     {
       "year": 2015,
-      "from": "2015-10-16",
-      "to": "2015-10-23",
-      "plays": 119,
+      "from": "2015-10-17",
+      "to": "2015-10-24",
+      "plays": 143,
       "album": {
         "title": "Yume",
         "artist": "Helios",
@@ -391,6 +391,11 @@
       },
       "artists": [
         {
+          "name": "Julien Baker",
+          "plays": 10,
+          "url": "https://www.last.fm/music/Julien+Baker"
+        },
+        {
           "name": "Helios",
           "plays": 10,
           "url": "https://www.last.fm/music/Helios"
@@ -399,19 +404,14 @@
           "name": "Battles",
           "plays": 8,
           "url": "https://www.last.fm/music/Battles"
-        },
-        {
-          "name": "Mas Ysa",
-          "plays": 5,
-          "url": "https://www.last.fm/music/Mas+Ysa"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-10-16",
-      "to": "2014-10-23",
-      "plays": 202,
+      "from": "2014-10-17",
+      "to": "2014-10-24",
+      "plays": 200,
       "album": {
         "title": "Young Blood",
         "artist": "Bea Miller",
