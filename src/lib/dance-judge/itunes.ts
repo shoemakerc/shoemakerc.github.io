@@ -54,7 +54,7 @@ async function request(path: string, params: Record<string, string>, signal?: Ab
 }
 
 /** Apple's artwork URLs take any size in place of the 100×100 they come with. */
-export function artworkAt(song: Song, px: number) {
+export function artworkAt(song: Pick<Song, "artwork">, px: number) {
   return song.artwork.replace(/\/\d+x\d+bb\./, `/${px}x${px}bb.`);
 }
 
@@ -65,4 +65,11 @@ export function searchSongs(query: string, signal?: AbortSignal) {
 export async function lookupSong(id: number, signal?: AbortSignal) {
   const [song] = await request("lookup", { id: String(id), entity: "song" }, signal);
   return song ?? null;
+}
+
+/** Several songs in one request, in the order asked for. */
+export async function lookupSongs(ids: number[], signal?: AbortSignal) {
+  const songs = await request("lookup", { id: ids.join(","), entity: "song" }, signal);
+  const byId = new Map(songs.map((s) => [s.id, s]));
+  return ids.flatMap((id) => byId.get(id) ?? []);
 }

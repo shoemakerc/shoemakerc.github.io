@@ -50,6 +50,14 @@ const projects: Project[] = [
     summary:
       "A six-track MIDI looper. Record a phrase on any General MIDI instrument or a vintage drum machine and it becomes the loop; play five more over it, then save it as a MIDI file. It started as my 2016 final project for CS 312: Audio Programming at Carleton, in C++ and Qt.",
   },
+  {
+    name: "Set Builder",
+    year: "2026",
+    tags: ["TypeScript", "Web Audio", "DSP"],
+    href: "/set-builder/",
+    summary:
+      "Hand it a crate and it finds a running order that mixes: neighboring keys on the Camelot wheel, tempos close enough to beatmatch, and an energy arc that builds or peaks and lands. Search for tracks and it listens for their key and tempo the way the Dance Judge does, or import a Rekordbox playlist and send the sorted set back as an M3U8.",
+  },
 ];
 
 function ProjectRow({
