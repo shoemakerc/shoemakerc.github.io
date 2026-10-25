@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-24T14:04:11.745Z",
+  "syncedAt": "2026-10-25T14:28:41.037Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -139,7 +139,7 @@
       "url": "https://www.espn.com/nhl/team/_/name/min/minnesota-wild",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 6,
+      "wins": 7,
       "losses": 3,
       "ties": 0,
       "otLosses": 2,
@@ -148,19 +148,9 @@
         "rank": 2,
         "teams": 8
       },
-      "streak": "L2",
+      "streak": "W1",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-10-04T00:00Z",
-          "home": true,
-          "opponent": "Bruins",
-          "us": 4,
-          "them": 1,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-10-06T23:00Z",
           "home": false,
@@ -250,13 +240,23 @@
           "result": "L",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-10-25T02:00Z",
+          "home": false,
+          "opponent": "Kraken",
+          "us": 5,
+          "them": 1,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-10-25T02:00Z",
+        "date": "2026-10-26T02:00Z",
         "timeKnown": true,
         "home": false,
-        "opponent": "Seattle Kraken",
+        "opponent": "Vancouver Canucks",
         "seasonType": 2,
         "stage": null,
         "note": null
