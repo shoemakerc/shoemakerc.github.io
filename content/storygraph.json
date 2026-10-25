@@ -1,0 +1,611 @@
+{
+  "profile": "https://app.thestorygraph.com/profile/shoeman27",
+  "syncedAt": "2026-10-25T02:10:40.104Z",
+  "books": [
+    {
+      "title": "12 Rules for Life: An Antidote to Chaos",
+      "author": "Jordan B. Peterson",
+      "rating": 3
+    },
+    {
+      "title": "2001: A Space Odyssey",
+      "author": "Arthur C. Clarke",
+      "rating": 2
+    },
+    {
+      "title": "A Million Miles in a Thousand Years: What I Learned While Editing My Life",
+      "author": "Donald Miller",
+      "rating": 4
+    },
+    {
+      "title": "A Supposedly Fun Thing I'll Never Do Again: Essays and Arguments",
+      "author": "David Foster Wallace",
+      "rating": 5
+    },
+    {
+      "title": "After Dark",
+      "author": "Haruki Murakami",
+      "rating": 3
+    },
+    {
+      "title": "Akira, Vol. 1",
+      "author": "Katsuhiro Otomo",
+      "rating": 4
+    },
+    {
+      "title": "Akira, Vol. 2",
+      "author": "Katsuhiro Otomo",
+      "rating": 4
+    },
+    {
+      "title": "Akira, Vol. 3",
+      "author": "Katsuhiro Otomo",
+      "rating": 4
+    },
+    {
+      "title": "Akira, Vol. 4",
+      "author": "Katsuhiro Otomo",
+      "rating": 3
+    },
+    {
+      "title": "Akira, Vol. 5",
+      "author": "Katsuhiro Otomo",
+      "rating": 3
+    },
+    {
+      "title": "Akira, Vol. 6",
+      "author": "Katsuhiro Otomo",
+      "rating": 3
+    },
+    {
+      "title": "Alas, Babylon",
+      "author": "Pat Frank",
+      "rating": 4
+    },
+    {
+      "title": "All Quiet on the Western Front",
+      "author": "Erich Maria Remarque",
+      "rating": 4
+    },
+    {
+      "title": "All the Pretty Horses",
+      "author": "Cormac McCarthy",
+      "rating": 2
+    },
+    {
+      "title": "Amusing Ourselves to Death: Public Discourse in the Age of Show Business",
+      "author": "Neil Postman",
+      "rating": 4
+    },
+    {
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "rating": 4
+    },
+    {
+      "title": "Anthem",
+      "author": "Ayn Rand",
+      "rating": 3
+    },
+    {
+      "title": "Antifragile: Things That Gain from Disorder",
+      "author": "Nassim Nicholas Taleb",
+      "rating": 4
+    },
+    {
+      "title": "Atonement",
+      "author": "Ian McEwan",
+      "rating": 3
+    },
+    {
+      "title": "Bloodchild and Other Stories",
+      "author": "Octavia E. Butler",
+      "rating": 4
+    },
+    {
+      "title": "Bonfire",
+      "author": "Krysten Ritter",
+      "rating": 3
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "rating": 4.75
+    },
+    {
+      "title": "Brave New World Revisited",
+      "author": "Aldous Huxley",
+      "rating": 3
+    },
+    {
+      "title": "Brimstone Angels",
+      "author": "Erin M. Evans",
+      "rating": 4
+    },
+    {
+      "title": "Buddha, Vol. 2: The Four Encounters",
+      "author": "Osamu Tezuka",
+      "rating": 4
+    },
+    {
+      "title": "Buddha, Vol. 4: The Forest of Uruvela",
+      "author": "Osamu Tezuka",
+      "rating": 4
+    },
+    {
+      "title": "Buddha, Volume 1: Kapilavastu",
+      "author": "Osamu Tezuka",
+      "rating": 4
+    },
+    {
+      "title": "Can't Hurt Me: Master Your Mind and Defy the Odds",
+      "author": "David Goggins",
+      "rating": 3
+    },
+    {
+      "title": "Candide",
+      "author": "Voltaire",
+      "rating": 4
+    },
+    {
+      "title": "Capitalist Realism: Is There No Alternative?",
+      "author": "Mark Fisher",
+      "rating": 4
+    },
+    {
+      "title": "Commonwealth",
+      "author": "Ann Patchett",
+      "rating": 4
+    },
+    {
+      "title": "Consider the Lobster And Other Essays",
+      "author": "David Foster Wallace",
+      "rating": 4.5
+    },
+    {
+      "title": "Dirtbag: Essays",
+      "author": "Amber A'Lee Frost",
+      "rating": 3.25
+    },
+    {
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "rating": 5
+    },
+    {
+      "title": "Dune Messiah",
+      "author": "Frank Herbert",
+      "rating": 5
+    },
+    {
+      "title": "Eileen",
+      "author": "Ottessa Moshfegh",
+      "rating": 4
+    },
+    {
+      "title": "Enon",
+      "author": "Paul Harding",
+      "rating": 3
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "rating": 4
+    },
+    {
+      "title": "Faust",
+      "author": "Johann Wolfgang von Goethe",
+      "rating": 3
+    },
+    {
+      "title": "Fight Club",
+      "author": "Chuck Palahniuk",
+      "rating": 4
+    },
+    {
+      "title": "Fixed Ideas: America Since 9.11",
+      "author": "Joan Didion",
+      "rating": 4
+    },
+    {
+      "title": "Foundation",
+      "author": "Isaac Asimov",
+      "rating": 2
+    },
+    {
+      "title": "Freedom from the Known",
+      "author": "J. Krishnamurti",
+      "rating": 5
+    },
+    {
+      "title": "Heart of Darkness",
+      "author": "Joseph Conrad",
+      "rating": 3.25
+    },
+    {
+      "title": "Heaven",
+      "author": "Mieko Kawakami",
+      "rating": 3.5
+    },
+    {
+      "title": "Homesick for Another World",
+      "author": "Ottessa Moshfegh",
+      "rating": 3.75
+    },
+    {
+      "title": "Human Acts",
+      "author": "Han Kang",
+      "rating": 3
+    },
+    {
+      "title": "Hunger",
+      "author": "Knut Hamsun",
+      "rating": 5
+    },
+    {
+      "title": "Hurricane Season",
+      "author": "Fernanda Melchor",
+      "rating": 4
+    },
+    {
+      "title": "I Have the Right to Destroy Myself",
+      "author": "Young-Ha Kim",
+      "rating": 3.75
+    },
+    {
+      "title": "Inherent Vice",
+      "author": "Thomas Pynchon",
+      "rating": 4.75
+    },
+    {
+      "title": "Invisible Man",
+      "author": "Ralph Ellison",
+      "rating": 2
+    },
+    {
+      "title": "Killers of the Flower Moon: The Osage Murders and the Birth of the FBI",
+      "author": "David Grann",
+      "rating": 4
+    },
+    {
+      "title": "Killing Floor",
+      "author": "Lee Child",
+      "rating": 4
+    },
+    {
+      "title": "Klara and the Sun",
+      "author": "Kazuo Ishiguro",
+      "rating": 4
+    },
+    {
+      "title": "Lord of the Flies",
+      "author": "William Golding",
+      "rating": 3
+    },
+    {
+      "title": "Man's Search for Meaning",
+      "author": "Viktor E. Frankl",
+      "rating": 5
+    },
+    {
+      "title": "Mickey7",
+      "author": "Edward Ashton",
+      "rating": 3.5
+    },
+    {
+      "title": "Moonglow",
+      "author": "Michael Chabon",
+      "rating": 3
+    },
+    {
+      "title": "Mrs. Dalloway",
+      "author": "Virginia Woolf",
+      "rating": 3.25
+    },
+    {
+      "title": "My Year of Rest and Relaxation",
+      "author": "Ottessa Moshfegh",
+      "rating": 3
+    },
+    {
+      "title": "Nickel Plated",
+      "author": "Aric Davis",
+      "rating": 2
+    },
+    {
+      "title": "Night",
+      "author": "Elie Wiesel",
+      "rating": 4
+    },
+    {
+      "title": "No Country for Old Men",
+      "author": "Cormac McCarthy",
+      "rating": 4
+    },
+    {
+      "title": "Non-things: Upheaval in the Lifeworld",
+      "author": "Byung-Chul Han",
+      "rating": 4.25
+    },
+    {
+      "title": "Notes from Underground",
+      "author": "Fyodor Dostoevsky",
+      "rating": 5
+    },
+    {
+      "title": "Of Mice and Men",
+      "author": "John Steinbeck",
+      "rating": 3
+    },
+    {
+      "title": "Paper Towns",
+      "author": "John Green",
+      "rating": 3
+    },
+    {
+      "title": "Parade: A Folktale",
+      "author": "Hiromi Kawakami",
+      "rating": 3
+    },
+    {
+      "title": "Pedro Páramo",
+      "author": "Juan Rulfo",
+      "rating": 3
+    },
+    {
+      "title": "Planetes Omnibus, Volume 1",
+      "author": "Makoto Yukimura",
+      "rating": 4
+    },
+    {
+      "title": "Planetes Omnibus, Volume 2",
+      "author": "Makoto Yukimura",
+      "rating": 4
+    },
+    {
+      "title": "Psychotic Reactions and Carburetor Dung",
+      "author": "Lester Bangs",
+      "rating": 5
+    },
+    {
+      "title": "Romeo and Juliet",
+      "author": "William Shakespeare",
+      "rating": 2
+    },
+    {
+      "title": "State of Wonder",
+      "author": "Ann Patchett",
+      "rating": 3
+    },
+    {
+      "title": "Steppenwolf",
+      "author": "Hermann Hesse",
+      "rating": 4
+    },
+    {
+      "title": "Stillhouse Lake",
+      "author": "Rachel Caine",
+      "rating": 3
+    },
+    {
+      "title": "Survival In Auschwitz: The Nazi Assault On Humanity",
+      "author": "Primo Levi",
+      "rating": 4
+    },
+    {
+      "title": "Telegraph Avenue",
+      "author": "Michael Chabon",
+      "rating": 3
+    },
+    {
+      "title": "The Adventures of Tom Sawyer",
+      "author": "Mark Twain",
+      "rating": 3
+    },
+    {
+      "title": "The Call of the Wild",
+      "author": "Jack London",
+      "rating": 3
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "rating": 4
+    },
+    {
+      "title": "The Circle",
+      "author": "Dave Eggers",
+      "rating": 2.5
+    },
+    {
+      "title": "The Crocodile",
+      "author": "Fyodor Dostoevsky",
+      "rating": 3.5
+    },
+    {
+      "title": "The Crying of Lot 49",
+      "author": "Thomas Pynchon",
+      "rating": 4
+    },
+    {
+      "title": "The Death of Ivan Ilych",
+      "author": "Leo Tolstoy",
+      "rating": 4
+    },
+    {
+      "title": "The Disappearance of Rituals: A Topology of the Present",
+      "author": "Byung-Chul Han",
+      "rating": 4.5
+    },
+    {
+      "title": "The Electric Ant",
+      "author": "Philip K. Dick",
+      "rating": 4
+    },
+    {
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "rating": 3
+    },
+    {
+      "title": "The Giver",
+      "author": "Lois Lowry",
+      "rating": 3
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "rating": 3
+    },
+    {
+      "title": "The Hobbit, or There and Back Again",
+      "author": "J.R.R. Tolkien",
+      "rating": 4
+    },
+    {
+      "title": "The Jungle",
+      "author": "Upton Sinclair",
+      "rating": 4
+    },
+    {
+      "title": "The Looming Tower: Al-Qaeda and the Road to 9/11",
+      "author": "Lawrence Wright",
+      "rating": 4.75
+    },
+    {
+      "title": "The Master of Ballantrae",
+      "author": "Robert Louis Stevenson",
+      "rating": 3
+    },
+    {
+      "title": "The Myth of Sisyphus",
+      "author": "Albert Camus",
+      "rating": 4
+    },
+    {
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "rating": 4
+    },
+    {
+      "title": "The Palliative Society: Pain Today",
+      "author": "Byung-Chul Han",
+      "rating": 4
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "rating": 3
+    },
+    {
+      "title": "The Plague",
+      "author": "Albert Camus",
+      "rating": 4
+    },
+    {
+      "title": "The Power of Now: A Guide to Spiritual Enlightenment",
+      "author": "Eckhart Tolle",
+      "rating": 3
+    },
+    {
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "rating": 3
+    },
+    {
+      "title": "The Red Badge of Courage",
+      "author": "Stephen Crane",
+      "rating": 3
+    },
+    {
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "rating": 3
+    },
+    {
+      "title": "The Scarlet Letter",
+      "author": "Nathaniel Hawthorne",
+      "rating": 2
+    },
+    {
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "rating": 4
+    },
+    {
+      "title": "The Sun Also Rises",
+      "author": "Ernest Hemingway",
+      "rating": 3
+    },
+    {
+      "title": "The Tao of Pooh",
+      "author": "Benjamin Hoff",
+      "rating": 4
+    },
+    {
+      "title": "The Temple of the Golden Pavilion",
+      "author": "Yukio Mishima",
+      "rating": 3
+    },
+    {
+      "title": "The Tipping Point",
+      "author": "Malcolm Gladwell",
+      "rating": 2
+    },
+    {
+      "title": "Therapy",
+      "author": "David Lodge",
+      "rating": 3
+    },
+    {
+      "title": "This Other Eden",
+      "author": "Paul Harding",
+      "rating": 3
+    },
+    {
+      "title": "Tinkers",
+      "author": "Paul Harding",
+      "rating": 3
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "rating": 4
+    },
+    {
+      "title": "Utopia",
+      "author": "Thomas More",
+      "rating": 2
+    },
+    {
+      "title": "Vineland",
+      "author": "Thomas Pynchon",
+      "rating": 4.25
+    },
+    {
+      "title": "What I Talk About When I Talk About Running",
+      "author": "Haruki Murakami",
+      "rating": 4
+    },
+    {
+      "title": "White Nights (Warbler Classics Annotated Edition)",
+      "author": "Fyodor Dostoevsky",
+      "rating": 4.5
+    },
+    {
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "rating": 3.75
+    },
+    {
+      "title": "Zen and the Beat Way",
+      "author": "Alan Watts",
+      "rating": 4
+    },
+    {
+      "title": "Zorba the Greek",
+      "author": "Nikos Kazantzakis",
+      "rating": 4
+    }
+  ]
+}

@@ -39,10 +39,18 @@ function LinkedTitle({ book, short }: { book: Book; short?: boolean }) {
 
 function Stars({ rating }: { rating: number | null }) {
   if (!rating) return null;
+  const whole = Math.floor(rating);
+  const part = rating - whole;
   return (
-    <span className="stars" aria-label={`Rated ${rating} out of 5`}>
-      {"★".repeat(rating)}
-      <span className="stars-empty">{"★".repeat(5 - rating)}</span>
+    <span className="stars" role="img" aria-label={`Rated ${rating} out of 5`}>
+      {"★".repeat(whole)}
+      {part > 0 && (
+        // An empty star with a full one on top, cut off partway across.
+        <span className="star-part">
+          ★<span style={{ width: `${part * 100}%` }}>★</span>
+        </span>
+      )}
+      <span className="stars-empty">{"★".repeat(5 - Math.ceil(rating))}</span>
     </span>
   );
 }
@@ -255,7 +263,7 @@ const newestFirst = (key: "dateRead" | "dateAdded") => (a: Book, b: Book) =>
   (b[key] ?? "").localeCompare(a[key] ?? "");
 
 export default function Reading() {
-  const { books, profile, syncedAt } = getLibrary();
+  const { books, profile, syncedAt, storygraph } = getLibrary();
   const having = (status: Book["status"]) => books.filter((b) => b.status === status);
 
   const reading = having("reading");
@@ -268,6 +276,9 @@ export default function Reading() {
   const undated = read.filter((b) => !b.dateRead).sort(byAuthor);
   const years = [...new Set(dated.map((b) => b.dateRead!.slice(0, 4)))];
   const thisYear = new Date(syncedAt).getUTCFullYear().toString();
+  // Each sync only records a time when something changed, so take the later.
+  const lastSynced =
+    storygraph && storygraph.syncedAt > syncedAt ? storygraph.syncedAt : syncedAt;
 
   const rated = read.filter((b) => b.rating);
   const average = rated.reduce((sum, b) => sum + b.rating!, 0) / rated.length;
@@ -288,7 +299,14 @@ export default function Reading() {
         <p className="lede">
           Books I’ve read, am reading, or would like to read someday. Kept for
           accountability purposes only, and tracked on{" "}
-          <a href={profile}>Goodreads</a>.
+          <a href={profile}>Goodreads</a>
+          {storygraph && (
+            <>
+              , with ratings from{" "}
+              <a href={storygraph.profile}>The StoryGraph</a>
+            </>
+          )}
+          .
         </p>
         <dl className="reading-stats">
           {stats.map((stat) => (
@@ -385,8 +403,14 @@ export default function Reading() {
       )}
 
       <p className="meta reading-synced">
-        Synced from <a href={profile}>Goodreads</a> ·{" "}
-        {dateFormat.format(new Date(syncedAt))}
+        Synced from <a href={profile}>Goodreads</a>
+        {storygraph && (
+          <>
+            {" "}
+            and <a href={storygraph.profile}>The StoryGraph</a>
+          </>
+        )}{" "}
+        · {dateFormat.format(new Date(lastSynced))}
       </p>
     </>
   );

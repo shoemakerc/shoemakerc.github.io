@@ -10,6 +10,7 @@
     "sync:goodreads": "node scripts/sync-goodreads.mjs",
     "sync:lastfm": "node scripts/sync-lastfm.mjs",
     "sync:sports": "node scripts/sync-sports.mjs",
+    "import:storygraph": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/import-storygraph.mjs",
     "calibrate:dance-judge": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/calibrate-dance-judge.mjs"
   },
   "dependencies": {

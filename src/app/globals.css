@@ -220,6 +220,23 @@ a.cover:hover {
   color: var(--rule);
 }
 
+/* Sized to the star alone, so the fill's width is a share of the star. */
+.star-part {
+  position: relative;
+  display: inline-block;
+  margin-right: 0.1em;
+  letter-spacing: 0;
+  color: var(--rule);
+}
+
+.star-part span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: var(--accent);
+}
+
 .set-aside {
   margin: 2rem 0 0;
   color: var(--ink-soft);
