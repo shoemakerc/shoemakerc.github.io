@@ -81,7 +81,8 @@ const columns = {
 const cell = (row, index) => (row[index] ?? "").trim();
 
 // The export's read statuses, as the Goodreads shelves they match. Goodreads
-// keeps paused books on currently-reading, with a tag.
+// keeps paused books on currently-reading, with a tag. A book can also be in
+// the library with no status at all.
 const shelves = {
   read: "read",
   "currently-reading": "currently-reading",
@@ -95,7 +96,7 @@ const library = rows
     return {
       title: cell(row, columns.title),
       author: cell(row, columns.author),
-      shelf: shelves[status] ?? status,
+      shelf: shelves[status] ?? (status || "no shelf"),
       rating: parseRating(cell(row, columns.rating)),
     };
   })

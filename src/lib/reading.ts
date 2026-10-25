@@ -85,6 +85,8 @@ function plainTitle(title: string): string {
     .normalize("NFD")
     .replace(/\p{Diacritic}/gu, "")
     .replace(/&/g, " and ")
+    // Goodreads has "Buddha, Vol. 1" where The StoryGraph has "Volume 1".
+    .replace(/\bvolume\b/g, "vol")
     .replace(/\(.*?\)/g, "")
     .split(":")[0]
     .trim()
