@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-25T14:28:41.037Z",
+  "syncedAt": "2026-10-26T16:51:39.084Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -139,28 +139,18 @@
       "url": "https://www.espn.com/nhl/team/_/name/min/minnesota-wild",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 7,
+      "wins": 8,
       "losses": 3,
       "ties": 0,
       "otLosses": 2,
       "division": {
         "name": "Central",
-        "rank": 2,
+        "rank": 1,
         "teams": 8
       },
-      "streak": "W1",
+      "streak": "W2",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-10-06T23:00Z",
-          "home": false,
-          "opponent": "Sabres",
-          "us": 2,
-          "them": 3,
-          "result": "OTL",
-          "extra": "OT",
-          "postseason": false
-        },
         {
           "date": "2026-10-08T23:00Z",
           "home": false,
@@ -250,13 +240,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-10-26T02:00Z",
+          "home": false,
+          "opponent": "Canucks",
+          "us": 4,
+          "them": 2,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-10-26T02:00Z",
+        "date": "2026-10-28T01:00Z",
         "timeKnown": true,
         "home": false,
-        "opponent": "Vancouver Canucks",
+        "opponent": "Utah Mammoth",
         "seasonType": 2,
         "stage": null,
         "note": null
@@ -269,7 +269,7 @@
       "url": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
       "ties": 0,
       "otLosses": 0,
@@ -278,7 +278,7 @@
         "rank": 1,
         "teams": 5
       },
-      "streak": "W2",
+      "streak": "W3",
       "clincher": null,
       "recent": [
         {
@@ -300,13 +300,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-10-25T23:00Z",
+          "home": true,
+          "opponent": "Raptors",
+          "us": 117,
+          "them": 94,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-10-25T23:00Z",
+        "date": "2026-10-26T23:00Z",
         "timeKnown": true,
-        "home": true,
-        "opponent": "Toronto Raptors",
+        "home": false,
+        "opponent": "Cleveland Cavaliers",
         "seasonType": 2,
         "stage": null,
         "note": null
@@ -318,8 +328,8 @@
       "nickname": "Vikings",
       "url": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings",
       "season": "2026",
-      "phase": "regular",
-      "wins": 5,
+      "phase": "offseason",
+      "wins": 6,
       "losses": 0,
       "ties": 0,
       "otLosses": 0,
@@ -328,7 +338,7 @@
         "rank": 1,
         "teams": 4
       },
-      "streak": "W5",
+      "streak": "W6",
       "clincher": null,
       "recent": [
         {
@@ -380,17 +390,19 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-10-25T17:00Z",
+          "home": true,
+          "opponent": "Colts",
+          "us": 16,
+          "them": 10,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
-      "next": {
-        "date": "2026-10-25T17:00Z",
-        "timeKnown": true,
-        "home": true,
-        "opponent": "Indianapolis Colts",
-        "seasonType": 2,
-        "stage": null,
-        "note": null
-      }
+      "next": null
     }
   ]
 }
