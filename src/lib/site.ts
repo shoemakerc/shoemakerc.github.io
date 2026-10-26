@@ -7,8 +7,8 @@ export const site = {
   description: "Notes on music, listening, and the odd bit of code.",
   // Swap this for whatever you're listening to now.
   playlist: {
-    id: "7KkKPxl0qHqa9bpLzg3ekY",
-    label: "August ’26",
+    id: "1aAtmdkNJLdBFGh1xAuIoB",
+    label: "October ’26",
   },
   rateYourMusic,
   lastFm,
