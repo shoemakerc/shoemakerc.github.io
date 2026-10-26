@@ -24,7 +24,7 @@ export default function About() {
           I studied computer science at Carleton College, where an audio
           programming course finally let me combine the two.
           These days I’m one of the{" "}
-          <a href="https://www.oaklandcivicorchestra.com/musicians.html">musicians</a> in
+          <a href="https://www.oaklandcivicorchestra.com/musicians.html">cellists</a> in
           the <a href="https://www.oaklandcivicorchestra.com/">Oakland Civic Orchestra</a>,
           and this site is where I write about what I’m hearing, playing, and
           building.

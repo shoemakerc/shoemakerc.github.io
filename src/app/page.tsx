@@ -15,9 +15,9 @@ export default function Home() {
           Notes on music, listening, and the <em>odd bit</em> of code.
         </h1>
         <p className="lede">
-          I’m Chris. I’ve played cello since I was seven and piano since nine,
-          studied computer science at Carleton, now play in the Oakland Civic
-          Orchestra, and still believe the best playlist is the one you’re
+          I’m Chris. I’ve played cello since I was seven (now in the Oakland
+          Civic Orchestra) and piano since nine, studied computer science at
+          Carleton, and still believe the best playlist is the one you’re
           about to hand to a friend.
         </p>
       </section>
