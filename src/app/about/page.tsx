@@ -16,14 +16,18 @@ export default function About() {
         <p>
           My parents first put a cello in my hands when I was three. I lay on
           the floor and refused to be taught, twice. We tried again at seven
-          and it stuck; piano followed at nine, along with years of youth
-          orchestras and patient teachers.
+          and it stuck; piano followed at nine, along with years of patient
+          teachers. From ages ten to seventeen (2006–13) I played in the{" "}
+          <a href="https://www.mnyouthsymphonies.org/">Minnesota Youth Symphonies</a>.
         </p>
         <p>
           I studied computer science at Carleton College, where an audio
           programming course finally let me combine the two.
-          These days this site is where I write about what I’m hearing,
-          playing, and building.
+          These days I’m one of the{" "}
+          <a href="https://www.oaklandcivicorchestra.com/musicians.html">cellists</a> in
+          the <a href="https://www.oaklandcivicorchestra.com/">Oakland Civic Orchestra</a>,
+          and this site is where I write about what I’m hearing, playing, and
+          building.
         </p>
         <p>
           You can find me on{" "}
