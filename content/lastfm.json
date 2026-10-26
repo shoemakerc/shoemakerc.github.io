@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-10-25T14:34:23.985Z",
+  "syncedAt": "2026-10-26T16:59:57.945Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66515,
+  "totalPlays": 66522,
   "lastTrack": {
-    "name": "Jacobsons",
-    "artist": "Gilla Band",
-    "album": "Pugnello",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
-    "url": "https://www.last.fm/music/Gilla+Band/_/Jacobsons",
-    "playedAt": 1792895222000
+    "name": "Piano Concerto No. 2 in C minor, Op. 18: III. Allegro Scherzando",
+    "artist": "Sergei Rachmaninoff",
+    "album": "Rachmaninoff: Piano Concerto No. 2 in C Minor, Op. 18 - Liszt: Piano Concerto No. 1 in E-Flat Major, S. 124",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4bf72a7fb36bb68173dbe1ffe5ee8b80.png",
+    "url": "https://www.last.fm/music/Sergei+Rachmaninoff/_/Piano+Concerto+No.+2+in+C+minor,+Op.+18:+III.+Allegro+Scherzando",
+    "playedAt": 1792983480000
   },
   "month": {
     "label": "October 2026",
     "partial": true,
     "from": "2026-10-01",
-    "to": "2026-10-25",
-    "plays": 232,
-    "artistCount": 113,
+    "to": "2026-10-26",
+    "plays": 239,
+    "artistCount": 115,
     "artists": [
       {
         "name": "Gilla Band",
@@ -79,20 +79,20 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-10-18",
-      "to": "2025-10-25",
-      "plays": 87,
+      "from": "2025-10-19",
+      "to": "2025-10-26",
+      "plays": 97,
       "album": {
         "title": "Aspect",
         "artist": "Seventeen Years Old and Berlin Wall",
-        "plays": 12,
+        "plays": 13,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/394c15d9e5e1f4144a1804e97d7160f0.jpg",
         "url": "https://www.last.fm/music/Seventeen+Years+Old+and+Berlin+Wall/Aspect"
       },
       "artists": [
         {
           "name": "Seventeen Years Old and Berlin Wall",
-          "plays": 13,
+          "plays": 14,
           "url": "https://www.last.fm/music/Seventeen+Years+Old+and+Berlin+Wall"
         },
         {
@@ -102,16 +102,16 @@
         },
         {
           "name": "Japandroids",
-          "plays": 3,
+          "plays": 4,
           "url": "https://www.last.fm/music/Japandroids"
         }
       ]
     },
     {
       "year": 2024,
-      "from": "2024-10-18",
-      "to": "2024-10-25",
-      "plays": 86,
+      "from": "2024-10-19",
+      "to": "2024-10-26",
+      "plays": 89,
       "album": {
         "title": "abasement tapes",
         "artist": "semiwestern",
@@ -131,47 +131,47 @@
           "url": "https://www.last.fm/music/HighSchool"
         },
         {
-          "name": "Closebye",
+          "name": "Viagra Boys",
           "plays": 5,
-          "url": "https://www.last.fm/music/Closebye"
+          "url": "https://www.last.fm/music/Viagra+Boys"
         }
       ]
     },
     {
       "year": 2023,
-      "from": "2023-10-18",
-      "to": "2023-10-25",
-      "plays": 198,
+      "from": "2023-10-19",
+      "to": "2023-10-26",
+      "plays": 188,
       "album": {
-        "title": "Puberty 2",
-        "artist": "Mitski",
-        "plays": 12,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/703616fde4bec426d7819777f11e2e98.png",
-        "url": "https://www.last.fm/music/Mitski/Puberty+2"
+        "title": "Most Normal",
+        "artist": "Gilla Band",
+        "plays": 18,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/537a15c77e18305188c58e58b9efd992.jpg",
+        "url": "https://www.last.fm/music/Gilla+Band/Most+Normal"
       },
       "artists": [
+        {
+          "name": "Gilla Band",
+          "plays": 38,
+          "url": "https://www.last.fm/music/Gilla+Band"
+        },
         {
           "name": "Mitski",
           "plays": 24,
           "url": "https://www.last.fm/music/Mitski"
         },
         {
-          "name": "Gilla Band",
-          "plays": 19,
-          "url": "https://www.last.fm/music/Gilla+Band"
-        },
-        {
-          "name": "Benjamin James",
-          "plays": 12,
-          "url": "https://www.last.fm/music/Benjamin+James"
+          "name": "Soft Blue Shimmer",
+          "plays": 13,
+          "url": "https://www.last.fm/music/Soft+Blue+Shimmer"
         }
       ]
     },
     {
       "year": 2022,
-      "from": "2022-10-18",
-      "to": "2022-10-25",
-      "plays": 95,
+      "from": "2022-10-19",
+      "to": "2022-10-26",
+      "plays": 89,
       "album": {
         "title": "Charcoal",
         "artist": "Brambles",
@@ -186,22 +186,22 @@
           "url": "https://www.last.fm/music/Arkells"
         },
         {
+          "name": "Silversun Pickups",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Silversun+Pickups"
+        },
+        {
           "name": "Brambles",
           "plays": 6,
           "url": "https://www.last.fm/music/Brambles"
-        },
-        {
-          "name": "Silversun Pickups",
-          "plays": 5,
-          "url": "https://www.last.fm/music/Silversun+Pickups"
         }
       ]
     },
     {
       "year": 2021,
-      "from": "2021-10-18",
-      "to": "2021-10-25",
-      "plays": 70,
+      "from": "2021-10-19",
+      "to": "2021-10-26",
+      "plays": 57,
       "album": {
         "title": "The Chairman Dances",
         "artist": "John Adams",
@@ -211,6 +211,11 @@
       },
       "artists": [
         {
+          "name": "Swans",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Swans"
+        },
+        {
           "name": "John Adams",
           "plays": 3,
           "url": "https://www.last.fm/music/John+Adams"
@@ -219,19 +224,14 @@
           "name": "Blood Cultures",
           "plays": 3,
           "url": "https://www.last.fm/music/Blood+Cultures"
-        },
-        {
-          "name": "Swans",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Swans"
         }
       ]
     },
     {
       "year": 2020,
-      "from": "2020-10-18",
-      "to": "2020-10-25",
-      "plays": 39,
+      "from": "2020-10-19",
+      "to": "2020-10-26",
+      "plays": 55,
       "album": {
         "title": "Conatus",
         "artist": "Zola Jesus",
@@ -259,39 +259,39 @@
     },
     {
       "year": 2019,
-      "from": "2019-10-18",
-      "to": "2019-10-25",
-      "plays": 86,
+      "from": "2019-10-19",
+      "to": "2019-10-26",
+      "plays": 112,
       "album": {
-        "title": "Ghosteen",
-        "artist": "Nick Cave & the Bad Seeds",
+        "title": "Immunity",
+        "artist": "Clairo",
         "plays": 11,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e29fc81188122118c72e4bb8b592831f.jpg",
-        "url": "https://www.last.fm/music/Nick+Cave+%26+the+Bad+Seeds/Ghosteen"
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d2389b806dd5061b6a75e360c4c46c88.jpg",
+        "url": "https://www.last.fm/music/Clairo/Immunity"
       },
       "artists": [
         {
-          "name": "Nick Cave & the Bad Seeds",
+          "name": "Clairo",
           "plays": 11,
-          "url": "https://www.last.fm/music/Nick+Cave+%26+the+Bad+Seeds"
+          "url": "https://www.last.fm/music/Clairo"
         },
         {
-          "name": "Now, Now",
-          "plays": 8,
-          "url": "https://www.last.fm/music/Now%2C+Now"
+          "name": "JPEGMAFIA",
+          "plays": 10,
+          "url": "https://www.last.fm/music/JPEGMAFIA"
         },
         {
-          "name": "Jet Black Alley Cat",
-          "plays": 4,
-          "url": "https://www.last.fm/music/Jet+Black+Alley+Cat"
+          "name": "Kanye West",
+          "plays": 9,
+          "url": "https://www.last.fm/music/Kanye+West"
         }
       ]
     },
     {
       "year": 2018,
-      "from": "2018-10-18",
-      "to": "2018-10-25",
-      "plays": 83,
+      "from": "2018-10-19",
+      "to": "2018-10-26",
+      "plays": 98,
       "album": {
         "title": "Loveless",
         "artist": "my bloody valentine",
@@ -306,22 +306,22 @@
           "url": "https://www.last.fm/music/my+bloody+valentine"
         },
         {
-          "name": "The 1975",
-          "plays": 10,
-          "url": "https://www.last.fm/music/The+1975"
+          "name": "Joji",
+          "plays": 11,
+          "url": "https://www.last.fm/music/Joji"
         },
         {
-          "name": "Aminé",
-          "plays": 7,
-          "url": "https://www.last.fm/music/Amin%C3%A9"
+          "name": "The Temper Trap",
+          "plays": 9,
+          "url": "https://www.last.fm/music/The+Temper+Trap"
         }
       ]
     },
     {
       "year": 2017,
-      "from": "2017-10-18",
-      "to": "2017-10-25",
-      "plays": 20,
+      "from": "2017-10-19",
+      "to": "2017-10-26",
+      "plays": 26,
       "album": {
         "title": "SATURATION",
         "artist": "BROCKHAMPTON",
@@ -332,7 +332,7 @@
       "artists": [
         {
           "name": "BROCKHAMPTON",
-          "plays": 4,
+          "plays": 5,
           "url": "https://www.last.fm/music/BROCKHAMPTON"
         },
         {
@@ -349,9 +349,9 @@
     },
     {
       "year": 2016,
-      "from": "2016-10-18",
-      "to": "2016-10-25",
-      "plays": 60,
+      "from": "2016-10-19",
+      "to": "2016-10-26",
+      "plays": 71,
       "album": {
         "title": "Oh My My",
         "artist": "OneRepublic",
@@ -366,22 +366,22 @@
           "url": "https://www.last.fm/music/OneRepublic"
         },
         {
+          "name": "Francis and the Lights",
+          "plays": 5,
+          "url": "https://www.last.fm/music/Francis+and+the+Lights"
+        },
+        {
           "name": "Arvo Pärt",
           "plays": 5,
           "url": "https://www.last.fm/music/Arvo+P%C3%A4rt"
-        },
-        {
-          "name": "Grouplove",
-          "plays": 5,
-          "url": "https://www.last.fm/music/Grouplove"
         }
       ]
     },
     {
       "year": 2015,
-      "from": "2015-10-18",
-      "to": "2015-10-25",
-      "plays": 156,
+      "from": "2015-10-19",
+      "to": "2015-10-26",
+      "plays": 158,
       "album": {
         "title": "Sprained Ankle",
         "artist": "Julien Baker",
@@ -401,39 +401,39 @@
           "url": "https://www.last.fm/music/Helios"
         },
         {
-          "name": "Battles",
+          "name": "Fink",
           "plays": 8,
-          "url": "https://www.last.fm/music/Battles"
+          "url": "https://www.last.fm/music/Fink"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-10-18",
-      "to": "2014-10-25",
-      "plays": 211,
+      "from": "2014-10-19",
+      "to": "2014-10-26",
+      "plays": 203,
       "album": {
         "title": "Cerulean",
         "artist": "Baths",
-        "plays": 18,
+        "plays": 31,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4ca90af3b429a8874b9b0a6762a4aeca.jpg",
         "url": "https://www.last.fm/music/Baths/Cerulean"
       },
       "artists": [
         {
           "name": "Baths",
-          "plays": 19,
+          "plays": 43,
           "url": "https://www.last.fm/music/Baths"
-        },
-        {
-          "name": "The Magician",
-          "plays": 13,
-          "url": "https://www.last.fm/music/The+Magician"
         },
         {
           "name": "M83",
           "plays": 12,
           "url": "https://www.last.fm/music/M83"
+        },
+        {
+          "name": "Buchanan",
+          "plays": 8,
+          "url": "https://www.last.fm/music/Buchanan"
         }
       ]
     }
