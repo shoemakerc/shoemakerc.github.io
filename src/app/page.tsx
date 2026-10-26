@@ -16,8 +16,9 @@ export default function Home() {
         </h1>
         <p className="lede">
           I’m Chris. I’ve played cello since I was seven and piano since nine,
-          studied computer science at Carleton, and still believe the best
-          playlist is the one you’re about to hand to a friend.
+          studied computer science at Carleton, now play in the Oakland Civic
+          Orchestra, and still believe the best playlist is the one you’re
+          about to hand to a friend.
         </p>
       </section>
 
