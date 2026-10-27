@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-27T13:37:35.972Z",
+  "syncedAt": "2026-10-27T16:00:48.795Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66525,
@@ -171,13 +171,13 @@
       "year": 2022,
       "from": "2022-10-20",
       "to": "2022-10-27",
-      "plays": 93,
+      "plays": 96,
       "album": {
-        "title": "Blink Twice",
-        "artist": "Arkells",
+        "title": "Good Faith",
+        "artist": "Madeon",
         "plays": 5,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/786b15d493efda4b958303927ec911bb.jpg",
-        "url": "https://www.last.fm/music/Arkells/Blink+Twice"
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1b57eaca10c20599af4ce04412c04948.jpg",
+        "url": "https://www.last.fm/music/Madeon/Good+Faith"
       },
       "artists": [
         {
@@ -186,14 +186,14 @@
           "url": "https://www.last.fm/music/Arkells"
         },
         {
+          "name": "Madeon",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Madeon"
+        },
+        {
           "name": "Silversun Pickups",
           "plays": 6,
           "url": "https://www.last.fm/music/Silversun+Pickups"
-        },
-        {
-          "name": "Madeon",
-          "plays": 5,
-          "url": "https://www.last.fm/music/Madeon"
         }
       ]
     },
@@ -206,7 +206,7 @@
         "title": "22, a Million",
         "artist": "Bon Iver",
         "plays": 2,
-        "image": null,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/cd5a54c0665691d78477d301755d7706.jpg",
         "url": "https://www.last.fm/music/Bon+Iver/22%2C+a+Million"
       },
       "artists": [
