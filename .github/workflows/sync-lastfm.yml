@@ -2,7 +2,12 @@ name: Sync Last.fm
 
 on:
   schedule:
-    - cron: "47 10 * * *" # daily, before the Goodreads sync
+    # GitHub starts scheduled runs hours late when it's busy, and sometimes
+    # skips them. So the first run is early, to land by morning even if it
+    # starts hours late, and the second catches whatever the first missed,
+    # late-night listening included. Both come before the Goodreads syncs.
+    - cron: "47 7 * * *"
+    - cron: "47 10 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,6 +23,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          # The branch as it is when the job starts, not when the run was
+          # queued, so a run that waited behind another one syncs on top of
+          # that one's snapshot instead of conflicting with it.
+          ref: ${{ github.ref }}
       - uses: actions/setup-node@v7
         with:
           node-version: 22
