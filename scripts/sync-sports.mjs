@@ -117,10 +117,10 @@ function parseGame(event, league) {
 }
 
 /**
- * A season's games, regular season and playoffs: the team's last few
- * finished ones, oldest first, and the first one it has yet to play.
+ * The team's schedule for a season, regular season and playoffs: its last
+ * few finished games, oldest first, and the first one it has yet to play.
  */
-async function games({ sport, league }, year) {
+async function schedule({ sport, league }, year) {
   const finished = [];
   let upcoming = null;
   for (const type of [2, 3]) {
@@ -169,10 +169,10 @@ async function team(source, now) {
   let season = await standings(source);
   if (season.games === 0) season = await standings(source, season.year - 1);
 
-  const { recent, upcoming } = await games(source, season.year);
-  // ESPN's next event for a team can be a game that's already been played,
-  // which would make it look like the season's over. The schedule knows the
-  // game after it.
+  const { recent, upcoming } = await schedule(source, season.year);
+  // ESPN's next event for a team can be a game that's already been played (a
+  // football team's is, the day after it plays), which would make the season
+  // look over. The schedule has the game after it.
   const next = parseNext(info.nextEvent?.[0]) ?? parseNext(upcoming);
   const last = recent.at(-1);
   const sinceLast = last ? now - Date.parse(last.date) : Infinity;
