@@ -1,0 +1,51 @@
+name: Sports sync check
+
+# Temporary: on pushes to this branch, runs the sports sync with master's
+# script and with this branch's, and prints what each made of ESPN. Commits
+# nothing; to be removed before merging.
+on:
+  push:
+    branches: [ccr-4bfe5c9e-j349ff]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: The Vikings' next event, as ESPN gives it
+        run: |
+          curl -fsS https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/min \
+            | jq '.team.nextEvent | map({date, name, timeValid, seasonType, week, status: .competitions[0].status.type})'
+      - name: The Vikings' first unplayed games on the schedule
+        run: |
+          curl -fsS "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/min/schedule?season=2026&seasontype=2" \
+            | jq '[.events[] | select(.competitions[0].status.type.completed | not)] | .[:2]
+                  | map({date, name, timeValid, seasonType,
+                         status: .competitions[0].status.type | {name, state, completed},
+                         teams: .competitions[0].competitors | map({homeAway, abbreviation: .team.abbreviation, displayName: .team.displayName})})'
+      - name: Sync with each script
+        run: |
+          git show origin/master:scripts/sync-sports.mjs > /tmp/sync-sports-master.mjs
+          cp scripts/sync-sports.mjs /tmp/sync-sports-branch.mjs
+          for v in master branch; do
+            git checkout -q origin/master -- content/sports.json
+            echo "== $v"
+            node /tmp/sync-sports-$v.mjs
+            cp content/sports.json /tmp/$v.json
+          done
+      - name: Compare
+        run: |
+          for v in master branch; do
+            echo "== $v"
+            jq -r '.teams[] | "\(.nickname): \(.wins)-\(.losses), \(.phase); next: \(if .next then "\(.next.opponent) \(.next.date), seasonType \(.next.seasonType), timeKnown \(.next.timeKnown)" else "none" end)"' /tmp/$v.json
+          done
+          diff <(jq 'del(.syncedAt)' /tmp/master.json) <(jq 'del(.syncedAt)' /tmp/branch.json) && echo "No difference."
+          true
