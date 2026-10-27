@@ -2,11 +2,13 @@ name: Sync sports
 
 on:
   schedule:
-    - cron: "27 10 * * *" # daily, once last night's West Coast games are final
     # GitHub starts scheduled runs hours late when it's busy, and sometimes
-    # skips them, so try again three hours on. A run with nothing new to sync
-    # commits nothing.
-    - cron: "27 13 * * *"
+    # skips them. So the first run is early, to land by morning even if it
+    # starts hours late; the second, once last night's West Coast games are
+    # surely final, catches whatever the first missed. A run with nothing new
+    # to sync commits nothing.
+    - cron: "27 7 * * *"
+    - cron: "27 10 * * *"
   workflow_dispatch:
 
 permissions:
