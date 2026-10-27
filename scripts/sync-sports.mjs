@@ -116,18 +116,28 @@ function parseGame(event, league) {
   };
 }
 
-/** The team's last few finished games of a season, regular season and playoffs, oldest first. */
-async function results({ sport, league }, year) {
-  const games = [];
+/**
+ * The team's schedule for a season, regular season and playoffs: its last
+ * few finished games, oldest first, and the first one it has yet to play.
+ */
+async function schedule({ sport, league }, year) {
+  const finished = [];
+  let upcoming = null;
   for (const type of [2, 3]) {
     const body = await get(
       `${API}/site/v2/sports/${sport}/${league}/teams/${TEAM.toLowerCase()}/schedule?season=${year}&seasontype=${type}`,
     );
     for (const event of body.events ?? []) {
-      if (event.competitions[0].status.type.completed) games.push(parseGame(event, league));
+      const status = event.competitions[0].status.type;
+      if (status.completed) finished.push(parseGame(event, league));
+      // Postponed and canceled games are over ("post") without being completed.
+      else if (status.state !== "post" && (!upcoming || event.date < upcoming.date)) upcoming = event;
     }
   }
-  return games.sort((a, b) => a.date.localeCompare(b.date)).slice(-RECENT_GAMES);
+  return {
+    recent: finished.sort((a, b) => a.date.localeCompare(b.date)).slice(-RECENT_GAMES),
+    upcoming,
+  };
 }
 
 function parseNext(event) {
@@ -159,8 +169,11 @@ async function team(source, now) {
   let season = await standings(source);
   if (season.games === 0) season = await standings(source, season.year - 1);
 
-  const recent = await results(source, season.year);
-  const next = parseNext(info.nextEvent?.[0]);
+  const { recent, upcoming } = await schedule(source, season.year);
+  // ESPN's next event for a team can be a game that's already been played (a
+  // football team's is, the day after it plays), which would make the season
+  // look over. The schedule has the game after it.
+  const next = parseNext(info.nextEvent?.[0]) ?? parseNext(upcoming);
   const last = recent.at(-1);
   const sinceLast = last ? now - Date.parse(last.date) : Infinity;
   const clinched = season.clincher && season.clincher !== "e";
