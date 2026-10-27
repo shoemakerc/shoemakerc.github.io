@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-27T01:36:24.069Z",
+  "syncedAt": "2026-10-27T13:27:27.322Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -270,15 +270,15 @@
       "season": "2026-27",
       "phase": "regular",
       "wins": 3,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "otLosses": 0,
       "division": {
         "name": "Northwest",
-        "rank": 1,
+        "rank": 3,
         "teams": 5
       },
-      "streak": "W3",
+      "streak": "L1",
       "clincher": null,
       "recent": [
         {
@@ -309,6 +309,16 @@
           "them": 94,
           "result": "W",
           "extra": null,
+          "postseason": false
+        },
+        {
+          "date": "2026-10-26T23:00Z",
+          "home": false,
+          "opponent": "Cavaliers",
+          "us": 125,
+          "them": 127,
+          "result": "L",
+          "extra": "OT",
           "postseason": false
         }
       ],
