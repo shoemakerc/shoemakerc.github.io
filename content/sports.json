@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-26T16:51:39.084Z",
+  "syncedAt": "2026-10-27T01:36:24.069Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -313,10 +313,10 @@
         }
       ],
       "next": {
-        "date": "2026-10-26T23:00Z",
+        "date": "2026-10-29T00:00Z",
         "timeKnown": true,
-        "home": false,
-        "opponent": "Cleveland Cavaliers",
+        "home": true,
+        "opponent": "Golden State Warriors",
         "seasonType": 2,
         "stage": null,
         "note": null
@@ -328,7 +328,7 @@
       "nickname": "Vikings",
       "url": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings",
       "season": "2026",
-      "phase": "offseason",
+      "phase": "regular",
       "wins": 6,
       "losses": 0,
       "ties": 0,
@@ -402,7 +402,15 @@
           "postseason": false
         }
       ],
-      "next": null
+      "next": {
+        "date": "2026-11-01T18:00Z",
+        "timeKnown": true,
+        "home": false,
+        "opponent": "Detroit Lions",
+        "seasonType": 2,
+        "stage": null,
+        "note": null
+      }
     }
   ]
 }
