@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-10-27T16:00:48.795Z",
+  "syncedAt": "2026-10-28T14:32:06.341Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66525,
+  "totalPlays": 66530,
   "lastTrack": {
-    "name": "Shrimp Shack",
-    "artist": "Viagra Boys",
-    "album": "Street Worms",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d33b34877998da3ef033b5cb335a634d.jpg",
-    "url": "https://www.last.fm/music/Viagra+Boys/_/Shrimp+Shack",
-    "playedAt": 1793081282000
+    "name": "8 Memories in Watercolour, Op. 1: No. 8, Sunrain - Live",
+    "artist": "Tan Dun",
+    "album": "Lang Lang - Live at Carnegie Hall",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3efa1e9beb8650f14e6178c58f8490a0.jpg",
+    "url": "https://www.last.fm/music/Tan+Dun/_/8+Memories+in+Watercolour,+Op.+1:+No.+8,+Sunrain+-+Live",
+    "playedAt": 1793162199000
   },
   "month": {
     "label": "October 2026",
     "partial": true,
     "from": "2026-10-01",
-    "to": "2026-10-27",
-    "plays": 242,
-    "artistCount": 116,
+    "to": "2026-10-28",
+    "plays": 247,
+    "artistCount": 117,
     "artists": [
       {
         "name": "Gilla Band",
@@ -26,7 +26,7 @@
       },
       {
         "name": "Modest Mussorgsky",
-        "plays": 21,
+        "plays": 22,
         "url": "https://www.last.fm/music/Modest+Mussorgsky"
       },
       {
@@ -56,7 +56,7 @@
       {
         "title": "Mussorgsky: Pictures at an Exhibition",
         "artist": "Modest Mussorgsky",
-        "plays": 21,
+        "plays": 22,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7b55fe590c5f90865b10e4aa1a1841eb.jpg",
         "url": "https://www.last.fm/music/Modest+Mussorgsky/Mussorgsky%3A+Pictures+at+an+Exhibition"
       },
@@ -79,9 +79,9 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-10-20",
-      "to": "2025-10-27",
-      "plays": 78,
+      "from": "2025-10-21",
+      "to": "2025-10-28",
+      "plays": 69,
       "album": {
         "title": "Aspect",
         "artist": "Seventeen Years Old and Berlin Wall",
@@ -101,29 +101,29 @@
           "url": "https://www.last.fm/music/Kyuss"
         },
         {
-          "name": "Japandroids",
+          "name": "Swans",
           "plays": 4,
-          "url": "https://www.last.fm/music/Japandroids"
+          "url": "https://www.last.fm/music/Swans"
         }
       ]
     },
     {
       "year": 2024,
-      "from": "2024-10-20",
-      "to": "2024-10-27",
-      "plays": 105,
+      "from": "2024-10-21",
+      "to": "2024-10-28",
+      "plays": 99,
       "album": {
-        "title": "abasement tapes",
-        "artist": "semiwestern",
-        "plays": 7,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/68e077eaab664605fe9c84b6ede3b656.jpg",
-        "url": "https://www.last.fm/music/semiwestern/abasement+tapes"
+        "title": "In Rainbows",
+        "artist": "Radiohead",
+        "plays": 14,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9dbcd9399ac3e622b4f508323155b644.jpg",
+        "url": "https://www.last.fm/music/Radiohead/In+Rainbows"
       },
       "artists": [
         {
-          "name": "HighSchool",
-          "plays": 7,
-          "url": "https://www.last.fm/music/HighSchool"
+          "name": "Radiohead",
+          "plays": 14,
+          "url": "https://www.last.fm/music/Radiohead"
         },
         {
           "name": "semiwestern",
@@ -139,47 +139,52 @@
     },
     {
       "year": 2023,
-      "from": "2023-10-20",
-      "to": "2023-10-27",
-      "plays": 174,
+      "from": "2023-10-21",
+      "to": "2023-10-28",
+      "plays": 137,
       "album": {
         "title": "Most Normal",
         "artist": "Gilla Band",
-        "plays": 19,
+        "plays": 14,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/537a15c77e18305188c58e58b9efd992.jpg",
         "url": "https://www.last.fm/music/Gilla+Band/Most+Normal"
       },
       "artists": [
         {
           "name": "Gilla Band",
-          "plays": 29,
+          "plays": 24,
           "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
-          "name": "Mitski",
-          "plays": 16,
-          "url": "https://www.last.fm/music/Mitski"
+          "name": "Soft Blue Shimmer",
+          "plays": 13,
+          "url": "https://www.last.fm/music/Soft+Blue+Shimmer"
         },
         {
-          "name": "Soft Blue Shimmer",
-          "plays": 14,
-          "url": "https://www.last.fm/music/Soft+Blue+Shimmer"
+          "name": "Ethel Cain",
+          "plays": 11,
+          "url": "https://www.last.fm/music/Ethel+Cain"
         }
       ]
     },
     {
       "year": 2022,
-      "from": "2022-10-20",
-      "to": "2022-10-27",
-      "plays": 96,
+      "from": "2022-10-21",
+      "to": "2022-10-28",
+      "plays": 109,
       "album": {
-        "title": "Good Faith",
-        "artist": "Madeon",
-        "plays": 5,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1b57eaca10c20599af4ce04412c04948.jpg",
-        "url": "https://www.last.fm/music/Madeon/Good+Faith"
+        "title": "Dimensional Bleed",
+        "artist": "Holy Fawn",
+        "plays": 12,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a664ddb176e09712480a6ec6333df74f.jpg",
+        "url": "https://www.last.fm/music/Holy+Fawn/Dimensional+Bleed"
       },
       "artists": [
+        {
+          "name": "Holy Fawn",
+          "plays": 12,
+          "url": "https://www.last.fm/music/Holy+Fawn"
+        },
         {
           "name": "Arkells",
           "plays": 7,
@@ -189,25 +194,20 @@
           "name": "Madeon",
           "plays": 6,
           "url": "https://www.last.fm/music/Madeon"
-        },
-        {
-          "name": "Silversun Pickups",
-          "plays": 6,
-          "url": "https://www.last.fm/music/Silversun+Pickups"
         }
       ]
     },
     {
       "year": 2021,
-      "from": "2021-10-20",
-      "to": "2021-10-27",
-      "plays": 66,
+      "from": "2021-10-21",
+      "to": "2021-10-28",
+      "plays": 60,
       "album": {
-        "title": "22, a Million",
-        "artist": "Bon Iver",
+        "title": "Red Earth & Pouring Rain",
+        "artist": "Bear's Den",
         "plays": 2,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/cd5a54c0665691d78477d301755d7706.jpg",
-        "url": "https://www.last.fm/music/Bon+Iver/22%2C+a+Million"
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9b22de0ab92887eca709347a46159143.jpg",
+        "url": "https://www.last.fm/music/Bear's+Den/Red+Earth+%26+Pouring+Rain"
       },
       "artists": [
         {
@@ -216,22 +216,22 @@
           "url": "https://www.last.fm/music/Sleep+Token"
         },
         {
-          "name": "Swans",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Swans"
-        },
-        {
           "name": "John Adams",
           "plays": 3,
           "url": "https://www.last.fm/music/John+Adams"
+        },
+        {
+          "name": "Bear's Den",
+          "plays": 2,
+          "url": "https://www.last.fm/music/Bear's+Den"
         }
       ]
     },
     {
       "year": 2020,
-      "from": "2020-10-20",
-      "to": "2020-10-27",
-      "plays": 55,
+      "from": "2020-10-21",
+      "to": "2020-10-28",
+      "plays": 53,
       "album": {
         "title": "Conatus",
         "artist": "Zola Jesus",
@@ -246,22 +246,22 @@
           "url": "https://www.last.fm/music/Zola+Jesus"
         },
         {
+          "name": "Fink",
+          "plays": 8,
+          "url": "https://www.last.fm/music/Fink"
+        },
+        {
           "name": "Daughters",
           "plays": 8,
           "url": "https://www.last.fm/music/Daughters"
-        },
-        {
-          "name": "M83",
-          "plays": 5,
-          "url": "https://www.last.fm/music/M83"
         }
       ]
     },
     {
       "year": 2019,
-      "from": "2019-10-20",
-      "to": "2019-10-27",
-      "plays": 110,
+      "from": "2019-10-21",
+      "to": "2019-10-28",
+      "plays": 113,
       "album": {
         "title": "Immunity",
         "artist": "Clairo",
@@ -289,9 +289,9 @@
     },
     {
       "year": 2018,
-      "from": "2018-10-20",
-      "to": "2018-10-27",
-      "plays": 117,
+      "from": "2018-10-21",
+      "to": "2018-10-28",
+      "plays": 128,
       "album": {
         "title": "BALLADS 1",
         "artist": "Joji",
@@ -319,9 +319,9 @@
     },
     {
       "year": 2017,
-      "from": "2017-10-20",
-      "to": "2017-10-27",
-      "plays": 27,
+      "from": "2017-10-21",
+      "to": "2017-10-28",
+      "plays": 30,
       "album": {
         "title": "SATURATION",
         "artist": "BROCKHAMPTON",
@@ -349,80 +349,80 @@
     },
     {
       "year": 2016,
-      "from": "2016-10-20",
-      "to": "2016-10-27",
-      "plays": 107,
+      "from": "2016-10-21",
+      "to": "2016-10-28",
+      "plays": 111,
       "album": {
-        "title": "Oh My My",
-        "artist": "OneRepublic",
-        "plays": 6,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d8585efa5f75112c97af0b466861787d.jpg",
-        "url": "https://www.last.fm/music/OneRepublic/Oh+My+My"
+        "title": "Arvo Pärt: Portrait",
+        "artist": "Arvo Pärt",
+        "plays": 5,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/75022707cbb997ace29f1e97cefa6df1.png",
+        "url": "https://www.last.fm/music/Arvo+P%C3%A4rt/Arvo+P%C3%A4rt%3A+Portrait"
       },
       "artists": [
-        {
-          "name": "OneRepublic",
-          "plays": 6,
-          "url": "https://www.last.fm/music/OneRepublic"
-        },
-        {
-          "name": "Francis and the Lights",
-          "plays": 5,
-          "url": "https://www.last.fm/music/Francis+and+the+Lights"
-        },
         {
           "name": "Arvo Pärt",
           "plays": 5,
           "url": "https://www.last.fm/music/Arvo+P%C3%A4rt"
+        },
+        {
+          "name": "Grouplove",
+          "plays": 5,
+          "url": "https://www.last.fm/music/Grouplove"
+        },
+        {
+          "name": "OneRepublic",
+          "plays": 5,
+          "url": "https://www.last.fm/music/OneRepublic"
         }
       ]
     },
     {
       "year": 2015,
-      "from": "2015-10-20",
-      "to": "2015-10-27",
-      "plays": 146,
+      "from": "2015-10-21",
+      "to": "2015-10-28",
+      "plays": 165,
       "album": {
         "title": "Sprained Ankle",
         "artist": "Julien Baker",
-        "plays": 10,
+        "plays": 19,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e22fffff8b2d431e24b85fbe6dd1fb5d.jpg",
         "url": "https://www.last.fm/music/Julien+Baker/Sprained+Ankle"
       },
       "artists": [
         {
           "name": "Fink",
-          "plays": 12,
+          "plays": 25,
           "url": "https://www.last.fm/music/Fink"
         },
         {
           "name": "Julien Baker",
-          "plays": 10,
+          "plays": 19,
           "url": "https://www.last.fm/music/Julien+Baker"
         },
         {
-          "name": "Helios",
+          "name": "PVRIS",
           "plays": 10,
-          "url": "https://www.last.fm/music/Helios"
+          "url": "https://www.last.fm/music/PVRIS"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-10-20",
-      "to": "2014-10-27",
-      "plays": 277,
+      "from": "2014-10-21",
+      "to": "2014-10-28",
+      "plays": 270,
       "album": {
         "title": "Cerulean",
         "artist": "Baths",
-        "plays": 33,
+        "plays": 18,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4ca90af3b429a8874b9b0a6762a4aeca.jpg",
         "url": "https://www.last.fm/music/Baths/Cerulean"
       },
       "artists": [
         {
           "name": "Baths",
-          "plays": 49,
+          "plays": 35,
           "url": "https://www.last.fm/music/Baths"
         },
         {
