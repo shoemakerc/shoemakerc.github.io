@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-27T13:27:27.322Z",
+  "syncedAt": "2026-10-28T14:14:53.786Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -139,7 +139,7 @@
       "url": "https://www.espn.com/nhl/team/_/name/min/minnesota-wild",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 8,
+      "wins": 9,
       "losses": 3,
       "ties": 0,
       "otLosses": 2,
@@ -148,19 +148,9 @@
         "rank": 1,
         "teams": 8
       },
-      "streak": "W2",
+      "streak": "W3",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-10-08T23:00Z",
-          "home": false,
-          "opponent": "Lightning",
-          "us": 2,
-          "them": 3,
-          "result": "L",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-10-10T22:00Z",
           "home": false,
@@ -250,13 +240,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-10-28T01:00Z",
+          "home": false,
+          "opponent": "Mammoth",
+          "us": 3,
+          "them": 1,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-10-28T01:00Z",
+        "date": "2026-10-30T00:00Z",
         "timeKnown": true,
-        "home": false,
-        "opponent": "Utah Mammoth",
+        "home": true,
+        "opponent": "New York Islanders",
         "seasonType": 2,
         "stage": null,
         "note": null
