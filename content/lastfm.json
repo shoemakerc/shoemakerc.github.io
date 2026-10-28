@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-10-28T14:32:06.341Z",
+  "syncedAt": "2026-10-28T16:50:14.458Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66530,
+  "totalPlays": 66534,
   "lastTrack": {
-    "name": "8 Memories in Watercolour, Op. 1: No. 8, Sunrain - Live",
-    "artist": "Tan Dun",
-    "album": "Lang Lang - Live at Carnegie Hall",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3efa1e9beb8650f14e6178c58f8490a0.jpg",
-    "url": "https://www.last.fm/music/Tan+Dun/_/8+Memories+in+Watercolour,+Op.+1:+No.+8,+Sunrain+-+Live",
-    "playedAt": 1793162199000
+    "name": "Prélude a l'après-midi d'un faune, L. 86",
+    "artist": "Claude Debussy",
+    "album": "Debussy: Orchestral Music",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e6f0d8ddd487a43d6a485c731460fe81.jpg",
+    "url": "https://www.last.fm/music/Claude+Debussy/_/Pr%C3%A9lude+a+l%27apr%C3%A8s-midi+d%27un+faune,+L.+86",
+    "playedAt": 1793205276000
   },
   "month": {
     "label": "October 2026",
     "partial": true,
     "from": "2026-10-01",
     "to": "2026-10-28",
-    "plays": 247,
-    "artistCount": 117,
+    "plays": 251,
+    "artistCount": 118,
     "artists": [
       {
         "name": "Gilla Band",
@@ -171,7 +171,7 @@
       "year": 2022,
       "from": "2022-10-21",
       "to": "2022-10-28",
-      "plays": 109,
+      "plays": 106,
       "album": {
         "title": "Dimensional Bleed",
         "artist": "Holy Fawn",
@@ -261,18 +261,18 @@
       "year": 2019,
       "from": "2019-10-21",
       "to": "2019-10-28",
-      "plays": 113,
+      "plays": 119,
       "album": {
         "title": "Immunity",
         "artist": "Clairo",
-        "plays": 11,
+        "plays": 13,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d2389b806dd5061b6a75e360c4c46c88.jpg",
         "url": "https://www.last.fm/music/Clairo/Immunity"
       },
       "artists": [
         {
           "name": "Clairo",
-          "plays": 11,
+          "plays": 13,
           "url": "https://www.last.fm/music/Clairo"
         },
         {
@@ -326,7 +326,7 @@
         "title": "SATURATION",
         "artist": "BROCKHAMPTON",
         "plays": 4,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/15bb2e6f96f7e852f5cf61375e724f7e.jpg",
+        "image": null,
         "url": "https://www.last.fm/music/BROCKHAMPTON/SATURATION"
       },
       "artists": [
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-10-21",
       "to": "2015-10-28",
-      "plays": 165,
+      "plays": 163,
       "album": {
         "title": "Sprained Ankle",
         "artist": "Julien Baker",
