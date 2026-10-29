@@ -1,33 +1,33 @@
 {
-  "syncedAt": "2026-10-28T16:50:14.458Z",
+  "syncedAt": "2026-10-29T14:40:39.800Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66534,
+  "totalPlays": 66557,
   "lastTrack": {
-    "name": "Prélude a l'après-midi d'un faune, L. 86",
-    "artist": "Claude Debussy",
-    "album": "Debussy: Orchestral Music",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e6f0d8ddd487a43d6a485c731460fe81.jpg",
-    "url": "https://www.last.fm/music/Claude+Debussy/_/Pr%C3%A9lude+a+l%27apr%C3%A8s-midi+d%27un+faune,+L.+86",
-    "playedAt": 1793205276000
+    "name": "Symphony No. 5: II. Stürmisch bewegt, Mit größter Vehemenz",
+    "artist": "Gustav Mahler",
+    "album": "Mahler: Symphony No. 5",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9995340c0d51504618a3cf4fce44beb8.jpg",
+    "url": "https://www.last.fm/music/Gustav+Mahler/_/Symphony+No.+5:+II.+St%C3%BCrmisch+bewegt,+Mit+gr%C3%B6%C3%9Fter+Vehemenz",
+    "playedAt": 1793224109000
   },
   "month": {
     "label": "October 2026",
     "partial": true,
     "from": "2026-10-01",
-    "to": "2026-10-28",
-    "plays": 251,
-    "artistCount": 118,
+    "to": "2026-10-29",
+    "plays": 274,
+    "artistCount": 120,
     "artists": [
+      {
+        "name": "Modest Mussorgsky",
+        "plays": 33,
+        "url": "https://www.last.fm/music/Modest+Mussorgsky"
+      },
       {
         "name": "Gilla Band",
         "plays": 28,
         "url": "https://www.last.fm/music/Gilla+Band"
-      },
-      {
-        "name": "Modest Mussorgsky",
-        "plays": 22,
-        "url": "https://www.last.fm/music/Modest+Mussorgsky"
       },
       {
         "name": "N*E*R*D",
@@ -47,18 +47,18 @@
     ],
     "albums": [
       {
+        "title": "Mussorgsky: Pictures at an Exhibition",
+        "artist": "Modest Mussorgsky",
+        "plays": 33,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7b55fe590c5f90865b10e4aa1a1841eb.jpg",
+        "url": "https://www.last.fm/music/Modest+Mussorgsky/Mussorgsky%3A+Pictures+at+an+Exhibition"
+      },
+      {
         "title": "Pugnello",
         "artist": "Gilla Band",
         "plays": 26,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
         "url": "https://www.last.fm/music/Gilla+Band/Pugnello"
-      },
-      {
-        "title": "Mussorgsky: Pictures at an Exhibition",
-        "artist": "Modest Mussorgsky",
-        "plays": 22,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7b55fe590c5f90865b10e4aa1a1841eb.jpg",
-        "url": "https://www.last.fm/music/Modest+Mussorgsky/Mussorgsky%3A+Pictures+at+an+Exhibition"
       },
       {
         "title": "In Search Of...",
@@ -79,50 +79,50 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-10-21",
-      "to": "2025-10-28",
-      "plays": 69,
+      "from": "2025-10-22",
+      "to": "2025-10-29",
+      "plays": 64,
       "album": {
         "title": "Aspect",
         "artist": "Seventeen Years Old and Berlin Wall",
-        "plays": 13,
+        "plays": 12,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/394c15d9e5e1f4144a1804e97d7160f0.jpg",
         "url": "https://www.last.fm/music/Seventeen+Years+Old+and+Berlin+Wall/Aspect"
       },
       "artists": [
         {
           "name": "Seventeen Years Old and Berlin Wall",
-          "plays": 14,
+          "plays": 12,
           "url": "https://www.last.fm/music/Seventeen+Years+Old+and+Berlin+Wall"
-        },
-        {
-          "name": "Kyuss",
-          "plays": 7,
-          "url": "https://www.last.fm/music/Kyuss"
         },
         {
           "name": "Swans",
           "plays": 4,
           "url": "https://www.last.fm/music/Swans"
+        },
+        {
+          "name": "Panda Bear",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Panda+Bear"
         }
       ]
     },
     {
       "year": 2024,
-      "from": "2024-10-21",
-      "to": "2024-10-28",
-      "plays": 99,
+      "from": "2024-10-22",
+      "to": "2024-10-29",
+      "plays": 108,
       "album": {
         "title": "In Rainbows",
         "artist": "Radiohead",
-        "plays": 14,
+        "plays": 15,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9dbcd9399ac3e622b4f508323155b644.jpg",
         "url": "https://www.last.fm/music/Radiohead/In+Rainbows"
       },
       "artists": [
         {
           "name": "Radiohead",
-          "plays": 14,
+          "plays": 15,
           "url": "https://www.last.fm/music/Radiohead"
         },
         {
@@ -139,9 +139,9 @@
     },
     {
       "year": 2023,
-      "from": "2023-10-21",
-      "to": "2023-10-28",
-      "plays": 137,
+      "from": "2023-10-22",
+      "to": "2023-10-29",
+      "plays": 125,
       "album": {
         "title": "Most Normal",
         "artist": "Gilla Band",
@@ -169,20 +169,20 @@
     },
     {
       "year": 2022,
-      "from": "2022-10-21",
-      "to": "2022-10-28",
-      "plays": 106,
+      "from": "2022-10-22",
+      "to": "2022-10-29",
+      "plays": 113,
       "album": {
         "title": "Dimensional Bleed",
         "artist": "Holy Fawn",
-        "plays": 12,
+        "plays": 15,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a664ddb176e09712480a6ec6333df74f.jpg",
         "url": "https://www.last.fm/music/Holy+Fawn/Dimensional+Bleed"
       },
       "artists": [
         {
           "name": "Holy Fawn",
-          "plays": 12,
+          "plays": 15,
           "url": "https://www.last.fm/music/Holy+Fawn"
         },
         {
@@ -199,55 +199,55 @@
     },
     {
       "year": 2021,
-      "from": "2021-10-21",
-      "to": "2021-10-28",
+      "from": "2021-10-22",
+      "to": "2021-10-29",
       "plays": 60,
       "album": {
         "title": "Red Earth & Pouring Rain",
         "artist": "Bear's Den",
-        "plays": 2,
+        "plays": 3,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9b22de0ab92887eca709347a46159143.jpg",
         "url": "https://www.last.fm/music/Bear's+Den/Red+Earth+%26+Pouring+Rain"
       },
       "artists": [
         {
           "name": "Sleep Token",
-          "plays": 3,
+          "plays": 4,
           "url": "https://www.last.fm/music/Sleep+Token"
         },
         {
-          "name": "John Adams",
+          "name": "Loathe",
           "plays": 3,
-          "url": "https://www.last.fm/music/John+Adams"
+          "url": "https://www.last.fm/music/Loathe"
         },
         {
           "name": "Bear's Den",
-          "plays": 2,
+          "plays": 3,
           "url": "https://www.last.fm/music/Bear's+Den"
         }
       ]
     },
     {
       "year": 2020,
-      "from": "2020-10-21",
-      "to": "2020-10-28",
-      "plays": 53,
+      "from": "2020-10-22",
+      "to": "2020-10-29",
+      "plays": 58,
       "album": {
         "title": "Conatus",
         "artist": "Zola Jesus",
-        "plays": 12,
+        "plays": 13,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/58729d691fc93666a07f44d78772d1ca.jpg",
         "url": "https://www.last.fm/music/Zola+Jesus/Conatus"
       },
       "artists": [
         {
           "name": "Zola Jesus",
-          "plays": 12,
+          "plays": 13,
           "url": "https://www.last.fm/music/Zola+Jesus"
         },
         {
           "name": "Fink",
-          "plays": 8,
+          "plays": 10,
           "url": "https://www.last.fm/music/Fink"
         },
         {
@@ -259,9 +259,9 @@
     },
     {
       "year": 2019,
-      "from": "2019-10-21",
-      "to": "2019-10-28",
-      "plays": 119,
+      "from": "2019-10-22",
+      "to": "2019-10-29",
+      "plays": 129,
       "album": {
         "title": "Immunity",
         "artist": "Clairo",
@@ -289,9 +289,9 @@
     },
     {
       "year": 2018,
-      "from": "2018-10-21",
-      "to": "2018-10-28",
-      "plays": 128,
+      "from": "2018-10-22",
+      "to": "2018-10-29",
+      "plays": 110,
       "album": {
         "title": "BALLADS 1",
         "artist": "Joji",
@@ -302,7 +302,7 @@
       "artists": [
         {
           "name": "Joji",
-          "plays": 17,
+          "plays": 15,
           "url": "https://www.last.fm/music/Joji"
         },
         {
@@ -319,39 +319,39 @@
     },
     {
       "year": 2017,
-      "from": "2017-10-21",
-      "to": "2017-10-28",
-      "plays": 30,
+      "from": "2017-10-22",
+      "to": "2017-10-29",
+      "plays": 39,
       "album": {
-        "title": "SATURATION",
-        "artist": "BROCKHAMPTON",
-        "plays": 4,
-        "image": null,
-        "url": "https://www.last.fm/music/BROCKHAMPTON/SATURATION"
+        "title": "Big Fish Theory",
+        "artist": "Vince Staples",
+        "plays": 3,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/85540f3f9e225b93de5972556ceb97d6.png",
+        "url": "https://www.last.fm/music/Vince+Staples/Big+Fish+Theory"
       },
       "artists": [
-        {
-          "name": "BROCKHAMPTON",
-          "plays": 5,
-          "url": "https://www.last.fm/music/BROCKHAMPTON"
-        },
         {
           "name": "Vince Staples",
           "plays": 3,
           "url": "https://www.last.fm/music/Vince+Staples"
         },
         {
-          "name": "Kygo",
+          "name": "BROCKHAMPTON",
+          "plays": 3,
+          "url": "https://www.last.fm/music/BROCKHAMPTON"
+        },
+        {
+          "name": "Big Shaq",
           "plays": 2,
-          "url": "https://www.last.fm/music/Kygo"
+          "url": "https://www.last.fm/music/Big+Shaq"
         }
       ]
     },
     {
       "year": 2016,
-      "from": "2016-10-21",
-      "to": "2016-10-28",
-      "plays": 111,
+      "from": "2016-10-22",
+      "to": "2016-10-29",
+      "plays": 106,
       "album": {
         "title": "Arvo Pärt: Portrait",
         "artist": "Arvo Pärt",
@@ -371,17 +371,17 @@
           "url": "https://www.last.fm/music/Grouplove"
         },
         {
-          "name": "OneRepublic",
-          "plays": 5,
-          "url": "https://www.last.fm/music/OneRepublic"
+          "name": "Francis and the Lights",
+          "plays": 4,
+          "url": "https://www.last.fm/music/Francis+and+the+Lights"
         }
       ]
     },
     {
       "year": 2015,
-      "from": "2015-10-21",
-      "to": "2015-10-28",
-      "plays": 163,
+      "from": "2015-10-22",
+      "to": "2015-10-29",
+      "plays": 159,
       "album": {
         "title": "Sprained Ankle",
         "artist": "Julien Baker",
@@ -401,39 +401,39 @@
           "url": "https://www.last.fm/music/Julien+Baker"
         },
         {
-          "name": "PVRIS",
-          "plays": 10,
-          "url": "https://www.last.fm/music/PVRIS"
+          "name": "Frightened Rabbit",
+          "plays": 13,
+          "url": "https://www.last.fm/music/Frightened+Rabbit"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-10-21",
-      "to": "2014-10-28",
-      "plays": 270,
+      "from": "2014-10-22",
+      "to": "2014-10-29",
+      "plays": 350,
       "album": {
         "title": "Cerulean",
         "artist": "Baths",
-        "plays": 18,
+        "plays": 30,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4ca90af3b429a8874b9b0a6762a4aeca.jpg",
         "url": "https://www.last.fm/music/Baths/Cerulean"
       },
       "artists": [
         {
           "name": "Baths",
-          "plays": 35,
+          "plays": 53,
           "url": "https://www.last.fm/music/Baths"
         },
         {
-          "name": "Starfucker",
-          "plays": 18,
-          "url": "https://www.last.fm/music/Starfucker"
+          "name": "SOHN",
+          "plays": 21,
+          "url": "https://www.last.fm/music/SOHN"
         },
         {
-          "name": "Frightened Rabbit",
-          "plays": 15,
-          "url": "https://www.last.fm/music/Frightened+Rabbit"
+          "name": "Starfucker",
+          "plays": 19,
+          "url": "https://www.last.fm/music/Starfucker"
         }
       ]
     }
