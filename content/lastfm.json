@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-29T14:40:39.800Z",
+  "syncedAt": "2026-10-29T17:04:47.289Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66557,
@@ -171,7 +171,7 @@
       "year": 2022,
       "from": "2022-10-22",
       "to": "2022-10-29",
-      "plays": 113,
+      "plays": 107,
       "album": {
         "title": "Dimensional Bleed",
         "artist": "Holy Fawn",
@@ -186,14 +186,14 @@
           "url": "https://www.last.fm/music/Holy+Fawn"
         },
         {
-          "name": "Arkells",
-          "plays": 7,
-          "url": "https://www.last.fm/music/Arkells"
-        },
-        {
           "name": "Madeon",
           "plays": 6,
           "url": "https://www.last.fm/music/Madeon"
+        },
+        {
+          "name": "Arkells",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Arkells"
         }
       ]
     },
@@ -291,7 +291,7 @@
       "year": 2018,
       "from": "2018-10-22",
       "to": "2018-10-29",
-      "plays": 110,
+      "plays": 121,
       "album": {
         "title": "BALLADS 1",
         "artist": "Joji",
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-10-22",
       "to": "2016-10-29",
-      "plays": 106,
+      "plays": 108,
       "album": {
         "title": "Arvo Pärt: Portrait",
         "artist": "Arvo Pärt",
