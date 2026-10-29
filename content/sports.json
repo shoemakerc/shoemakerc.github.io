@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-28T14:14:53.786Z",
+  "syncedAt": "2026-10-29T14:33:39.465Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -270,7 +270,7 @@
       "season": "2026-27",
       "phase": "regular",
       "wins": 3,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
       "otLosses": 0,
       "division": {
@@ -278,7 +278,7 @@
         "rank": 3,
         "teams": 5
       },
-      "streak": "L1",
+      "streak": "L2",
       "clincher": null,
       "recent": [
         {
@@ -320,16 +320,26 @@
           "result": "L",
           "extra": "OT",
           "postseason": false
+        },
+        {
+          "date": "2026-10-29T00:00Z",
+          "home": true,
+          "opponent": "Warriors",
+          "us": 114,
+          "them": 119,
+          "result": "L",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-10-29T00:00Z",
+        "date": "2026-10-31T00:00Z",
         "timeKnown": true,
         "home": true,
-        "opponent": "Golden State Warriors",
+        "opponent": "LA Clippers",
         "seasonType": 2,
         "stage": null,
-        "note": null
+        "note": "NBA Cup - Group Play"
       }
     },
     {
