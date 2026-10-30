@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-30T14:32:18.310Z",
+  "syncedAt": "2026-10-30T16:49:52.780Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66559,
@@ -231,13 +231,13 @@
       "year": 2020,
       "from": "2020-10-23",
       "to": "2020-10-30",
-      "plays": 58,
+      "plays": 61,
       "album": {
-        "title": "Hard Believer",
-        "artist": "Fink",
-        "plays": 8,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b1038a91d5084d41cd830e1f742c437e.png",
-        "url": "https://www.last.fm/music/Fink/Hard+Believer"
+        "title": "Use Your Time Wisely",
+        "artist": "Strange Names",
+        "plays": 11,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/37e50460e5d0b35ef06543e8434197ad.jpg",
+        "url": "https://www.last.fm/music/Strange+Names/Use+Your+Time+Wisely"
       },
       "artists": [
         {
@@ -246,14 +246,14 @@
           "url": "https://www.last.fm/music/The+Pogues"
         },
         {
-          "name": "Fink",
-          "plays": 10,
-          "url": "https://www.last.fm/music/Fink"
+          "name": "Strange Names",
+          "plays": 11,
+          "url": "https://www.last.fm/music/Strange+Names"
         },
         {
-          "name": "M83",
-          "plays": 5,
-          "url": "https://www.last.fm/music/M83"
+          "name": "Fink",
+          "plays": 9,
+          "url": "https://www.last.fm/music/Fink"
         }
       ]
     },
@@ -261,7 +261,7 @@
       "year": 2019,
       "from": "2019-10-23",
       "to": "2019-10-30",
-      "plays": 120,
+      "plays": 121,
       "album": {
         "title": "Immunity",
         "artist": "Clairo",
@@ -291,7 +291,7 @@
       "year": 2018,
       "from": "2018-10-23",
       "to": "2018-10-30",
-      "plays": 124,
+      "plays": 122,
       "album": {
         "title": "BALLADS 1",
         "artist": "Joji",
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-10-23",
       "to": "2015-10-30",
-      "plays": 149,
+      "plays": 147,
       "album": {
         "title": "Sprained Ankle",
         "artist": "Julien Baker",
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-10-23",
       "to": "2014-10-30",
-      "plays": 363,
+      "plays": 367,
       "album": {
         "title": "Cerulean",
         "artist": "Baths",
