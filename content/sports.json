@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-29T14:33:39.465Z",
+  "syncedAt": "2026-10-30T16:46:13.169Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -142,25 +142,15 @@
       "wins": 9,
       "losses": 3,
       "ties": 0,
-      "otLosses": 2,
+      "otLosses": 3,
       "division": {
         "name": "Central",
         "rank": 1,
         "teams": 8
       },
-      "streak": "W3",
+      "streak": "L1",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-10-10T22:00Z",
-          "home": false,
-          "opponent": "Panthers",
-          "us": 4,
-          "them": 1,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-10-13T00:00Z",
           "home": true,
@@ -250,13 +240,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-10-30T00:00Z",
+          "home": true,
+          "opponent": "Islanders",
+          "us": 3,
+          "them": 4,
+          "result": "OTL",
+          "extra": "OT",
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-10-30T00:00Z",
+        "date": "2026-11-01T20:30Z",
         "timeKnown": true,
-        "home": true,
-        "opponent": "New York Islanders",
+        "home": false,
+        "opponent": "Washington Capitals",
         "seasonType": 2,
         "stage": null,
         "note": null
