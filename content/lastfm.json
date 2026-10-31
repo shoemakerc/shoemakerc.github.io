@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-10-30T16:49:52.780Z",
+  "syncedAt": "2026-10-31T13:54:30.695Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66559,
+  "totalPlays": 66575,
   "lastTrack": {
-    "name": "Jacobsons",
-    "artist": "Gilla Band",
-    "album": "Pugnello",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
-    "url": "https://www.last.fm/music/Gilla+Band/_/Jacobsons",
-    "playedAt": 1793300874000
+    "name": "Gangs",
+    "artist": "Do Nothing",
+    "album": "Gangs",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/38f2fad62e297361febbea884510fb8a.jpg",
+    "url": "https://www.last.fm/music/Do+Nothing/_/Gangs",
+    "playedAt": 1793432864000
   },
   "month": {
     "label": "October 2026",
     "partial": true,
     "from": "2026-10-01",
-    "to": "2026-10-30",
-    "plays": 276,
-    "artistCount": 120,
+    "to": "2026-10-31",
+    "plays": 292,
+    "artistCount": 127,
     "artists": [
       {
         "name": "Modest Mussorgsky",
@@ -26,7 +26,7 @@
       },
       {
         "name": "Gilla Band",
-        "plays": 29,
+        "plays": 30,
         "url": "https://www.last.fm/music/Gilla+Band"
       },
       {
@@ -56,7 +56,7 @@
       {
         "title": "Pugnello",
         "artist": "Gilla Band",
-        "plays": 27,
+        "plays": 28,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
         "url": "https://www.last.fm/music/Gilla+Band/Pugnello"
       },
@@ -79,20 +79,20 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-10-23",
-      "to": "2025-10-30",
-      "plays": 51,
+      "from": "2025-10-24",
+      "to": "2025-10-31",
+      "plays": 35,
       "album": {
         "title": "Aspect",
         "artist": "Seventeen Years Old and Berlin Wall",
-        "plays": 8,
+        "plays": 4,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/394c15d9e5e1f4144a1804e97d7160f0.jpg",
         "url": "https://www.last.fm/music/Seventeen+Years+Old+and+Berlin+Wall/Aspect"
       },
       "artists": [
         {
           "name": "Seventeen Years Old and Berlin Wall",
-          "plays": 8,
+          "plays": 4,
           "url": "https://www.last.fm/music/Seventeen+Years+Old+and+Berlin+Wall"
         },
         {
@@ -101,118 +101,118 @@
           "url": "https://www.last.fm/music/Swans"
         },
         {
-          "name": "Panda Bear",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Panda+Bear"
+          "name": "Glenn Branca",
+          "plays": 2,
+          "url": "https://www.last.fm/music/Glenn+Branca"
         }
       ]
     },
     {
       "year": 2024,
-      "from": "2024-10-23",
-      "to": "2024-10-30",
-      "plays": 139,
+      "from": "2024-10-24",
+      "to": "2024-10-31",
+      "plays": 143,
       "album": {
         "title": "In Rainbows",
         "artist": "Radiohead",
-        "plays": 16,
+        "plays": 17,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9dbcd9399ac3e622b4f508323155b644.jpg",
         "url": "https://www.last.fm/music/Radiohead/In+Rainbows"
       },
       "artists": [
         {
           "name": "Radiohead",
-          "plays": 16,
+          "plays": 17,
           "url": "https://www.last.fm/music/Radiohead"
         },
         {
-          "name": "Viagra Boys",
-          "plays": 7,
-          "url": "https://www.last.fm/music/Viagra+Boys"
+          "name": "MILK.",
+          "plays": 8,
+          "url": "https://www.last.fm/music/MILK."
         },
         {
-          "name": "semiwestern",
-          "plays": 7,
-          "url": "https://www.last.fm/music/semiwestern"
+          "name": "The Teenagers",
+          "plays": 5,
+          "url": "https://www.last.fm/music/The+Teenagers"
         }
       ]
     },
     {
       "year": 2023,
-      "from": "2023-10-23",
-      "to": "2023-10-30",
-      "plays": 133,
+      "from": "2023-10-24",
+      "to": "2023-10-31",
+      "plays": 148,
       "album": {
-        "title": "Most Normal",
+        "title": "Holding Hands With Jamie",
         "artist": "Gilla Band",
-        "plays": 14,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/537a15c77e18305188c58e58b9efd992.jpg",
-        "url": "https://www.last.fm/music/Gilla+Band/Most+Normal"
+        "plays": 16,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b8d88e1d5b9b3028871b7b057f94fea7.jpg",
+        "url": "https://www.last.fm/music/Gilla+Band/Holding+Hands+With+Jamie"
       },
       "artists": [
         {
           "name": "Gilla Band",
-          "plays": 24,
+          "plays": 30,
           "url": "https://www.last.fm/music/Gilla+Band"
+        },
+        {
+          "name": "The Cure",
+          "plays": 19,
+          "url": "https://www.last.fm/music/The+Cure"
         },
         {
           "name": "Soft Blue Shimmer",
           "plays": 14,
           "url": "https://www.last.fm/music/Soft+Blue+Shimmer"
-        },
-        {
-          "name": "Ethel Cain",
-          "plays": 11,
-          "url": "https://www.last.fm/music/Ethel+Cain"
         }
       ]
     },
     {
       "year": 2022,
-      "from": "2022-10-23",
-      "to": "2022-10-30",
-      "plays": 114,
+      "from": "2022-10-24",
+      "to": "2022-10-31",
+      "plays": 122,
       "album": {
         "title": "Dimensional Bleed",
         "artist": "Holy Fawn",
-        "plays": 17,
+        "plays": 18,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a664ddb176e09712480a6ec6333df74f.jpg",
         "url": "https://www.last.fm/music/Holy+Fawn/Dimensional+Bleed"
       },
       "artists": [
         {
+          "name": "Magdalena Bay",
+          "plays": 24,
+          "url": "https://www.last.fm/music/Magdalena+Bay"
+        },
+        {
           "name": "Holy Fawn",
-          "plays": 17,
+          "plays": 18,
           "url": "https://www.last.fm/music/Holy+Fawn"
         },
         {
           "name": "Porter Robinson",
           "plays": 8,
           "url": "https://www.last.fm/music/Porter+Robinson"
-        },
-        {
-          "name": "Madeon",
-          "plays": 6,
-          "url": "https://www.last.fm/music/Madeon"
         }
       ]
     },
     {
       "year": 2021,
-      "from": "2021-10-23",
-      "to": "2021-10-30",
-      "plays": 63,
+      "from": "2021-10-24",
+      "to": "2021-10-31",
+      "plays": 72,
       "album": {
         "title": "I Let It In And It Took Everything",
         "artist": "Loathe",
-        "plays": 4,
+        "plays": 6,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/472b0c068c3912a9a45bbaed3c4ed92c.jpg",
         "url": "https://www.last.fm/music/Loathe/I+Let+It+In+And+It+Took+Everything"
       },
       "artists": [
         {
           "name": "Loathe",
-          "plays": 5,
+          "plays": 7,
           "url": "https://www.last.fm/music/Loathe"
         },
         {
@@ -229,26 +229,26 @@
     },
     {
       "year": 2020,
-      "from": "2020-10-23",
-      "to": "2020-10-30",
-      "plays": 61,
+      "from": "2020-10-24",
+      "to": "2020-10-31",
+      "plays": 82,
       "album": {
         "title": "Use Your Time Wisely",
         "artist": "Strange Names",
-        "plays": 11,
+        "plays": 14,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/37e50460e5d0b35ef06543e8434197ad.jpg",
         "url": "https://www.last.fm/music/Strange+Names/Use+Your+Time+Wisely"
       },
       "artists": [
         {
+          "name": "Strange Names",
+          "plays": 14,
+          "url": "https://www.last.fm/music/Strange+Names"
+        },
+        {
           "name": "The Pogues",
           "plays": 14,
           "url": "https://www.last.fm/music/The+Pogues"
-        },
-        {
-          "name": "Strange Names",
-          "plays": 11,
-          "url": "https://www.last.fm/music/Strange+Names"
         },
         {
           "name": "Fink",
@@ -259,9 +259,9 @@
     },
     {
       "year": 2019,
-      "from": "2019-10-23",
-      "to": "2019-10-30",
-      "plays": 121,
+      "from": "2019-10-24",
+      "to": "2019-10-31",
+      "plays": 96,
       "album": {
         "title": "Immunity",
         "artist": "Clairo",
@@ -276,39 +276,39 @@
           "url": "https://www.last.fm/music/Clairo"
         },
         {
+          "name": "The 1975",
+          "plays": 10,
+          "url": "https://www.last.fm/music/The+1975"
+        },
+        {
           "name": "JPEGMAFIA",
           "plays": 10,
           "url": "https://www.last.fm/music/JPEGMAFIA"
-        },
-        {
-          "name": "The 1975",
-          "plays": 9,
-          "url": "https://www.last.fm/music/The+1975"
         }
       ]
     },
     {
       "year": 2018,
-      "from": "2018-10-23",
-      "to": "2018-10-30",
-      "plays": 122,
+      "from": "2018-10-24",
+      "to": "2018-10-31",
+      "plays": 132,
       "album": {
-        "title": "BALLADS 1",
-        "artist": "Joji",
-        "plays": 15,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e6a34793a424eec94bde00c621caa70f.jpg",
-        "url": "https://www.last.fm/music/Joji/BALLADS+1"
+        "title": "Loveless",
+        "artist": "my bloody valentine",
+        "plays": 17,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/510546e3b6df7504392274c528c77780.jpg",
+        "url": "https://www.last.fm/music/my+bloody+valentine/Loveless"
       },
       "artists": [
+        {
+          "name": "my bloody valentine",
+          "plays": 20,
+          "url": "https://www.last.fm/music/my+bloody+valentine"
+        },
         {
           "name": "Joji",
           "plays": 15,
           "url": "https://www.last.fm/music/Joji"
-        },
-        {
-          "name": "my bloody valentine",
-          "plays": 14,
-          "url": "https://www.last.fm/music/my+bloody+valentine"
         },
         {
           "name": "The National",
@@ -319,9 +319,9 @@
     },
     {
       "year": 2017,
-      "from": "2017-10-23",
-      "to": "2017-10-30",
-      "plays": 45,
+      "from": "2017-10-24",
+      "to": "2017-10-31",
+      "plays": 38,
       "album": {
         "title": "The Epic",
         "artist": "Kamasi Washington",
@@ -336,22 +336,22 @@
           "url": "https://www.last.fm/music/Kamasi+Washington"
         },
         {
-          "name": "Vince Staples",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Vince+Staples"
-        },
-        {
           "name": "BROCKHAMPTON",
           "plays": 3,
           "url": "https://www.last.fm/music/BROCKHAMPTON"
+        },
+        {
+          "name": "Until the Ribbon Breaks",
+          "plays": 2,
+          "url": "https://www.last.fm/music/Until+the+Ribbon+Breaks"
         }
       ]
     },
     {
       "year": 2016,
-      "from": "2016-10-23",
-      "to": "2016-10-30",
-      "plays": 106,
+      "from": "2016-10-24",
+      "to": "2016-10-31",
+      "plays": 101,
       "album": {
         "title": "Arvo Pärt: Portrait",
         "artist": "Arvo Pärt",
@@ -366,63 +366,63 @@
           "url": "https://www.last.fm/music/Arvo+P%C3%A4rt"
         },
         {
-          "name": "Grouplove",
-          "plays": 5,
-          "url": "https://www.last.fm/music/Grouplove"
-        },
-        {
           "name": "Francis and the Lights",
           "plays": 4,
           "url": "https://www.last.fm/music/Francis+and+the+Lights"
+        },
+        {
+          "name": "Phoenix",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Phoenix"
         }
       ]
     },
     {
       "year": 2015,
-      "from": "2015-10-23",
-      "to": "2015-10-30",
-      "plays": 147,
+      "from": "2015-10-24",
+      "to": "2015-10-31",
+      "plays": 120,
       "album": {
-        "title": "Sprained Ankle",
-        "artist": "Julien Baker",
-        "plays": 19,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e22fffff8b2d431e24b85fbe6dd1fb5d.jpg",
-        "url": "https://www.last.fm/music/Julien+Baker/Sprained+Ankle"
+        "title": "The Winter of Mixed Drinks",
+        "artist": "Frightened Rabbit",
+        "plays": 14,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e21784cd7e0f413187a0019b9abcdfd0.jpg",
+        "url": "https://www.last.fm/music/Frightened+Rabbit/The+Winter+of+Mixed+Drinks"
       },
       "artists": [
         {
           "name": "Fink",
-          "plays": 25,
+          "plays": 23,
           "url": "https://www.last.fm/music/Fink"
-        },
-        {
-          "name": "Julien Baker",
-          "plays": 19,
-          "url": "https://www.last.fm/music/Julien+Baker"
         },
         {
           "name": "Frightened Rabbit",
           "plays": 14,
           "url": "https://www.last.fm/music/Frightened+Rabbit"
+        },
+        {
+          "name": "Julien Baker",
+          "plays": 11,
+          "url": "https://www.last.fm/music/Julien+Baker"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-10-23",
-      "to": "2014-10-30",
-      "plays": 367,
+      "from": "2014-10-24",
+      "to": "2014-10-31",
+      "plays": 369,
       "album": {
         "title": "Cerulean",
         "artist": "Baths",
-        "plays": 31,
+        "plays": 32,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4ca90af3b429a8874b9b0a6762a4aeca.jpg",
         "url": "https://www.last.fm/music/Baths/Cerulean"
       },
       "artists": [
         {
           "name": "Baths",
-          "plays": 62,
+          "plays": 63,
           "url": "https://www.last.fm/music/Baths"
         },
         {
