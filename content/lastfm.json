@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-31T13:54:30.695Z",
+  "syncedAt": "2026-10-31T15:52:28.200Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66575,
@@ -116,7 +116,7 @@
         "title": "In Rainbows",
         "artist": "Radiohead",
         "plays": 17,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9dbcd9399ac3e622b4f508323155b644.jpg",
+        "image": null,
         "url": "https://www.last.fm/music/Radiohead/In+Rainbows"
       },
       "artists": [
@@ -171,7 +171,7 @@
       "year": 2022,
       "from": "2022-10-24",
       "to": "2022-10-31",
-      "plays": 122,
+      "plays": 120,
       "album": {
         "title": "Dimensional Bleed",
         "artist": "Holy Fawn",
@@ -291,7 +291,7 @@
       "year": 2018,
       "from": "2018-10-24",
       "to": "2018-10-31",
-      "plays": 132,
+      "plays": 133,
       "album": {
         "title": "Loveless",
         "artist": "my bloody valentine",
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-10-24",
       "to": "2014-10-31",
-      "plays": 369,
+      "plays": 370,
       "album": {
         "title": "Cerulean",
         "artist": "Baths",
