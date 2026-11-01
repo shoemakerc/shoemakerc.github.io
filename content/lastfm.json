@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-01T14:31:52.916Z",
+  "syncedAt": "2026-11-01T16:54:59.097Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66576,
@@ -86,7 +86,7 @@
         "title": "Filth (Deluxe Edition)",
         "artist": "Swans",
         "plays": 3,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/782bbc494abce020d1ad75d7aba64766.jpg",
+        "image": null,
         "url": "https://www.last.fm/music/Swans/Filth+(Deluxe+Edition)"
       },
       "artists": [
@@ -171,7 +171,7 @@
       "year": 2022,
       "from": "2022-10-25",
       "to": "2022-11-01",
-      "plays": 142,
+      "plays": 145,
       "album": {
         "title": "Dimensional Bleed",
         "artist": "Holy Fawn",
@@ -182,7 +182,7 @@
       "artists": [
         {
           "name": "Magdalena Bay",
-          "plays": 24,
+          "plays": 25,
           "url": "https://www.last.fm/music/Magdalena+Bay"
         },
         {
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-10-25",
       "to": "2016-11-01",
-      "plays": 105,
+      "plays": 102,
       "album": {
         "title": "Hard Believer",
         "artist": "Fink",
@@ -411,18 +411,18 @@
       "year": 2014,
       "from": "2014-10-25",
       "to": "2014-11-01",
-      "plays": 348,
+      "plays": 347,
       "album": {
         "title": "Cerulean",
         "artist": "Baths",
-        "plays": 31,
+        "plays": 30,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4ca90af3b429a8874b9b0a6762a4aeca.jpg",
         "url": "https://www.last.fm/music/Baths/Cerulean"
       },
       "artists": [
         {
           "name": "Baths",
-          "plays": 62,
+          "plays": 61,
           "url": "https://www.last.fm/music/Baths"
         },
         {
