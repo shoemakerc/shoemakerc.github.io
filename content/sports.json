@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-31T13:46:00.456Z",
+  "syncedAt": "2026-11-01T14:26:40.788Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -270,15 +270,15 @@
       "season": "2026-27",
       "phase": "regular",
       "wins": 4,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
       "otLosses": 0,
       "division": {
         "name": "Northwest",
-        "rank": 3,
+        "rank": 4,
         "teams": 5
       },
-      "streak": "W1",
+      "streak": "L1",
       "clincher": null,
       "recent": [
         {
@@ -340,13 +340,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-01T00:00Z",
+          "home": false,
+          "opponent": "Spurs",
+          "us": 111,
+          "them": 121,
+          "result": "L",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-01T00:00Z",
+        "date": "2026-11-03T01:00Z",
         "timeKnown": true,
-        "home": false,
-        "opponent": "San Antonio Spurs",
+        "home": true,
+        "opponent": "Milwaukee Bucks",
         "seasonType": 2,
         "stage": null,
         "note": null
