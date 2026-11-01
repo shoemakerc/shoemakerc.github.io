@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-10-31T15:52:28.200Z",
+  "syncedAt": "2026-11-01T14:31:52.916Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66575,
+  "totalPlays": 66576,
   "lastTrack": {
-    "name": "Gangs",
-    "artist": "Do Nothing",
-    "album": "Gangs",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/38f2fad62e297361febbea884510fb8a.jpg",
-    "url": "https://www.last.fm/music/Do+Nothing/_/Gangs",
-    "playedAt": 1793432864000
+    "name": "pretender",
+    "artist": "Jane Remover",
+    "album": "Frailty",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/543cc0aee1c6e279f9d8ce4d258bf16d.jpg",
+    "url": "https://www.last.fm/music/Jane+Remover/_/pretender",
+    "playedAt": 1793433948000
   },
   "month": {
     "label": "October 2026",
-    "partial": true,
+    "partial": false,
     "from": "2026-10-01",
     "to": "2026-10-31",
-    "plays": 292,
-    "artistCount": 127,
+    "plays": 293,
+    "artistCount": 128,
     "artists": [
       {
         "name": "Modest Mussorgsky",
@@ -79,44 +79,44 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-10-24",
-      "to": "2025-10-31",
-      "plays": 35,
+      "from": "2025-10-25",
+      "to": "2025-11-01",
+      "plays": 38,
       "album": {
-        "title": "Aspect",
-        "artist": "Seventeen Years Old and Berlin Wall",
-        "plays": 4,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/394c15d9e5e1f4144a1804e97d7160f0.jpg",
-        "url": "https://www.last.fm/music/Seventeen+Years+Old+and+Berlin+Wall/Aspect"
+        "title": "Filth (Deluxe Edition)",
+        "artist": "Swans",
+        "plays": 3,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/782bbc494abce020d1ad75d7aba64766.jpg",
+        "url": "https://www.last.fm/music/Swans/Filth+(Deluxe+Edition)"
       },
       "artists": [
         {
-          "name": "Seventeen Years Old and Berlin Wall",
-          "plays": 4,
-          "url": "https://www.last.fm/music/Seventeen+Years+Old+and+Berlin+Wall"
-        },
-        {
           "name": "Swans",
-          "plays": 4,
+          "plays": 3,
           "url": "https://www.last.fm/music/Swans"
         },
         {
-          "name": "Glenn Branca",
+          "name": "Japandroids",
           "plays": 2,
-          "url": "https://www.last.fm/music/Glenn+Branca"
+          "url": "https://www.last.fm/music/Japandroids"
+        },
+        {
+          "name": "Viagra Boys",
+          "plays": 2,
+          "url": "https://www.last.fm/music/Viagra+Boys"
         }
       ]
     },
     {
       "year": 2024,
-      "from": "2024-10-24",
-      "to": "2024-10-31",
-      "plays": 143,
+      "from": "2024-10-25",
+      "to": "2024-11-01",
+      "plays": 156,
       "album": {
         "title": "In Rainbows",
         "artist": "Radiohead",
         "plays": 17,
-        "image": null,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9dbcd9399ac3e622b4f508323155b644.jpg",
         "url": "https://www.last.fm/music/Radiohead/In+Rainbows"
       },
       "artists": [
@@ -127,21 +127,21 @@
         },
         {
           "name": "MILK.",
-          "plays": 8,
+          "plays": 10,
           "url": "https://www.last.fm/music/MILK."
         },
         {
           "name": "The Teenagers",
-          "plays": 5,
+          "plays": 8,
           "url": "https://www.last.fm/music/The+Teenagers"
         }
       ]
     },
     {
       "year": 2023,
-      "from": "2023-10-24",
-      "to": "2023-10-31",
-      "plays": 148,
+      "from": "2023-10-25",
+      "to": "2023-11-01",
+      "plays": 163,
       "album": {
         "title": "Holding Hands With Jamie",
         "artist": "Gilla Band",
@@ -169,13 +169,13 @@
     },
     {
       "year": 2022,
-      "from": "2022-10-24",
-      "to": "2022-10-31",
-      "plays": 120,
+      "from": "2022-10-25",
+      "to": "2022-11-01",
+      "plays": 142,
       "album": {
         "title": "Dimensional Bleed",
         "artist": "Holy Fawn",
-        "plays": 18,
+        "plays": 19,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a664ddb176e09712480a6ec6333df74f.jpg",
         "url": "https://www.last.fm/music/Holy+Fawn/Dimensional+Bleed"
       },
@@ -187,21 +187,21 @@
         },
         {
           "name": "Holy Fawn",
-          "plays": 18,
+          "plays": 19,
           "url": "https://www.last.fm/music/Holy+Fawn"
         },
         {
-          "name": "Porter Robinson",
-          "plays": 8,
-          "url": "https://www.last.fm/music/Porter+Robinson"
+          "name": "Boards of Canada",
+          "plays": 10,
+          "url": "https://www.last.fm/music/Boards+of+Canada"
         }
       ]
     },
     {
       "year": 2021,
-      "from": "2021-10-24",
-      "to": "2021-10-31",
-      "plays": 72,
+      "from": "2021-10-25",
+      "to": "2021-11-01",
+      "plays": 40,
       "album": {
         "title": "I Let It In And It Took Everything",
         "artist": "Loathe",
@@ -216,22 +216,22 @@
           "url": "https://www.last.fm/music/Loathe"
         },
         {
-          "name": "Sleep Token",
-          "plays": 4,
-          "url": "https://www.last.fm/music/Sleep+Token"
-        },
-        {
           "name": "Bear's Den",
           "plays": 3,
           "url": "https://www.last.fm/music/Bear's+Den"
+        },
+        {
+          "name": "Baby Keem",
+          "plays": 2,
+          "url": "https://www.last.fm/music/Baby+Keem"
         }
       ]
     },
     {
       "year": 2020,
-      "from": "2020-10-24",
-      "to": "2020-10-31",
-      "plays": 82,
+      "from": "2020-10-25",
+      "to": "2020-11-01",
+      "plays": 91,
       "album": {
         "title": "Use Your Time Wisely",
         "artist": "Strange Names",
@@ -259,9 +259,9 @@
     },
     {
       "year": 2019,
-      "from": "2019-10-24",
-      "to": "2019-10-31",
-      "plays": 96,
+      "from": "2019-10-25",
+      "to": "2019-11-01",
+      "plays": 159,
       "album": {
         "title": "Immunity",
         "artist": "Clairo",
@@ -276,35 +276,30 @@
           "url": "https://www.last.fm/music/Clairo"
         },
         {
-          "name": "The 1975",
-          "plays": 10,
-          "url": "https://www.last.fm/music/The+1975"
+          "name": "Bon Iver",
+          "plays": 11,
+          "url": "https://www.last.fm/music/Bon+Iver"
         },
         {
-          "name": "JPEGMAFIA",
+          "name": "Kanye West",
           "plays": 10,
-          "url": "https://www.last.fm/music/JPEGMAFIA"
+          "url": "https://www.last.fm/music/Kanye+West"
         }
       ]
     },
     {
       "year": 2018,
-      "from": "2018-10-24",
-      "to": "2018-10-31",
-      "plays": 133,
+      "from": "2018-10-25",
+      "to": "2018-11-01",
+      "plays": 135,
       "album": {
-        "title": "Loveless",
-        "artist": "my bloody valentine",
-        "plays": 17,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/510546e3b6df7504392274c528c77780.jpg",
-        "url": "https://www.last.fm/music/my+bloody+valentine/Loveless"
+        "title": "BALLADS 1",
+        "artist": "Joji",
+        "plays": 15,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e6a34793a424eec94bde00c621caa70f.jpg",
+        "url": "https://www.last.fm/music/Joji/BALLADS+1"
       },
       "artists": [
-        {
-          "name": "my bloody valentine",
-          "plays": 20,
-          "url": "https://www.last.fm/music/my+bloody+valentine"
-        },
         {
           "name": "Joji",
           "plays": 15,
@@ -314,14 +309,19 @@
           "name": "The National",
           "plays": 11,
           "url": "https://www.last.fm/music/The+National"
+        },
+        {
+          "name": "Pinegrove",
+          "plays": 11,
+          "url": "https://www.last.fm/music/Pinegrove"
         }
       ]
     },
     {
       "year": 2017,
-      "from": "2017-10-24",
-      "to": "2017-10-31",
-      "plays": 38,
+      "from": "2017-10-25",
+      "to": "2017-11-01",
+      "plays": 36,
       "album": {
         "title": "The Epic",
         "artist": "Kamasi Washington",
@@ -336,34 +336,34 @@
           "url": "https://www.last.fm/music/Kamasi+Washington"
         },
         {
-          "name": "BROCKHAMPTON",
-          "plays": 3,
-          "url": "https://www.last.fm/music/BROCKHAMPTON"
-        },
-        {
           "name": "Until the Ribbon Breaks",
           "plays": 2,
           "url": "https://www.last.fm/music/Until+the+Ribbon+Breaks"
+        },
+        {
+          "name": "Big Shaq",
+          "plays": 2,
+          "url": "https://www.last.fm/music/Big+Shaq"
         }
       ]
     },
     {
       "year": 2016,
-      "from": "2016-10-24",
-      "to": "2016-10-31",
-      "plays": 101,
+      "from": "2016-10-25",
+      "to": "2016-11-01",
+      "plays": 105,
       "album": {
-        "title": "Arvo Pärt: Portrait",
-        "artist": "Arvo Pärt",
-        "plays": 5,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/75022707cbb997ace29f1e97cefa6df1.png",
-        "url": "https://www.last.fm/music/Arvo+P%C3%A4rt/Arvo+P%C3%A4rt%3A+Portrait"
+        "title": "Hard Believer",
+        "artist": "Fink",
+        "plays": 3,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b1038a91d5084d41cd830e1f742c437e.png",
+        "url": "https://www.last.fm/music/Fink/Hard+Believer"
       },
       "artists": [
         {
-          "name": "Arvo Pärt",
-          "plays": 5,
-          "url": "https://www.last.fm/music/Arvo+P%C3%A4rt"
+          "name": "X Ambassadors",
+          "plays": 4,
+          "url": "https://www.last.fm/music/X+Ambassadors"
         },
         {
           "name": "Francis and the Lights",
@@ -371,69 +371,69 @@
           "url": "https://www.last.fm/music/Francis+and+the+Lights"
         },
         {
-          "name": "Phoenix",
+          "name": "St. Sleep",
           "plays": 3,
-          "url": "https://www.last.fm/music/Phoenix"
+          "url": "https://www.last.fm/music/St.+Sleep"
         }
       ]
     },
     {
       "year": 2015,
-      "from": "2015-10-24",
-      "to": "2015-10-31",
-      "plays": 120,
+      "from": "2015-10-25",
+      "to": "2015-11-01",
+      "plays": 104,
       "album": {
         "title": "The Winter of Mixed Drinks",
         "artist": "Frightened Rabbit",
-        "plays": 14,
+        "plays": 17,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e21784cd7e0f413187a0019b9abcdfd0.jpg",
         "url": "https://www.last.fm/music/Frightened+Rabbit/The+Winter+of+Mixed+Drinks"
       },
       "artists": [
         {
           "name": "Fink",
-          "plays": 23,
+          "plays": 22,
           "url": "https://www.last.fm/music/Fink"
         },
         {
           "name": "Frightened Rabbit",
-          "plays": 14,
+          "plays": 21,
           "url": "https://www.last.fm/music/Frightened+Rabbit"
         },
         {
           "name": "Julien Baker",
-          "plays": 11,
+          "plays": 10,
           "url": "https://www.last.fm/music/Julien+Baker"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-10-24",
-      "to": "2014-10-31",
-      "plays": 370,
+      "from": "2014-10-25",
+      "to": "2014-11-01",
+      "plays": 348,
       "album": {
         "title": "Cerulean",
         "artist": "Baths",
-        "plays": 32,
+        "plays": 31,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4ca90af3b429a8874b9b0a6762a4aeca.jpg",
         "url": "https://www.last.fm/music/Baths/Cerulean"
       },
       "artists": [
         {
           "name": "Baths",
-          "plays": 63,
+          "plays": 62,
           "url": "https://www.last.fm/music/Baths"
         },
         {
-          "name": "Buchanan",
+          "name": "SOHN",
           "plays": 25,
-          "url": "https://www.last.fm/music/Buchanan"
+          "url": "https://www.last.fm/music/SOHN"
         },
         {
-          "name": "SOHN",
+          "name": "Buchanan",
           "plays": 24,
-          "url": "https://www.last.fm/music/SOHN"
+          "url": "https://www.last.fm/music/Buchanan"
         }
       ]
     }
