@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-02T17:27:31.564Z",
+  "syncedAt": "2026-11-02T20:30:29.894Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66603,
@@ -111,7 +111,7 @@
       "year": 2024,
       "from": "2024-10-26",
       "to": "2024-11-02",
-      "plays": 157,
+      "plays": 154,
       "album": {
         "title": "In Rainbows",
         "artist": "Radiohead",
@@ -171,7 +171,7 @@
       "year": 2022,
       "from": "2022-10-26",
       "to": "2022-11-02",
-      "plays": 145,
+      "plays": 141,
       "album": {
         "title": "Dimensional Bleed",
         "artist": "Holy Fawn",
@@ -201,29 +201,29 @@
       "year": 2021,
       "from": "2021-10-26",
       "to": "2021-11-02",
-      "plays": 45,
+      "plays": 50,
       "album": {
         "title": "I Let It In And It Took Everything",
         "artist": "Loathe",
-        "plays": 6,
+        "plays": 7,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/472b0c068c3912a9a45bbaed3c4ed92c.jpg",
         "url": "https://www.last.fm/music/Loathe/I+Let+It+In+And+It+Took+Everything"
       },
       "artists": [
         {
           "name": "Loathe",
-          "plays": 8,
+          "plays": 9,
           "url": "https://www.last.fm/music/Loathe"
+        },
+        {
+          "name": "Bon Iver",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Bon+Iver"
         },
         {
           "name": "Swans",
           "plays": 2,
           "url": "https://www.last.fm/music/Swans"
-        },
-        {
-          "name": "The Body",
-          "plays": 2,
-          "url": "https://www.last.fm/music/The+Body"
         }
       ]
     },
@@ -261,18 +261,18 @@
       "year": 2019,
       "from": "2019-10-26",
       "to": "2019-11-02",
-      "plays": 127,
+      "plays": 125,
       "album": {
         "title": "i,i",
         "artist": "Bon Iver",
-        "plays": 12,
+        "plays": 11,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/75742b5f137e73e3157dd2499455ed7a.jpg",
         "url": "https://www.last.fm/music/Bon+Iver/i%2Ci"
       },
       "artists": [
         {
           "name": "Bon Iver",
-          "plays": 12,
+          "plays": 11,
           "url": "https://www.last.fm/music/Bon+Iver"
         },
         {
@@ -291,20 +291,15 @@
       "year": 2018,
       "from": "2018-10-26",
       "to": "2018-11-02",
-      "plays": 143,
+      "plays": 118,
       "album": {
-        "title": "BALLADS 1",
-        "artist": "Joji",
-        "plays": 15,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e6a34793a424eec94bde00c621caa70f.jpg",
-        "url": "https://www.last.fm/music/Joji/BALLADS+1"
+        "title": "FM!",
+        "artist": "Vince Staples",
+        "plays": 13,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/99b32c8b8e81c9bd13ca08284a79ec28.jpg",
+        "url": "https://www.last.fm/music/Vince+Staples/FM!"
       },
       "artists": [
-        {
-          "name": "Joji",
-          "plays": 15,
-          "url": "https://www.last.fm/music/Joji"
-        },
         {
           "name": "Vince Staples",
           "plays": 14,
@@ -314,6 +309,11 @@
           "name": "The National",
           "plays": 11,
           "url": "https://www.last.fm/music/The+National"
+        },
+        {
+          "name": "Turnover",
+          "plays": 9,
+          "url": "https://www.last.fm/music/Turnover"
         }
       ]
     },
@@ -326,7 +326,7 @@
         "title": "The Epic",
         "artist": "Kamasi Washington",
         "plays": 7,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e31e35a94208561b1c2b0dca53beaf56.jpg",
+        "image": null,
         "url": "https://www.last.fm/music/Kamasi+Washington/The+Epic"
       },
       "artists": [
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-10-26",
       "to": "2015-11-02",
-      "plays": 108,
+      "plays": 112,
       "album": {
         "title": "The Winter of Mixed Drinks",
         "artist": "Frightened Rabbit",
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-10-26",
       "to": "2014-11-02",
-      "plays": 332,
+      "plays": 296,
       "album": {
         "title": "Tremors",
         "artist": "SOHN",
@@ -422,18 +422,18 @@
       "artists": [
         {
           "name": "Baths",
-          "plays": 40,
+          "plays": 38,
           "url": "https://www.last.fm/music/Baths"
+        },
+        {
+          "name": "Buchanan",
+          "plays": 26,
+          "url": "https://www.last.fm/music/Buchanan"
         },
         {
           "name": "SOHN",
           "plays": 24,
           "url": "https://www.last.fm/music/SOHN"
-        },
-        {
-          "name": "Buchanan",
-          "plays": 24,
-          "url": "https://www.last.fm/music/Buchanan"
         }
       ]
     }
