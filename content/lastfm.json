@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-02T20:30:29.894Z",
+  "syncedAt": "2026-11-03T15:29:33.216Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66603,
@@ -79,55 +79,55 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-10-26",
-      "to": "2025-11-02",
-      "plays": 31,
+      "from": "2025-10-27",
+      "to": "2025-11-03",
+      "plays": 42,
       "album": {
         "title": "AudioLust & HigherLove",
         "artist": "SG Lewis",
-        "plays": 2,
+        "plays": 5,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1591635a794c153d4689b31d16df10bf.png",
         "url": "https://www.last.fm/music/SG+Lewis/AudioLust+%26+HigherLove"
       },
       "artists": [
         {
           "name": "SG Lewis",
-          "plays": 2,
+          "plays": 5,
           "url": "https://www.last.fm/music/SG+Lewis"
         },
         {
-          "name": "Japandroids",
-          "plays": 2,
-          "url": "https://www.last.fm/music/Japandroids"
+          "name": "CHRYSTAL & NOTION",
+          "plays": 3,
+          "url": "https://www.last.fm/music/CHRYSTAL+%26+NOTION"
         },
         {
           "name": "Wavedash",
-          "plays": 2,
+          "plays": 3,
           "url": "https://www.last.fm/music/Wavedash"
         }
       ]
     },
     {
       "year": 2024,
-      "from": "2024-10-26",
-      "to": "2024-11-02",
-      "plays": 154,
+      "from": "2024-10-27",
+      "to": "2024-11-03",
+      "plays": 159,
       "album": {
         "title": "In Rainbows",
         "artist": "Radiohead",
-        "plays": 19,
+        "plays": 16,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9dbcd9399ac3e622b4f508323155b644.jpg",
         "url": "https://www.last.fm/music/Radiohead/In+Rainbows"
       },
       "artists": [
         {
           "name": "Radiohead",
-          "plays": 19,
+          "plays": 16,
           "url": "https://www.last.fm/music/Radiohead"
         },
         {
           "name": "MILK.",
-          "plays": 12,
+          "plays": 13,
           "url": "https://www.last.fm/music/MILK."
         },
         {
@@ -139,9 +139,9 @@
     },
     {
       "year": 2023,
-      "from": "2023-10-26",
-      "to": "2023-11-02",
-      "plays": 137,
+      "from": "2023-10-27",
+      "to": "2023-11-03",
+      "plays": 150,
       "album": {
         "title": "Seventeen Seconds",
         "artist": "The Cure",
@@ -161,33 +161,33 @@
           "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
-          "name": "Smut",
+          "name": "Sorcha Richardson",
           "plays": 7,
-          "url": "https://www.last.fm/music/Smut"
+          "url": "https://www.last.fm/music/Sorcha+Richardson"
         }
       ]
     },
     {
       "year": 2022,
-      "from": "2022-10-26",
-      "to": "2022-11-02",
-      "plays": 141,
+      "from": "2022-10-27",
+      "to": "2022-11-03",
+      "plays": 147,
       "album": {
         "title": "Dimensional Bleed",
         "artist": "Holy Fawn",
-        "plays": 19,
+        "plays": 20,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a664ddb176e09712480a6ec6333df74f.jpg",
         "url": "https://www.last.fm/music/Holy+Fawn/Dimensional+Bleed"
       },
       "artists": [
         {
           "name": "Magdalena Bay",
-          "plays": 27,
+          "plays": 28,
           "url": "https://www.last.fm/music/Magdalena+Bay"
         },
         {
           "name": "Holy Fawn",
-          "plays": 19,
+          "plays": 25,
           "url": "https://www.last.fm/music/Holy+Fawn"
         },
         {
@@ -199,39 +199,39 @@
     },
     {
       "year": 2021,
-      "from": "2021-10-26",
-      "to": "2021-11-02",
-      "plays": 50,
+      "from": "2021-10-27",
+      "to": "2021-11-03",
+      "plays": 54,
       "album": {
         "title": "I Let It In And It Took Everything",
         "artist": "Loathe",
-        "plays": 7,
+        "plays": 6,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/472b0c068c3912a9a45bbaed3c4ed92c.jpg",
         "url": "https://www.last.fm/music/Loathe/I+Let+It+In+And+It+Took+Everything"
       },
       "artists": [
         {
           "name": "Loathe",
-          "plays": 9,
+          "plays": 8,
           "url": "https://www.last.fm/music/Loathe"
         },
         {
           "name": "Bon Iver",
-          "plays": 6,
+          "plays": 5,
           "url": "https://www.last.fm/music/Bon+Iver"
         },
         {
-          "name": "Swans",
-          "plays": 2,
-          "url": "https://www.last.fm/music/Swans"
+          "name": "Holy Fawn",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Holy+Fawn"
         }
       ]
     },
     {
       "year": 2020,
-      "from": "2020-10-26",
-      "to": "2020-11-02",
-      "plays": 87,
+      "from": "2020-10-27",
+      "to": "2020-11-03",
+      "plays": 96,
       "album": {
         "title": "Use Your Time Wisely",
         "artist": "Strange Names",
@@ -259,8 +259,8 @@
     },
     {
       "year": 2019,
-      "from": "2019-10-26",
-      "to": "2019-11-02",
+      "from": "2019-10-27",
+      "to": "2019-11-03",
       "plays": 125,
       "album": {
         "title": "i,i",
@@ -289,20 +289,20 @@
     },
     {
       "year": 2018,
-      "from": "2018-10-26",
-      "to": "2018-11-02",
-      "plays": 118,
+      "from": "2018-10-27",
+      "to": "2018-11-03",
+      "plays": 122,
       "album": {
         "title": "FM!",
         "artist": "Vince Staples",
-        "plays": 13,
+        "plays": 14,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/99b32c8b8e81c9bd13ca08284a79ec28.jpg",
         "url": "https://www.last.fm/music/Vince+Staples/FM!"
       },
       "artists": [
         {
           "name": "Vince Staples",
-          "plays": 14,
+          "plays": 15,
           "url": "https://www.last.fm/music/Vince+Staples"
         },
         {
@@ -319,14 +319,14 @@
     },
     {
       "year": 2017,
-      "from": "2017-10-26",
-      "to": "2017-11-02",
-      "plays": 30,
+      "from": "2017-10-27",
+      "to": "2017-11-03",
+      "plays": 28,
       "album": {
         "title": "The Epic",
         "artist": "Kamasi Washington",
         "plays": 7,
-        "image": null,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e31e35a94208561b1c2b0dca53beaf56.jpg",
         "url": "https://www.last.fm/music/Kamasi+Washington/The+Epic"
       },
       "artists": [
@@ -349,39 +349,39 @@
     },
     {
       "year": 2016,
-      "from": "2016-10-26",
-      "to": "2016-11-02",
-      "plays": 97,
+      "from": "2016-10-27",
+      "to": "2016-11-03",
+      "plays": 85,
       "album": {
-        "title": "Hard Believer",
-        "artist": "Fink",
+        "title": "Ready for Us (feat. Sykes)",
+        "artist": "Draper",
         "plays": 3,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b1038a91d5084d41cd830e1f742c437e.png",
-        "url": "https://www.last.fm/music/Fink/Hard+Believer"
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/49a46e4b907070e67e4eebf522c4beb6.jpg",
+        "url": "https://www.last.fm/music/Draper/Ready+for+Us+(feat.+Sykes)"
       },
       "artists": [
         {
-          "name": "X Ambassadors",
-          "plays": 4,
-          "url": "https://www.last.fm/music/X+Ambassadors"
+          "name": "Draper",
+          "plays": 5,
+          "url": "https://www.last.fm/music/Draper"
         },
         {
-          "name": "St. Sleep",
+          "name": "The Japanese House",
           "plays": 3,
-          "url": "https://www.last.fm/music/St.+Sleep"
+          "url": "https://www.last.fm/music/The+Japanese+House"
         },
         {
-          "name": "The 1975",
+          "name": "Fait",
           "plays": 3,
-          "url": "https://www.last.fm/music/The+1975"
+          "url": "https://www.last.fm/music/Fait"
         }
       ]
     },
     {
       "year": 2015,
-      "from": "2015-10-26",
-      "to": "2015-11-02",
-      "plays": 112,
+      "from": "2015-10-27",
+      "to": "2015-11-03",
+      "plays": 115,
       "album": {
         "title": "The Winter of Mixed Drinks",
         "artist": "Frightened Rabbit",
@@ -397,7 +397,7 @@
         },
         {
           "name": "Fink",
-          "plays": 18,
+          "plays": 14,
           "url": "https://www.last.fm/music/Fink"
         },
         {
@@ -409,9 +409,9 @@
     },
     {
       "year": 2014,
-      "from": "2014-10-26",
-      "to": "2014-11-02",
-      "plays": 296,
+      "from": "2014-10-27",
+      "to": "2014-11-03",
+      "plays": 285,
       "album": {
         "title": "Tremors",
         "artist": "SOHN",
@@ -422,12 +422,12 @@
       "artists": [
         {
           "name": "Baths",
-          "plays": 38,
+          "plays": 35,
           "url": "https://www.last.fm/music/Baths"
         },
         {
           "name": "Buchanan",
-          "plays": 26,
+          "plays": 25,
           "url": "https://www.last.fm/music/Buchanan"
         },
         {
