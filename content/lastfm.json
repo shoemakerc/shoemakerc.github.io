@@ -1,15 +1,15 @@
 {
-  "syncedAt": "2026-11-03T15:29:33.216Z",
+  "syncedAt": "2026-11-03T18:02:31.159Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66603,
+  "totalPlays": 66606,
   "lastTrack": {
-    "name": "NYC",
-    "artist": "Interpol",
-    "album": "Turn on the Bright Lights",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/55292eb15e7e442a9f40f09625d6e111.png",
-    "url": "https://www.last.fm/music/Interpol/_/NYC",
-    "playedAt": 1793632092000
+    "name": "Jacobsons",
+    "artist": "Gilla Band",
+    "album": "Pugnello",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
+    "url": "https://www.last.fm/music/Gilla+Band/_/Jacobsons",
+    "playedAt": 1793728595000
   },
   "month": {
     "label": "October 2026",
@@ -171,7 +171,7 @@
       "year": 2022,
       "from": "2022-10-27",
       "to": "2022-11-03",
-      "plays": 147,
+      "plays": 143,
       "album": {
         "title": "Dimensional Bleed",
         "artist": "Holy Fawn",
@@ -182,7 +182,7 @@
       "artists": [
         {
           "name": "Magdalena Bay",
-          "plays": 28,
+          "plays": 27,
           "url": "https://www.last.fm/music/Magdalena+Bay"
         },
         {
@@ -201,7 +201,7 @@
       "year": 2021,
       "from": "2021-10-27",
       "to": "2021-11-03",
-      "plays": 54,
+      "plays": 53,
       "album": {
         "title": "I Let It In And It Took Everything",
         "artist": "Loathe",
@@ -231,7 +231,7 @@
       "year": 2020,
       "from": "2020-10-27",
       "to": "2020-11-03",
-      "plays": 96,
+      "plays": 97,
       "album": {
         "title": "Use Your Time Wisely",
         "artist": "Strange Names",
@@ -261,7 +261,7 @@
       "year": 2019,
       "from": "2019-10-27",
       "to": "2019-11-03",
-      "plays": 125,
+      "plays": 123,
       "album": {
         "title": "i,i",
         "artist": "Bon Iver",
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-10-27",
       "to": "2016-11-03",
-      "plays": 85,
+      "plays": 88,
       "album": {
         "title": "Ready for Us (feat. Sykes)",
         "artist": "Draper",
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-10-27",
       "to": "2014-11-03",
-      "plays": 285,
+      "plays": 279,
       "album": {
         "title": "Tremors",
         "artist": "SOHN",
