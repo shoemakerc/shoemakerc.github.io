@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-02T17:18:10.959Z",
+  "syncedAt": "2026-11-03T15:23:58.497Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -269,16 +269,16 @@
       "url": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 4,
+      "wins": 5,
       "losses": 3,
       "ties": 0,
       "otLosses": 0,
       "division": {
         "name": "Northwest",
-        "rank": 4,
+        "rank": 3,
         "teams": 5
       },
-      "streak": "L1",
+      "streak": "W1",
       "clincher": null,
       "recent": [
         {
@@ -350,13 +350,23 @@
           "result": "L",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-03T01:00Z",
+          "home": true,
+          "opponent": "Bucks",
+          "us": 112,
+          "them": 100,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-03T01:00Z",
+        "date": "2026-11-05T01:30Z",
         "timeKnown": true,
-        "home": true,
-        "opponent": "Milwaukee Bucks",
+        "home": false,
+        "opponent": "Houston Rockets",
         "seasonType": 2,
         "stage": null,
         "note": null
