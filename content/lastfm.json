@@ -1,15 +1,15 @@
 {
-  "syncedAt": "2026-11-04T15:47:26.296Z",
+  "syncedAt": "2026-11-04T18:14:06.615Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66624,
+  "totalPlays": 66633,
   "lastTrack": {
-    "name": "Daft Punk Is Playing at My House",
-    "artist": "LCD Soundsystem",
-    "album": "LCD Soundsystem",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/824df6bad69f6f1bd74deb9c093d92d0.jpg",
-    "url": "https://www.last.fm/music/LCD+Soundsystem/_/Daft+Punk+Is+Playing+at+My+House",
-    "playedAt": 1793770950000
+    "name": "Tommy Gun",
+    "artist": "Los Leo",
+    "album": "Tommy Gun",
+    "image": null,
+    "url": "https://www.last.fm/music/Los+Leo/_/Tommy+Gun",
+    "playedAt": 1793815832000
   },
   "month": {
     "label": "October 2026",
@@ -261,28 +261,28 @@
       "year": 2019,
       "from": "2019-10-28",
       "to": "2019-11-04",
-      "plays": 122,
+      "plays": 112,
       "album": {
         "title": "i,i",
         "artist": "Bon Iver",
-        "plays": 11,
+        "plays": 9,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/75742b5f137e73e3157dd2499455ed7a.jpg",
         "url": "https://www.last.fm/music/Bon+Iver/i%2Ci"
       },
       "artists": [
         {
           "name": "Bon Iver",
-          "plays": 11,
+          "plays": 9,
           "url": "https://www.last.fm/music/Bon+Iver"
         },
         {
           "name": "Cherry Pools",
-          "plays": 8,
+          "plays": 7,
           "url": "https://www.last.fm/music/Cherry+Pools"
         },
         {
           "name": "The 1975",
-          "plays": 7,
+          "plays": 6,
           "url": "https://www.last.fm/music/The+1975"
         }
       ]
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-10-28",
       "to": "2015-11-04",
-      "plays": 80,
+      "plays": 82,
       "album": {
         "title": "The Winter of Mixed Drinks",
         "artist": "Frightened Rabbit",
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-10-28",
       "to": "2014-11-04",
-      "plays": 272,
+      "plays": 275,
       "album": {
         "title": "Cerulean",
         "artist": "Baths",
