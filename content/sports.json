@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-03T15:23:58.497Z",
+  "syncedAt": "2026-11-04T15:37:55.701Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -139,7 +139,7 @@
       "url": "https://www.espn.com/nhl/team/_/name/min/minnesota-wild",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 10,
+      "wins": 11,
       "losses": 3,
       "ties": 0,
       "otLosses": 3,
@@ -148,19 +148,9 @@
         "rank": 1,
         "teams": 8
       },
-      "streak": "W1",
+      "streak": "W2",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-10-14T00:15Z",
-          "home": false,
-          "opponent": "Jets",
-          "us": 2,
-          "them": 5,
-          "result": "L",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-10-16T00:00Z",
           "home": true,
@@ -250,13 +240,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-04T00:00Z",
+          "home": false,
+          "opponent": "Flyers",
+          "us": 4,
+          "them": 2,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-04T00:00Z",
+        "date": "2026-11-07T01:00Z",
         "timeKnown": true,
-        "home": false,
-        "opponent": "Philadelphia Flyers",
+        "home": true,
+        "opponent": "San Jose Sharks",
         "seasonType": 2,
         "stage": null,
         "note": null
