@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-04T15:37:55.701Z",
+  "syncedAt": "2026-11-05T15:40:41.151Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -269,7 +269,7 @@
       "url": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 5,
+      "wins": 6,
       "losses": 3,
       "ties": 0,
       "otLosses": 0,
@@ -278,7 +278,7 @@
         "rank": 3,
         "teams": 5
       },
-      "streak": "W1",
+      "streak": "W2",
       "clincher": null,
       "recent": [
         {
@@ -360,16 +360,26 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-05T01:30Z",
+          "home": false,
+          "opponent": "Rockets",
+          "us": 117,
+          "them": 107,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-05T01:30Z",
+        "date": "2026-11-07T01:00Z",
         "timeKnown": true,
         "home": false,
-        "opponent": "Houston Rockets",
+        "opponent": "New Orleans Pelicans",
         "seasonType": 2,
         "stage": null,
-        "note": null
+        "note": "NBA Cup - Group Play"
       }
     },
     {
