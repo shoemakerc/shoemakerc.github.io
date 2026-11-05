@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-05T15:50:00.933Z",
+  "syncedAt": "2026-11-05T18:17:06.961Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66657,
@@ -141,7 +141,7 @@
       "year": 2023,
       "from": "2023-10-29",
       "to": "2023-11-05",
-      "plays": 201,
+      "plays": 198,
       "album": {
         "title": "Seventeen Seconds",
         "artist": "The Cure",
@@ -206,7 +206,7 @@
         "title": "I Let It In And It Took Everything",
         "artist": "Loathe",
         "plays": 6,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/472b0c068c3912a9a45bbaed3c4ed92c.jpg",
+        "image": null,
         "url": "https://www.last.fm/music/Loathe/I+Let+It+In+And+It+Took+Everything"
       },
       "artists": [
@@ -291,29 +291,29 @@
       "year": 2018,
       "from": "2018-10-29",
       "to": "2018-11-05",
-      "plays": 114,
+      "plays": 107,
       "album": {
         "title": "FM!",
         "artist": "Vince Staples",
-        "plays": 16,
+        "plays": 26,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/99b32c8b8e81c9bd13ca08284a79ec28.jpg",
         "url": "https://www.last.fm/music/Vince+Staples/FM!"
       },
       "artists": [
         {
           "name": "Vince Staples",
-          "plays": 17,
+          "plays": 27,
           "url": "https://www.last.fm/music/Vince+Staples"
-        },
-        {
-          "name": "The National",
-          "plays": 11,
-          "url": "https://www.last.fm/music/The+National"
         },
         {
           "name": "Young Fathers",
           "plays": 9,
           "url": "https://www.last.fm/music/Young+Fathers"
+        },
+        {
+          "name": "Tennyson",
+          "plays": 7,
+          "url": "https://www.last.fm/music/Tennyson"
         }
       ]
     },
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-10-29",
       "to": "2016-11-05",
-      "plays": 105,
+      "plays": 100,
       "album": {
         "title": "Being No One, Going Nowhere",
         "artist": "STRFKR",
@@ -367,7 +367,7 @@
         },
         {
           "name": "Ayer",
-          "plays": 7,
+          "plays": 8,
           "url": "https://www.last.fm/music/Ayer"
         },
         {
