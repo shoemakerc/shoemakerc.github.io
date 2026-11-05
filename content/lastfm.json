@@ -1,15 +1,15 @@
 {
-  "syncedAt": "2026-11-04T18:14:06.615Z",
+  "syncedAt": "2026-11-05T15:50:00.933Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66633,
+  "totalPlays": 66657,
   "lastTrack": {
-    "name": "Tommy Gun",
-    "artist": "Los Leo",
-    "album": "Tommy Gun",
-    "image": null,
-    "url": "https://www.last.fm/music/Los+Leo/_/Tommy+Gun",
-    "playedAt": 1793815832000
+    "name": "You're Not Good Enough",
+    "artist": "Blood Orange",
+    "album": "Cupid Deluxe",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/65e9a04b44947d65c763528855cef7a2.png",
+    "url": "https://www.last.fm/music/Blood+Orange/_/You%27re+Not+Good+Enough",
+    "playedAt": 1793858133000
   },
   "month": {
     "label": "October 2026",
@@ -79,9 +79,9 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-10-28",
-      "to": "2025-11-04",
-      "plays": 53,
+      "from": "2025-10-29",
+      "to": "2025-11-05",
+      "plays": 48,
       "album": {
         "title": "AudioLust & HigherLove",
         "artist": "SG Lewis",
@@ -109,9 +109,9 @@
     },
     {
       "year": 2024,
-      "from": "2024-10-28",
-      "to": "2024-11-04",
-      "plays": 154,
+      "from": "2024-10-29",
+      "to": "2024-11-05",
+      "plays": 156,
       "album": {
         "title": "Reality Check (North American Edition)",
         "artist": "The Teenagers",
@@ -126,22 +126,22 @@
           "url": "https://www.last.fm/music/MILK."
         },
         {
+          "name": "Glare",
+          "plays": 8,
+          "url": "https://www.last.fm/music/Glare"
+        },
+        {
           "name": "The Teenagers",
           "plays": 8,
           "url": "https://www.last.fm/music/The+Teenagers"
-        },
-        {
-          "name": "Glare",
-          "plays": 7,
-          "url": "https://www.last.fm/music/Glare"
         }
       ]
     },
     {
       "year": 2023,
-      "from": "2023-10-28",
-      "to": "2023-11-04",
-      "plays": 167,
+      "from": "2023-10-29",
+      "to": "2023-11-05",
+      "plays": 201,
       "album": {
         "title": "Seventeen Seconds",
         "artist": "The Cure",
@@ -157,21 +157,21 @@
         },
         {
           "name": "Gilla Band",
-          "plays": 14,
+          "plays": 15,
           "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
           "name": "Smut",
-          "plays": 7,
+          "plays": 10,
           "url": "https://www.last.fm/music/Smut"
         }
       ]
     },
     {
       "year": 2022,
-      "from": "2022-10-28",
-      "to": "2022-11-04",
-      "plays": 141,
+      "from": "2022-10-29",
+      "to": "2022-11-05",
+      "plays": 136,
       "album": {
         "title": "Mercurial World",
         "artist": "Magdalena Bay",
@@ -187,7 +187,7 @@
         },
         {
           "name": "Holy Fawn",
-          "plays": 13,
+          "plays": 11,
           "url": "https://www.last.fm/music/Holy+Fawn"
         },
         {
@@ -199,9 +199,9 @@
     },
     {
       "year": 2021,
-      "from": "2021-10-28",
-      "to": "2021-11-04",
-      "plays": 55,
+      "from": "2021-10-29",
+      "to": "2021-11-05",
+      "plays": 61,
       "album": {
         "title": "I Let It In And It Took Everything",
         "artist": "Loathe",
@@ -212,7 +212,7 @@
       "artists": [
         {
           "name": "Loathe",
-          "plays": 8,
+          "plays": 7,
           "url": "https://www.last.fm/music/Loathe"
         },
         {
@@ -221,17 +221,17 @@
           "url": "https://www.last.fm/music/Bon+Iver"
         },
         {
-          "name": "Holy Fawn",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Holy+Fawn"
+          "name": "Hans Zimmer",
+          "plays": 4,
+          "url": "https://www.last.fm/music/Hans+Zimmer"
         }
       ]
     },
     {
       "year": 2020,
-      "from": "2020-10-28",
-      "to": "2020-11-04",
-      "plays": 94,
+      "from": "2020-10-29",
+      "to": "2020-11-05",
+      "plays": 98,
       "album": {
         "title": "Use Your Time Wisely",
         "artist": "Strange Names",
@@ -259,50 +259,50 @@
     },
     {
       "year": 2019,
-      "from": "2019-10-28",
-      "to": "2019-11-04",
-      "plays": 112,
+      "from": "2019-10-29",
+      "to": "2019-11-05",
+      "plays": 127,
       "album": {
         "title": "i,i",
         "artist": "Bon Iver",
-        "plays": 9,
+        "plays": 11,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/75742b5f137e73e3157dd2499455ed7a.jpg",
         "url": "https://www.last.fm/music/Bon+Iver/i%2Ci"
       },
       "artists": [
         {
           "name": "Bon Iver",
-          "plays": 9,
+          "plays": 11,
           "url": "https://www.last.fm/music/Bon+Iver"
+        },
+        {
+          "name": "The 1975",
+          "plays": 8,
+          "url": "https://www.last.fm/music/The+1975"
         },
         {
           "name": "Cherry Pools",
           "plays": 7,
           "url": "https://www.last.fm/music/Cherry+Pools"
-        },
-        {
-          "name": "The 1975",
-          "plays": 6,
-          "url": "https://www.last.fm/music/The+1975"
         }
       ]
     },
     {
       "year": 2018,
-      "from": "2018-10-28",
-      "to": "2018-11-04",
-      "plays": 112,
+      "from": "2018-10-29",
+      "to": "2018-11-05",
+      "plays": 114,
       "album": {
         "title": "FM!",
         "artist": "Vince Staples",
-        "plays": 15,
+        "plays": 16,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/99b32c8b8e81c9bd13ca08284a79ec28.jpg",
         "url": "https://www.last.fm/music/Vince+Staples/FM!"
       },
       "artists": [
         {
           "name": "Vince Staples",
-          "plays": 16,
+          "plays": 17,
           "url": "https://www.last.fm/music/Vince+Staples"
         },
         {
@@ -311,17 +311,17 @@
           "url": "https://www.last.fm/music/The+National"
         },
         {
-          "name": "Turnover",
+          "name": "Young Fathers",
           "plays": 9,
-          "url": "https://www.last.fm/music/Turnover"
+          "url": "https://www.last.fm/music/Young+Fathers"
         }
       ]
     },
     {
       "year": 2017,
-      "from": "2017-10-28",
-      "to": "2017-11-04",
-      "plays": 25,
+      "from": "2017-10-29",
+      "to": "2017-11-05",
+      "plays": 14,
       "album": {
         "title": "The Epic",
         "artist": "Kamasi Washington",
@@ -336,30 +336,35 @@
           "url": "https://www.last.fm/music/Kamasi+Washington"
         },
         {
-          "name": "Until the Ribbon Breaks",
-          "plays": 2,
-          "url": "https://www.last.fm/music/Until+the+Ribbon+Breaks"
+          "name": "Bleachers",
+          "plays": 1,
+          "url": "https://www.last.fm/music/Bleachers"
         },
         {
-          "name": "Big Shaq",
-          "plays": 2,
-          "url": "https://www.last.fm/music/Big+Shaq"
+          "name": "Gates",
+          "plays": 1,
+          "url": "https://www.last.fm/music/Gates"
         }
       ]
     },
     {
       "year": 2016,
-      "from": "2016-10-28",
-      "to": "2016-11-04",
-      "plays": 86,
+      "from": "2016-10-29",
+      "to": "2016-11-05",
+      "plays": 105,
       "album": {
-        "title": "My Hands",
-        "artist": "Ayer",
-        "plays": 6,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c0f06162c8ab343f4364d3503f09f349.jpg",
-        "url": "https://www.last.fm/music/Ayer/My+Hands"
+        "title": "Being No One, Going Nowhere",
+        "artist": "STRFKR",
+        "plays": 10,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/657a00714e6bebd51c3f2ca41cf5a427.jpg",
+        "url": "https://www.last.fm/music/STRFKR/Being+No+One%2C+Going+Nowhere"
       },
       "artists": [
+        {
+          "name": "STRFKR",
+          "plays": 10,
+          "url": "https://www.last.fm/music/STRFKR"
+        },
         {
           "name": "Ayer",
           "plays": 7,
@@ -369,71 +374,66 @@
           "name": "Draper",
           "plays": 6,
           "url": "https://www.last.fm/music/Draper"
-        },
-        {
-          "name": "The Japanese House",
-          "plays": 3,
-          "url": "https://www.last.fm/music/The+Japanese+House"
         }
       ]
     },
     {
       "year": 2015,
-      "from": "2015-10-28",
-      "to": "2015-11-04",
-      "plays": 82,
+      "from": "2015-10-29",
+      "to": "2015-11-05",
+      "plays": 81,
       "album": {
-        "title": "The Winter of Mixed Drinks",
-        "artist": "Frightened Rabbit",
-        "plays": 17,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e21784cd7e0f413187a0019b9abcdfd0.jpg",
-        "url": "https://www.last.fm/music/Frightened+Rabbit/The+Winter+of+Mixed+Drinks"
+        "title": "Ritual In Repeat (Deluxe)",
+        "artist": "Tennis",
+        "plays": 5,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c2460c82c49fe113105d9ad4df8c4dd2.jpg",
+        "url": "https://www.last.fm/music/Tennis/Ritual+In+Repeat+(Deluxe)"
       },
       "artists": [
         {
           "name": "Frightened Rabbit",
-          "plays": 21,
+          "plays": 9,
           "url": "https://www.last.fm/music/Frightened+Rabbit"
+        },
+        {
+          "name": "Tennis",
+          "plays": 5,
+          "url": "https://www.last.fm/music/Tennis"
         },
         {
           "name": "Bloc Party",
           "plays": 5,
           "url": "https://www.last.fm/music/Bloc+Party"
-        },
-        {
-          "name": "Grimes",
-          "plays": 5,
-          "url": "https://www.last.fm/music/Grimes"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-10-28",
-      "to": "2014-11-04",
-      "plays": 275,
+      "from": "2014-10-29",
+      "to": "2014-11-05",
+      "plays": 215,
       "album": {
         "title": "Cerulean",
         "artist": "Baths",
-        "plays": 22,
+        "plays": 16,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4ca90af3b429a8874b9b0a6762a4aeca.jpg",
         "url": "https://www.last.fm/music/Baths/Cerulean"
       },
       "artists": [
         {
           "name": "Baths",
-          "plays": 37,
+          "plays": 30,
           "url": "https://www.last.fm/music/Baths"
         },
         {
-          "name": "Buchanan",
-          "plays": 24,
-          "url": "https://www.last.fm/music/Buchanan"
+          "name": "The Chain Gang of 1974",
+          "plays": 11,
+          "url": "https://www.last.fm/music/The+Chain+Gang+of+1974"
         },
         {
-          "name": "The 1975",
-          "plays": 16,
-          "url": "https://www.last.fm/music/The+1975"
+          "name": "Ed Tullett",
+          "plays": 11,
+          "url": "https://www.last.fm/music/Ed+Tullett"
         }
       ]
     }
