@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-06T15:25:15.546Z",
+  "syncedAt": "2026-11-06T17:40:54.207Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66669,
@@ -141,18 +141,18 @@
       "year": 2023,
       "from": "2023-10-30",
       "to": "2023-11-06",
-      "plays": 205,
+      "plays": 209,
       "album": {
-        "title": "Seventeen Seconds",
-        "artist": "The Cure",
-        "plays": 10,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8f434252e4aaf7401f8b1ad952580935.jpg",
-        "url": "https://www.last.fm/music/The+Cure/Seventeen+Seconds"
+        "title": "Holding Hands With Jamie",
+        "artist": "Gilla Band",
+        "plays": 11,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b8d88e1d5b9b3028871b7b057f94fea7.jpg",
+        "url": "https://www.last.fm/music/Gilla+Band/Holding+Hands+With+Jamie"
       },
       "artists": [
         {
           "name": "Gilla Band",
-          "plays": 18,
+          "plays": 22,
           "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
@@ -231,20 +231,15 @@
       "year": 2020,
       "from": "2020-10-30",
       "to": "2020-11-06",
-      "plays": 91,
+      "plays": 79,
       "album": {
-        "title": "Use Your Time Wisely",
-        "artist": "Strange Names",
-        "plays": 13,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/37e50460e5d0b35ef06543e8434197ad.jpg",
-        "url": "https://www.last.fm/music/Strange+Names/Use+Your+Time+Wisely"
+        "title": "You Won't Get What You Want",
+        "artist": "Daughters",
+        "plays": 8,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/15e2aa6fbb9db93a7236039ae64ee1a3.jpg",
+        "url": "https://www.last.fm/music/Daughters/You+Won't+Get+What+You+Want"
       },
       "artists": [
-        {
-          "name": "Strange Names",
-          "plays": 13,
-          "url": "https://www.last.fm/music/Strange+Names"
-        },
         {
           "name": "Daughters",
           "plays": 11,
@@ -254,6 +249,11 @@
           "name": "The 1975",
           "plays": 7,
           "url": "https://www.last.fm/music/The+1975"
+        },
+        {
+          "name": "Gorillaz",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Gorillaz"
         }
       ]
     },
@@ -261,7 +261,7 @@
       "year": 2019,
       "from": "2019-10-30",
       "to": "2019-11-06",
-      "plays": 125,
+      "plays": 118,
       "album": {
         "title": "i,i",
         "artist": "Bon Iver",
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-10-30",
       "to": "2014-11-06",
-      "plays": 207,
+      "plays": 203,
       "album": {
         "title": "Cerulean",
         "artist": "Baths",
