@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-05T15:40:41.151Z",
+  "syncedAt": "2026-11-07T14:15:27.623Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -139,7 +139,7 @@
       "url": "https://www.espn.com/nhl/team/_/name/min/minnesota-wild",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 11,
+      "wins": 12,
       "losses": 3,
       "ties": 0,
       "otLosses": 3,
@@ -148,19 +148,9 @@
         "rank": 1,
         "teams": 8
       },
-      "streak": "W2",
+      "streak": "W3",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-10-16T00:00Z",
-          "home": true,
-          "opponent": "Blues",
-          "us": 5,
-          "them": 4,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-10-18T22:00Z",
           "home": true,
@@ -250,13 +240,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-07T01:00Z",
+          "home": true,
+          "opponent": "Sharks",
+          "us": 4,
+          "them": 1,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-07T01:00Z",
+        "date": "2026-11-08T01:00Z",
         "timeKnown": true,
         "home": true,
-        "opponent": "San Jose Sharks",
+        "opponent": "Tampa Bay Lightning",
         "seasonType": 2,
         "stage": null,
         "note": null
@@ -269,7 +269,7 @@
       "url": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 6,
+      "wins": 7,
       "losses": 3,
       "ties": 0,
       "otLosses": 0,
@@ -278,7 +278,7 @@
         "rank": 3,
         "teams": 5
       },
-      "streak": "W2",
+      "streak": "W3",
       "clincher": null,
       "recent": [
         {
@@ -370,16 +370,26 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-07T01:00Z",
+          "home": false,
+          "opponent": "Pelicans",
+          "us": 115,
+          "them": 109,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-07T01:00Z",
+        "date": "2026-11-09T00:00Z",
         "timeKnown": true,
-        "home": false,
-        "opponent": "New Orleans Pelicans",
+        "home": true,
+        "opponent": "Utah Jazz",
         "seasonType": 2,
         "stage": null,
-        "note": "NBA Cup - Group Play"
+        "note": null
       }
     },
     {
