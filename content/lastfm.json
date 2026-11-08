@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-08T14:32:56.896Z",
+  "syncedAt": "2026-11-08T16:47:00.036Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66676,
@@ -171,7 +171,7 @@
       "year": 2022,
       "from": "2022-11-01",
       "to": "2022-11-08",
-      "plays": 95,
+      "plays": 89,
       "album": {
         "title": "Being Funny in a Foreign Language",
         "artist": "The 1975",
@@ -181,14 +181,14 @@
       },
       "artists": [
         {
-          "name": "Magdalena Bay",
-          "plays": 11,
-          "url": "https://www.last.fm/music/Magdalena+Bay"
-        },
-        {
           "name": "Holy Fawn",
           "plays": 8,
           "url": "https://www.last.fm/music/Holy+Fawn"
+        },
+        {
+          "name": "Magdalena Bay",
+          "plays": 8,
+          "url": "https://www.last.fm/music/Magdalena+Bay"
         },
         {
           "name": "The 1975",
@@ -291,7 +291,7 @@
       "year": 2018,
       "from": "2018-11-01",
       "to": "2018-11-08",
-      "plays": 83,
+      "plays": 84,
       "album": {
         "title": "FM!",
         "artist": "Vince Staples",
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-11-01",
       "to": "2016-11-08",
-      "plays": 108,
+      "plays": 107,
       "album": {
         "title": "Being No One, Going Nowhere",
         "artist": "STRFKR",
@@ -386,7 +386,7 @@
         "title": "Black Sands",
         "artist": "Bonobo",
         "plays": 12,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/146efd85c4334782aab754934e536811.png",
+        "image": null,
         "url": "https://www.last.fm/music/Bonobo/Black+Sands"
       },
       "artists": [
