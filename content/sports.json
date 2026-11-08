@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-07T14:15:27.623Z",
+  "syncedAt": "2026-11-08T14:24:25.006Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -142,25 +142,15 @@
       "wins": 12,
       "losses": 3,
       "ties": 0,
-      "otLosses": 3,
+      "otLosses": 4,
       "division": {
         "name": "Central",
         "rank": 1,
         "teams": 8
       },
-      "streak": "W3",
+      "streak": "L1",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-10-18T22:00Z",
-          "home": true,
-          "opponent": "Blue Jackets",
-          "us": 2,
-          "them": 1,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-10-21T01:00Z",
           "home": false,
@@ -250,13 +240,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-08T01:00Z",
+          "home": true,
+          "opponent": "Lightning",
+          "us": 3,
+          "them": 4,
+          "result": "OTL",
+          "extra": "OT",
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-08T01:00Z",
+        "date": "2026-11-11T00:00Z",
         "timeKnown": true,
-        "home": true,
-        "opponent": "Tampa Bay Lightning",
+        "home": false,
+        "opponent": "Montreal Canadiens",
         "seasonType": 2,
         "stage": null,
         "note": null
@@ -275,7 +275,7 @@
       "otLosses": 0,
       "division": {
         "name": "Northwest",
-        "rank": 3,
+        "rank": 2,
         "teams": 5
       },
       "streak": "W3",
