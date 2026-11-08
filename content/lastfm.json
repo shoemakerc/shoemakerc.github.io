@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-07T16:38:05.056Z",
+  "syncedAt": "2026-11-08T14:32:56.896Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66676,
@@ -15,7 +15,7 @@
     "label": "November 2026",
     "partial": true,
     "from": "2026-11-01",
-    "to": "2026-11-07",
+    "to": "2026-11-08",
     "plays": 99,
     "artistCount": 53,
     "artists": [
@@ -79,9 +79,9 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-10-31",
-      "to": "2025-11-07",
-      "plays": 56,
+      "from": "2025-11-01",
+      "to": "2025-11-08",
+      "plays": 57,
       "album": {
         "title": "AudioLust & HigherLove",
         "artist": "SG Lewis",
@@ -109,45 +109,45 @@
     },
     {
       "year": 2024,
-      "from": "2024-10-31",
-      "to": "2024-11-07",
-      "plays": 112,
+      "from": "2024-11-01",
+      "to": "2024-11-08",
+      "plays": 82,
       "album": {
-        "title": "Void in Blue",
-        "artist": "Glare",
-        "plays": 5,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fc0944673ead50d7989447409dc64b47.jpg",
-        "url": "https://www.last.fm/music/Glare/Void+in+Blue"
+        "title": "Most Normal",
+        "artist": "Gilla Band",
+        "plays": 4,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/537a15c77e18305188c58e58b9efd992.jpg",
+        "url": "https://www.last.fm/music/Gilla+Band/Most+Normal"
       },
       "artists": [
         {
           "name": "Gilla Band",
-          "plays": 9,
+          "plays": 10,
           "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
-          "name": "Glare",
-          "plays": 9,
-          "url": "https://www.last.fm/music/Glare"
+          "name": "Stevie Wonder",
+          "plays": 4,
+          "url": "https://www.last.fm/music/Stevie+Wonder"
         },
         {
-          "name": "MILK.",
-          "plays": 5,
-          "url": "https://www.last.fm/music/MILK."
+          "name": "Viagra Boys",
+          "plays": 4,
+          "url": "https://www.last.fm/music/Viagra+Boys"
         }
       ]
     },
     {
       "year": 2023,
-      "from": "2023-10-31",
-      "to": "2023-11-07",
-      "plays": 191,
+      "from": "2023-11-01",
+      "to": "2023-11-08",
+      "plays": 171,
       "album": {
-        "title": "A Place You Grew Up In",
-        "artist": "Laveda",
-        "plays": 8,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/83729a704d4fe46f01415f3d1e8d4c7e.jpg",
-        "url": "https://www.last.fm/music/Laveda/A+Place+You+Grew+Up+In"
+        "title": "Us Ephemeral",
+        "artist": "Vitesse X",
+        "plays": 9,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9f5c88ae5e6063b94c6fb901a2e79d9c.jpg",
+        "url": "https://www.last.fm/music/Vitesse+X/Us+Ephemeral"
       },
       "artists": [
         {
@@ -156,28 +156,28 @@
           "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
-          "name": "Smut",
-          "plays": 10,
-          "url": "https://www.last.fm/music/Smut"
+          "name": "Vitesse X",
+          "plays": 9,
+          "url": "https://www.last.fm/music/Vitesse+X"
         },
         {
-          "name": "Laveda",
-          "plays": 8,
-          "url": "https://www.last.fm/music/Laveda"
+          "name": "Smut",
+          "plays": 7,
+          "url": "https://www.last.fm/music/Smut"
         }
       ]
     },
     {
       "year": 2022,
-      "from": "2022-10-31",
-      "to": "2022-11-07",
-      "plays": 106,
+      "from": "2022-11-01",
+      "to": "2022-11-08",
+      "plays": 95,
       "album": {
-        "title": "Tomorrow's Harvest",
-        "artist": "Boards of Canada",
-        "plays": 10,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a107b54f27c441a7a745332f5510f271.png",
-        "url": "https://www.last.fm/music/Boards+of+Canada/Tomorrow's+Harvest"
+        "title": "Being Funny in a Foreign Language",
+        "artist": "The 1975",
+        "plays": 5,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0dc221a4f275b250669990082e7f5f29.jpg",
+        "url": "https://www.last.fm/music/The+1975/Being+Funny+in+a+Foreign+Language"
       },
       "artists": [
         {
@@ -186,22 +186,22 @@
           "url": "https://www.last.fm/music/Magdalena+Bay"
         },
         {
-          "name": "Boards of Canada",
-          "plays": 10,
-          "url": "https://www.last.fm/music/Boards+of+Canada"
+          "name": "Holy Fawn",
+          "plays": 8,
+          "url": "https://www.last.fm/music/Holy+Fawn"
         },
         {
-          "name": "Holy Fawn",
-          "plays": 9,
-          "url": "https://www.last.fm/music/Holy+Fawn"
+          "name": "The 1975",
+          "plays": 5,
+          "url": "https://www.last.fm/music/The+1975"
         }
       ]
     },
     {
       "year": 2021,
-      "from": "2021-10-31",
-      "to": "2021-11-07",
-      "plays": 49,
+      "from": "2021-11-01",
+      "to": "2021-11-08",
+      "plays": 47,
       "album": {
         "title": "22, a Million",
         "artist": "Bon Iver",
@@ -222,76 +222,76 @@
         },
         {
           "name": "The Body",
-          "plays": 4,
+          "plays": 3,
           "url": "https://www.last.fm/music/The+Body"
         }
       ]
     },
     {
       "year": 2020,
-      "from": "2020-10-31",
-      "to": "2020-11-07",
-      "plays": 57,
+      "from": "2020-11-01",
+      "to": "2020-11-08",
+      "plays": 80,
       "album": {
         "title": "You Won't Get What You Want",
         "artist": "Daughters",
-        "plays": 8,
+        "plays": 18,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/15e2aa6fbb9db93a7236039ae64ee1a3.jpg",
         "url": "https://www.last.fm/music/Daughters/You+Won't+Get+What+You+Want"
       },
       "artists": [
         {
           "name": "Daughters",
-          "plays": 11,
+          "plays": 26,
           "url": "https://www.last.fm/music/Daughters"
         },
         {
-          "name": "The 1975",
-          "plays": 7,
-          "url": "https://www.last.fm/music/The+1975"
+          "name": "The Japanese House",
+          "plays": 5,
+          "url": "https://www.last.fm/music/The+Japanese+House"
         },
         {
-          "name": "Caspian",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Caspian"
+          "name": "The 1975",
+          "plays": 5,
+          "url": "https://www.last.fm/music/The+1975"
         }
       ]
     },
     {
       "year": 2019,
-      "from": "2019-10-31",
-      "to": "2019-11-07",
-      "plays": 110,
+      "from": "2019-11-01",
+      "to": "2019-11-08",
+      "plays": 39,
       "album": {
         "title": "i,i",
         "artist": "Bon Iver",
-        "plays": 7,
+        "plays": 5,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/75742b5f137e73e3157dd2499455ed7a.jpg",
         "url": "https://www.last.fm/music/Bon+Iver/i%2Ci"
       },
       "artists": [
         {
           "name": "Bon Iver",
-          "plays": 7,
+          "plays": 5,
           "url": "https://www.last.fm/music/Bon+Iver"
         },
         {
           "name": "The 1975",
-          "plays": 6,
+          "plays": 5,
           "url": "https://www.last.fm/music/The+1975"
         },
         {
-          "name": "Tyler, The Creator",
-          "plays": 5,
-          "url": "https://www.last.fm/music/Tyler%2C+The+Creator"
+          "name": "The Fray",
+          "plays": 3,
+          "url": "https://www.last.fm/music/The+Fray"
         }
       ]
     },
     {
       "year": 2018,
-      "from": "2018-10-31",
-      "to": "2018-11-07",
-      "plays": 86,
+      "from": "2018-11-01",
+      "to": "2018-11-08",
+      "plays": 83,
       "album": {
         "title": "FM!",
         "artist": "Vince Staples",
@@ -311,23 +311,23 @@
           "url": "https://www.last.fm/music/Young+Fathers"
         },
         {
-          "name": "Tennyson",
-          "plays": 8,
-          "url": "https://www.last.fm/music/Tennyson"
+          "name": "The 1975",
+          "plays": 5,
+          "url": "https://www.last.fm/music/The+1975"
         }
       ]
     },
     {
       "year": 2017,
-      "from": "2017-10-31",
-      "to": "2017-11-07",
+      "from": "2017-11-01",
+      "to": "2017-11-08",
       "plays": 13,
       "album": {
-        "title": "Humanz (Deluxe)",
-        "artist": "Gorillaz",
+        "title": "Atrocity Exhibition",
+        "artist": "Danny Brown",
         "plays": 2,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c6be60edd13ecd2226b9ca7508484f99.jpg",
-        "url": "https://www.last.fm/music/Gorillaz/Humanz+(Deluxe)"
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7288ec5442a34c3583f9cb38d38595ee.jpg",
+        "url": "https://www.last.fm/music/Danny+Brown/Atrocity+Exhibition"
       },
       "artists": [
         {
@@ -337,7 +337,7 @@
         },
         {
           "name": "Danny Brown",
-          "plays": 1,
+          "plays": 2,
           "url": "https://www.last.fm/music/Danny+Brown"
         },
         {
@@ -349,9 +349,9 @@
     },
     {
       "year": 2016,
-      "from": "2016-10-31",
-      "to": "2016-11-07",
-      "plays": 103,
+      "from": "2016-11-01",
+      "to": "2016-11-08",
+      "plays": 108,
       "album": {
         "title": "Being No One, Going Nowhere",
         "artist": "STRFKR",
@@ -366,22 +366,22 @@
           "url": "https://www.last.fm/music/STRFKR"
         },
         {
+          "name": "St. Paul & The Broken Bones",
+          "plays": 8,
+          "url": "https://www.last.fm/music/St.+Paul+%26+The+Broken+Bones"
+        },
+        {
           "name": "Ayer",
           "plays": 8,
           "url": "https://www.last.fm/music/Ayer"
-        },
-        {
-          "name": "Draper",
-          "plays": 6,
-          "url": "https://www.last.fm/music/Draper"
         }
       ]
     },
     {
       "year": 2015,
-      "from": "2015-10-31",
-      "to": "2015-11-07",
-      "plays": 126,
+      "from": "2015-11-01",
+      "to": "2015-11-08",
+      "plays": 137,
       "album": {
         "title": "Black Sands",
         "artist": "Bonobo",
@@ -391,49 +391,49 @@
       },
       "artists": [
         {
+          "name": "Fink",
+          "plays": 12,
+          "url": "https://www.last.fm/music/Fink"
+        },
+        {
           "name": "Bonobo",
           "plays": 12,
           "url": "https://www.last.fm/music/Bonobo"
         },
         {
           "name": "Grimes",
-          "plays": 11,
+          "plays": 10,
           "url": "https://www.last.fm/music/Grimes"
-        },
-        {
-          "name": "Frightened Rabbit",
-          "plays": 7,
-          "url": "https://www.last.fm/music/Frightened+Rabbit"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-10-31",
-      "to": "2014-11-07",
-      "plays": 199,
+      "from": "2014-11-01",
+      "to": "2014-11-08",
+      "plays": 246,
       "album": {
         "title": "Cerulean",
         "artist": "Baths",
-        "plays": 19,
+        "plays": 17,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4ca90af3b429a8874b9b0a6762a4aeca.jpg",
         "url": "https://www.last.fm/music/Baths/Cerulean"
       },
       "artists": [
         {
-          "name": "Baths",
-          "plays": 25,
-          "url": "https://www.last.fm/music/Baths"
-        },
-        {
           "name": "The Chain Gang of 1974",
-          "plays": 13,
+          "plays": 28,
           "url": "https://www.last.fm/music/The+Chain+Gang+of+1974"
         },
         {
-          "name": "Ed Tullett",
-          "plays": 11,
-          "url": "https://www.last.fm/music/Ed+Tullett"
+          "name": "Baths",
+          "plays": 22,
+          "url": "https://www.last.fm/music/Baths"
+        },
+        {
+          "name": "Until the Ribbon Breaks",
+          "plays": 13,
+          "url": "https://www.last.fm/music/Until+the+Ribbon+Breaks"
         }
       ]
     }
