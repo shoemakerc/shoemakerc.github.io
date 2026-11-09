@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-09T17:50:37.395Z",
+  "syncedAt": "2026-11-09T21:06:07.431Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66698,
@@ -81,7 +81,7 @@
       "year": 2025,
       "from": "2025-11-02",
       "to": "2025-11-09",
-      "plays": 80,
+      "plays": 78,
       "album": {
         "title": "Cool If I Crash",
         "artist": "Hotline TNT",
@@ -141,7 +141,7 @@
       "year": 2023,
       "from": "2023-11-02",
       "to": "2023-11-09",
-      "plays": 170,
+      "plays": 161,
       "album": {
         "title": "Us Ephemeral",
         "artist": "Vitesse X",
@@ -171,29 +171,29 @@
       "year": 2022,
       "from": "2022-11-02",
       "to": "2022-11-09",
-      "plays": 92,
+      "plays": 91,
       "album": {
-        "title": "Being Funny in a Foreign Language",
-        "artist": "The 1975",
+        "title": "I Saw",
+        "artist": "Young Fathers",
         "plays": 5,
-        "image": null,
-        "url": "https://www.last.fm/music/The+1975/Being+Funny+in+a+Foreign+Language"
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fbd6552d43e7f301c5098b9b00e3ee16.jpg",
+        "url": "https://www.last.fm/music/Young+Fathers/I+Saw"
       },
       "artists": [
         {
           "name": "Holy Fawn",
-          "plays": 9,
+          "plays": 8,
           "url": "https://www.last.fm/music/Holy+Fawn"
         },
         {
-          "name": "Magdalena Bay",
-          "plays": 8,
-          "url": "https://www.last.fm/music/Magdalena+Bay"
+          "name": "Young Fathers",
+          "plays": 7,
+          "url": "https://www.last.fm/music/Young+Fathers"
         },
         {
-          "name": "Young Fathers",
-          "plays": 6,
-          "url": "https://www.last.fm/music/Young+Fathers"
+          "name": "Magdalena Bay",
+          "plays": 7,
+          "url": "https://www.last.fm/music/Magdalena+Bay"
         }
       ]
     },
@@ -201,7 +201,7 @@
       "year": 2021,
       "from": "2021-11-02",
       "to": "2021-11-09",
-      "plays": 34,
+      "plays": 35,
       "album": {
         "title": "Dune (Original Motion Picture Soundtrack)",
         "artist": "Hans Zimmer",
@@ -221,9 +221,9 @@
           "url": "https://www.last.fm/music/METAHESH"
         },
         {
-          "name": "The Body",
+          "name": "Caspian",
           "plays": 2,
-          "url": "https://www.last.fm/music/The+Body"
+          "url": "https://www.last.fm/music/Caspian"
         }
       ]
     },
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-11-02",
       "to": "2015-11-09",
-      "plays": 135,
+      "plays": 133,
       "album": {
         "title": "Black Sands",
         "artist": "Bonobo",
@@ -402,7 +402,7 @@
         },
         {
           "name": "Grimes",
-          "plays": 8,
+          "plays": 9,
           "url": "https://www.last.fm/music/Grimes"
         }
       ]
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-11-02",
       "to": "2014-11-09",
-      "plays": 231,
+      "plays": 255,
       "album": {
         "title": "Daydream Forever",
         "artist": "The Chain Gang of 1974",
