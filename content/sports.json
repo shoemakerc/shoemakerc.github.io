@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-08T14:24:25.006Z",
+  "syncedAt": "2026-11-09T17:43:14.873Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -269,7 +269,7 @@
       "url": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 7,
+      "wins": 8,
       "losses": 3,
       "ties": 0,
       "otLosses": 0,
@@ -278,19 +278,9 @@
         "rank": 2,
         "teams": 5
       },
-      "streak": "W3",
+      "streak": "W4",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-10-21T23:30Z",
-          "home": false,
-          "opponent": "Heat",
-          "us": 131,
-          "them": 106,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-10-23T23:00Z",
           "home": false,
@@ -380,13 +370,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-09T00:00Z",
+          "home": true,
+          "opponent": "Jazz",
+          "us": 115,
+          "them": 100,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-09T00:00Z",
+        "date": "2026-11-13T01:00Z",
         "timeKnown": true,
         "home": true,
-        "opponent": "Utah Jazz",
+        "opponent": "Dallas Mavericks",
         "seasonType": 2,
         "stage": null,
         "note": null
