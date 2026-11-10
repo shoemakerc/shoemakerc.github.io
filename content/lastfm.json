@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-10T15:48:18.127Z",
+  "syncedAt": "2026-11-10T18:15:18.386Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66698,
@@ -171,11 +171,11 @@
       "year": 2022,
       "from": "2022-11-03",
       "to": "2022-11-10",
-      "plays": 91,
+      "plays": 83,
       "album": {
         "title": "Preacher’s Daughter",
         "artist": "Ethel Cain",
-        "plays": 6,
+        "plays": 5,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/22e569fc35411b28f2127e3e48b69b8c.jpg",
         "url": "https://www.last.fm/music/Ethel+Cain/Preacher%E2%80%99s+Daughter"
       },
@@ -187,12 +187,12 @@
         },
         {
           "name": "Magdalena Bay",
-          "plays": 7,
+          "plays": 6,
           "url": "https://www.last.fm/music/Magdalena+Bay"
         },
         {
           "name": "Ethel Cain",
-          "plays": 6,
+          "plays": 5,
           "url": "https://www.last.fm/music/Ethel+Cain"
         }
       ]
@@ -231,7 +231,7 @@
       "year": 2020,
       "from": "2020-11-03",
       "to": "2020-11-10",
-      "plays": 59,
+      "plays": 61,
       "album": {
         "title": "You Won't Get What You Want",
         "artist": "Daughters",
@@ -247,7 +247,7 @@
         },
         {
           "name": "The Japanese House",
-          "plays": 5,
+          "plays": 6,
           "url": "https://www.last.fm/music/The+Japanese+House"
         },
         {
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-11-03",
       "to": "2016-11-10",
-      "plays": 77,
+      "plays": 74,
       "album": {
         "title": "Being No One, Going Nowhere",
         "artist": "STRFKR",
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-11-03",
       "to": "2015-11-10",
-      "plays": 131,
+      "plays": 140,
       "album": {
         "title": "Black Sands",
         "artist": "Bonobo",
@@ -402,7 +402,7 @@
         },
         {
           "name": "Grimes",
-          "plays": 9,
+          "plays": 10,
           "url": "https://www.last.fm/music/Grimes"
         }
       ]
