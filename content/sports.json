@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-09T17:43:14.873Z",
+  "syncedAt": "2026-11-10T15:42:41.982Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -400,15 +400,15 @@
       "season": "2026",
       "phase": "regular",
       "wins": 6,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
       "otLosses": 0,
       "division": {
         "name": "NFC North",
-        "rank": 1,
+        "rank": 3,
         "teams": 4
       },
-      "streak": "L1",
+      "streak": "L2",
       "clincher": null,
       "recent": [
         {
@@ -480,13 +480,23 @@
           "result": "L",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-10T01:15Z",
+          "home": true,
+          "opponent": "Bills",
+          "us": 6,
+          "them": 23,
+          "result": "L",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-10T01:15Z",
+        "date": "2026-11-15T18:00Z",
         "timeKnown": true,
-        "home": true,
-        "opponent": "Buffalo Bills",
+        "home": false,
+        "opponent": "Green Bay Packers",
         "seasonType": 2,
         "stage": null,
         "note": null
