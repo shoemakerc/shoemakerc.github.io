@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-10T15:42:41.982Z",
+  "syncedAt": "2026-11-11T15:29:24.940Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -139,7 +139,7 @@
       "url": "https://www.espn.com/nhl/team/_/name/min/minnesota-wild",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 12,
+      "wins": 13,
       "losses": 3,
       "ties": 0,
       "otLosses": 4,
@@ -148,19 +148,9 @@
         "rank": 1,
         "teams": 8
       },
-      "streak": "L1",
+      "streak": "W1",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-10-21T01:00Z",
-          "home": false,
-          "opponent": "Oilers",
-          "us": 3,
-          "them": 4,
-          "result": "OTL",
-          "extra": "OT",
-          "postseason": false
-        },
         {
           "date": "2026-10-23T01:00Z",
           "home": false,
@@ -250,13 +240,23 @@
           "result": "OTL",
           "extra": "OT",
           "postseason": false
+        },
+        {
+          "date": "2026-11-11T00:00Z",
+          "home": false,
+          "opponent": "Canadiens",
+          "us": 2,
+          "them": 1,
+          "result": "W",
+          "extra": "OT",
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-11T00:00Z",
+        "date": "2026-11-13T00:00Z",
         "timeKnown": true,
         "home": false,
-        "opponent": "Montreal Canadiens",
+        "opponent": "Toronto Maple Leafs",
         "seasonType": 2,
         "stage": null,
         "note": null
@@ -275,7 +275,7 @@
       "otLosses": 0,
       "division": {
         "name": "Northwest",
-        "rank": 2,
+        "rank": 1,
         "teams": 5
       },
       "streak": "W4",
@@ -383,10 +383,10 @@
         }
       ],
       "next": {
-        "date": "2026-11-13T01:00Z",
+        "date": "2027-01-03T00:00Z",
         "timeKnown": true,
-        "home": true,
-        "opponent": "Dallas Mavericks",
+        "home": false,
+        "opponent": "Indiana Pacers",
         "seasonType": 2,
         "stage": null,
         "note": null
