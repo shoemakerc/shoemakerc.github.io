@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-11T15:29:24.940Z",
+  "syncedAt": "2026-11-11T17:58:07.966Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -383,10 +383,10 @@
         }
       ],
       "next": {
-        "date": "2027-01-03T00:00Z",
+        "date": "2026-11-13T01:00Z",
         "timeKnown": true,
-        "home": false,
-        "opponent": "Indiana Pacers",
+        "home": true,
+        "opponent": "Dallas Mavericks",
         "seasonType": 2,
         "stage": null,
         "note": null
