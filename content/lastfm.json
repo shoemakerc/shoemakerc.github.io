@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-12T16:18:27.047Z",
+  "syncedAt": "2026-11-12T18:35:45.586Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66706,
@@ -81,7 +81,7 @@
       "year": 2025,
       "from": "2025-11-05",
       "to": "2025-11-12",
-      "plays": 70,
+      "plays": 76,
       "album": {
         "title": "NEU! 2",
         "artist": "NEU!",
@@ -97,7 +97,7 @@
         },
         {
           "name": "Viagra Boys",
-          "plays": 6,
+          "plays": 7,
           "url": "https://www.last.fm/music/Viagra+Boys"
         },
         {
@@ -141,7 +141,7 @@
       "year": 2023,
       "from": "2023-11-05",
       "to": "2023-11-12",
-      "plays": 159,
+      "plays": 161,
       "album": {
         "title": "Street Worms",
         "artist": "Viagra Boys",
@@ -171,7 +171,7 @@
       "year": 2022,
       "from": "2022-11-05",
       "to": "2022-11-12",
-      "plays": 84,
+      "plays": 83,
       "album": {
         "title": "I Saw",
         "artist": "Young Fathers",
@@ -291,20 +291,15 @@
       "year": 2018,
       "from": "2018-11-05",
       "to": "2018-11-12",
-      "plays": 84,
+      "plays": 70,
       "album": {
-        "title": "FM!",
-        "artist": "Vince Staples",
-        "plays": 13,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/99b32c8b8e81c9bd13ca08284a79ec28.jpg",
-        "url": "https://www.last.fm/music/Vince+Staples/FM!"
+        "title": "Uh Oh!",
+        "artist": "Tennyson",
+        "plays": 5,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/92712140f548e0a2fe04c7ad48225c8d.jpg",
+        "url": "https://www.last.fm/music/Tennyson/Uh+Oh!"
       },
       "artists": [
-        {
-          "name": "Vince Staples",
-          "plays": 13,
-          "url": "https://www.last.fm/music/Vince+Staples"
-        },
         {
           "name": "The 1975",
           "plays": 8,
@@ -314,6 +309,11 @@
           "name": "Tennyson",
           "plays": 6,
           "url": "https://www.last.fm/music/Tennyson"
+        },
+        {
+          "name": "Young Fathers",
+          "plays": 4,
+          "url": "https://www.last.fm/music/Young+Fathers"
         }
       ]
     },
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-11-05",
       "to": "2016-11-12",
-      "plays": 40,
+      "plays": 37,
       "album": {
         "title": "Sea Of Noise",
         "artist": "St. Paul & The Broken Bones",
@@ -381,18 +381,18 @@
       "year": 2015,
       "from": "2015-11-05",
       "to": "2015-11-12",
-      "plays": 123,
+      "plays": 126,
       "album": {
         "title": "Black Sands",
         "artist": "Bonobo",
         "plays": 12,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/146efd85c4334782aab754934e536811.png",
+        "image": null,
         "url": "https://www.last.fm/music/Bonobo/Black+Sands"
       },
       "artists": [
         {
           "name": "Fink",
-          "plays": 18,
+          "plays": 20,
           "url": "https://www.last.fm/music/Fink"
         },
         {
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-11-05",
       "to": "2014-11-12",
-      "plays": 290,
+      "plays": 292,
       "album": {
         "title": "The Haunted Man (Deluxe Version)",
         "artist": "Bat for Lashes",
