@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-12T16:06:27.157Z",
+  "syncedAt": "2026-11-13T15:33:35.211Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -139,7 +139,7 @@
       "url": "https://www.espn.com/nhl/team/_/name/min/minnesota-wild",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 13,
+      "wins": 14,
       "losses": 3,
       "ties": 0,
       "otLosses": 4,
@@ -148,19 +148,9 @@
         "rank": 1,
         "teams": 8
       },
-      "streak": "W1",
+      "streak": "W2",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-10-23T01:00Z",
-          "home": false,
-          "opponent": "Flames",
-          "us": 1,
-          "them": 2,
-          "result": "L",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-10-25T02:00Z",
           "home": false,
@@ -250,13 +240,23 @@
           "result": "W",
           "extra": "OT",
           "postseason": false
+        },
+        {
+          "date": "2026-11-13T00:00Z",
+          "home": false,
+          "opponent": "Maple Leafs",
+          "us": 5,
+          "them": 2,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-13T00:00Z",
+        "date": "2026-11-15T00:00Z",
         "timeKnown": true,
         "home": false,
-        "opponent": "Toronto Maple Leafs",
+        "opponent": "Boston Bruins",
         "seasonType": 2,
         "stage": null,
         "note": null
@@ -269,28 +269,18 @@
       "url": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 8,
+      "wins": 9,
       "losses": 3,
       "ties": 0,
       "otLosses": 0,
       "division": {
         "name": "Northwest",
-        "rank": 2,
+        "rank": 1,
         "teams": 5
       },
-      "streak": "W4",
+      "streak": "W5",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-10-23T23:00Z",
-          "home": false,
-          "opponent": "Magic",
-          "us": 115,
-          "them": 93,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-10-25T23:00Z",
           "home": true,
@@ -380,13 +370,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-13T01:00Z",
+          "home": true,
+          "opponent": "Mavericks",
+          "us": 133,
+          "them": 94,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-13T01:00Z",
+        "date": "2026-11-15T01:00Z",
         "timeKnown": true,
         "home": true,
-        "opponent": "Dallas Mavericks",
+        "opponent": "Chicago Bulls",
         "seasonType": 2,
         "stage": null,
         "note": null
