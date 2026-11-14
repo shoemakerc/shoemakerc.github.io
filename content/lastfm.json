@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-14T14:32:48.701Z",
+  "syncedAt": "2026-11-14T16:44:05.624Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66718,
@@ -86,7 +86,7 @@
         "title": "NEU! 2",
         "artist": "NEU!",
         "plays": 11,
-        "image": null,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/88e390799c56591d33e402f2578770f8.jpg",
         "url": "https://www.last.fm/music/NEU!/NEU!+2"
       },
       "artists": [
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-11-07",
       "to": "2015-11-14",
-      "plays": 101,
+      "plays": 100,
       "album": {
         "title": "Hard Believer",
         "artist": "Fink",
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-11-07",
       "to": "2014-11-14",
-      "plays": 318,
+      "plays": 317,
       "album": {
         "title": "The Haunted Man (Deluxe Version)",
         "artist": "Bat for Lashes",
