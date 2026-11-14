@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-13T18:03:24.669Z",
+  "syncedAt": "2026-11-14T14:32:48.701Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66718,
@@ -15,7 +15,7 @@
     "label": "November 2026",
     "partial": true,
     "from": "2026-11-01",
-    "to": "2026-11-13",
+    "to": "2026-11-14",
     "plays": 141,
     "artistCount": 80,
     "artists": [
@@ -79,26 +79,26 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-11-06",
-      "to": "2025-11-13",
-      "plays": 70,
+      "from": "2025-11-07",
+      "to": "2025-11-14",
+      "plays": 73,
       "album": {
         "title": "NEU! 2",
         "artist": "NEU!",
         "plays": 11,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/88e390799c56591d33e402f2578770f8.jpg",
+        "image": null,
         "url": "https://www.last.fm/music/NEU!/NEU!+2"
       },
       "artists": [
         {
+          "name": "Viagra Boys",
+          "plays": 11,
+          "url": "https://www.last.fm/music/Viagra+Boys"
+        },
+        {
           "name": "NEU!",
           "plays": 11,
           "url": "https://www.last.fm/music/NEU!"
-        },
-        {
-          "name": "Viagra Boys",
-          "plays": 8,
-          "url": "https://www.last.fm/music/Viagra+Boys"
         },
         {
           "name": "Fontaines D.C.",
@@ -109,9 +109,9 @@
     },
     {
       "year": 2024,
-      "from": "2024-11-06",
-      "to": "2024-11-13",
-      "plays": 101,
+      "from": "2024-11-07",
+      "to": "2024-11-14",
+      "plays": 97,
       "album": {
         "title": "Nonagon Infinity",
         "artist": "King Gizzard & The Lizard Wizard",
@@ -126,38 +126,38 @@
           "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard"
         },
         {
-          "name": "Gilla Band",
-          "plays": 9,
-          "url": "https://www.last.fm/music/Gilla+Band"
+          "name": "Viagra Boys",
+          "plays": 7,
+          "url": "https://www.last.fm/music/Viagra+Boys"
         },
         {
-          "name": "Viagra Boys",
-          "plays": 6,
-          "url": "https://www.last.fm/music/Viagra+Boys"
+          "name": "Foals",
+          "plays": 7,
+          "url": "https://www.last.fm/music/Foals"
         }
       ]
     },
     {
       "year": 2023,
-      "from": "2023-11-06",
-      "to": "2023-11-13",
-      "plays": 149,
+      "from": "2023-11-07",
+      "to": "2023-11-14",
+      "plays": 157,
       "album": {
         "title": "Street Worms",
         "artist": "Viagra Boys",
-        "plays": 13,
+        "plays": 16,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d33b34877998da3ef033b5cb335a634d.jpg",
         "url": "https://www.last.fm/music/Viagra+Boys/Street+Worms"
       },
       "artists": [
         {
           "name": "Gilla Band",
-          "plays": 26,
+          "plays": 25,
           "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
           "name": "Viagra Boys",
-          "plays": 20,
+          "plays": 24,
           "url": "https://www.last.fm/music/Viagra+Boys"
         },
         {
@@ -169,68 +169,68 @@
     },
     {
       "year": 2022,
-      "from": "2022-11-06",
-      "to": "2022-11-13",
-      "plays": 70,
+      "from": "2022-11-07",
+      "to": "2022-11-14",
+      "plays": 48,
       "album": {
         "title": "I Saw",
         "artist": "Young Fathers",
-        "plays": 5,
+        "plays": 4,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fbd6552d43e7f301c5098b9b00e3ee16.jpg",
         "url": "https://www.last.fm/music/Young+Fathers/I+Saw"
       },
       "artists": [
         {
           "name": "Young Fathers",
-          "plays": 7,
-          "url": "https://www.last.fm/music/Young+Fathers"
-        },
-        {
-          "name": "Holy Fawn",
           "plays": 4,
-          "url": "https://www.last.fm/music/Holy+Fawn"
+          "url": "https://www.last.fm/music/Young+Fathers"
         },
         {
           "name": "Kalax",
           "plays": 3,
           "url": "https://www.last.fm/music/Kalax"
+        },
+        {
+          "name": "Holy Fawn",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Holy+Fawn"
         }
       ]
     },
     {
       "year": 2021,
-      "from": "2021-11-06",
-      "to": "2021-11-13",
-      "plays": 17,
+      "from": "2021-11-07",
+      "to": "2021-11-14",
+      "plays": 26,
       "album": {
-        "title": "On Circles",
-        "artist": "Caspian",
-        "plays": 3,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/20eb50f65a90b2530ebc8c2e39aca413.jpg",
-        "url": "https://www.last.fm/music/Caspian/On+Circles"
+        "title": "Red Earth & Pouring Rain",
+        "artist": "Bear's Den",
+        "plays": 4,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9b22de0ab92887eca709347a46159143.jpg",
+        "url": "https://www.last.fm/music/Bear's+Den/Red+Earth+%26+Pouring+Rain"
       },
       "artists": [
+        {
+          "name": "Bear's Den",
+          "plays": 4,
+          "url": "https://www.last.fm/music/Bear's+Den"
+        },
+        {
+          "name": "Mint Julep",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Mint+Julep"
+        },
         {
           "name": "Caspian",
           "plays": 3,
           "url": "https://www.last.fm/music/Caspian"
-        },
-        {
-          "name": "The Body",
-          "plays": 2,
-          "url": "https://www.last.fm/music/The+Body"
-        },
-        {
-          "name": "Bear's Den",
-          "plays": 2,
-          "url": "https://www.last.fm/music/Bear's+Den"
         }
       ]
     },
     {
       "year": 2020,
-      "from": "2020-11-06",
-      "to": "2020-11-13",
+      "from": "2020-11-07",
+      "to": "2020-11-14",
       "plays": 54,
       "album": {
         "title": "You Won't Get What You Want",
@@ -259,9 +259,9 @@
     },
     {
       "year": 2019,
-      "from": "2019-11-06",
-      "to": "2019-11-13",
-      "plays": 110,
+      "from": "2019-11-07",
+      "to": "2019-11-14",
+      "plays": 119,
       "album": {
         "title": "Out Of My Hands",
         "artist": "Green River Ordinance",
@@ -289,17 +289,22 @@
     },
     {
       "year": 2018,
-      "from": "2018-11-06",
-      "to": "2018-11-13",
-      "plays": 92,
+      "from": "2018-11-07",
+      "to": "2018-11-14",
+      "plays": 88,
       "album": {
-        "title": "Dear Science",
-        "artist": "TV on the Radio",
-        "plays": 5,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/db087930279745f387dd0f892b7d6a07.png",
-        "url": "https://www.last.fm/music/TV+on+the+Radio/Dear+Science"
+        "title": "Royal Blood",
+        "artist": "Royal Blood",
+        "plays": 10,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ca1bb68cf031479fc762e07469cd1ca1.jpg",
+        "url": "https://www.last.fm/music/Royal+Blood/Royal+Blood"
       },
       "artists": [
+        {
+          "name": "Royal Blood",
+          "plays": 10,
+          "url": "https://www.last.fm/music/Royal+Blood"
+        },
         {
           "name": "The 1975",
           "plays": 8,
@@ -309,49 +314,44 @@
           "name": "TV on the Radio",
           "plays": 6,
           "url": "https://www.last.fm/music/TV+on+the+Radio"
-        },
-        {
-          "name": "Tennyson",
-          "plays": 6,
-          "url": "https://www.last.fm/music/Tennyson"
         }
       ]
     },
     {
       "year": 2017,
-      "from": "2017-11-06",
-      "to": "2017-11-13",
-      "plays": 9,
+      "from": "2017-11-07",
+      "to": "2017-11-14",
+      "plays": 3,
       "album": {
-        "title": "If You Want To Make Money",
-        "artist": "Will Joseph Cook",
-        "plays": 2,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6520ac4ce71d7a4bab154b2b8e31ccaa.jpg",
-        "url": "https://www.last.fm/music/Will+Joseph+Cook/If+You+Want+To+Make+Money"
+        "title": "Intrepid",
+        "artist": "Pinegrove",
+        "plays": 1,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/cafb7117225ad3448e4360c640973db9.jpg",
+        "url": "https://www.last.fm/music/Pinegrove/Intrepid"
       },
       "artists": [
-        {
-          "name": "Will Joseph Cook",
-          "plays": 2,
-          "url": "https://www.last.fm/music/Will+Joseph+Cook"
-        },
-        {
-          "name": "Danny Brown",
-          "plays": 2,
-          "url": "https://www.last.fm/music/Danny+Brown"
-        },
         {
           "name": "Pinegrove",
           "plays": 1,
           "url": "https://www.last.fm/music/Pinegrove"
+        },
+        {
+          "name": "Will Joseph Cook",
+          "plays": 1,
+          "url": "https://www.last.fm/music/Will+Joseph+Cook"
+        },
+        {
+          "name": "Danny Brown",
+          "plays": 1,
+          "url": "https://www.last.fm/music/Danny+Brown"
         }
       ]
     },
     {
       "year": 2016,
-      "from": "2016-11-06",
-      "to": "2016-11-13",
-      "plays": 27,
+      "from": "2016-11-07",
+      "to": "2016-11-14",
+      "plays": 26,
       "album": {
         "title": "Sea Of Noise",
         "artist": "St. Paul & The Broken Bones",
@@ -379,15 +379,15 @@
     },
     {
       "year": 2015,
-      "from": "2015-11-06",
-      "to": "2015-11-13",
-      "plays": 119,
+      "from": "2015-11-07",
+      "to": "2015-11-14",
+      "plays": 101,
       "album": {
-        "title": "Art Angels",
-        "artist": "Grimes",
-        "plays": 9,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f6b3a85f39a656aaa61d30d1d2ec8d85.png",
-        "url": "https://www.last.fm/music/Grimes/Art+Angels"
+        "title": "Hard Believer",
+        "artist": "Fink",
+        "plays": 6,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b1038a91d5084d41cd830e1f742c437e.png",
+        "url": "https://www.last.fm/music/Fink/Hard+Believer"
       },
       "artists": [
         {
@@ -396,22 +396,22 @@
           "url": "https://www.last.fm/music/Fink"
         },
         {
-          "name": "Grimes",
-          "plays": 10,
-          "url": "https://www.last.fm/music/Grimes"
-        },
-        {
           "name": "Passion Pit",
           "plays": 6,
           "url": "https://www.last.fm/music/Passion+Pit"
+        },
+        {
+          "name": "Battles",
+          "plays": 5,
+          "url": "https://www.last.fm/music/Battles"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-11-06",
-      "to": "2014-11-13",
-      "plays": 298,
+      "from": "2014-11-07",
+      "to": "2014-11-14",
+      "plays": 318,
       "album": {
         "title": "The Haunted Man (Deluxe Version)",
         "artist": "Bat for Lashes",
@@ -427,12 +427,12 @@
         },
         {
           "name": "Buchanan",
-          "plays": 27,
+          "plays": 28,
           "url": "https://www.last.fm/music/Buchanan"
         },
         {
           "name": "The Chain Gang of 1974",
-          "plays": 20,
+          "plays": 21,
           "url": "https://www.last.fm/music/The+Chain+Gang+of+1974"
         }
       ]
