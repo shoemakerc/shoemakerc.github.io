@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-13T15:33:35.211Z",
+  "syncedAt": "2026-11-14T14:23:27.089Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -275,7 +275,7 @@
       "otLosses": 0,
       "division": {
         "name": "Northwest",
-        "rank": 1,
+        "rank": 2,
         "teams": 5
       },
       "streak": "W5",
