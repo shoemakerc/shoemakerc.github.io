@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-14T14:23:27.089Z",
+  "syncedAt": "2026-11-15T14:53:43.290Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -139,7 +139,7 @@
       "url": "https://www.espn.com/nhl/team/_/name/min/minnesota-wild",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 14,
+      "wins": 15,
       "losses": 3,
       "ties": 0,
       "otLosses": 4,
@@ -148,19 +148,9 @@
         "rank": 1,
         "teams": 8
       },
-      "streak": "W2",
+      "streak": "W3",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-10-25T02:00Z",
-          "home": false,
-          "opponent": "Kraken",
-          "us": 5,
-          "them": 1,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-10-26T02:00Z",
           "home": false,
@@ -250,13 +240,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-15T00:00Z",
+          "home": false,
+          "opponent": "Bruins",
+          "us": 6,
+          "them": 2,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-15T00:00Z",
+        "date": "2026-11-18T01:00Z",
         "timeKnown": true,
-        "home": false,
-        "opponent": "Boston Bruins",
+        "home": true,
+        "opponent": "Nashville Predators",
         "seasonType": 2,
         "stage": null,
         "note": null
@@ -270,7 +270,7 @@
       "season": "2026-27",
       "phase": "regular",
       "wins": 9,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
       "otLosses": 0,
       "division": {
@@ -278,19 +278,9 @@
         "rank": 2,
         "teams": 5
       },
-      "streak": "W5",
+      "streak": "L1",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-10-25T23:00Z",
-          "home": true,
-          "opponent": "Raptors",
-          "us": 117,
-          "them": 94,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-10-26T23:00Z",
           "home": false,
@@ -380,13 +370,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-15T01:00Z",
+          "home": true,
+          "opponent": "Bulls",
+          "us": 106,
+          "them": 117,
+          "result": "L",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-15T01:00Z",
+        "date": "2026-11-17T01:00Z",
         "timeKnown": true,
         "home": true,
-        "opponent": "Chicago Bulls",
+        "opponent": "Portland Trail Blazers",
         "seasonType": 2,
         "stage": null,
         "note": null
