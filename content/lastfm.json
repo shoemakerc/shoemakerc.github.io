@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-11-15T14:58:57.951Z",
+  "syncedAt": "2026-11-15T17:24:24.757Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66721,
+  "totalPlays": 66747,
   "lastTrack": {
-    "name": "Alogia",
-    "artist": "Gilla Band",
-    "album": "Pugnello",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
-    "url": "https://www.last.fm/music/Gilla+Band/_/Alogia",
-    "playedAt": 1794717532000
+    "name": "Boys in the Better Land",
+    "artist": "Fontaines D.C.",
+    "album": "Dogrel",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a6e4705a174dcf7b423e82ed06038263.jpg",
+    "url": "https://www.last.fm/music/Fontaines+D.C./_/Boys+in+the+Better+Land",
+    "playedAt": 1794762735000
   },
   "month": {
     "label": "November 2026",
     "partial": true,
     "from": "2026-11-01",
     "to": "2026-11-15",
-    "plays": 144,
-    "artistCount": 82,
+    "plays": 170,
+    "artistCount": 99,
     "artists": [
       {
         "name": "Los Leo",
@@ -26,8 +26,13 @@
       },
       {
         "name": "Viagra Boys",
-        "plays": 11,
+        "plays": 13,
         "url": "https://www.last.fm/music/Viagra+Boys"
+      },
+      {
+        "name": "Gilla Band",
+        "plays": 7,
+        "url": "https://www.last.fm/music/Gilla+Band"
       },
       {
         "name": "Aaron Copland",
@@ -35,14 +40,9 @@
         "url": "https://www.last.fm/music/Aaron+Copland"
       },
       {
-        "name": "Gilla Band",
-        "plays": 5,
-        "url": "https://www.last.fm/music/Gilla+Band"
-      },
-      {
-        "name": "Shame",
-        "plays": 3,
-        "url": "https://www.last.fm/music/Shame"
+        "name": "The Stooges",
+        "plays": 4,
+        "url": "https://www.last.fm/music/The+Stooges"
       }
     ],
     "albums": [
@@ -52,6 +52,13 @@
         "plays": 6,
         "image": null,
         "url": "https://www.last.fm/music/Los+Leo/LL-1000"
+      },
+      {
+        "title": "viagr aboys",
+        "artist": "Viagra Boys",
+        "plays": 4,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/989139897fa1ffc56c89d8d11bdd64b1.jpg",
+        "url": "https://www.last.fm/music/Viagra+Boys/viagr+aboys"
       },
       {
         "title": "Copland: Appalachian Spring, Rodeo, Billy the Kid & Fanfare for the Common Man",
@@ -66,13 +73,6 @@
         "plays": 4,
         "image": null,
         "url": "https://www.last.fm/music/Los+Leo/Le+Pop"
-      },
-      {
-        "title": "Copland Conducts Copland - Expanded Edition (Fanfare for the Common Man, Appalachian Spring, Old American Songs (Complete), Rodeo: Four Dance Episodes)",
-        "artist": "Aaron Copland",
-        "plays": 3,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/45603faa1215abfd5edc784edcaf1ce3.jpg",
-        "url": "https://www.last.fm/music/Aaron+Copland/Copland+Conducts+Copland+-+Expanded+Edition+(Fanfare+for+the+Common+Man%2C+Appalachian+Spring%2C+Old+American+Songs+(Complete)%2C+Rodeo%3A+Four+Dance+Episodes)"
       }
     ]
   },
@@ -291,7 +291,7 @@
       "year": 2018,
       "from": "2018-11-08",
       "to": "2018-11-15",
-      "plays": 97,
+      "plays": 95,
       "album": {
         "title": "Royal Blood",
         "artist": "Royal Blood",
@@ -306,14 +306,14 @@
           "url": "https://www.last.fm/music/Royal+Blood"
         },
         {
+          "name": "Young Fathers",
+          "plays": 9,
+          "url": "https://www.last.fm/music/Young+Fathers"
+        },
+        {
           "name": "The 1975",
           "plays": 8,
           "url": "https://www.last.fm/music/The+1975"
-        },
-        {
-          "name": "TV on the Radio",
-          "plays": 6,
-          "url": "https://www.last.fm/music/TV+on+the+Radio"
         }
       ]
     },
@@ -376,12 +376,12 @@
       "year": 2014,
       "from": "2014-11-08",
       "to": "2014-11-15",
-      "plays": 282,
+      "plays": 283,
       "album": {
         "title": "The Haunted Man (Deluxe Version)",
         "artist": "Bat for Lashes",
-        "plays": 19,
-        "image": null,
+        "plays": 27,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c6d9955c1ac999496980a60bb2372b5a.jpg",
         "url": "https://www.last.fm/music/Bat+for+Lashes/The+Haunted+Man+(Deluxe+Version)"
       },
       "artists": [
