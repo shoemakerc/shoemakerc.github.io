@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-15T14:53:43.290Z",
+  "syncedAt": "2026-11-16T17:13:48.810Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -399,16 +399,16 @@
       "url": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings",
       "season": "2026",
       "phase": "regular",
-      "wins": 6,
+      "wins": 7,
       "losses": 2,
       "ties": 0,
       "otLosses": 0,
       "division": {
         "name": "NFC North",
-        "rank": 3,
+        "rank": 2,
         "teams": 4
       },
-      "streak": "L2",
+      "streak": "W1",
       "clincher": null,
       "recent": [
         {
@@ -490,16 +490,26 @@
           "result": "L",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-15T18:00Z",
+          "home": false,
+          "opponent": "Packers",
+          "us": 30,
+          "them": 10,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-15T18:00Z",
+        "date": "2026-11-23T01:20Z",
         "timeKnown": true,
         "home": false,
-        "opponent": "Green Bay Packers",
+        "opponent": "San Francisco 49ers",
         "seasonType": 2,
         "stage": null,
-        "note": null
+        "note": "NFL Mexico City Game"
       }
     }
   ]
