@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-11-16T17:28:47.636Z",
+  "syncedAt": "2026-11-16T20:40:52.888Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66747,
+  "totalPlays": 66755,
   "lastTrack": {
-    "name": "Boys in the Better Land",
-    "artist": "Fontaines D.C.",
-    "album": "Dogrel",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a6e4705a174dcf7b423e82ed06038263.jpg",
-    "url": "https://www.last.fm/music/Fontaines+D.C./_/Boys+in+the+Better+Land",
-    "playedAt": 1794762735000
+    "name": "I'll Take It - Mura Masa's 'Can't Feel A Thing' Edit",
+    "artist": "Sophia Stel",
+    "album": "How to Win At Solitaire (Deluxe Edition)",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2b5a8a09c89862a92edfe18b5c18a2ee.jpg",
+    "url": "https://www.last.fm/music/Sophia+Stel/_/I%27ll+Take+It+-+Mura+Masa%27s+%27Can%27t+Feel+A+Thing%27+Edit",
+    "playedAt": 1794853007000
   },
   "month": {
     "label": "November 2026",
     "partial": true,
     "from": "2026-11-01",
     "to": "2026-11-16",
-    "plays": 170,
-    "artistCount": 99,
+    "plays": 178,
+    "artistCount": 100,
     "artists": [
       {
         "name": "Los Leo",
@@ -30,6 +30,11 @@
         "url": "https://www.last.fm/music/Viagra+Boys"
       },
       {
+        "name": "Sophia Stel",
+        "plays": 7,
+        "url": "https://www.last.fm/music/Sophia+Stel"
+      },
+      {
         "name": "Gilla Band",
         "plays": 7,
         "url": "https://www.last.fm/music/Gilla+Band"
@@ -38,14 +43,16 @@
         "name": "Aaron Copland",
         "plays": 7,
         "url": "https://www.last.fm/music/Aaron+Copland"
-      },
-      {
-        "name": "The Stooges",
-        "plays": 4,
-        "url": "https://www.last.fm/music/The+Stooges"
       }
     ],
     "albums": [
+      {
+        "title": "How to Win At Solitaire (Deluxe Edition)",
+        "artist": "Sophia Stel",
+        "plays": 7,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2b5a8a09c89862a92edfe18b5c18a2ee.jpg",
+        "url": "https://www.last.fm/music/Sophia+Stel/How+to+Win+At+Solitaire+(Deluxe+Edition)"
+      },
       {
         "title": "LL-1000",
         "artist": "Los Leo",
@@ -66,13 +73,6 @@
         "plays": 4,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5ca376bb74398df3d1b5ac88b525370e.jpg",
         "url": "https://www.last.fm/music/Aaron+Copland/Copland%3A+Appalachian+Spring%2C+Rodeo%2C+Billy+the+Kid+%26+Fanfare+for+the+Common+Man"
-      },
-      {
-        "title": "Le Pop",
-        "artist": "Los Leo",
-        "plays": 4,
-        "image": null,
-        "url": "https://www.last.fm/music/Los+Leo/Le+Pop"
       }
     ]
   },
@@ -171,29 +171,29 @@
       "year": 2022,
       "from": "2022-11-09",
       "to": "2022-11-16",
-      "plays": 37,
+      "plays": 47,
       "album": {
         "title": "Kodama",
         "artist": "Alcest",
-        "plays": 2,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/460454629c39c9890fe8af5870260675.png",
+        "plays": 6,
+        "image": null,
         "url": "https://www.last.fm/music/Alcest/Kodama"
       },
       "artists": [
         {
           "name": "Alcest",
-          "plays": 2,
+          "plays": 6,
           "url": "https://www.last.fm/music/Alcest"
         },
         {
-          "name": "Cold War Kids",
-          "plays": 2,
-          "url": "https://www.last.fm/music/Cold+War+Kids"
+          "name": "Man Mountain",
+          "plays": 4,
+          "url": "https://www.last.fm/music/Man+Mountain"
         },
         {
-          "name": "Holy Fawn",
+          "name": "Young Fathers",
           "plays": 2,
-          "url": "https://www.last.fm/music/Holy+Fawn"
+          "url": "https://www.last.fm/music/Young+Fathers"
         }
       ]
     },
@@ -201,18 +201,18 @@
       "year": 2021,
       "from": "2021-11-09",
       "to": "2021-11-16",
-      "plays": 32,
+      "plays": 30,
       "album": {
         "title": "On Circles",
         "artist": "Caspian",
-        "plays": 5,
+        "plays": 4,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/20eb50f65a90b2530ebc8c2e39aca413.jpg",
         "url": "https://www.last.fm/music/Caspian/On+Circles"
       },
       "artists": [
         {
           "name": "Caspian",
-          "plays": 5,
+          "plays": 4,
           "url": "https://www.last.fm/music/Caspian"
         },
         {
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-11-09",
       "to": "2015-11-16",
-      "plays": 121,
+      "plays": 133,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -401,9 +401,9 @@
           "url": "https://www.last.fm/music/Caspian"
         },
         {
-          "name": "St. Sleep",
-          "plays": 6,
-          "url": "https://www.last.fm/music/St.+Sleep"
+          "name": "Buchanan",
+          "plays": 9,
+          "url": "https://www.last.fm/music/Buchanan"
         }
       ]
     },
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-11-09",
       "to": "2014-11-16",
-      "plays": 300,
+      "plays": 305,
       "album": {
         "title": "The Haunted Man (Deluxe Version)",
         "artist": "Bat for Lashes",
@@ -431,9 +431,9 @@
           "url": "https://www.last.fm/music/We+Are+Twin"
         },
         {
-          "name": "Buchanan",
-          "plays": 13,
-          "url": "https://www.last.fm/music/Buchanan"
+          "name": "Baths",
+          "plays": 12,
+          "url": "https://www.last.fm/music/Baths"
         }
       ]
     }
