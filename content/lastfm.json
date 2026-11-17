@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-17T17:06:00.311Z",
+  "syncedAt": "2026-11-17T19:24:09.496Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66759,
@@ -86,7 +86,7 @@
         "title": "NEU! 2",
         "artist": "NEU!",
         "plays": 11,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/88e390799c56591d33e402f2578770f8.jpg",
+        "image": null,
         "url": "https://www.last.fm/music/NEU!/NEU!+2"
       },
       "artists": [
@@ -111,18 +111,18 @@
       "year": 2024,
       "from": "2024-11-10",
       "to": "2024-11-17",
-      "plays": 104,
+      "plays": 99,
       "album": {
         "title": "Nonagon Infinity",
         "artist": "King Gizzard & The Lizard Wizard",
-        "plays": 23,
+        "plays": 18,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/45d2570199853ec87e5da6dd8c1ea1a3.jpg",
         "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard/Nonagon+Infinity"
       },
       "artists": [
         {
           "name": "King Gizzard & The Lizard Wizard",
-          "plays": 34,
+          "plays": 29,
           "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard"
         },
         {
@@ -141,7 +141,7 @@
       "year": 2023,
       "from": "2023-11-10",
       "to": "2023-11-17",
-      "plays": 202,
+      "plays": 199,
       "album": {
         "title": "Heavy Heavy",
         "artist": "Young Fathers",
@@ -231,7 +231,7 @@
       "year": 2020,
       "from": "2020-11-10",
       "to": "2020-11-17",
-      "plays": 48,
+      "plays": 46,
       "album": {
         "title": "Grinderman",
         "artist": "Grinderman",
@@ -351,18 +351,18 @@
       "year": 2016,
       "from": "2016-11-10",
       "to": "2016-11-17",
-      "plays": 26,
+      "plays": 29,
       "album": {
         "title": "XXX (Deluxe Edition)",
         "artist": "Danny Brown",
-        "plays": 6,
+        "plays": 7,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/360702f555ca4738bb364e6018f78d0a.png",
         "url": "https://www.last.fm/music/Danny+Brown/XXX+(Deluxe+Edition)"
       },
       "artists": [
         {
           "name": "Danny Brown",
-          "plays": 6,
+          "plays": 7,
           "url": "https://www.last.fm/music/Danny+Brown"
         },
         {
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-11-10",
       "to": "2015-11-17",
-      "plays": 134,
+      "plays": 132,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -396,14 +396,14 @@
           "url": "https://www.last.fm/music/Fink"
         },
         {
-          "name": "Caspian",
-          "plays": 11,
-          "url": "https://www.last.fm/music/Caspian"
-        },
-        {
           "name": "Buchanan",
           "plays": 9,
           "url": "https://www.last.fm/music/Buchanan"
+        },
+        {
+          "name": "Caspian",
+          "plays": 9,
+          "url": "https://www.last.fm/music/Caspian"
         }
       ]
     },
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-11-10",
       "to": "2014-11-17",
-      "plays": 317,
+      "plays": 310,
       "album": {
         "title": "The Haunted Man (Deluxe Version)",
         "artist": "Bat for Lashes",
@@ -422,7 +422,7 @@
       "artists": [
         {
           "name": "Bat for Lashes",
-          "plays": 30,
+          "plays": 28,
           "url": "https://www.last.fm/music/Bat+for+Lashes"
         },
         {
