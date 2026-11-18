@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-18T16:44:10.479Z",
+  "syncedAt": "2026-11-18T19:03:02.506Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66762,
@@ -111,18 +111,18 @@
       "year": 2024,
       "from": "2024-11-11",
       "to": "2024-11-18",
-      "plays": 98,
+      "plays": 101,
       "album": {
         "title": "Nonagon Infinity",
         "artist": "King Gizzard & The Lizard Wizard",
-        "plays": 17,
+        "plays": 20,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/45d2570199853ec87e5da6dd8c1ea1a3.jpg",
         "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard/Nonagon+Infinity"
       },
       "artists": [
         {
           "name": "King Gizzard & The Lizard Wizard",
-          "plays": 27,
+          "plays": 30,
           "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard"
         },
         {
@@ -231,15 +231,20 @@
       "year": 2020,
       "from": "2020-11-11",
       "to": "2020-11-18",
-      "plays": 39,
+      "plays": 63,
       "album": {
-        "title": "Grinderman",
-        "artist": "Grinderman",
-        "plays": 2,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a3621f4cfe564855a2979081bb8ca2d3.png",
-        "url": "https://www.last.fm/music/Grinderman/Grinderman"
+        "title": "Visions of Bodies Being Burned",
+        "artist": "clipping.",
+        "plays": 24,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a9822ca9cbff432fc6b74c55be4b7bd1.png",
+        "url": "https://www.last.fm/music/clipping./Visions+of+Bodies+Being+Burned"
       },
       "artists": [
+        {
+          "name": "clipping.",
+          "plays": 24,
+          "url": "https://www.last.fm/music/clipping."
+        },
         {
           "name": "Vasudeva",
           "plays": 7,
@@ -249,11 +254,6 @@
           "name": "Daughters",
           "plays": 4,
           "url": "https://www.last.fm/music/Daughters"
-        },
-        {
-          "name": "Grinderman",
-          "plays": 2,
-          "url": "https://www.last.fm/music/Grinderman"
         }
       ]
     },
@@ -261,24 +261,24 @@
       "year": 2019,
       "from": "2019-11-11",
       "to": "2019-11-18",
-      "plays": 52,
+      "plays": 51,
       "album": {
         "title": "Save Rock and Roll",
         "artist": "Fall Out Boy",
-        "plays": 13,
+        "plays": 7,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9df53662061e4f30924723d65b42935c.png",
         "url": "https://www.last.fm/music/Fall+Out+Boy/Save+Rock+and+Roll"
       },
       "artists": [
         {
-          "name": "Fall Out Boy",
-          "plays": 13,
-          "url": "https://www.last.fm/music/Fall+Out+Boy"
+          "name": "Glass Animals",
+          "plays": 8,
+          "url": "https://www.last.fm/music/Glass+Animals"
         },
         {
-          "name": "Glass Animals",
-          "plays": 5,
-          "url": "https://www.last.fm/music/Glass+Animals"
+          "name": "Fall Out Boy",
+          "plays": 7,
+          "url": "https://www.last.fm/music/Fall+Out+Boy"
         },
         {
           "name": "My Chemical Romance",
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-11-11",
       "to": "2016-11-18",
-      "plays": 40,
+      "plays": 49,
       "album": {
         "title": "XXX (Deluxe Edition)",
         "artist": "Danny Brown",
@@ -366,14 +366,14 @@
           "url": "https://www.last.fm/music/Danny+Brown"
         },
         {
+          "name": "The Band CAMINO",
+          "plays": 3,
+          "url": "https://www.last.fm/music/The+Band+CAMINO"
+        },
+        {
           "name": "Midlake",
           "plays": 3,
           "url": "https://www.last.fm/music/Midlake"
-        },
-        {
-          "name": "Childish Gambino",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Childish+Gambino"
         }
       ]
     },
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-11-11",
       "to": "2015-11-18",
-      "plays": 140,
+      "plays": 145,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-11-11",
       "to": "2014-11-18",
-      "plays": 317,
+      "plays": 330,
       "album": {
         "title": "Xtra Love",
         "artist": "We Are Twin",
