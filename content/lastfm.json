@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-11-19T16:49:07.634Z",
+  "syncedAt": "2026-11-19T19:09:42.502Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66765,
+  "totalPlays": 66803,
   "lastTrack": {
-    "name": "Appalachian Spring: II. Allegro",
-    "artist": "Aaron Copland",
-    "album": "Copland: Appalachian Spring, Rodeo, Billy the Kid & Fanfare for the Common Man",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5ca376bb74398df3d1b5ac88b525370e.jpg",
-    "url": "https://www.last.fm/music/Aaron+Copland/_/Appalachian+Spring:+II.+Allegro",
-    "playedAt": 1795071337000
+    "name": "Until Further Notice",
+    "artist": "Lia Riggs Trio",
+    "album": "Until Further Notice",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a729d230ec3395121d174c7baf6c4aed.jpg",
+    "url": "https://www.last.fm/music/Lia+Riggs+Trio/_/Until+Further+Notice",
+    "playedAt": 1795115157000
   },
   "month": {
     "label": "November 2026",
     "partial": true,
     "from": "2026-11-01",
     "to": "2026-11-19",
-    "plays": 188,
-    "artistCount": 103,
+    "plays": 226,
+    "artistCount": 138,
     "artists": [
       {
         "name": "Los Leo",
@@ -30,14 +30,14 @@
         "url": "https://www.last.fm/music/Viagra+Boys"
       },
       {
+        "name": "Aaron Copland",
+        "plays": 10,
+        "url": "https://www.last.fm/music/Aaron+Copland"
+      },
+      {
         "name": "Sophia Stel",
         "plays": 10,
         "url": "https://www.last.fm/music/Sophia+Stel"
-      },
-      {
-        "name": "Aaron Copland",
-        "plays": 9,
-        "url": "https://www.last.fm/music/Aaron+Copland"
       },
       {
         "name": "Gilla Band",
@@ -56,7 +56,7 @@
       {
         "title": "Copland: Appalachian Spring, Rodeo, Billy the Kid & Fanfare for the Common Man",
         "artist": "Aaron Copland",
-        "plays": 6,
+        "plays": 7,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5ca376bb74398df3d1b5ac88b525370e.jpg",
         "url": "https://www.last.fm/music/Aaron+Copland/Copland%3A+Appalachian+Spring%2C+Rodeo%2C+Billy+the+Kid+%26+Fanfare+for+the+Common+Man"
       },
@@ -81,18 +81,18 @@
       "year": 2025,
       "from": "2025-11-12",
       "to": "2025-11-19",
-      "plays": 53,
+      "plays": 45,
       "album": {
-        "title": "Shrimp Sessions 2",
-        "artist": "Viagra Boys",
-        "plays": 4,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d23130268ce4ecff00acb73c36617ba4.jpg",
-        "url": "https://www.last.fm/music/Viagra+Boys/Shrimp+Sessions+2"
+        "title": "In Rainbows",
+        "artist": "Radiohead",
+        "plays": 3,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9dbcd9399ac3e622b4f508323155b644.jpg",
+        "url": "https://www.last.fm/music/Radiohead/In+Rainbows"
       },
       "artists": [
         {
           "name": "Viagra Boys",
-          "plays": 5,
+          "plays": 4,
           "url": "https://www.last.fm/music/Viagra+Boys"
         },
         {
@@ -111,7 +111,7 @@
       "year": 2024,
       "from": "2024-11-12",
       "to": "2024-11-19",
-      "plays": 104,
+      "plays": 99,
       "album": {
         "title": "Nonagon Infinity",
         "artist": "King Gizzard & The Lizard Wizard",
@@ -122,7 +122,7 @@
       "artists": [
         {
           "name": "King Gizzard & The Lizard Wizard",
-          "plays": 32,
+          "plays": 29,
           "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard"
         },
         {
@@ -132,7 +132,7 @@
         },
         {
           "name": "Viagra Boys",
-          "plays": 8,
+          "plays": 6,
           "url": "https://www.last.fm/music/Viagra+Boys"
         }
       ]
@@ -141,7 +141,7 @@
       "year": 2023,
       "from": "2023-11-12",
       "to": "2023-11-19",
-      "plays": 186,
+      "plays": 184,
       "album": {
         "title": "Heavy Heavy",
         "artist": "Young Fathers",
@@ -171,7 +171,7 @@
       "year": 2022,
       "from": "2022-11-12",
       "to": "2022-11-19",
-      "plays": 21,
+      "plays": 22,
       "album": {
         "title": "Kodama",
         "artist": "Alcest",
@@ -261,18 +261,18 @@
       "year": 2019,
       "from": "2019-11-12",
       "to": "2019-11-19",
-      "plays": 46,
+      "plays": 47,
       "album": {
         "title": "Tokyo Drifting",
         "artist": "Glass Animals",
-        "plays": 7,
+        "plays": 8,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d5757904cb480178cf6c986af1ed5da3.png",
         "url": "https://www.last.fm/music/Glass+Animals/Tokyo+Drifting"
       },
       "artists": [
         {
           "name": "Glass Animals",
-          "plays": 9,
+          "plays": 10,
           "url": "https://www.last.fm/music/Glass+Animals"
         },
         {
@@ -291,7 +291,7 @@
       "year": 2018,
       "from": "2018-11-12",
       "to": "2018-11-19",
-      "plays": 82,
+      "plays": 84,
       "album": {
         "title": "Royal Blood",
         "artist": "Royal Blood",
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-11-12",
       "to": "2015-11-19",
-      "plays": 177,
+      "plays": 174,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -392,7 +392,7 @@
       "artists": [
         {
           "name": "Fink",
-          "plays": 15,
+          "plays": 13,
           "url": "https://www.last.fm/music/Fink"
         },
         {
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-11-12",
       "to": "2014-11-19",
-      "plays": 335,
+      "plays": 333,
       "album": {
         "title": "Xtra Love",
         "artist": "We Are Twin",
