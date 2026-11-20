@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-11-20T16:23:42.891Z",
+  "syncedAt": "2026-11-20T18:49:26.696Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66843,
+  "totalPlays": 66845,
   "lastTrack": {
-    "name": "Dog Dribble",
-    "artist": "Getdown Services",
-    "album": "Your Medal's In The Post",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e4f219abf4fda354eafd9f33fea3aab2.jpg",
-    "url": "https://www.last.fm/music/Getdown+Services/_/Dog+Dribble",
-    "playedAt": 1795167510000
+    "name": "Motorlicker",
+    "artist": "Tobacco",
+    "album": "Maniac Meat",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0a257f365a737889786356122d32a655.jpg",
+    "url": "https://www.last.fm/music/Tobacco/_/Motorlicker",
+    "playedAt": 1795198731000
   },
   "month": {
     "label": "November 2026",
     "partial": true,
     "from": "2026-11-01",
     "to": "2026-11-20",
-    "plays": 266,
-    "artistCount": 167,
+    "plays": 268,
+    "artistCount": 168,
     "artists": [
       {
         "name": "Los Leo",
@@ -141,7 +141,7 @@
       "year": 2023,
       "from": "2023-11-13",
       "to": "2023-11-20",
-      "plays": 184,
+      "plays": 190,
       "album": {
         "title": "Heavy Heavy",
         "artist": "Young Fathers",
@@ -151,14 +151,14 @@
       },
       "artists": [
         {
+          "name": "Dizzy",
+          "plays": 29,
+          "url": "https://www.last.fm/music/Dizzy"
+        },
+        {
           "name": "Young Fathers",
           "plays": 26,
           "url": "https://www.last.fm/music/Young+Fathers"
-        },
-        {
-          "name": "Dizzy",
-          "plays": 25,
-          "url": "https://www.last.fm/music/Dizzy"
         },
         {
           "name": "Gilla Band",
@@ -171,18 +171,18 @@
       "year": 2022,
       "from": "2022-11-13",
       "to": "2022-11-20",
-      "plays": 21,
+      "plays": 25,
       "album": {
         "title": "Kodama",
         "artist": "Alcest",
-        "plays": 5,
+        "plays": 9,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/460454629c39c9890fe8af5870260675.png",
         "url": "https://www.last.fm/music/Alcest/Kodama"
       },
       "artists": [
         {
           "name": "Alcest",
-          "plays": 5,
+          "plays": 9,
           "url": "https://www.last.fm/music/Alcest"
         },
         {
@@ -231,7 +231,7 @@
       "year": 2020,
       "from": "2020-11-13",
       "to": "2020-11-20",
-      "plays": 74,
+      "plays": 75,
       "album": {
         "title": "Visions of Bodies Being Burned",
         "artist": "clipping.",
@@ -247,7 +247,7 @@
         },
         {
           "name": "Daughters",
-          "plays": 6,
+          "plays": 7,
           "url": "https://www.last.fm/music/Daughters"
         },
         {
@@ -291,7 +291,7 @@
       "year": 2018,
       "from": "2018-11-13",
       "to": "2018-11-20",
-      "plays": 70,
+      "plays": 68,
       "album": {
         "title": "Royal Blood",
         "artist": "Royal Blood",
@@ -306,9 +306,9 @@
           "url": "https://www.last.fm/music/Royal+Blood"
         },
         {
-          "name": "TV on the Radio",
+          "name": "Massive Attack",
           "plays": 6,
-          "url": "https://www.last.fm/music/TV+on+the+Radio"
+          "url": "https://www.last.fm/music/Massive+Attack"
         },
         {
           "name": "Slum Sociable",
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-11-13",
       "to": "2016-11-20",
-      "plays": 68,
+      "plays": 84,
       "album": {
         "title": "XXX (Deluxe Edition)",
         "artist": "Danny Brown",
@@ -367,7 +367,7 @@
         },
         {
           "name": "The Band CAMINO",
-          "plays": 5,
+          "plays": 6,
           "url": "https://www.last.fm/music/The+Band+CAMINO"
         },
         {
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-11-13",
       "to": "2014-11-20",
-      "plays": 331,
+      "plays": 329,
       "album": {
         "title": "Xtra Love",
         "artist": "We Are Twin",
