@@ -1,8 +1,25 @@
 // Pulls Chris's Goodreads shelves into content/goodreads.json.
 //
-// Goodreads closed its API in 2020, but every public shelf still has an RSS
-// feed. This script reads those feeds (100 books per page) and writes a
-// snapshot the site builds from, so a Goodreads outage never breaks a deploy.
+// Goodreads closed its API in 2020 and retired the shelf RSS feeds in October
+// 2026, and its shelf pages now ask for a sign-in. What a public profile still
+// serves is the embeddable "grid widget": up to 200 covers from one shelf, in
+// whichever order you ask for, each linking to its review. This script pieces
+// the shelves back together from that, on top of the last snapshot:
+//
+// - Which shelf and tags a book has come from which widgets it shows up in.
+// - Author, pages and year aren't in the widget, so a book that's new to the
+//   shelves gets them from its own Goodreads page. Known books keep theirs.
+// - Ratings and dates read aren't in the widget either, but it will sort by
+//   them. A newly finished book that sorts ahead of every dated one was
+//   finished since the last sync, so it gets today's date, and a book that
+//   sorts between two with the same rating has that rating too.
+//
+// What it can't see: a book with no cover on Goodreads (the widget leaves
+// those out, so they stay as the snapshot has them), a changed rating on a
+// book that already had one, and the real date for a book finished days ago.
+// Dates and ratings in the snapshot are only ever filled in, never replaced,
+// so correcting one by hand in content/goodreads.json sticks.
+//
 // Runs daily from .github/workflows/sync-goodreads.yml; `npm run sync:goodreads`
 // does the same locally.
 
@@ -12,22 +29,14 @@ import path from "node:path";
 const USER_ID = "166556608";
 const SHELVES = ["currently-reading", "read", "to-read", "did-not-finish"];
 const OUT = path.join(process.cwd(), "content", "goodreads.json");
-const MAX_PAGES = 30;
+const PROFILE = `https://www.goodreads.com/user/show/${USER_ID}`;
+const WIDGET = `https://www.goodreads.com/review/grid_widget/${USER_ID}`;
+/** The most books the widget returns, whatever num_books says. It has no pages. */
+const WIDGET_MAX = 200;
+/** Orders to ask for, first to last and last to first, to reach all of a shelf longer than that. */
+const SORTS = ["date_added", "title", "author", "date_pub", "num_pages", "avg_rating"];
 
-const entities = { amp: "&", apos: "'", quot: '"', lt: "<", gt: ">", nbsp: " " };
-const decode = (s) =>
-  s
-    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
-    .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(Number(d)))
-    .replace(/&(\w+);/g, (m, name) => entities[name] ?? m);
-
-function field(item, tag) {
-  const m = item.match(new RegExp(`<${tag}>([\\s\\S]*?)</${tag}>`));
-  if (!m) return "";
-  const raw = m[1].trim();
-  const cdata = raw.match(/^<!\[CDATA\[([\s\S]*)\]\]>$/);
-  return (cdata ? cdata[1] : decode(raw)).trim();
-}
+const today = new Date().toISOString().slice(0, 10);
 
 /** "Dune Messiah (Dune, #2)" → { title: "Dune Messiah", series: "Dune", seriesNumber: "2" } */
 function splitSeries(full) {
@@ -37,84 +46,249 @@ function splitSeries(full) {
     : { title: full, series: null, seriesNumber: null };
 }
 
-const isoDate = (s) => {
-  if (!s) return null;
-  const d = new Date(s);
-  return Number.isNaN(d.getTime()) ? null : d.toISOString().slice(0, 10);
-};
-
 /**
  * Cover URLs to try, best first: a 300px-tall version (much lighter than the
- * full-size image), then whatever the feed linked to.
+ * full-size image), then the full-size one. The widget links to a thumbnail,
+ * …/23995368._SY75_.jpg or …/50130878._SX50_SY75_.jpg, so its size comes off.
  */
 function coverCandidates(url) {
   if (!url || url.includes("/nophoto/")) return [];
-  const resized = url
-    .replace(/\._[A-Z]{2}\d+_(?=\.\w+$)/, "")
-    .replace(/(\.\w+)$/, "._SY300_$1");
-  return resized === url ? [url] : [resized, url];
+  const full = url.replace(/\._(?:[A-Z]{2}\d+_)+(?=\.\w+$)/, "");
+  return [full.replace(/(\.\w+)$/, "._SY300_$1"), full];
 }
 
-function parseItem(item, shelf) {
-  const id = field(item, "book_id");
-  const rating = Number(field(item, "user_rating"));
-  const pages = Number(item.match(/<num_pages>(\d+)<\/num_pages>/)?.[1]);
-  const year = Number(field(item, "book_published"));
+async function get(url) {
+  // Goodreads answers the odd request with a 503, so try a few times.
+  for (let attempt = 1; ; attempt++) {
+    // A sync is a couple of dozen requests; no need to send them all at once.
+    await new Promise((resolve) => setTimeout(resolve, 500 * attempt ** 2));
+    const res = await fetch(url, {
+      headers: { "User-Agent": "shoemakerc.github.io reading sync" },
+    }).catch(() => null);
+    if (res?.ok) return res.text();
+    const passing = !res || res.status === 429 || res.status >= 500;
+    if (!passing || attempt === 4) throw new Error(`${url} → ${res ? `HTTP ${res.status}` : "no response"}`);
+  }
+}
+
+/** How many books the profile page says each shelf and each tag holds. */
+async function fetchCounts() {
+  const html = await get(PROFILE);
+  const counts = { shelf: new Map(), tag: new Map() };
+  const link = new RegExp(`/review/list/${USER_ID}\\?(shelf|tag)=([^"]+)">[^<(]*\\(([\\d,]+)\\)`, "g");
+  for (const [, kind, name, count] of html.matchAll(link)) {
+    counts[kind].set(decodeURIComponent(name), Number(count.replace(/,/g, "")));
+  }
+  for (const shelf of SHELVES) {
+    if (!counts.shelf.has(shelf)) throw new Error(`No "${shelf}" shelf on ${PROFILE}`);
+  }
+  return counts;
+}
+
+/** One widget's worth of a shelf (or tag), in the order asked for. */
+async function fetchWidget(shelf, sort, order) {
+  const url = `${WIDGET}?shelf=${encodeURIComponent(shelf)}&num_books=${WIDGET_MAX}&sort=${sort}&order=${order}`;
+  const js = await get(url);
+  if (!js.includes("widget_code")) throw new Error(`${url} did not return a widget`);
+  // The widget arrives as HTML inside a JavaScript string.
+  const html = js.replace(/\\(.)/g, (_, c) => (c === "n" ? "\n" : c));
+  const book = /gr_grid_book_container"><a [^>]*\/review\/show\/(\d+)[^>]*><img [^>]*src="([^"]+)"/g;
+  const entries = [];
+  for (const [, reviewId, image] of html.matchAll(book)) {
+    // Goodreads names a cover after its book: …/books/1644068428l/23995368._SY75_.jpg
+    const id = image.match(/\/(\d+)\.[^/]*$/)?.[1];
+    if (id) entries.push({ reviewId, id, image });
+    else console.warn(`  Skipping review ${reviewId}: no book id in ${image}`);
+  }
+  return entries;
+}
+
+/**
+ * Every book the widget will show from a shelf (or tag) that the profile says
+ * holds `count` books. `coverless` are the known books there that the widget
+ * may be leaving out. `orders` are the sorts to always fetch, newest first.
+ */
+async function fetchShelf(shelf, count, coverless, orders = ["date_added"]) {
+  const seen = new Map();
+  const seenIds = new Set();
+  const lists = new Map();
+  const hidden = () => coverless.filter((book) => !seenIds.has(book.id)).length;
+  const add = async (sort, order) => {
+    const key = `${sort}:${order}`;
+    if (lists.has(key)) return;
+    const list = await fetchWidget(shelf, sort, order);
+    lists.set(key, list);
+    for (const entry of list) {
+      seen.set(entry.reviewId, entry);
+      seenIds.add(entry.id);
+    }
+  };
+  for (const sort of orders) await add(sort, "d");
+  if (count > WIDGET_MAX) {
+    for (const sort of [...orders, ...SORTS]) {
+      for (const order of ["a", "d"]) {
+        if (seen.size + hidden() < count) await add(sort, order);
+      }
+    }
+  }
+  if (count > 0 && seen.size === 0 && hidden() < count) {
+    // An empty widget for a shelf with books on it means something broke.
+    throw new Error(`The widget shows nothing on "${shelf}"; refusing to overwrite the snapshot.`);
+  }
+  // Whole when every book the profile counts is either here or known to be left out.
+  const complete = seen.size + hidden() === count;
+  console.log(`${shelf}: ${seen.size}${hidden() ? `, and ${hidden()} without a cover` : ""}`);
+  if (!complete) {
+    console.warn(`  Goodreads counts ${count ?? "?"}. Books the widget doesn't show stay as they were.`);
+  }
+  return { seen, lists, complete };
+}
+
+/** The details the widget leaves out, from the book's own page. */
+async function fetchBook(id) {
+  const url = `https://www.goodreads.com/book/show/${id}`;
+  const html = await get(url);
+  const data = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
+  const state = data && JSON.parse(data[1]).props?.pageProps?.apolloState;
+  const book =
+    state && Object.values(state).find((v) => v.__typename === "Book" && String(v.legacyId) === id);
+  if (!book?.title) throw new Error(`Couldn't read the book details on ${url}`);
+  const author = state[book.primaryContributorEdge?.node?.__ref]?.name;
+  // The work's date is the first publication; the book's is this edition's.
+  const published = state[book.work?.__ref]?.details?.publicationTime ?? book.details?.publicationTime;
+  const year = published == null ? 0 : new Date(published).getUTCFullYear();
+  const pages = Number(book.details?.numPages);
   return {
-    id,
-    ...splitSeries(field(item, "title")),
-    author: field(item, "author_name"),
-    shelf,
-    tags: field(item, "user_shelves")
-      .split(",")
-      .map((t) => t.trim())
-      .filter((t) => t && t !== shelf),
-    rating: rating > 0 ? rating : null,
-    dateRead: isoDate(field(item, "user_read_at")),
-    dateAdded: isoDate(field(item, "user_date_added")),
+    ...splitSeries((book.titleComplete ?? book.title).trim()),
+    author: (author ?? "").trim(),
     pages: pages > 0 ? pages : null,
     year: year > 0 ? year : null,
-    cover: coverCandidates(field(item, "book_large_image_url")),
-    url: `https://www.goodreads.com/book/show/${id}`,
   };
 }
 
-async function fetchShelf(shelf) {
-  const books = [];
-  for (let page = 1; page <= MAX_PAGES; page++) {
-    // The unsorted feed can lag behind by days, and sorting by date added
-    // reshuffles books added at the same moment between pages. Sorting by
-    // title is both current and stable.
-    const url = `https://www.goodreads.com/review/list_rss/${USER_ID}?shelf=${shelf}&sort=title&order=a&page=${page}`;
-    const res = await fetch(url, { headers: { "User-Agent": "shoemakerc.github.io reading sync" } });
-    if (!res.ok) throw new Error(`${url} → HTTP ${res.status}`);
-    const xml = await res.text();
-    if (!xml.includes("<rss")) throw new Error(`${url} did not return RSS`);
-    const items = xml.split("<item>").slice(1);
-    // Pages hold up to 100 books but are sometimes short, so stop only when empty.
-    if (items.length === 0) break;
-    books.push(...items.map((item) => parseItem(item, shelf)));
-  }
-  return books;
-}
+const previous = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : null;
+const previousBooks = previous?.books ?? [];
+const byReview = new Map(previousBooks.filter((b) => b.reviewId).map((b) => [b.reviewId, b]));
+const byId = new Map(previousBooks.map((b) => [b.id, b]));
+// A review keeps its id when the book is switched to another edition; the
+// book's own id is the fallback for snapshots from before reviews were recorded.
+const previousOf = (entry) => byReview.get(entry.reviewId) ?? byId.get(entry.id);
+const coverless = (test) => previousBooks.filter((b) => test(b) && !/^https?:/.test(b.cover ?? ""));
 
-const byId = new Map();
+const counts = await fetchCounts();
+
+const shelves = new Map();
 for (const shelf of SHELVES) {
-  const books = await fetchShelf(shelf);
-  const unique = new Set(books.map((b) => b.id)).size;
-  console.log(`${shelf}: ${unique}`);
-  if (unique < books.length) console.warn(`  ${books.length - unique} repeated across pages`);
-  for (const book of books) if (!byId.has(book.id)) byId.set(book.id, book);
+  const orders = shelf === "read" ? ["date_read", "rating"] : ["date_added"];
+  const known = coverless((b) => b.shelf === shelf);
+  shelves.set(shelf, await fetchShelf(shelf, counts.shelf.get(shelf), known, orders));
 }
-
-const books = [...byId.values()].sort((a, b) => Number(a.id) - Number(b.id));
-if (!books.some((b) => b.shelf === "read")) {
+if (shelves.get("read").seen.size === 0) {
   // A public profile always has read books; an empty result means something broke.
   throw new Error("No read books came back; refusing to overwrite the snapshot.");
 }
 
-const previous = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : null;
-const previousCovers = new Map(previous?.books.map((b) => [b.id, b.cover]));
+const tagNames = [...new Set([...counts.tag.keys(), ...previousBooks.flatMap((b) => b.tags)])];
+const tags = new Map();
+for (const tag of tagNames) {
+  const known = coverless((b) => b.tags.includes(tag));
+  tags.set(tag, await fetchShelf(tag, counts.tag.get(tag), known));
+}
+
+const byNewId = new Map();
+const matched = new Set();
+for (const shelf of SHELVES) {
+  for (const entry of shelves.get(shelf).seen.values()) {
+    if (byNewId.has(entry.id)) continue;
+    const prev = previousOf(entry);
+    if (prev) matched.add(prev.id);
+    // A book that's new here, or now in another edition, needs looking up.
+    const details = prev?.id === entry.id ? prev : await fetchBook(entry.id);
+    // A tag whose widget came back short can add to a book's tags but not take away.
+    const tagged = tagNames.filter(
+      (tag) =>
+        tags.get(tag).seen.has(entry.reviewId) || (!tags.get(tag).complete && prev?.tags.includes(tag)),
+    );
+    const sameTags = prev?.tags.length === tagged.length && tagged.every((tag) => prev.tags.includes(tag));
+    byNewId.set(entry.id, {
+      id: entry.id,
+      reviewId: entry.reviewId,
+      title: details.title,
+      series: details.series,
+      seriesNumber: details.seriesNumber,
+      author: details.author,
+      shelf,
+      tags: sameTags ? prev.tags : tagged,
+      rating: prev?.rating ?? null,
+      dateRead: prev?.dateRead ?? null,
+      dateAdded: prev?.dateAdded ?? today,
+      pages: details.pages,
+      year: details.year,
+      cover: coverCandidates(entry.image),
+      url: `https://www.goodreads.com/book/show/${entry.id}`,
+    });
+    if (!prev) console.log(`  New on ${shelf}: ${details.title}`);
+    else if (prev.shelf !== shelf) console.log(`  ${prev.shelf} → ${shelf}: ${details.title}`);
+  }
+}
+
+// Known books that no widget showed: left out for having no cover, or off the shelves.
+for (const book of previousBooks) {
+  if (matched.has(book.id)) continue;
+  if (/^https?:/.test(book.cover ?? "") && shelves.get(book.shelf).complete) {
+    console.log(`  No longer on ${book.shelf}: ${book.title}`);
+  } else {
+    byNewId.set(book.id, book);
+  }
+}
+
+/** The nearest values before and after `index`, skipping books that don't have one. */
+function neighbors(list, index, valueOf) {
+  const nearest = (step) => {
+    for (let i = index + step; i >= 0 && i < list.length; i += step) {
+      const value = valueOf(list[i]);
+      if (value != null) return value;
+    }
+    return null;
+  };
+  return [nearest(-1), nearest(1)];
+}
+
+// Fill in what the read shelf's sort orders give away, going by the books
+// that were already on it, whose dates and ratings are known.
+const read = shelves.get("read");
+const knownRead = (entry, key) => {
+  const prev = previousOf(entry);
+  return prev?.shelf === "read" ? prev[key] : null;
+};
+for (const entry of read.seen.values()) {
+  const book = byNewId.get(entry.id);
+  const place = (list) => list?.findIndex((e) => e.reviewId === entry.reviewId) ?? -1;
+
+  if (!book.dateRead && previousOf(entry)?.shelf !== "read") {
+    const newestFirst = read.lists.get("date_read:d");
+    const at = place(newestFirst);
+    const [newer, older] = at < 0 ? [] : neighbors(newestFirst, at, (e) => knownRead(e, "dateRead"));
+    // Newer than every dated book: finished since the last sync. Between two
+    // from the same year: the earlier of them is close enough for a page that
+    // groups by year. With no dated book after it, it has no date on Goodreads.
+    if (older && !newer) book.dateRead = today;
+    else if (older && newer.slice(0, 4) === older.slice(0, 4)) book.dateRead = older;
+    if (book.dateRead) console.log(`  Finished ${book.dateRead}: ${book.title}`);
+  }
+
+  if (book.rating == null) {
+    for (const key of ["rating:d", "rating:a"]) {
+      const list = read.lists.get(key);
+      const at = place(list);
+      const [before, after] = at < 0 ? [] : neighbors(list, at, (e) => knownRead(e, "rating"));
+      if (before != null && before === after) book.rating = before;
+    }
+    if (book.rating) console.log(`  Rated ${book.rating}: ${book.title}`);
+  }
+}
+
+const books = [...byNewId.values()].sort((a, b) => Number(a.id) - Number(b.id));
 
 // Some resized covers 403, so check each one that's new since the last sync.
 // A cover saved as public/covers/<Goodreads id>.jpg replaces Goodreads' own,
@@ -125,8 +299,10 @@ for (const book of books) {
     book.cover = local;
     continue;
   }
+  // A book the widgets didn't show keeps the cover it had.
+  if (!Array.isArray(book.cover)) continue;
   const candidates = book.cover;
-  const known = previousCovers.get(book.id);
+  const known = byId.get(book.id)?.cover;
   if (known && candidates.includes(known)) {
     book.cover = known;
     continue;
@@ -144,7 +320,7 @@ if (previous && JSON.stringify(previous.books) === JSON.stringify(books)) {
   console.log("No changes.");
 } else {
   const snapshot = {
-    profile: `https://www.goodreads.com/user/show/${USER_ID}`,
+    profile: PROFILE,
     syncedAt: new Date().toISOString(),
     books,
   };

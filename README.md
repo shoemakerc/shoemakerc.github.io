@@ -29,7 +29,7 @@ coverAlt: "Description of the cover"
 
 `/reading/` is built from three files:
 
-- `content/goodreads.json`, a snapshot of the [Goodreads shelves](https://www.goodreads.com/user/show/166556608), refreshed daily by `.github/workflows/sync-goodreads.yml` (which redeploys when anything changed). Run `npm run sync:goodreads` to refresh it locally.
+- `content/goodreads.json`, a snapshot of the [Goodreads shelves](https://www.goodreads.com/user/show/166556608), refreshed daily by `.github/workflows/sync-goodreads.yml` (which redeploys when anything changed). Run `npm run sync:goodreads` to refresh it locally. Goodreads retired its shelf RSS feeds in October 2026, so the sync reads the public shelf widget instead, which has no dates or ratings: a newly finished book is dated the day the sync first sees it on the read shelf, and its rating is worked out from where it sorts among the rated books. Both can be corrected by hand in the snapshot, and the sync leaves a date or rating alone once it's there. A book with no cover on Goodreads doesn't show in the widget, so it stays as the snapshot has it.
 - `content/reading.md`, the old list from [shoemakerc/books](https://github.com/shoemakerc/books). Books on both lists use the Goodreads details; books only on the old list still show up, without a cover or Goodreads rating.
 - `content/storygraph.json`, the ratings from [The StoryGraph](https://app.thestorygraph.com/profile/shoeman27). The StoryGraph rates in quarter stars, so its ratings replace the whole-star Goodreads ones wherever both sites have the book; Goodreads still decides which books are on the page and how far along each one is.
 

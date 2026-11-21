@@ -1,9 +1,10 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-10-23T06:59:36.151Z",
+  "syncedAt": "2026-11-21T07:30:34.584Z",
   "books": [
     {
       "id": "11",
+      "reviewId": "5605368933",
       "title": "The Hitchhiker's Guide to the Galaxy",
       "series": "The Hitchhiker's Guide to the Galaxy",
       "seriesNumber": "1",
@@ -20,6 +21,7 @@
     },
     {
       "id": "33",
+      "reviewId": "6425628468",
       "title": "The Lord of the Rings (The Lord of the Rings, #1-3)",
       "series": null,
       "seriesNumber": null,
@@ -36,6 +38,7 @@
     },
     {
       "id": "110",
+      "reviewId": "9047441627",
       "title": "The Road to Dune",
       "series": null,
       "seriesNumber": null,
@@ -52,6 +55,7 @@
     },
     {
       "id": "264",
+      "reviewId": "8792667032",
       "title": "The Portrait of a Lady",
       "series": null,
       "seriesNumber": null,
@@ -68,6 +72,7 @@
     },
     {
       "id": "295",
+      "reviewId": "5619872668",
       "title": "Treasure Island",
       "series": null,
       "seriesNumber": null,
@@ -84,6 +89,7 @@
     },
     {
       "id": "320",
+      "reviewId": "5605366131",
       "title": "One Hundred Years of Solitude",
       "series": null,
       "seriesNumber": null,
@@ -102,6 +108,7 @@
     },
     {
       "id": "343",
+      "reviewId": "5641439013",
       "title": "Perfume: The Story of a Murderer",
       "series": null,
       "seriesNumber": null,
@@ -118,6 +125,7 @@
     },
     {
       "id": "350",
+      "reviewId": "5605372180",
       "title": "Stranger in a Strange Land",
       "series": null,
       "seriesNumber": null,
@@ -134,6 +142,7 @@
     },
     {
       "id": "408",
+      "reviewId": "8727142378",
       "title": "The Names",
       "series": null,
       "seriesNumber": null,
@@ -150,6 +159,7 @@
     },
     {
       "id": "409",
+      "reviewId": "8779712111",
       "title": "Against the Day",
       "series": null,
       "seriesNumber": null,
@@ -168,6 +178,7 @@
     },
     {
       "id": "410",
+      "reviewId": "8207009115",
       "title": "V.",
       "series": null,
       "seriesNumber": null,
@@ -186,6 +197,7 @@
     },
     {
       "id": "413",
+      "reviewId": "8779712422",
       "title": "Mason & Dixon",
       "series": null,
       "seriesNumber": null,
@@ -204,6 +216,7 @@
     },
     {
       "id": "415",
+      "reviewId": "5641426644",
       "title": "Gravity’s Rainbow",
       "series": null,
       "seriesNumber": null,
@@ -222,6 +235,7 @@
     },
     {
       "id": "421",
+      "reviewId": "8804453087",
       "title": "The White Album",
       "series": null,
       "seriesNumber": null,
@@ -240,6 +254,7 @@
     },
     {
       "id": "656",
+      "reviewId": "9047442076",
       "title": "War and Peace",
       "series": null,
       "seriesNumber": null,
@@ -256,6 +271,7 @@
     },
     {
       "id": "667",
+      "reviewId": "5619871190",
       "title": "Anthem",
       "series": null,
       "seriesNumber": null,
@@ -272,6 +288,7 @@
     },
     {
       "id": "816",
+      "reviewId": "6230460650",
       "title": "Cryptonomicon",
       "series": null,
       "seriesNumber": null,
@@ -288,6 +305,7 @@
     },
     {
       "id": "840",
+      "reviewId": "9047443087",
       "title": "The Design of Everyday Things",
       "series": null,
       "seriesNumber": null,
@@ -304,6 +322,7 @@
     },
     {
       "id": "890",
+      "reviewId": "5605359757",
       "title": "Of Mice and Men",
       "series": null,
       "seriesNumber": null,
@@ -320,6 +339,7 @@
     },
     {
       "id": "1078",
+      "reviewId": "5605824223",
       "title": "The Good Earth",
       "series": "House of Earth",
       "seriesNumber": "1",
@@ -336,6 +356,7 @@
     },
     {
       "id": "1111",
+      "reviewId": "7825389616",
       "title": "The Power Broker: Robert Moses and the Fall of New York",
       "series": null,
       "seriesNumber": null,
@@ -354,6 +375,7 @@
     },
     {
       "id": "1305",
+      "reviewId": "7885577241",
       "title": "Gates of Fire",
       "series": null,
       "seriesNumber": null,
@@ -370,6 +392,7 @@
     },
     {
       "id": "1381",
+      "reviewId": "5605358878",
       "title": "The Odyssey",
       "series": null,
       "seriesNumber": null,
@@ -386,6 +409,7 @@
     },
     {
       "id": "1617",
+      "reviewId": "5641433421",
       "title": "Night",
       "series": null,
       "seriesNumber": null,
@@ -402,6 +426,7 @@
     },
     {
       "id": "1852",
+      "reviewId": "5641434570",
       "title": "The Call of the Wild",
       "series": null,
       "seriesNumber": null,
@@ -418,6 +443,7 @@
     },
     {
       "id": "1934",
+      "reviewId": "7125983495",
       "title": "Little Women",
       "series": "Little Women",
       "seriesNumber": "1",
@@ -434,6 +460,7 @@
     },
     {
       "id": "1953",
+      "reviewId": "7873915187",
       "title": "A Tale of Two Cities",
       "series": null,
       "seriesNumber": null,
@@ -450,6 +477,7 @@
     },
     {
       "id": "2165",
+      "reviewId": "5605359481",
       "title": "The Old Man and the Sea",
       "series": null,
       "seriesNumber": null,
@@ -466,6 +494,7 @@
     },
     {
       "id": "2187",
+      "reviewId": "5672457861",
       "title": "Middlesex",
       "series": null,
       "seriesNumber": null,
@@ -482,6 +511,7 @@
     },
     {
       "id": "2390",
+      "reviewId": "8804479081",
       "title": "Moby-Dick",
       "series": null,
       "seriesNumber": null,
@@ -500,6 +530,7 @@
     },
     {
       "id": "2547",
+      "reviewId": "5605414010",
       "title": "The Prophet",
       "series": null,
       "seriesNumber": null,
@@ -516,6 +547,7 @@
     },
     {
       "id": "2612",
+      "reviewId": "5605367243",
       "title": "The Tipping Point: How Little Things Can Make a Big Difference",
       "series": null,
       "seriesNumber": null,
@@ -532,6 +564,7 @@
     },
     {
       "id": "2657",
+      "reviewId": "5605357029",
       "title": "To Kill a Mockingbird",
       "series": null,
       "seriesNumber": null,
@@ -548,6 +581,7 @@
     },
     {
       "id": "2794",
+      "reviewId": "7758800572",
       "title": "The Crying of Lot 49",
       "series": null,
       "seriesNumber": null,
@@ -566,6 +600,7 @@
     },
     {
       "id": "3532",
+      "reviewId": "8737816670",
       "title": "First Love",
       "series": null,
       "seriesNumber": null,
@@ -582,6 +617,7 @@
     },
     {
       "id": "3636",
+      "reviewId": "5605370568",
       "title": "The Giver",
       "series": "Giver",
       "seriesNumber": "1",
@@ -598,6 +634,7 @@
     },
     {
       "id": "3711",
+      "reviewId": "7684641633",
       "title": "White Teeth",
       "series": null,
       "seriesNumber": null,
@@ -616,6 +653,7 @@
     },
     {
       "id": "3805",
+      "reviewId": "7406716401",
       "title": "The Corrections",
       "series": null,
       "seriesNumber": null,
@@ -632,6 +670,7 @@
     },
     {
       "id": "3876",
+      "reviewId": "5641434853",
       "title": "The Sun Also Rises",
       "series": null,
       "seriesNumber": null,
@@ -648,6 +687,7 @@
     },
     {
       "id": "3985",
+      "reviewId": "5619857176",
       "title": "The Amazing Adventures of Kavalier & Clay",
       "series": null,
       "seriesNumber": null,
@@ -664,6 +704,7 @@
     },
     {
       "id": "4069",
+      "reviewId": "5605364718",
       "title": "Man's Search for Meaning",
       "series": null,
       "seriesNumber": null,
@@ -680,6 +721,7 @@
     },
     {
       "id": "4671",
+      "reviewId": "5605357736",
       "title": "The Great Gatsby",
       "series": null,
       "seriesNumber": null,
@@ -696,6 +738,7 @@
     },
     {
       "id": "4865",
+      "reviewId": "5605366199",
       "title": "How to Win Friends & Influence People",
       "series": null,
       "seriesNumber": null,
@@ -712,6 +755,7 @@
     },
     {
       "id": "4900",
+      "reviewId": "7864969684",
       "title": "Heart of Darkness",
       "series": null,
       "seriesNumber": null,
@@ -728,6 +772,7 @@
     },
     {
       "id": "4929",
+      "reviewId": "5605391611",
       "title": "Kafka on the Shore",
       "series": null,
       "seriesNumber": null,
@@ -744,6 +789,7 @@
     },
     {
       "id": "4934",
+      "reviewId": "5619860670",
       "title": "The Brothers Karamazov",
       "series": null,
       "seriesNumber": null,
@@ -760,6 +806,7 @@
     },
     {
       "id": "4952",
+      "reviewId": "8922859378",
       "title": "What Is the What",
       "series": null,
       "seriesNumber": null,
@@ -776,6 +823,7 @@
     },
     {
       "id": "4953",
+      "reviewId": "8735027972",
       "title": "A Heartbreaking Work of Staggering Genius",
       "series": null,
       "seriesNumber": null,
@@ -794,6 +842,7 @@
     },
     {
       "id": "4981",
+      "reviewId": "5641431431",
       "title": "Slaughterhouse-Five",
       "series": null,
       "seriesNumber": null,
@@ -810,6 +859,7 @@
     },
     {
       "id": "5015",
+      "reviewId": "8909052983",
       "title": "Saturday",
       "series": null,
       "seriesNumber": null,
@@ -826,6 +876,7 @@
     },
     {
       "id": "5107",
+      "reviewId": "5605358287",
       "title": "The Catcher in the Rye",
       "series": null,
       "seriesNumber": null,
@@ -842,6 +893,7 @@
     },
     {
       "id": "5297",
+      "reviewId": "5605356783",
       "title": "The Picture of Dorian Gray",
       "series": null,
       "seriesNumber": null,
@@ -858,6 +910,7 @@
     },
     {
       "id": "5349",
+      "reviewId": "8184875177",
       "title": "The Rainmaker",
       "series": null,
       "seriesNumber": null,
@@ -874,6 +927,7 @@
     },
     {
       "id": "5546",
+      "reviewId": "5641440509",
       "title": "The Feynman Lectures on Physics",
       "series": null,
       "seriesNumber": null,
@@ -890,6 +944,7 @@
     },
     {
       "id": "5826",
+      "reviewId": "5619870333",
       "title": "Bel Canto",
       "series": null,
       "seriesNumber": null,
@@ -906,6 +961,7 @@
     },
     {
       "id": "5849",
+      "reviewId": "8714571823",
       "title": "A House for Mr Biswas",
       "series": null,
       "seriesNumber": null,
@@ -922,6 +978,7 @@
     },
     {
       "id": "5907",
+      "reviewId": "5605359269",
       "title": "The Hobbit, or There and Back Again",
       "series": null,
       "seriesNumber": null,
@@ -938,6 +995,7 @@
     },
     {
       "id": "6174",
+      "reviewId": "8181517516",
       "title": "Survival in Auschwitz",
       "series": null,
       "seriesNumber": null,
@@ -954,6 +1012,7 @@
     },
     {
       "id": "6192",
+      "reviewId": "8768300110",
       "title": "Disgrace",
       "series": null,
       "seriesNumber": null,
@@ -972,6 +1031,7 @@
     },
     {
       "id": "6288",
+      "reviewId": "5605822867",
       "title": "The Road",
       "series": null,
       "seriesNumber": null,
@@ -988,6 +1048,7 @@
     },
     {
       "id": "6334",
+      "reviewId": "5619863691",
       "title": "Never Let Me Go",
       "series": null,
       "seriesNumber": null,
@@ -1004,6 +1065,7 @@
     },
     {
       "id": "6514",
+      "reviewId": "5605359025",
       "title": "The Bell Jar",
       "series": null,
       "seriesNumber": null,
@@ -1020,6 +1082,7 @@
     },
     {
       "id": "6596",
+      "reviewId": "5605370956",
       "title": "The Four Agreements: A Practical Guide to Personal Freedom",
       "series": null,
       "seriesNumber": null,
@@ -1036,6 +1099,7 @@
     },
     {
       "id": "6708",
+      "reviewId": "5605371152",
       "title": "The Power of Now: A Guide to Spiritual Enlightenment",
       "series": null,
       "seriesNumber": null,
@@ -1052,6 +1116,7 @@
     },
     {
       "id": "6748",
+      "reviewId": "7367524859",
       "title": "A Supposedly Fun Thing I'll Never Do Again:  Essays and Arguments",
       "series": null,
       "seriesNumber": null,
@@ -1068,6 +1133,7 @@
     },
     {
       "id": "6749",
+      "reviewId": "8653503654",
       "title": "Oblivion",
       "series": null,
       "seriesNumber": null,
@@ -1086,6 +1152,7 @@
     },
     {
       "id": "6750",
+      "reviewId": "8653503684",
       "title": "The Broom of the System",
       "series": null,
       "seriesNumber": null,
@@ -1104,6 +1171,7 @@
     },
     {
       "id": "6751",
+      "reviewId": "7410032140",
       "title": "Consider the Lobster and Other Essays",
       "series": null,
       "seriesNumber": null,
@@ -1122,6 +1190,7 @@
     },
     {
       "id": "6867",
+      "reviewId": "5619857967",
       "title": "Atonement",
       "series": null,
       "seriesNumber": null,
@@ -1138,6 +1207,7 @@
     },
     {
       "id": "6900",
+      "reviewId": "5702694881",
       "title": "Tuesdays with Morrie: An Old Man, a Young Man, and Life's Greatest Lesson",
       "series": null,
       "seriesNumber": null,
@@ -1154,6 +1224,7 @@
     },
     {
       "id": "7126",
+      "reviewId": "5605361509",
       "title": "The Count of Monte Cristo",
       "series": null,
       "seriesNumber": null,
@@ -1170,6 +1241,7 @@
     },
     {
       "id": "7144",
+      "reviewId": "5605358972",
       "title": "Crime and Punishment",
       "series": null,
       "seriesNumber": null,
@@ -1186,6 +1258,7 @@
     },
     {
       "id": "7214",
+      "reviewId": "7132379809",
       "title": "Blue Like Jazz: Nonreligious Thoughts on Christian Spirituality",
       "series": null,
       "seriesNumber": null,
@@ -1202,6 +1275,7 @@
     },
     {
       "id": "7442",
+      "reviewId": "7403405082",
       "title": "The Electric Kool-Aid Acid Test",
       "series": null,
       "seriesNumber": null,
@@ -1218,6 +1292,7 @@
     },
     {
       "id": "7604",
+      "reviewId": "5605362048",
       "title": "Lolita",
       "series": null,
       "seriesNumber": null,
@@ -1234,6 +1309,7 @@
     },
     {
       "id": "7624",
+      "reviewId": "5605360224",
       "title": "Lord of the Flies",
       "series": null,
       "seriesNumber": null,
@@ -1250,6 +1326,7 @@
     },
     {
       "id": "7745",
+      "reviewId": "5700112737",
       "title": "Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream",
       "series": null,
       "seriesNumber": null,
@@ -1266,6 +1343,7 @@
     },
     {
       "id": "7805",
+      "reviewId": "5620207215",
       "title": "Pale Fire",
       "series": null,
       "seriesNumber": null,
@@ -1282,6 +1360,7 @@
     },
     {
       "id": "7820",
+      "reviewId": "8901767782",
       "title": "Fixed Ideas: America Since 9.11",
       "series": null,
       "seriesNumber": null,
@@ -1300,6 +1379,7 @@
     },
     {
       "id": "9555",
+      "reviewId": "9047441973",
       "title": "The Elephant Vanishes",
       "series": null,
       "seriesNumber": null,
@@ -1316,6 +1396,7 @@
     },
     {
       "id": "9597",
+      "reviewId": "7758799610",
       "title": "Player Piano",
       "series": null,
       "seriesNumber": null,
@@ -1334,6 +1415,7 @@
     },
     {
       "id": "9717",
+      "reviewId": "5619864994",
       "title": "The Unbearable Lightness of Being",
       "series": null,
       "seriesNumber": null,
@@ -1350,6 +1432,7 @@
     },
     {
       "id": "9833",
+      "reviewId": "5700115553",
       "title": "Blind Willow, Sleeping Woman",
       "series": null,
       "seriesNumber": null,
@@ -1366,6 +1449,7 @@
     },
     {
       "id": "10210",
+      "reviewId": "7125984643",
       "title": "Jane Eyre",
       "series": null,
       "seriesNumber": null,
@@ -1382,6 +1466,7 @@
     },
     {
       "id": "10534",
+      "reviewId": "9047472732",
       "title": "The Art of War",
       "series": null,
       "seriesNumber": null,
@@ -1398,6 +1483,7 @@
     },
     {
       "id": "11229",
+      "reviewId": "8710536576",
       "title": "The Sea, the Sea",
       "series": null,
       "seriesNumber": null,
@@ -1414,6 +1500,7 @@
     },
     {
       "id": "11275",
+      "reviewId": "5619867913",
       "title": "The Wind-Up Bird Chronicle",
       "series": null,
       "seriesNumber": null,
@@ -1430,6 +1517,7 @@
     },
     {
       "id": "11297",
+      "reviewId": "5605365910",
       "title": "Norwegian Wood",
       "series": null,
       "seriesNumber": null,
@@ -1446,6 +1534,7 @@
     },
     {
       "id": "11299",
+      "reviewId": "9047441906",
       "title": "After the Quake",
       "series": null,
       "seriesNumber": null,
@@ -1462,6 +1551,7 @@
     },
     {
       "id": "11378",
+      "reviewId": "7411308849",
       "title": "Elmer Gantry: Le charlatan",
       "series": null,
       "seriesNumber": null,
@@ -1478,6 +1568,7 @@
     },
     {
       "id": "11778",
+      "reviewId": "7411408611",
       "title": "High Lonesome: Selected Stories, 1966-2006",
       "series": null,
       "seriesNumber": null,
@@ -1494,6 +1585,7 @@
     },
     {
       "id": "11987",
+      "reviewId": "5605413582",
       "title": "The Myth of Sisyphus, and Other Essays",
       "series": null,
       "seriesNumber": null,
@@ -1510,6 +1602,7 @@
     },
     {
       "id": "11989",
+      "reviewId": "5619855980",
       "title": "The Plague",
       "series": null,
       "seriesNumber": null,
@@ -1526,6 +1619,7 @@
     },
     {
       "id": "11990",
+      "reviewId": "9047471217",
       "title": "The Rebel: An Essay on Man in Revolt",
       "series": null,
       "seriesNumber": null,
@@ -1542,6 +1636,7 @@
     },
     {
       "id": "11991",
+      "reviewId": "5619856556",
       "title": "The Fall",
       "series": null,
       "seriesNumber": null,
@@ -1558,6 +1653,7 @@
     },
     {
       "id": "12296",
+      "reviewId": "5605358764",
       "title": "The Scarlet Letter",
       "series": null,
       "seriesNumber": null,
@@ -1574,6 +1670,7 @@
     },
     {
       "id": "12349",
+      "reviewId": "5605378123",
       "title": "My Year of Meats",
       "series": null,
       "seriesNumber": null,
@@ -1590,6 +1687,7 @@
     },
     {
       "id": "12497",
+      "reviewId": "5605823068",
       "title": "No Country for Old Men",
       "series": null,
       "seriesNumber": null,
@@ -1606,6 +1704,7 @@
     },
     {
       "id": "12505",
+      "reviewId": "5619860724",
       "title": "The Idiot",
       "series": null,
       "seriesNumber": null,
@@ -1622,6 +1721,7 @@
     },
     {
       "id": "12781",
+      "reviewId": "5619873633",
       "title": "The Satanic Verses",
       "series": null,
       "seriesNumber": null,
@@ -1638,6 +1738,7 @@
     },
     {
       "id": "12867",
+      "reviewId": "8184879535",
       "title": "Wild at Heart",
       "series": null,
       "seriesNumber": null,
@@ -1654,6 +1755,7 @@
     },
     {
       "id": "13470",
+      "reviewId": "5605383623",
       "title": "Think on These Things",
       "series": null,
       "seriesNumber": null,
@@ -1670,6 +1772,7 @@
     },
     {
       "id": "13642",
+      "reviewId": "8894839819",
       "title": "A Wizard of Earthsea",
       "series": null,
       "seriesNumber": null,
@@ -1686,6 +1789,7 @@
     },
     {
       "id": "14142",
+      "reviewId": "5605385816",
       "title": "The Art of Loving",
       "series": null,
       "seriesNumber": null,
@@ -1702,6 +1806,7 @@
     },
     {
       "id": "14662",
+      "reviewId": "8346868441",
       "title": "The Red and the Black",
       "series": null,
       "seriesNumber": null,
@@ -1718,6 +1823,7 @@
     },
     {
       "id": "14706",
+      "reviewId": "5641437641",
       "title": "Faust, First Part",
       "series": null,
       "seriesNumber": null,
@@ -1734,6 +1840,7 @@
     },
     {
       "id": "14817",
+      "reviewId": "5663219139",
       "title": "A Scanner Darkly",
       "series": null,
       "seriesNumber": null,
@@ -1750,6 +1857,7 @@
     },
     {
       "id": "14836",
+      "reviewId": "5619873613",
       "title": "Midnight’s Children",
       "series": null,
       "seriesNumber": null,
@@ -1766,6 +1874,7 @@
     },
     {
       "id": "14941",
+      "reviewId": "8671443960",
       "title": "To the Lighthouse",
       "series": null,
       "seriesNumber": null,
@@ -1784,6 +1893,7 @@
     },
     {
       "id": "14942",
+      "reviewId": "7873914981",
       "title": "Mrs. Dalloway",
       "series": null,
       "seriesNumber": null,
@@ -1802,6 +1912,7 @@
     },
     {
       "id": "15645",
+      "reviewId": "5619853968",
       "title": "Inferno",
       "series": null,
       "seriesNumber": null,
@@ -1818,6 +1929,7 @@
     },
     {
       "id": "16286",
+      "reviewId": "8727145690",
       "title": "The Magus",
       "series": null,
       "seriesNumber": null,
@@ -1834,6 +1946,7 @@
     },
     {
       "id": "16631",
+      "reviewId": "5605386914",
       "title": "Steppenwolf",
       "series": null,
       "seriesNumber": null,
@@ -1849,7 +1962,25 @@
       "url": "https://www.goodreads.com/book/show/16631"
     },
     {
+      "id": "16634",
+      "reviewId": "5620211667",
+      "title": "The Glass Bead Game",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Hermann Hesse",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-21",
+      "pages": 558,
+      "year": 1943,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386922806l/16634._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/16634"
+    },
+    {
       "id": "16703",
+      "reviewId": "5619857413",
       "title": "The Yiddish Policemen's Union",
       "series": null,
       "seriesNumber": null,
@@ -1866,6 +1997,7 @@
     },
     {
       "id": "16981",
+      "reviewId": "5641434341",
       "title": "Invisible Man",
       "series": null,
       "seriesNumber": null,
@@ -1882,6 +2014,7 @@
     },
     {
       "id": "17698",
+      "reviewId": "9047442044",
       "title": "The Cossacks",
       "series": null,
       "seriesNumber": null,
@@ -1898,6 +2031,7 @@
     },
     {
       "id": "17800",
+      "reviewId": "9047447853",
       "title": "Dance Dance Dance",
       "series": null,
       "seriesNumber": null,
@@ -1909,11 +2043,12 @@
       "dateAdded": "2026-10-23",
       "pages": 393,
       "year": 1988,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1514582521l/17800._SY300_.jpg",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1793636085l/17800._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/17800"
     },
     {
       "id": "17803",
+      "reviewId": "5605391861",
       "title": "After Dark",
       "series": null,
       "seriesNumber": null,
@@ -1930,6 +2065,7 @@
     },
     {
       "id": "17841",
+      "reviewId": "5641426915",
       "title": "Foucault’s Pendulum",
       "series": null,
       "seriesNumber": null,
@@ -1946,6 +2082,7 @@
     },
     {
       "id": "18135",
+      "reviewId": "5605361334",
       "title": "Romeo and Juliet",
       "series": null,
       "seriesNumber": null,
@@ -1962,6 +2099,7 @@
     },
     {
       "id": "18386",
+      "reviewId": "6125502448",
       "title": "The Death of Ivan Ilych",
       "series": null,
       "seriesNumber": null,
@@ -1978,6 +2116,7 @@
     },
     {
       "id": "18414",
+      "reviewId": "5605365482",
       "title": "Utopia",
       "series": null,
       "seriesNumber": null,
@@ -1994,6 +2133,7 @@
     },
     {
       "id": "18736",
+      "reviewId": "9047452599",
       "title": "Going to Pieces without Falling Apart: A Buddhist Perspective on Wholeness",
       "series": null,
       "seriesNumber": null,
@@ -2010,6 +2150,7 @@
     },
     {
       "id": "18825",
+      "reviewId": "8907462762",
       "title": "Money",
       "series": null,
       "seriesNumber": null,
@@ -2026,6 +2167,7 @@
     },
     {
       "id": "19380",
+      "reviewId": "5641437991",
       "title": "Candide",
       "series": null,
       "seriesNumber": null,
@@ -2042,6 +2184,7 @@
     },
     {
       "id": "19506",
+      "reviewId": "9047468969",
       "title": "The World as Will and Representation, Volume I",
       "series": null,
       "seriesNumber": null,
@@ -2058,6 +2201,7 @@
     },
     {
       "id": "22200",
+      "reviewId": "8909058434",
       "title": "Count Zero",
       "series": "Sprawl",
       "seriesNumber": "2",
@@ -2074,6 +2218,7 @@
     },
     {
       "id": "22320",
+      "reviewId": "8909058441",
       "title": "Pattern Recognition",
       "series": "Blue Ant",
       "seriesNumber": "1",
@@ -2090,6 +2235,7 @@
     },
     {
       "id": "22613",
+      "reviewId": "5640652779",
       "title": "Simulacra and Simulation",
       "series": null,
       "seriesNumber": null,
@@ -2106,6 +2252,7 @@
     },
     {
       "id": "23913",
+      "reviewId": "5605413230",
       "title": "The Marriage of Heaven and Hell",
       "series": null,
       "seriesNumber": null,
@@ -2122,6 +2269,7 @@
     },
     {
       "id": "24113",
+      "reviewId": "5621839259",
       "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
       "series": null,
       "seriesNumber": null,
@@ -2141,6 +2289,7 @@
     },
     {
       "id": "24583",
+      "reviewId": "5605358648",
       "title": "The Adventures of Tom Sawyer",
       "series": null,
       "seriesNumber": null,
@@ -2157,6 +2306,7 @@
     },
     {
       "id": "25491",
+      "reviewId": "5700113763",
       "title": "Escape from Freedom",
       "series": null,
       "seriesNumber": null,
@@ -2173,6 +2323,7 @@
     },
     {
       "id": "25807",
+      "reviewId": "8768172943",
       "title": "The Postman Always Rings Twice",
       "series": null,
       "seriesNumber": null,
@@ -2189,6 +2340,7 @@
     },
     {
       "id": "26415",
+      "reviewId": "8787773782",
       "title": "Existentialism from Dostoevsky to Sartre",
       "series": null,
       "seriesNumber": null,
@@ -2205,6 +2357,7 @@
     },
     {
       "id": "28381",
+      "reviewId": "8737818588",
       "title": "Dead Souls",
       "series": null,
       "seriesNumber": null,
@@ -2221,6 +2374,7 @@
     },
     {
       "id": "28634",
+      "reviewId": "5619865137",
       "title": "Immortality",
       "series": null,
       "seriesNumber": null,
@@ -2237,6 +2391,7 @@
     },
     {
       "id": "28676",
+      "reviewId": "5605384201",
       "title": "American Psycho",
       "series": null,
       "seriesNumber": null,
@@ -2253,6 +2408,7 @@
     },
     {
       "id": "28700",
+      "reviewId": "8909055211",
       "title": "Falling Man",
       "series": null,
       "seriesNumber": null,
@@ -2271,6 +2427,7 @@
     },
     {
       "id": "28862",
+      "reviewId": "5605365076",
       "title": "The Prince",
       "series": null,
       "seriesNumber": null,
@@ -2287,6 +2444,7 @@
     },
     {
       "id": "28921",
+      "reviewId": "5619863899",
       "title": "The Remains of the Day",
       "series": null,
       "seriesNumber": null,
@@ -2303,6 +2461,7 @@
     },
     {
       "id": "28922",
+      "reviewId": "8905887325",
       "title": "An Artist of the Floating World",
       "series": null,
       "seriesNumber": null,
@@ -2319,6 +2478,7 @@
     },
     {
       "id": "29044",
+      "reviewId": "5619874010",
       "title": "The Secret History",
       "series": null,
       "seriesNumber": null,
@@ -2335,6 +2495,7 @@
     },
     {
       "id": "29579",
+      "reviewId": "5605369162",
       "title": "Foundation",
       "series": "Foundation",
       "seriesNumber": "1",
@@ -2351,6 +2512,7 @@
     },
     {
       "id": "29776",
+      "reviewId": "5678803362",
       "title": "The Dying Animal",
       "series": null,
       "seriesNumber": null,
@@ -2367,6 +2529,7 @@
     },
     {
       "id": "30659",
+      "reviewId": "5605363741",
       "title": "Meditations",
       "series": null,
       "seriesNumber": null,
@@ -2385,6 +2548,7 @@
     },
     {
       "id": "32585",
+      "reviewId": "7752902617",
       "title": "Hunger",
       "series": null,
       "seriesNumber": null,
@@ -2401,6 +2565,7 @@
     },
     {
       "id": "35220",
+      "reviewId": "5641435430",
       "title": "The Red Badge of Courage",
       "series": null,
       "seriesNumber": null,
@@ -2417,6 +2582,7 @@
     },
     {
       "id": "35743",
+      "reviewId": "5641426940",
       "title": "The Tin Drum",
       "series": null,
       "seriesNumber": null,
@@ -2435,6 +2601,7 @@
     },
     {
       "id": "37328",
+      "reviewId": "5640653207",
       "title": "The Consumer Society: Myths and Structures",
       "series": null,
       "seriesNumber": null,
@@ -2451,6 +2618,7 @@
     },
     {
       "id": "37380",
+      "reviewId": "6296314999",
       "title": "The Heart Is a Lonely Hunter",
       "series": null,
       "seriesNumber": null,
@@ -2467,6 +2635,7 @@
     },
     {
       "id": "38019",
+      "reviewId": "5605374119",
       "title": "Hit Men: Power Brokers and Fast Money Inside the Music Business",
       "series": null,
       "seriesNumber": null,
@@ -2483,6 +2652,7 @@
     },
     {
       "id": "38169",
+      "reviewId": "5605822349",
       "title": "Alas, Babylon",
       "series": null,
       "seriesNumber": null,
@@ -2499,6 +2669,7 @@
     },
     {
       "id": "38315",
+      "reviewId": "9047450108",
       "title": "Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets (Incerto)",
       "series": null,
       "seriesNumber": null,
@@ -2515,6 +2686,7 @@
     },
     {
       "id": "38412",
+      "reviewId": "6423125886",
       "title": "Fermat's Enigma",
       "series": null,
       "seriesNumber": null,
@@ -2531,6 +2703,7 @@
     },
     {
       "id": "38474",
+      "reviewId": "7120860263",
       "title": "Another Country",
       "series": null,
       "seriesNumber": null,
@@ -2547,6 +2720,7 @@
     },
     {
       "id": "38787",
+      "reviewId": "5700111782",
       "title": "Pedro Páramo",
       "series": null,
       "seriesNumber": null,
@@ -2563,6 +2737,7 @@
     },
     {
       "id": "40117",
+      "reviewId": "8176918077",
       "title": "The Unconsoled",
       "series": null,
       "seriesNumber": null,
@@ -2579,6 +2754,7 @@
     },
     {
       "id": "41681",
+      "reviewId": "5619871873",
       "title": "The Jungle",
       "series": null,
       "seriesNumber": null,
@@ -2595,6 +2771,7 @@
     },
     {
       "id": "43432",
+      "reviewId": "7844384960",
       "title": "The Tenants of Moonbloom",
       "series": null,
       "seriesNumber": null,
@@ -2611,6 +2788,7 @@
     },
     {
       "id": "43945",
+      "reviewId": "7881395362",
       "title": "Portnoy’s Complaint",
       "series": null,
       "seriesNumber": null,
@@ -2627,6 +2805,7 @@
     },
     {
       "id": "45876",
+      "reviewId": "9047468388",
       "title": "Psychotherapy East and West",
       "series": null,
       "seriesNumber": null,
@@ -2643,6 +2822,7 @@
     },
     {
       "id": "48335",
+      "reviewId": "7876360391",
       "title": "The Easter Parade",
       "series": null,
       "seriesNumber": null,
@@ -2659,6 +2839,7 @@
     },
     {
       "id": "48757",
+      "reviewId": "7125009081",
       "title": "The Tao of Pooh",
       "series": null,
       "seriesNumber": null,
@@ -2677,6 +2858,7 @@
     },
     {
       "id": "49455",
+      "reviewId": "5619860810",
       "title": "Notes from Underground",
       "series": null,
       "seriesNumber": null,
@@ -2695,6 +2877,7 @@
     },
     {
       "id": "49552",
+      "reviewId": "5605364532",
       "title": "The Stranger",
       "series": null,
       "seriesNumber": null,
@@ -2711,6 +2894,7 @@
     },
     {
       "id": "50275",
+      "reviewId": "8324871234",
       "title": "Last Exit to Brooklyn",
       "series": null,
       "seriesNumber": null,
@@ -2727,6 +2911,7 @@
     },
     {
       "id": "50695",
+      "reviewId": "8909054703",
       "title": "Everyman",
       "series": null,
       "seriesNumber": null,
@@ -2743,6 +2928,7 @@
     },
     {
       "id": "51496",
+      "reviewId": "5619872692",
       "title": "Dr. Jekyll and Mr. Hyde",
       "series": null,
       "seriesNumber": null,
@@ -2759,6 +2945,7 @@
     },
     {
       "id": "51772",
+      "reviewId": "8726853540",
       "title": "Imperial San Francisco: Urban Power, Earthly Ruin (California Studies in Critical Human Geography, 3)",
       "series": null,
       "seriesNumber": null,
@@ -2775,6 +2962,7 @@
     },
     {
       "id": "51893",
+      "reviewId": "5605363852",
       "title": "Thus Spoke Zarathustra",
       "series": null,
       "seriesNumber": null,
@@ -2791,6 +2979,7 @@
     },
     {
       "id": "52036",
+      "reviewId": "5605371513",
       "title": "Siddhartha",
       "series": null,
       "seriesNumber": null,
@@ -2807,6 +2996,7 @@
     },
     {
       "id": "52258",
+      "reviewId": "8737815731",
       "title": "The Price of Salt",
       "series": null,
       "seriesNumber": null,
@@ -2823,6 +3013,7 @@
     },
     {
       "id": "52397",
+      "reviewId": "6418690615",
       "title": "Parable of the Sower",
       "series": "Earthseed",
       "seriesNumber": "1",
@@ -2839,6 +3030,7 @@
     },
     {
       "id": "58314",
+      "reviewId": "8722493840",
       "title": "The Elementary Particles",
       "series": null,
       "seriesNumber": null,
@@ -2855,6 +3047,7 @@
     },
     {
       "id": "59415",
+      "reviewId": "5752074260",
       "title": "Terra Nostra (Latin American Literature)",
       "series": null,
       "seriesNumber": null,
@@ -2871,6 +3064,7 @@
     },
     {
       "id": "59721",
+      "reviewId": "7910328376",
       "title": "Vineland",
       "series": null,
       "seriesNumber": null,
@@ -2889,6 +3083,7 @@
     },
     {
       "id": "60551",
+      "reviewId": "9047480260",
       "title": "The Book: On the Taboo Against Knowing Who You Are",
       "series": null,
       "seriesNumber": null,
@@ -2905,6 +3100,7 @@
     },
     {
       "id": "60930",
+      "reviewId": "6402272535",
       "title": "Bloodchild and Other Stories",
       "series": null,
       "seriesNumber": null,
@@ -2921,6 +3117,7 @@
     },
     {
       "id": "62446",
+      "reviewId": "5619874500",
       "title": "The Prince and the Pauper",
       "series": null,
       "seriesNumber": null,
@@ -2937,6 +3134,7 @@
     },
     {
       "id": "62794",
+      "reviewId": "9047471708",
       "title": "Confessions of a Mask",
       "series": null,
       "seriesNumber": null,
@@ -2953,6 +3151,7 @@
     },
     {
       "id": "62798",
+      "reviewId": "5634447753",
       "title": "The Temple of the Golden Pavilion",
       "series": null,
       "seriesNumber": null,
@@ -2969,6 +3168,7 @@
     },
     {
       "id": "62804",
+      "reviewId": "9047450647",
       "title": "Sun & Steel",
       "series": null,
       "seriesNumber": null,
@@ -2985,6 +3185,7 @@
     },
     {
       "id": "63697",
+      "reviewId": "5605368357",
       "title": "The Man Who Mistook His Wife for a Hat and Other Clinical Tales",
       "series": null,
       "seriesNumber": null,
@@ -3001,6 +3202,7 @@
     },
     {
       "id": "64582",
+      "reviewId": "6418675596",
       "title": "Chaos: Making a New Science",
       "series": null,
       "seriesNumber": null,
@@ -3017,6 +3219,7 @@
     },
     {
       "id": "66354",
+      "reviewId": "9047470202",
       "title": "Flow: The Psychology of Optimal Experience",
       "series": null,
       "seriesNumber": null,
@@ -3033,6 +3236,7 @@
     },
     {
       "id": "67896",
+      "reviewId": "9047473211",
       "title": "Tao Te Ching",
       "series": null,
       "seriesNumber": null,
@@ -3049,6 +3253,7 @@
     },
     {
       "id": "68210",
+      "reviewId": "5672456865",
       "title": "Gilead",
       "series": "Gilead",
       "seriesNumber": "1",
@@ -3067,6 +3272,7 @@
     },
     {
       "id": "69928",
+      "reviewId": "5707324897",
       "title": "Therapy",
       "series": null,
       "seriesNumber": null,
@@ -3083,6 +3289,7 @@
     },
     {
       "id": "69930",
+      "reviewId": "5707327154",
       "title": "Small World",
       "series": "The Campus Trilogy",
       "seriesNumber": "2",
@@ -3099,6 +3306,7 @@
     },
     {
       "id": "69933",
+      "reviewId": "5707327133",
       "title": "Changing Places",
       "series": "The Campus Trilogy",
       "seriesNumber": "1",
@@ -3115,6 +3323,7 @@
     },
     {
       "id": "69935",
+      "reviewId": "5707327181",
       "title": "Nice Work",
       "series": "The Campus Trilogy",
       "seriesNumber": "3",
@@ -3131,6 +3340,7 @@
     },
     {
       "id": "70401",
+      "reviewId": "5619864170",
       "title": "On the Road",
       "series": null,
       "seriesNumber": null,
@@ -3147,6 +3357,7 @@
     },
     {
       "id": "70535",
+      "reviewId": "5605369690",
       "title": "2001: A Space Odyssey",
       "series": "Space Odyssey",
       "seriesNumber": "1",
@@ -3163,6 +3374,7 @@
     },
     {
       "id": "70561",
+      "reviewId": "9047477977",
       "title": "The Gulag Archipelago 1918–1956 (Abridged)",
       "series": null,
       "seriesNumber": null,
@@ -3179,6 +3391,7 @@
     },
     {
       "id": "71552",
+      "reviewId": "7851181639",
       "title": "The Real Life of Sebastian Knight",
       "series": null,
       "seriesNumber": null,
@@ -3190,11 +3403,12 @@
       "dateAdded": "2025-08-22",
       "pages": 181,
       "year": 1941,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348436904l/71552._SY300_.jpg",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1793981728l/71552._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/71552"
     },
     {
       "id": "71984",
+      "reviewId": "7124841707",
       "title": "Ghost Wars: The Secret History of the CIA, Afghanistan, and Bin Laden from the Soviet Invasion to September 10, 2001",
       "series": null,
       "seriesNumber": null,
@@ -3211,6 +3425,7 @@
     },
     {
       "id": "74034",
+      "reviewId": "5605384640",
       "title": "Amusing Ourselves to Death: Public Discourse in the Age of Show Business",
       "series": null,
       "seriesNumber": null,
@@ -3229,6 +3444,7 @@
     },
     {
       "id": "75786",
+      "reviewId": "7680063956",
       "title": "Infinite Jest",
       "series": null,
       "seriesNumber": null,
@@ -3247,6 +3463,7 @@
     },
     {
       "id": "76670",
+      "reviewId": "8812817347",
       "title": "One Day of Life (Vintage International)",
       "series": null,
       "seriesNumber": null,
@@ -3263,6 +3480,7 @@
     },
     {
       "id": "77287",
+      "reviewId": "8337936753",
       "title": "Independent People",
       "series": null,
       "seriesNumber": null,
@@ -3281,6 +3499,7 @@
     },
     {
       "id": "78129",
+      "reviewId": "6396158145",
       "title": "Killing Floor",
       "series": "Jack Reacher",
       "seriesNumber": "1",
@@ -3297,6 +3516,7 @@
     },
     {
       "id": "80176",
+      "reviewId": "8206963858",
       "title": "Winesburg, Ohio",
       "series": null,
       "seriesNumber": null,
@@ -3313,6 +3533,7 @@
     },
     {
       "id": "81779",
+      "reviewId": "5605363780",
       "title": "The Symposium",
       "series": null,
       "seriesNumber": null,
@@ -3329,6 +3550,7 @@
     },
     {
       "id": "83324",
+      "reviewId": "5700110596",
       "title": "Works of Love",
       "series": null,
       "seriesNumber": null,
@@ -3345,6 +3567,7 @@
     },
     {
       "id": "84737",
+      "reviewId": "8206970490",
       "title": "Zeno's Conscience",
       "series": null,
       "seriesNumber": null,
@@ -3361,6 +3584,7 @@
     },
     {
       "id": "88077",
+      "reviewId": "5641427813",
       "title": "The Magic Mountain",
       "series": null,
       "seriesNumber": null,
@@ -3377,6 +3601,7 @@
     },
     {
       "id": "88340",
+      "reviewId": "8470513218",
       "title": "Letters to Milena",
       "series": null,
       "seriesNumber": null,
@@ -3393,6 +3618,7 @@
     },
     {
       "id": "91950",
+      "reviewId": "5641437042",
       "title": "The Myth of Sisyphus",
       "series": null,
       "seriesNumber": null,
@@ -3409,6 +3635,7 @@
     },
     {
       "id": "92303",
+      "reviewId": "7783165073",
       "title": "The Importance of Being Earnest",
       "series": null,
       "seriesNumber": null,
@@ -3425,6 +3652,7 @@
     },
     {
       "id": "93370",
+      "reviewId": "5619876684",
       "title": "Akira, Vol. 2",
       "series": null,
       "seriesNumber": null,
@@ -3441,6 +3669,7 @@
     },
     {
       "id": "93371",
+      "reviewId": "5619876603",
       "title": "Akira, Vol. 1",
       "series": null,
       "seriesNumber": null,
@@ -3457,6 +3686,7 @@
     },
     {
       "id": "93372",
+      "reviewId": "5619876772",
       "title": "Akira, Vol. 3",
       "series": null,
       "seriesNumber": null,
@@ -3473,6 +3703,7 @@
     },
     {
       "id": "93374",
+      "reviewId": "5619876885",
       "title": "Akira, Vol. 4",
       "series": null,
       "seriesNumber": null,
@@ -3489,6 +3720,7 @@
     },
     {
       "id": "93375",
+      "reviewId": "5619877059",
       "title": "Akira, Vol. 6",
       "series": null,
       "seriesNumber": null,
@@ -3505,6 +3737,7 @@
     },
     {
       "id": "93376",
+      "reviewId": "5619876926",
       "title": "Akira, Vol. 5",
       "series": null,
       "seriesNumber": null,
@@ -3521,6 +3754,7 @@
     },
     {
       "id": "95558",
+      "reviewId": "8753733388",
       "title": "Solaris",
       "series": null,
       "seriesNumber": null,
@@ -3537,6 +3771,7 @@
     },
     {
       "id": "101157",
+      "reviewId": "9047443118",
       "title": "Sexual Personae: Art and Decadence from Nefertiti to Emily Dickinson (Yale Nota Bene)",
       "series": null,
       "seriesNumber": null,
@@ -3553,6 +3788,7 @@
     },
     {
       "id": "102908",
+      "reviewId": "8191845185",
       "title": "Beautiful Losers",
       "series": null,
       "seriesNumber": null,
@@ -3569,6 +3805,7 @@
     },
     {
       "id": "117833",
+      "reviewId": "5641439967",
       "title": "The Master and Margarita",
       "series": null,
       "seriesNumber": null,
@@ -3585,6 +3822,7 @@
     },
     {
       "id": "126985",
+      "reviewId": "8084267028",
       "title": "All That Is Solid Melts Into Air: The Experience of Modernity",
       "series": null,
       "seriesNumber": null,
@@ -3601,6 +3839,7 @@
     },
     {
       "id": "135479",
+      "reviewId": "5641431464",
       "title": "Cat’s Cradle",
       "series": null,
       "seriesNumber": null,
@@ -3617,6 +3856,7 @@
     },
     {
       "id": "143877",
+      "reviewId": "5641424794",
       "title": "Freedom from the Known",
       "series": null,
       "seriesNumber": null,
@@ -3633,6 +3873,7 @@
     },
     {
       "id": "151390",
+      "reviewId": "8718964671",
       "title": "The Letters of Abélard and Héloïse",
       "series": null,
       "seriesNumber": null,
@@ -3649,6 +3890,7 @@
     },
     {
       "id": "154091",
+      "reviewId": "8909059015",
       "title": "Mona Lisa Overdrive",
       "series": "Sprawl",
       "seriesNumber": "3",
@@ -3665,6 +3907,7 @@
     },
     {
       "id": "159979",
+      "reviewId": "7676832170",
       "title": "The Image: A Guide to Pseudo-Events in America",
       "series": null,
       "seriesNumber": null,
@@ -3681,6 +3924,7 @@
     },
     {
       "id": "160063",
+      "reviewId": "5619878346",
       "title": "Buddha, Vol. 2: The Four Encounters",
       "series": "Buddha",
       "seriesNumber": "2",
@@ -3697,6 +3941,7 @@
     },
     {
       "id": "160117",
+      "reviewId": "8907454588",
       "title": "A Year With Swollen Appendices",
       "series": null,
       "seriesNumber": null,
@@ -3713,6 +3958,7 @@
     },
     {
       "id": "160653",
+      "reviewId": "5641442851",
       "title": "Actual Air",
       "series": null,
       "seriesNumber": null,
@@ -3729,6 +3975,7 @@
     },
     {
       "id": "161037",
+      "reviewId": "6230458285",
       "title": "Lanark: A Life in Four Books",
       "series": null,
       "seriesNumber": null,
@@ -3745,6 +3992,7 @@
     },
     {
       "id": "166997",
+      "reviewId": "5619874992",
       "title": "Stoner",
       "series": null,
       "seriesNumber": null,
@@ -3763,6 +4011,7 @@
     },
     {
       "id": "168642",
+      "reviewId": "5700114023",
       "title": "In Cold Blood",
       "series": null,
       "seriesNumber": null,
@@ -3779,6 +4028,7 @@
     },
     {
       "id": "168668",
+      "reviewId": "8441243308",
       "title": "Catch-22",
       "series": null,
       "seriesNumber": null,
@@ -3797,6 +4047,7 @@
     },
     {
       "id": "170448",
+      "reviewId": "5605357316",
       "title": "Animal Farm",
       "series": null,
       "seriesNumber": null,
@@ -3813,6 +4064,7 @@
     },
     {
       "id": "174361",
+      "reviewId": "5772955312",
       "title": "Over the Edge: The True Story of Four American Climbers' Kidnap and Escape in the Mountains of Central Asia",
       "series": null,
       "seriesNumber": null,
@@ -3829,6 +4081,7 @@
     },
     {
       "id": "179609",
+      "reviewId": "7124816285",
       "title": "Imperialism: The Highest Stage of Capitalism",
       "series": null,
       "seriesNumber": null,
@@ -3845,6 +4098,7 @@
     },
     {
       "id": "190372",
+      "reviewId": "8764661241",
       "title": "The Last Samurai",
       "series": null,
       "seriesNumber": null,
@@ -3861,6 +4115,7 @@
     },
     {
       "id": "194746",
+      "reviewId": "6580058470",
       "title": "No Longer Human",
       "series": null,
       "seriesNumber": null,
@@ -3877,6 +4132,7 @@
     },
     {
       "id": "196329",
+      "reviewId": "9047443697",
       "title": "Tao: The Watercourse Way",
       "series": null,
       "seriesNumber": null,
@@ -3893,6 +4149,7 @@
     },
     {
       "id": "209574",
+      "reviewId": "5605412333",
       "title": "The Heart of the Buddha's Teaching: Transforming Suffering into Peace, Joy, and Liberation",
       "series": null,
       "seriesNumber": null,
@@ -3909,6 +4166,7 @@
     },
     {
       "id": "209576",
+      "reviewId": "9047448051",
       "title": "In the Buddha's Words: An Anthology of Discourses from the Pali Canon (The Teachings of the Buddha)",
       "series": null,
       "seriesNumber": null,
@@ -3925,6 +4183,7 @@
     },
     {
       "id": "209577",
+      "reviewId": "5619878135",
       "title": "Buddha, Vol. 1: Kapilavastu",
       "series": "Buddha",
       "seriesNumber": "1",
@@ -3941,6 +4200,7 @@
     },
     {
       "id": "210255",
+      "reviewId": "7752923960",
       "title": "Against Nature",
       "series": null,
       "seriesNumber": null,
@@ -3957,6 +4217,7 @@
     },
     {
       "id": "216363",
+      "reviewId": "5619860006",
       "title": "The Man in the High Castle",
       "series": null,
       "seriesNumber": null,
@@ -3973,6 +4234,7 @@
     },
     {
       "id": "223175",
+      "reviewId": "5605821909",
       "title": "The Master of Ballantrae",
       "series": null,
       "seriesNumber": null,
@@ -3989,6 +4251,7 @@
     },
     {
       "id": "223380",
+      "reviewId": "8111392455",
       "title": "Stories of Your Life and Others",
       "series": null,
       "seriesNumber": null,
@@ -4005,6 +4268,7 @@
     },
     {
       "id": "230714",
+      "reviewId": "5718057089",
       "title": "Buddha, Vol. 4: The Forest of Uruvela",
       "series": "Buddha",
       "seriesNumber": "4",
@@ -4021,6 +4285,7 @@
     },
     {
       "id": "239404",
+      "reviewId": "6302532138",
       "title": "Psychotic Reactions and Carburetor Dung",
       "series": null,
       "seriesNumber": null,
@@ -4039,6 +4304,7 @@
     },
     {
       "id": "242472",
+      "reviewId": "9047450258",
       "title": "The Black Swan: The Impact of the Highly Improbable",
       "series": null,
       "seriesNumber": null,
@@ -4055,6 +4321,7 @@
     },
     {
       "id": "272642",
+      "reviewId": "6576131485",
       "title": "Rip it Up and Start Again. Post-punk 1978-1984",
       "series": null,
       "seriesNumber": null,
@@ -4071,6 +4338,7 @@
     },
     {
       "id": "297673",
+      "reviewId": "6270730879",
       "title": "The Brief Wondrous Life of Oscar Wao",
       "series": null,
       "seriesNumber": null,
@@ -4087,6 +4355,7 @@
     },
     {
       "id": "316328",
+      "reviewId": "7124814507",
       "title": "Super Imperialism: The Origin and Fundamentals of U.S. World Dominance",
       "series": null,
       "seriesNumber": null,
@@ -4103,6 +4372,7 @@
     },
     {
       "id": "317621",
+      "reviewId": "6319505620",
       "title": "The Witches of Karres",
       "series": "The Witches of Karres",
       "seriesNumber": "1",
@@ -4119,6 +4389,7 @@
     },
     {
       "id": "318335",
+      "reviewId": "8932525171",
       "title": "Fatelessness (Vintage International)",
       "series": null,
       "seriesNumber": null,
@@ -4135,6 +4406,7 @@
     },
     {
       "id": "325128",
+      "reviewId": "5619872736",
       "title": "Kidnapped",
       "series": "David Balfour",
       "seriesNumber": "1",
@@ -4151,6 +4423,7 @@
     },
     {
       "id": "332138",
+      "reviewId": "8193979311",
       "title": "After Virtue",
       "series": null,
       "seriesNumber": null,
@@ -4167,6 +4440,7 @@
     },
     {
       "id": "338798",
+      "reviewId": "7611885499",
       "title": "Ulysses",
       "series": null,
       "seriesNumber": null,
@@ -4183,6 +4457,7 @@
     },
     {
       "id": "340311",
+      "reviewId": "7124815155",
       "title": "The Sword and the Dollar: Imperialism Revolution and the Arms Race",
       "series": null,
       "seriesNumber": null,
@@ -4199,6 +4474,7 @@
     },
     {
       "id": "341633",
+      "reviewId": "5641432814",
       "title": "Generation Ecstasy: Into the World of Techno and Rave Culture",
       "series": null,
       "seriesNumber": null,
@@ -4215,6 +4491,7 @@
     },
     {
       "id": "354259",
+      "reviewId": "5641433878",
       "title": "Fail-Safe",
       "series": null,
       "seriesNumber": null,
@@ -4231,6 +4508,7 @@
     },
     {
       "id": "355697",
+      "reviewId": "5641433614",
       "title": "All Quiet on the Western Front",
       "series": null,
       "seriesNumber": null,
@@ -4247,6 +4525,7 @@
     },
     {
       "id": "368772",
+      "reviewId": "8177292513",
       "title": "The Caine Mutiny",
       "series": null,
       "seriesNumber": null,
@@ -4263,6 +4542,7 @@
     },
     {
       "id": "373813",
+      "reviewId": "8863434982",
       "title": "Fathers and Sons",
       "series": null,
       "seriesNumber": null,
@@ -4281,6 +4561,7 @@
     },
     {
       "id": "381440",
+      "reviewId": "5641429605",
       "title": "The Society of the Spectacle",
       "series": null,
       "seriesNumber": null,
@@ -4297,6 +4578,7 @@
     },
     {
       "id": "381960",
+      "reviewId": "7769577330",
       "title": "The Braindead Megaphone",
       "series": null,
       "seriesNumber": null,
@@ -4313,6 +4595,7 @@
     },
     {
       "id": "394469",
+      "reviewId": "5605823553",
       "title": "Suttree",
       "series": null,
       "seriesNumber": null,
@@ -4329,6 +4612,7 @@
     },
     {
       "id": "394535",
+      "reviewId": "5605823266",
       "title": "Blood Meridian, or, the Evening Redness in the West",
       "series": null,
       "seriesNumber": null,
@@ -4347,6 +4631,7 @@
     },
     {
       "id": "395058",
+      "reviewId": "5641425785",
       "title": "The Recognitions",
       "series": null,
       "seriesNumber": null,
@@ -4363,6 +4648,7 @@
     },
     {
       "id": "397165",
+      "reviewId": "8908925289",
       "title": "Sputnik Sweetheart",
       "series": null,
       "seriesNumber": null,
@@ -4379,6 +4665,7 @@
     },
     {
       "id": "434903",
+      "reviewId": "8380503848",
       "title": "The Rings of Saturn",
       "series": null,
       "seriesNumber": null,
@@ -4395,6 +4682,7 @@
     },
     {
       "id": "441200",
+      "reviewId": "8804449392",
       "title": "Eugene Onegin",
       "series": null,
       "seriesNumber": null,
@@ -4413,6 +4701,7 @@
     },
     {
       "id": "463500",
+      "reviewId": "9047441480",
       "title": "The Bhagavad Gita",
       "series": null,
       "seriesNumber": null,
@@ -4429,6 +4718,7 @@
     },
     {
       "id": "469571",
+      "reviewId": "5605822694",
       "title": "All the Pretty Horses",
       "series": "The Border Trilogy",
       "seriesNumber": "1",
@@ -4447,6 +4737,7 @@
     },
     {
       "id": "485894",
+      "reviewId": "5605355425",
       "title": "The Metamorphosis",
       "series": null,
       "seriesNumber": null,
@@ -4463,6 +4754,7 @@
     },
     {
       "id": "499653",
+      "reviewId": "9047451806",
       "title": "Judge Dee at Work: Eight Chinese Detective Stories",
       "series": null,
       "seriesNumber": null,
@@ -4479,6 +4771,7 @@
     },
     {
       "id": "514210",
+      "reviewId": "9047443566",
       "title": "The Way of Zen",
       "series": null,
       "seriesNumber": null,
@@ -4495,6 +4788,7 @@
     },
     {
       "id": "523494",
+      "reviewId": "9047442253",
       "title": "Beethoven: The Composer as Hero",
       "series": null,
       "seriesNumber": null,
@@ -4511,6 +4805,7 @@
     },
     {
       "id": "525461",
+      "reviewId": "7844399788",
       "title": "The Looming Tower: Al Qaeda and the Road to 9/11",
       "series": null,
       "seriesNumber": null,
@@ -4529,6 +4824,7 @@
     },
     {
       "id": "530415",
+      "reviewId": "8480559253",
       "title": "The Art of Doing Science and Engineering: Learning to Learn",
       "series": null,
       "seriesNumber": null,
@@ -4545,6 +4841,7 @@
     },
     {
       "id": "534307",
+      "reviewId": "9047444044",
       "title": "MW",
       "series": null,
       "seriesNumber": null,
@@ -4561,6 +4858,7 @@
     },
     {
       "id": "534309",
+      "reviewId": "9047477429",
       "title": "Black Jack, Vol. 1",
       "series": null,
       "seriesNumber": null,
@@ -4577,6 +4875,7 @@
     },
     {
       "id": "536387",
+      "reviewId": "9047472219",
       "title": "The Flowers of Evil",
       "series": null,
       "seriesNumber": null,
@@ -4593,6 +4892,7 @@
     },
     {
       "id": "551520",
+      "reviewId": "5605414480",
       "title": "The Wisdom of Insecurity: A Message for an Age of Anxiety",
       "series": null,
       "seriesNumber": null,
@@ -4609,6 +4909,7 @@
     },
     {
       "id": "563002",
+      "reviewId": "8671472573",
       "title": "Joy Luck Club",
       "series": null,
       "seriesNumber": null,
@@ -4627,6 +4928,7 @@
     },
     {
       "id": "574925",
+      "reviewId": "6568395847",
       "title": "Mystery Train: Images of America in Rock 'n' Roll",
       "series": null,
       "seriesNumber": null,
@@ -4643,6 +4945,7 @@
     },
     {
       "id": "574933",
+      "reviewId": "8653509001",
       "title": "Brief Interviews with Hideous Men",
       "series": null,
       "seriesNumber": null,
@@ -4661,6 +4964,7 @@
     },
     {
       "id": "607639",
+      "reviewId": "7130092474",
       "title": "The Beach",
       "series": null,
       "seriesNumber": null,
@@ -4677,6 +4981,7 @@
     },
     {
       "id": "625094",
+      "reviewId": "7845084144",
       "title": "The Leopard",
       "series": null,
       "seriesNumber": null,
@@ -4693,6 +4998,7 @@
     },
     {
       "id": "646453",
+      "reviewId": "9047443145",
       "title": "The History of Alexander",
       "series": null,
       "seriesNumber": null,
@@ -4709,6 +5015,7 @@
     },
     {
       "id": "716381",
+      "reviewId": "8816614468",
       "title": "Strait is the Gate",
       "series": null,
       "seriesNumber": null,
@@ -4725,6 +5032,7 @@
     },
     {
       "id": "764450",
+      "reviewId": "8187533815",
       "title": "Dubliners",
       "series": null,
       "seriesNumber": null,
@@ -4743,6 +5051,7 @@
     },
     {
       "id": "797192",
+      "reviewId": "8671546202",
       "title": "I Have The Right To Destroy Myself",
       "series": null,
       "seriesNumber": null,
@@ -4761,6 +5070,7 @@
     },
     {
       "id": "822361",
+      "reviewId": "8379851933",
       "title": "Zorba the Greek",
       "series": null,
       "seriesNumber": null,
@@ -4779,6 +5089,7 @@
     },
     {
       "id": "832225",
+      "reviewId": "9047450867",
       "title": "Eyeshield 21, Vol. 1: The Boy With the Golden Legs",
       "series": null,
       "seriesNumber": null,
@@ -4795,6 +5106,7 @@
     },
     {
       "id": "981522",
+      "reviewId": "5641441694",
       "title": "England's Hidden Reverse:  A Secret History of the Esoteric Underground",
       "series": null,
       "seriesNumber": null,
@@ -4811,6 +5123,7 @@
     },
     {
       "id": "989677",
+      "reviewId": "5635548112",
       "title": "Zen and the Beat Way",
       "series": null,
       "seriesNumber": null,
@@ -4827,6 +5140,7 @@
     },
     {
       "id": "1080460",
+      "reviewId": "8331180264",
       "title": "Lysistrata (Crofts Classics)",
       "series": null,
       "seriesNumber": null,
@@ -4845,12 +5159,15 @@
     },
     {
       "id": "1168191",
+      "reviewId": "6409685420",
       "title": "Meditations",
       "series": null,
       "seriesNumber": null,
       "author": "Marcus Aurelius",
-      "shelf": "to-read",
-      "tags": [],
+      "shelf": "currently-reading",
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2024-04-07",
@@ -4861,6 +5178,7 @@
     },
     {
       "id": "1237300",
+      "reviewId": "7124825554",
       "title": "The Shock Doctrine: The Rise of Disaster Capitalism",
       "series": null,
       "seriesNumber": null,
@@ -4879,6 +5197,7 @@
     },
     {
       "id": "1297985",
+      "reviewId": "5605363068",
       "title": "Musicophilia: Tales of Music and the Brain",
       "series": null,
       "seriesNumber": null,
@@ -4897,6 +5216,7 @@
     },
     {
       "id": "1311355",
+      "reviewId": "9047481394",
       "title": "Slam Dunk, Vol. 1",
       "series": null,
       "seriesNumber": null,
@@ -4913,6 +5233,7 @@
     },
     {
       "id": "1542752",
+      "reviewId": "7920807071",
       "title": "The Short-Timers",
       "series": null,
       "seriesNumber": null,
@@ -4929,6 +5250,7 @@
     },
     {
       "id": "1681741",
+      "reviewId": "9047451172",
       "title": "Phoenix, Vol. 1: Dawn",
       "series": null,
       "seriesNumber": null,
@@ -4945,6 +5267,7 @@
     },
     {
       "id": "1725523",
+      "reviewId": "9047451321",
       "title": "PLUTO: Naoki Urasawa x Ozamu Tezuka, Vol.1",
       "series": null,
       "seriesNumber": null,
@@ -4961,6 +5284,7 @@
     },
     {
       "id": "1772910",
+      "reviewId": "6418691241",
       "title": "White Nights",
       "series": null,
       "seriesNumber": null,
@@ -4995,6 +5319,7 @@
     },
     {
       "id": "1999475",
+      "reviewId": "7132373233",
       "title": "A Million Miles in a Thousand Years: What I Learned While Editing My Life",
       "series": null,
       "seriesNumber": null,
@@ -5013,6 +5338,7 @@
     },
     {
       "id": "2195464",
+      "reviewId": "5619867974",
       "title": "What I Talk About When I Talk About Running",
       "series": null,
       "seriesNumber": null,
@@ -5029,6 +5355,7 @@
     },
     {
       "id": "2247142",
+      "reviewId": "8727143931",
       "title": "The Talented Mr. Ripley",
       "series": "Ripley",
       "seriesNumber": "1",
@@ -5045,6 +5372,7 @@
     },
     {
       "id": "2376087",
+      "reviewId": "8458923515",
       "title": "The Post-Office Girl",
       "series": null,
       "seriesNumber": null,
@@ -5061,6 +5389,7 @@
     },
     {
       "id": "2419393",
+      "reviewId": "7918949675",
       "title": "The Case of Sergeant Grischa",
       "series": "The Great War of White Men",
       "seriesNumber": "1",
@@ -5077,6 +5406,7 @@
     },
     {
       "id": "2429135",
+      "reviewId": "9047470710",
       "title": "The Girl With the Dragon Tattoo",
       "series": "Millennium",
       "seriesNumber": "1",
@@ -5093,6 +5423,7 @@
     },
     {
       "id": "2475251",
+      "reviewId": "9047441596",
       "title": "The Cellist of Sarajevo",
       "series": null,
       "seriesNumber": null,
@@ -5109,6 +5440,7 @@
     },
     {
       "id": "2786094",
+      "reviewId": "8908905758",
       "title": "The Rest is Noise: Listening to the Twentieth Century",
       "series": null,
       "seriesNumber": null,
@@ -5125,6 +5457,7 @@
     },
     {
       "id": "2924318",
+      "reviewId": "5672456893",
       "title": "Home",
       "series": "Gilead",
       "seriesNumber": "2",
@@ -5141,6 +5474,7 @@
     },
     {
       "id": "3188964",
+      "reviewId": "6302532804",
       "title": "The Doors of Perception",
       "series": null,
       "seriesNumber": null,
@@ -5157,6 +5491,7 @@
     },
     {
       "id": "3374076",
+      "reviewId": "8906726351",
       "title": "Bonsai",
       "series": null,
       "seriesNumber": null,
@@ -5173,6 +5508,7 @@
     },
     {
       "id": "3425854",
+      "reviewId": "6125508188",
       "title": "Confessions",
       "series": null,
       "seriesNumber": null,
@@ -5191,6 +5527,7 @@
     },
     {
       "id": "4274612",
+      "reviewId": "6559943226",
       "title": "Family of Secrets: The Bush Dynasty, the Powerful Forces That Put it in the White House & What Their Influence Means for America",
       "series": null,
       "seriesNumber": null,
@@ -5207,6 +5544,7 @@
     },
     {
       "id": "4906716",
+      "reviewId": "5605374485",
       "title": "Fight Club",
       "series": null,
       "seriesNumber": null,
@@ -5223,6 +5561,7 @@
     },
     {
       "id": "4957350",
+      "reviewId": "5619862187",
       "title": "Tinkers",
       "series": null,
       "seriesNumber": null,
@@ -5239,6 +5578,7 @@
     },
     {
       "id": "5060378",
+      "reviewId": "9047441713",
       "title": "The Girl Who Played with Fire",
       "series": "Millennium",
       "seriesNumber": "2",
@@ -5255,6 +5595,7 @@
     },
     {
       "id": "5933841",
+      "reviewId": "7758800972",
       "title": "Inherent Vice",
       "series": null,
       "seriesNumber": null,
@@ -5273,6 +5614,7 @@
     },
     {
       "id": "5986375",
+      "reviewId": "8653504267",
       "title": "This Is Water: Some Thoughts, Delivered on a Significant Occasion, about Living a Compassionate Life",
       "series": null,
       "seriesNumber": null,
@@ -5291,6 +5633,7 @@
     },
     {
       "id": "6015333",
+      "reviewId": "6559826550",
       "title": "How the Beatles Destroyed Rock 'n' Roll: An Alternative History of American Popular Music",
       "series": null,
       "seriesNumber": null,
@@ -5307,6 +5650,7 @@
     },
     {
       "id": "6088007",
+      "reviewId": "8909058430",
       "title": "Neuromancer",
       "series": "Sprawl",
       "seriesNumber": "1",
@@ -5323,6 +5667,7 @@
     },
     {
       "id": "6372225",
+      "reviewId": "8832493041",
       "title": "2666",
       "series": null,
       "seriesNumber": null,
@@ -5340,7 +5685,25 @@
       "url": "https://www.goodreads.com/book/show/6372225"
     },
     {
+      "id": "6405096",
+      "reviewId": "9096189352",
+      "title": "Otaku: Japan's Database Animals",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Hiroki Azuma",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-21",
+      "pages": 200,
+      "year": 2001,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348013439l/6405096._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/6405096"
+    },
+    {
       "id": "6417357",
+      "reviewId": "6296313710",
       "title": "The Feast of All Saints",
       "series": null,
       "seriesNumber": null,
@@ -5359,6 +5722,7 @@
     },
     {
       "id": "6439148",
+      "reviewId": "7754407402",
       "title": "War on the Run: The Epic Story of Robert Rogers and the Conquest of America's First Frontier",
       "series": null,
       "seriesNumber": null,
@@ -5375,6 +5739,7 @@
     },
     {
       "id": "6577631",
+      "reviewId": "5605379376",
       "title": "Empire of Illusion: The End of Literacy and the Triumph of Spectacle",
       "series": null,
       "seriesNumber": null,
@@ -5391,6 +5756,7 @@
     },
     {
       "id": "6617037",
+      "reviewId": "9047448237",
       "title": "Debt: The First 5,000 Years",
       "series": null,
       "seriesNumber": null,
@@ -5407,6 +5773,7 @@
     },
     {
       "id": "6658129",
+      "reviewId": "7966731075",
       "title": "Tokyo Vice: An American Reporter on the Police Beat in Japan",
       "series": null,
       "seriesNumber": null,
@@ -5423,6 +5790,7 @@
     },
     {
       "id": "6763725",
+      "reviewId": "5641426304",
       "title": "Capitalist Realism: Is There No Alternative?",
       "series": null,
       "seriesNumber": null,
@@ -5439,6 +5807,7 @@
     },
     {
       "id": "6892870",
+      "reviewId": "9047447439",
       "title": "The Girl Who Kicked the Hornet’s Nest",
       "series": "Millennium",
       "seriesNumber": "3",
@@ -5455,6 +5824,7 @@
     },
     {
       "id": "7897556",
+      "reviewId": "7124823803",
       "title": "Griftopia: Bubble Machines, Vampire Squids, and the Long Con That Is Breaking America",
       "series": null,
       "seriesNumber": null,
@@ -5471,6 +5841,7 @@
     },
     {
       "id": "7905092",
+      "reviewId": "5619861207",
       "title": "Freedom",
       "series": null,
       "seriesNumber": null,
@@ -5487,6 +5858,7 @@
     },
     {
       "id": "8123162",
+      "reviewId": "5605374342",
       "title": "Paper Towns",
       "series": null,
       "seriesNumber": null,
@@ -5503,6 +5875,7 @@
     },
     {
       "id": "8270125",
+      "reviewId": "8825329319",
       "title": "A Lover's Discourse: Fragments",
       "series": null,
       "seriesNumber": null,
@@ -5521,6 +5894,7 @@
     },
     {
       "id": "8501350",
+      "reviewId": "8458420240",
       "title": "There Is Power in a Union: The Epic Story of Labor in America",
       "series": null,
       "seriesNumber": null,
@@ -5537,6 +5911,7 @@
     },
     {
       "id": "9083994",
+      "reviewId": "8028856755",
       "title": "The Last Brother",
       "series": null,
       "seriesNumber": null,
@@ -5555,6 +5930,7 @@
     },
     {
       "id": "9118135",
+      "reviewId": "5619870362",
       "title": "State of Wonder",
       "series": null,
       "seriesNumber": null,
@@ -5571,6 +5947,7 @@
     },
     {
       "id": "9402297",
+      "reviewId": "9047443431",
       "title": "The Bed of Procrustes: Philosophical and Practical Aphorisms",
       "series": null,
       "seriesNumber": null,
@@ -5587,6 +5964,7 @@
     },
     {
       "id": "9443405",
+      "reviewId": "7758801333",
       "title": "The Pale King",
       "series": null,
       "seriesNumber": null,
@@ -5603,6 +5981,7 @@
     },
     {
       "id": "9651654",
+      "reviewId": "5736254538",
       "title": "Norwegian Wood",
       "series": null,
       "seriesNumber": null,
@@ -5619,6 +5998,7 @@
     },
     {
       "id": "9670246",
+      "reviewId": "7124817432",
       "title": "Liberalism: A Counter-History",
       "series": null,
       "seriesNumber": null,
@@ -5635,6 +6015,7 @@
     },
     {
       "id": "9778945",
+      "reviewId": "7891163036",
       "title": "The Shallows: What the Internet Is Doing to Our Brains",
       "series": null,
       "seriesNumber": null,
@@ -5651,6 +6032,7 @@
     },
     {
       "id": "9854239",
+      "reviewId": "5641432558",
       "title": "Retromania: Pop Culture's Addiction to Its Own Past",
       "series": null,
       "seriesNumber": null,
@@ -5667,6 +6049,7 @@
     },
     {
       "id": "10108463",
+      "reviewId": "6301907831",
       "title": "The Devil All the Time",
       "series": null,
       "seriesNumber": null,
@@ -5683,6 +6066,7 @@
     },
     {
       "id": "10454285",
+      "reviewId": "6293898933",
       "title": "Brimstone Angels",
       "series": "Brimstone Angels",
       "seriesNumber": "1",
@@ -5699,6 +6083,7 @@
     },
     {
       "id": "10533475",
+      "reviewId": "8276474433",
       "title": "Brave New World Revisited",
       "series": null,
       "seriesNumber": null,
@@ -5717,6 +6102,7 @@
     },
     {
       "id": "10644930",
+      "reviewId": "5619864465",
       "title": "11/22/63",
       "series": null,
       "seriesNumber": null,
@@ -5733,6 +6119,7 @@
     },
     {
       "id": "10756240",
+      "reviewId": "5619857473",
       "title": "Telegraph Avenue",
       "series": null,
       "seriesNumber": null,
@@ -5749,6 +6136,7 @@
     },
     {
       "id": "10823495",
+      "reviewId": "8441242530",
       "title": "Madame Bovary",
       "series": null,
       "seriesNumber": null,
@@ -5767,6 +6155,7 @@
     },
     {
       "id": "10875089",
+      "reviewId": "5605374455",
       "title": "Nickel Plated",
       "series": null,
       "seriesNumber": null,
@@ -5783,6 +6172,7 @@
     },
     {
       "id": "11084145",
+      "reviewId": "9047442838",
       "title": "Steve Jobs",
       "series": null,
       "seriesNumber": null,
@@ -5799,6 +6189,7 @@
     },
     {
       "id": "11870085",
+      "reviewId": "5605357964",
       "title": "The Fault in Our Stars",
       "series": null,
       "seriesNumber": null,
@@ -5815,6 +6206,7 @@
     },
     {
       "id": "12005936",
+      "reviewId": "7844401284",
       "title": "Atta",
       "series": null,
       "seriesNumber": null,
@@ -5831,6 +6223,7 @@
     },
     {
       "id": "12352452",
+      "reviewId": "8726852209",
       "title": "Season of the Witch: Enchantment, Terror and Deliverance in the City of Love",
       "series": null,
       "seriesNumber": null,
@@ -5847,6 +6240,7 @@
     },
     {
       "id": "12609433",
+      "reviewId": "5605367100",
       "title": "The Power of Habit: Why We Do What We Do in Life and Business",
       "series": null,
       "seriesNumber": null,
@@ -5863,6 +6257,7 @@
     },
     {
       "id": "12700353",
+      "reviewId": "7407898998",
       "title": "Me and Earl and the Dying Girl",
       "series": null,
       "seriesNumber": null,
@@ -5879,6 +6274,7 @@
     },
     {
       "id": "12943902",
+      "reviewId": "8470495284",
       "title": "I Burn Paris",
       "series": null,
       "seriesNumber": null,
@@ -5895,6 +6291,7 @@
     },
     {
       "id": "13079982",
+      "reviewId": "5605358475",
       "title": "Fahrenheit 451",
       "series": null,
       "seriesNumber": null,
@@ -5911,6 +6308,7 @@
     },
     {
       "id": "13316815",
+      "reviewId": "9047442939",
       "title": "The First and Last Freedom",
       "series": null,
       "seriesNumber": null,
@@ -5927,6 +6325,7 @@
     },
     {
       "id": "13530973",
+      "reviewId": "6605172405",
       "title": "Antifragile: Things That Gain from Disorder",
       "series": null,
       "seriesNumber": null,
@@ -5943,6 +6342,7 @@
     },
     {
       "id": "13592182",
+      "reviewId": "8812818388",
       "title": "The Polish Boxer",
       "series": null,
       "seriesNumber": null,
@@ -5959,6 +6359,7 @@
     },
     {
       "id": "13641208",
+      "reviewId": "8111391495",
       "title": "Tenth of December",
       "series": null,
       "seriesNumber": null,
@@ -5975,6 +6376,7 @@
     },
     {
       "id": "15709527",
+      "reviewId": "8296404571",
       "title": "Khatyn",
       "series": null,
       "seriesNumber": null,
@@ -5991,6 +6393,7 @@
     },
     {
       "id": "15797396",
+      "reviewId": "5619862211",
       "title": "Enon",
       "series": null,
       "seriesNumber": null,
@@ -6007,6 +6410,7 @@
     },
     {
       "id": "15811545",
+      "reviewId": "5605823903",
       "title": "A Tale for the Time Being",
       "series": null,
       "seriesNumber": null,
@@ -6023,6 +6427,7 @@
     },
     {
       "id": "15824232",
+      "reviewId": "8207019884",
       "title": "In Praise of Love",
       "series": null,
       "seriesNumber": null,
@@ -6041,6 +6446,7 @@
     },
     {
       "id": "16085481",
+      "reviewId": "5619865806",
       "title": "Crazy Rich Asians",
       "series": "Crazy Rich Asians",
       "seriesNumber": "1",
@@ -6057,6 +6463,7 @@
     },
     {
       "id": "16158591",
+      "reviewId": "9047442445",
       "title": "The Trauma of Everyday Life",
       "series": null,
       "seriesNumber": null,
@@ -6073,6 +6480,7 @@
     },
     {
       "id": "16241799",
+      "reviewId": "7633670215",
       "title": "Seiobo There Below",
       "series": null,
       "seriesNumber": null,
@@ -6089,6 +6497,7 @@
     },
     {
       "id": "17333223",
+      "reviewId": "5619873993",
       "title": "The Goldfinch",
       "series": null,
       "seriesNumber": null,
@@ -6123,6 +6532,7 @@
     },
     {
       "id": "17707616",
+      "reviewId": "8190519116",
       "title": "NW",
       "series": null,
       "seriesNumber": null,
@@ -6141,6 +6551,7 @@
     },
     {
       "id": "17834864",
+      "reviewId": "7124838985",
       "title": "The Divide: American Injustice in the Age of the Wealth Gap",
       "series": null,
       "seriesNumber": null,
@@ -6157,6 +6568,7 @@
     },
     {
       "id": "17859574",
+      "reviewId": "5605412682",
       "title": "How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life",
       "series": null,
       "seriesNumber": null,
@@ -6173,6 +6585,7 @@
     },
     {
       "id": "18007564",
+      "reviewId": "5605368844",
       "title": "The Martian",
       "series": null,
       "seriesNumber": null,
@@ -6189,6 +6602,7 @@
     },
     {
       "id": "18283207",
+      "reviewId": "5617962616",
       "title": "Strange Weather in Tokyo",
       "series": null,
       "seriesNumber": null,
@@ -6205,6 +6619,7 @@
     },
     {
       "id": "18453218",
+      "reviewId": "5605374027",
       "title": "Mortality",
       "series": null,
       "seriesNumber": null,
@@ -6221,6 +6636,7 @@
     },
     {
       "id": "18453268",
+      "reviewId": "9047442283",
       "title": "Stronger",
       "series": null,
       "seriesNumber": null,
@@ -6237,6 +6653,7 @@
     },
     {
       "id": "18465509",
+      "reviewId": "8383356662",
       "title": "The Birth of Korean Cool: How One Nation is Conquering the World Through Pop Culture",
       "series": null,
       "seriesNumber": null,
@@ -6253,6 +6670,7 @@
     },
     {
       "id": "18693771",
+      "reviewId": "5641442298",
       "title": "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma",
       "series": null,
       "seriesNumber": null,
@@ -6269,6 +6687,7 @@
     },
     {
       "id": "18693852",
+      "reviewId": "7845065827",
       "title": "Bleeding Edge",
       "series": null,
       "seriesNumber": null,
@@ -6287,6 +6706,7 @@
     },
     {
       "id": "18932432",
+      "reviewId": "7156919811",
       "title": "Lesser Evils",
       "series": "Brimstone Angels",
       "seriesNumber": "2",
@@ -6305,6 +6725,7 @@
     },
     {
       "id": "19087989",
+      "reviewId": "9047444221",
       "title": "Vinland Saga Omnibus, Vol. 1",
       "series": null,
       "seriesNumber": null,
@@ -6321,6 +6742,7 @@
     },
     {
       "id": "19279571",
+      "reviewId": "9047481859",
       "title": "Vagabond, vol. 1",
       "series": null,
       "seriesNumber": null,
@@ -6337,6 +6759,7 @@
     },
     {
       "id": "19520499",
+      "reviewId": "6541578698",
       "title": "Are We Still Rolling?: Studios, Drugs and Rock 'n' Roll: One Man's Journey Recording Classic Albums",
       "series": null,
       "seriesNumber": null,
@@ -6353,6 +6776,7 @@
     },
     {
       "id": "20454672",
+      "reviewId": "5619854583",
       "title": "Mean Streak",
       "series": null,
       "seriesNumber": null,
@@ -6369,6 +6793,7 @@
     },
     {
       "id": "20518872",
+      "reviewId": "5605369526",
       "title": "The Three-Body Problem",
       "series": "Remembrance of Earth’s Past",
       "seriesNumber": "1",
@@ -6385,6 +6810,7 @@
     },
     {
       "id": "20575411",
+      "reviewId": "5672456911",
       "title": "Lila",
       "series": "Gilead",
       "seriesNumber": "3",
@@ -6401,6 +6827,7 @@
     },
     {
       "id": "20613582",
+      "reviewId": "7873915856",
       "title": "10:04",
       "series": null,
       "seriesNumber": null,
@@ -6417,6 +6844,7 @@
     },
     {
       "id": "20696006",
+      "reviewId": "5700112996",
       "title": "Being Mortal: Medicine and What Matters in the End",
       "series": null,
       "seriesNumber": null,
@@ -6433,6 +6861,7 @@
     },
     {
       "id": "20751437",
+      "reviewId": "8207679213",
       "title": "Future Days: Krautrock and the Building of Modern Germany",
       "series": null,
       "seriesNumber": null,
@@ -6449,6 +6878,7 @@
     },
     {
       "id": "20863042",
+      "reviewId": "5605379628",
       "title": "Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures",
       "series": null,
       "seriesNumber": null,
@@ -6465,6 +6895,7 @@
     },
     {
       "id": "20890470",
+      "reviewId": "8326441568",
       "title": "The Circle",
       "series": "The Circle",
       "seriesNumber": "1",
@@ -6483,6 +6914,7 @@
     },
     {
       "id": "20893314",
+      "reviewId": "8907460370",
       "title": "A Brief History of Seven Killings",
       "series": null,
       "seriesNumber": null,
@@ -6499,6 +6931,7 @@
     },
     {
       "id": "21054576",
+      "reviewId": "5619863324",
       "title": "High Fidelity",
       "series": null,
       "seriesNumber": null,
@@ -6517,6 +6950,7 @@
     },
     {
       "id": "21563974",
+      "reviewId": "9047482646",
       "title": "The World Atlas of Coffee: From Beans to Brewing",
       "series": null,
       "seriesNumber": null,
@@ -6533,6 +6967,7 @@
     },
     {
       "id": "21853621",
+      "reviewId": "5619858349",
       "title": "The Nightingale",
       "series": null,
       "seriesNumber": null,
@@ -6549,6 +6984,7 @@
     },
     {
       "id": "21856367",
+      "reviewId": "9047473683",
       "title": "The Innovators: How a Group of Hackers, Geniuses and Geeks Created the Digital Revolution",
       "series": null,
       "seriesNumber": null,
@@ -6565,6 +7001,7 @@
     },
     {
       "id": "22237171",
+      "reviewId": "8019871146",
       "title": "The World Beyond Your Head: On Becoming an Individual in an Age of Distraction",
       "series": null,
       "seriesNumber": null,
@@ -6581,6 +7018,7 @@
     },
     {
       "id": "22245334",
+      "reviewId": "5641436454",
       "title": "The Utopia of Rules: On Technology, Stupidity, and the Secret Joys of Bureaucracy",
       "series": null,
       "seriesNumber": null,
@@ -6597,6 +7035,7 @@
     },
     {
       "id": "22253782",
+      "reviewId": "7124956039",
       "title": "The Meaning of Anxiety",
       "series": null,
       "seriesNumber": null,
@@ -6616,6 +7055,7 @@
     },
     {
       "id": "22822858",
+      "reviewId": "8496347943",
       "title": "A Little Life",
       "series": null,
       "seriesNumber": null,
@@ -6650,6 +7090,7 @@
     },
     {
       "id": "23453099",
+      "reviewId": "5619867200",
       "title": "Eileen",
       "series": null,
       "seriesNumber": null,
@@ -6668,6 +7109,7 @@
     },
     {
       "id": "23719482",
+      "reviewId": "8441240684",
       "title": "The Best American Essays 2015: Daring Contemporary Writing on Life and Identity―Featuring David Sedaris, Zadie Smith, and Rebecca Solnit",
       "series": null,
       "seriesNumber": null,
@@ -6686,16 +7128,17 @@
     },
     {
       "id": "23995368",
+      "reviewId": "5619855159",
       "title": "Station Eleven",
       "series": null,
       "seriesNumber": null,
       "author": "Emily St. John Mandel",
-      "shelf": "currently-reading",
+      "shelf": "read",
       "tags": [
         "owned"
       ],
-      "rating": null,
-      "dateRead": null,
+      "rating": 3,
+      "dateRead": "2026-11-21",
       "dateAdded": "2026-09-21",
       "pages": 336,
       "year": 2014,
@@ -6704,6 +7147,7 @@
     },
     {
       "id": "24571362",
+      "reviewId": "8671477874",
       "title": "The Zone of Interest (Vintage International)",
       "series": null,
       "seriesNumber": null,
@@ -6722,6 +7166,7 @@
     },
     {
       "id": "24612118",
+      "reviewId": "5619861807",
       "title": "Fates and Furies",
       "series": null,
       "seriesNumber": null,
@@ -6738,6 +7183,7 @@
     },
     {
       "id": "24723229",
+      "reviewId": "6553058878",
       "title": "The Devil's Chessboard: Allen Dulles, the CIA, and the Rise of America's Secret Government",
       "series": null,
       "seriesNumber": null,
@@ -6754,6 +7200,7 @@
     },
     {
       "id": "24724602",
+      "reviewId": "7124844269",
       "title": "Flash Boys: A Wall Street Revolt",
       "series": null,
       "seriesNumber": null,
@@ -6770,6 +7217,7 @@
     },
     {
       "id": "25241923",
+      "reviewId": "6399844151",
       "title": "Planetes Omnibus, Volume 1 (Planetes, #1-2)",
       "series": null,
       "seriesNumber": null,
@@ -6786,6 +7234,7 @@
     },
     {
       "id": "25330235",
+      "reviewId": "8905500769",
       "title": "Hope in the Dark: Untold Histories, Wild Possibilities",
       "series": null,
       "seriesNumber": null,
@@ -6804,6 +7253,7 @@
     },
     {
       "id": "25490360",
+      "reviewId": "5639929427",
       "title": "The Burnout Society",
       "series": null,
       "seriesNumber": null,
@@ -6820,6 +7270,7 @@
     },
     {
       "id": "25499919",
+      "reviewId": "9047452976",
       "title": "Why Do Men Stupefy Themselves",
       "series": null,
       "seriesNumber": null,
@@ -6836,6 +7287,7 @@
     },
     {
       "id": "25744928",
+      "reviewId": "5605371667",
       "title": "Deep Work: Rules for Focused Success in a Distracted World",
       "series": null,
       "seriesNumber": null,
@@ -6852,6 +7304,7 @@
     },
     {
       "id": "25776606",
+      "reviewId": "9047442186",
       "title": "Journey to Munich",
       "series": "Maisie Dobbs",
       "seriesNumber": "12",
@@ -6868,6 +7321,7 @@
     },
     {
       "id": "25816741",
+      "reviewId": "7674125474",
       "title": "Meet Me in the Bathroom: Rebirth and Rock and Roll in New York City 2001-2011",
       "series": null,
       "seriesNumber": null,
@@ -6884,6 +7338,7 @@
     },
     {
       "id": "25953369",
+      "reviewId": "9047449959",
       "title": "Hidden Figures",
       "series": null,
       "seriesNumber": null,
@@ -6900,6 +7355,7 @@
     },
     {
       "id": "26067689",
+      "reviewId": "5716774859",
       "title": "Planetes Omnibus, Volume 2 (Planetes, #3-4)",
       "series": null,
       "seriesNumber": null,
@@ -6916,6 +7372,7 @@
     },
     {
       "id": "26254947",
+      "reviewId": "8726848033",
       "title": "How to Murder Your Life",
       "series": null,
       "seriesNumber": null,
@@ -6932,6 +7389,7 @@
     },
     {
       "id": "26795307",
+      "reviewId": "5619857390",
       "title": "Moonglow",
       "series": null,
       "seriesNumber": null,
@@ -6948,6 +7406,7 @@
     },
     {
       "id": "26889576",
+      "reviewId": "5700113157",
       "title": "The Big Short: Inside the Doomsday Machine",
       "series": null,
       "seriesNumber": null,
@@ -6964,6 +7423,7 @@
     },
     {
       "id": "27161156",
+      "reviewId": "9047479506",
       "title": "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis",
       "series": null,
       "seriesNumber": null,
@@ -6980,6 +7440,7 @@
     },
     {
       "id": "27209433",
+      "reviewId": "7754412813",
       "title": "White Trash: The 400-Year Untold History of Class in America",
       "series": null,
       "seriesNumber": null,
@@ -6996,6 +7457,7 @@
     },
     {
       "id": "27774720",
+      "reviewId": "6402266569",
       "title": "The Human Superorganism: How the Microbiome Is Revolutionizing the Pursuit of a Healthy Life",
       "series": null,
       "seriesNumber": null,
@@ -7012,6 +7474,7 @@
     },
     {
       "id": "27834600",
+      "reviewId": "5619874783",
       "title": "In a Dark, Dark Wood",
       "series": null,
       "seriesNumber": null,
@@ -7028,6 +7491,7 @@
     },
     {
       "id": "28214365",
+      "reviewId": "5619870261",
       "title": "Commonwealth",
       "series": null,
       "seriesNumber": null,
@@ -7044,6 +7508,7 @@
     },
     {
       "id": "28251250",
+      "reviewId": "7396457496",
       "title": "White Noise",
       "series": null,
       "seriesNumber": null,
@@ -7062,6 +7527,7 @@
     },
     {
       "id": "29496076",
+      "reviewId": "5639935511",
       "title": "Killers of the Flower Moon: The Osage Murders and the Birth of the FBI",
       "series": null,
       "seriesNumber": null,
@@ -7078,6 +7544,7 @@
     },
     {
       "id": "29845449",
+      "reviewId": "9047442485",
       "title": "The Weird and the Eerie",
       "series": null,
       "seriesNumber": null,
@@ -7094,6 +7561,7 @@
     },
     {
       "id": "30079724",
+      "reviewId": "8718896548",
       "title": "Homesick for Another World",
       "series": null,
       "seriesNumber": null,
@@ -7110,6 +7578,7 @@
     },
     {
       "id": "30091914",
+      "reviewId": "6924936617",
       "title": "Human Acts",
       "series": null,
       "seriesNumber": null,
@@ -7128,6 +7597,7 @@
     },
     {
       "id": "30257963",
+      "reviewId": "5605367678",
       "title": "12 Rules for Life: An Antidote to Chaos",
       "series": null,
       "seriesNumber": null,
@@ -7144,6 +7614,7 @@
     },
     {
       "id": "30555488",
+      "reviewId": "9047442154",
       "title": "The Underground Railroad",
       "series": null,
       "seriesNumber": null,
@@ -7160,6 +7631,7 @@
     },
     {
       "id": "31170723",
+      "reviewId": "9047474673",
       "title": "Behave: The Biology of Humans at Our Best and Worst",
       "series": null,
       "seriesNumber": null,
@@ -7176,6 +7648,7 @@
     },
     {
       "id": "32722510",
+      "reviewId": "9047480842",
       "title": "The Zookeeper's Wife: A War Story",
       "series": null,
       "seriesNumber": null,
@@ -7192,6 +7665,7 @@
     },
     {
       "id": "32830355",
+      "reviewId": "9047442902",
       "title": "Isonomia and the Origins of Philosophy",
       "series": null,
       "seriesNumber": null,
@@ -7208,6 +7682,7 @@
     },
     {
       "id": "32919052",
+      "reviewId": "9047451033",
       "title": "Golden Kamuy, Vol. 1",
       "series": null,
       "seriesNumber": null,
@@ -7224,6 +7699,7 @@
     },
     {
       "id": "32929156",
+      "reviewId": "8167969528",
       "title": "Wuthering Heights",
       "series": null,
       "seriesNumber": null,
@@ -7242,6 +7718,7 @@
     },
     {
       "id": "33128934",
+      "reviewId": "8623668962",
       "title": "Stillhouse Lake",
       "series": "Stillhouse Lake",
       "seriesNumber": "1",
@@ -7260,6 +7737,7 @@
     },
     {
       "id": "33155369",
+      "reviewId": "5772954811",
       "title": "The Push: A Climber's Journey of Endurance, Risk, and Going Beyond Limits",
       "series": null,
       "seriesNumber": null,
@@ -7278,6 +7756,7 @@
     },
     {
       "id": "34196063",
+      "reviewId": "9047452335",
       "title": "The Know-it-alls: The Rise of Silicon Valley as a Political Powerhouse and Social Wrecking Ball",
       "series": null,
       "seriesNumber": null,
@@ -7294,6 +7773,7 @@
     },
     {
       "id": "34466958",
+      "reviewId": "9047469535",
       "title": "Bullshit Jobs: A Theory",
       "series": null,
       "seriesNumber": null,
@@ -7310,6 +7790,7 @@
     },
     {
       "id": "34555335",
+      "reviewId": "9047441795",
       "title": "Hiddensee: A Tale of the Once and Future Nutcracker",
       "series": null,
       "seriesNumber": null,
@@ -7326,6 +7807,7 @@
     },
     {
       "id": "34848070",
+      "reviewId": "5639929626",
       "title": "The Agony of Eros",
       "series": null,
       "seriesNumber": null,
@@ -7342,6 +7824,7 @@
     },
     {
       "id": "34915570",
+      "reviewId": "8768253399",
       "title": "Homesick for Another World",
       "series": null,
       "seriesNumber": null,
@@ -7360,6 +7843,7 @@
     },
     {
       "id": "35024337",
+      "reviewId": "5639930452",
       "title": "The Scent of Time: A Philosophical Essay on the Art of Lingering",
       "series": null,
       "seriesNumber": null,
@@ -7376,6 +7860,7 @@
     },
     {
       "id": "35215524",
+      "reviewId": "5652166922",
       "title": "The Monk of Mokha",
       "series": null,
       "seriesNumber": null,
@@ -7392,6 +7877,7 @@
     },
     {
       "id": "35886439",
+      "reviewId": "8338163689",
       "title": "Berlin Alexanderplatz",
       "series": null,
       "seriesNumber": null,
@@ -7408,6 +7894,7 @@
     },
     {
       "id": "36064445",
+      "reviewId": "9047450506",
       "title": "Skin in the Game: The Hidden Asymmetries in Daily Life",
       "series": null,
       "seriesNumber": null,
@@ -7424,6 +7911,7 @@
     },
     {
       "id": "36070337",
+      "reviewId": "8671440510",
       "title": "Swing Time",
       "series": null,
       "seriesNumber": null,
@@ -7442,6 +7930,7 @@
     },
     {
       "id": "36289256",
+      "reviewId": "9047474181",
       "title": "Everybody, Always: Becoming Love in a World Full of Setbacks and Difficult People",
       "series": null,
       "seriesNumber": null,
@@ -7458,6 +7947,7 @@
     },
     {
       "id": "36303302",
+      "reviewId": "9047441834",
       "title": "Francis of the Filth",
       "series": null,
       "seriesNumber": null,
@@ -7474,6 +7964,7 @@
     },
     {
       "id": "36373497",
+      "reviewId": "7124822869",
       "title": "America: The Farewell Tour",
       "series": null,
       "seriesNumber": null,
@@ -7490,6 +7981,7 @@
     },
     {
       "id": "36402034",
+      "reviewId": "5619859316",
       "title": "Do Androids Dream of Electric Sheep?",
       "series": null,
       "seriesNumber": null,
@@ -7506,6 +7998,7 @@
     },
     {
       "id": "37004370",
+      "reviewId": "7891777215",
       "title": "The Memory Police",
       "series": null,
       "seriesNumber": null,
@@ -7524,6 +8017,7 @@
     },
     {
       "id": "37133029",
+      "reviewId": "5639929541",
       "title": "Psychopolitics: Neoliberalism and New Technologies of Power",
       "series": null,
       "seriesNumber": null,
@@ -7540,6 +8034,7 @@
     },
     {
       "id": "37647493",
+      "reviewId": "8869546482",
       "title": "Austerlitz",
       "series": null,
       "seriesNumber": null,
@@ -7558,6 +8053,7 @@
     },
     {
       "id": "37901607",
+      "reviewId": "9047475161",
       "title": "Black Klansman: A Memoir",
       "series": null,
       "seriesNumber": null,
@@ -7574,6 +8070,7 @@
     },
     {
       "id": "37903770",
+      "reviewId": "9047441552",
       "title": "Norse Mythology",
       "series": null,
       "seriesNumber": null,
@@ -7590,6 +8087,7 @@
     },
     {
       "id": "37976541",
+      "reviewId": "8977363264",
       "title": "Bad Blood: Secrets and Lies in a Silicon Valley Startup",
       "series": null,
       "seriesNumber": null,
@@ -7606,6 +8104,7 @@
     },
     {
       "id": "38212112",
+      "reviewId": "7881311460",
       "title": "The Culture of Narcissism: American Life in An Age of Diminishing Expectations",
       "series": null,
       "seriesNumber": null,
@@ -7624,6 +8123,7 @@
     },
     {
       "id": "38532183",
+      "reviewId": "9047449631",
       "title": "How to Be Alone: If You Want To, and Even If You Don't",
       "series": null,
       "seriesNumber": null,
@@ -7640,6 +8140,7 @@
     },
     {
       "id": "38820047",
+      "reviewId": "5619868013",
       "title": "Killing Commendatore",
       "series": null,
       "seriesNumber": null,
@@ -7656,6 +8157,7 @@
     },
     {
       "id": "39079243",
+      "reviewId": "5605379824",
       "title": "K-punk: The Collected and Unpublished Writings of Mark Fisher",
       "series": null,
       "seriesNumber": null,
@@ -7672,6 +8174,7 @@
     },
     {
       "id": "39999461",
+      "reviewId": "8787744206",
       "title": "Never Enough: The Neuroscience and Experience of Addiction",
       "series": null,
       "seriesNumber": null,
@@ -7688,6 +8191,7 @@
     },
     {
       "id": "40121378",
+      "reviewId": "5605366237",
       "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
       "series": null,
       "seriesNumber": null,
@@ -7704,6 +8208,7 @@
     },
     {
       "id": "40121985",
+      "reviewId": "7124841993",
       "title": "How to Hide an Empire: A History of the Greater United States",
       "series": null,
       "seriesNumber": null,
@@ -7720,6 +8225,7 @@
     },
     {
       "id": "40672036",
+      "reviewId": "9047449787",
       "title": "Digital Minimalism: Choosing a Focused Life in a Noisy World",
       "series": null,
       "seriesNumber": null,
@@ -7736,6 +8242,7 @@
     },
     {
       "id": "40718304",
+      "reviewId": "5619871480",
       "title": "Bonfire",
       "series": null,
       "seriesNumber": null,
@@ -7752,6 +8259,7 @@
     },
     {
       "id": "40940205",
+      "reviewId": "9047476308",
       "title": "Tribe: On Homecoming and Belonging",
       "series": null,
       "seriesNumber": null,
@@ -7768,6 +8276,7 @@
     },
     {
       "id": "41022133",
+      "reviewId": "5605392252",
       "title": "Colorless Tsukuru Tazaki and His Years of Pilgrimage",
       "series": null,
       "seriesNumber": null,
@@ -7784,6 +8293,7 @@
     },
     {
       "id": "41580312",
+      "reviewId": "5620206769",
       "title": "Be Here Now",
       "series": null,
       "seriesNumber": null,
@@ -7800,6 +8310,7 @@
     },
     {
       "id": "41713581",
+      "reviewId": "7852402433",
       "title": "The Forester's Daughter",
       "series": null,
       "seriesNumber": null,
@@ -7816,6 +8327,7 @@
     },
     {
       "id": "41721428",
+      "reviewId": "5605364504",
       "title": "Can't Hurt Me: Master Your Mind and Defy the Odds",
       "series": null,
       "seriesNumber": null,
@@ -7832,6 +8344,7 @@
     },
     {
       "id": "41774605",
+      "reviewId": "8727145134",
       "title": "Three Summers",
       "series": null,
       "seriesNumber": null,
@@ -7848,6 +8361,7 @@
     },
     {
       "id": "41817486",
+      "reviewId": "5641434246",
       "title": "A Clockwork Orange",
       "series": null,
       "seriesNumber": null,
@@ -7864,6 +8378,7 @@
     },
     {
       "id": "41881472",
+      "reviewId": "5641442126",
       "title": "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
       "series": null,
       "seriesNumber": null,
@@ -7880,6 +8395,7 @@
     },
     {
       "id": "42585103",
+      "reviewId": "5700108784",
       "title": "The Code of Capital: How the Law Creates Wealth and Inequality",
       "series": null,
       "seriesNumber": null,
@@ -7896,6 +8412,7 @@
     },
     {
       "id": "43885149",
+      "reviewId": "8472992132",
       "title": "Dominion: How the Christian Revolution Remade the World",
       "series": null,
       "seriesNumber": null,
@@ -7912,6 +8429,7 @@
     },
     {
       "id": "44146682",
+      "reviewId": "5605391273",
       "title": "Parade",
       "series": null,
       "seriesNumber": null,
@@ -7928,6 +8446,7 @@
     },
     {
       "id": "44279110",
+      "reviewId": "5605376658",
       "title": "My Year of Rest and Relaxation",
       "series": null,
       "seriesNumber": null,
@@ -7944,6 +8463,7 @@
     },
     {
       "id": "44318414",
+      "reviewId": "5619870549",
       "title": "The Dutch House",
       "series": null,
       "seriesNumber": null,
@@ -7960,6 +8480,7 @@
     },
     {
       "id": "44439415",
+      "reviewId": "5605377079",
       "title": "God Emperor of Dune",
       "series": "Dune",
       "seriesNumber": "4",
@@ -7978,6 +8499,7 @@
     },
     {
       "id": "44439416",
+      "reviewId": "5605377169",
       "title": "Chapterhouse: Dune",
       "series": "Dune",
       "seriesNumber": "6",
@@ -7994,6 +8516,7 @@
     },
     {
       "id": "44492285",
+      "reviewId": "5605376967",
       "title": "Dune Messiah",
       "series": "Dune",
       "seriesNumber": "2",
@@ -8010,6 +8533,7 @@
     },
     {
       "id": "44492286",
+      "reviewId": "5605377019",
       "title": "Children of Dune",
       "series": "Dune",
       "seriesNumber": "3",
@@ -8028,6 +8552,7 @@
     },
     {
       "id": "44492287",
+      "reviewId": "5605377144",
       "title": "Heretics of Dune",
       "series": "Dune",
       "seriesNumber": "5",
@@ -8044,6 +8569,7 @@
     },
     {
       "id": "44716583",
+      "reviewId": "9047448401",
       "title": "The Art of Living: Peace and Freedom in the Here and Now",
       "series": null,
       "seriesNumber": null,
@@ -8060,6 +8586,7 @@
     },
     {
       "id": "44767458",
+      "reviewId": "5605376927",
       "title": "Dune",
       "series": "Dune",
       "seriesNumber": "1",
@@ -8076,6 +8603,7 @@
     },
     {
       "id": "45320354",
+      "reviewId": "7131282407",
       "title": "The People, No: A Brief History of Anti-Populism",
       "series": null,
       "seriesNumber": null,
@@ -8092,6 +8620,7 @@
     },
     {
       "id": "45754981",
+      "reviewId": "5619855090",
       "title": "The Glass Hotel",
       "series": null,
       "seriesNumber": null,
@@ -8108,6 +8637,7 @@
     },
     {
       "id": "46041168",
+      "reviewId": "6269100816",
       "title": "Hurricane Season",
       "series": null,
       "seriesNumber": null,
@@ -8124,6 +8654,7 @@
     },
     {
       "id": "50130878",
+      "reviewId": "5605378600",
       "title": "The Art of Solitude",
       "series": null,
       "seriesNumber": null,
@@ -8135,11 +8666,12 @@
       "dateAdded": "2023-06-08",
       "pages": 200,
       "year": null,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569461700l/50130878._SX318_SY475_._SY300_.jpg",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569461700l/50130878._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/50130878"
     },
     {
       "id": "50202953",
+      "reviewId": "7895176091",
       "title": "Piranesi",
       "series": null,
       "seriesNumber": null,
@@ -8158,6 +8690,7 @@
     },
     {
       "id": "50390591",
+      "reviewId": "5641437514",
       "title": "Egress: On Mourning, Melancholy and Mark Fisher",
       "series": null,
       "seriesNumber": null,
@@ -8174,6 +8707,7 @@
     },
     {
       "id": "50403478",
+      "reviewId": "5672456966",
       "title": "Jack",
       "series": "Gilead",
       "seriesNumber": "4",
@@ -8190,6 +8724,7 @@
     },
     {
       "id": "50926857",
+      "reviewId": "5733653275",
       "title": "Lost Horizon",
       "series": null,
       "seriesNumber": null,
@@ -8201,11 +8736,12 @@
       "dateAdded": "2023-07-31",
       "pages": 356,
       "year": 1933,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567875544l/50926857._SX318_SY475_._SY300_.jpg",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567875544l/50926857._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/50926857"
     },
     {
       "id": "50998056",
+      "reviewId": "6595218253",
       "title": "The Ministry for the Future",
       "series": null,
       "seriesNumber": null,
@@ -8222,6 +8758,7 @@
     },
     {
       "id": "51650770",
+      "reviewId": "8308912197",
       "title": "The Disappearance of Rituals: A Topology of the Present",
       "series": null,
       "seriesNumber": null,
@@ -8238,6 +8775,7 @@
     },
     {
       "id": "52761023",
+      "reviewId": "7367523428",
       "title": "Against the Loveless World",
       "series": null,
       "seriesNumber": null,
@@ -8254,6 +8792,7 @@
     },
     {
       "id": "53232173",
+      "reviewId": "8348262822",
       "title": "Brutal Aesthetics: Dubuffet, Bataille, Jorn, Paolozzi, Oldenburg (The A. W. Mellon Lectures in the Fine Arts)",
       "series": null,
       "seriesNumber": null,
@@ -8270,6 +8809,7 @@
     },
     {
       "id": "53733106",
+      "reviewId": "8726858367",
       "title": "No One Is Talking About This",
       "series": null,
       "seriesNumber": null,
@@ -8286,6 +8826,7 @@
     },
     {
       "id": "53847276",
+      "reviewId": "8817372785",
       "title": "Villette (AmazonClassics Edition)",
       "series": null,
       "seriesNumber": null,
@@ -8302,6 +8843,7 @@
     },
     {
       "id": "53968530",
+      "reviewId": "7674125677",
       "title": "Sellout: The Major-Label Feeding Frenzy That Swept Punk, Emo, and Hardcore (1994–2007)",
       "series": null,
       "seriesNumber": null,
@@ -8318,6 +8860,7 @@
     },
     {
       "id": "54120408",
+      "reviewId": "5605386541",
       "title": "Klara and the Sun",
       "series": null,
       "seriesNumber": null,
@@ -8334,6 +8877,7 @@
     },
     {
       "id": "54493401",
+      "reviewId": "5605369451",
       "title": "Project Hail Mary",
       "series": null,
       "seriesNumber": null,
@@ -8350,6 +8894,7 @@
     },
     {
       "id": "54814676",
+      "reviewId": "5605823712",
       "title": "Crying in H Mart",
       "series": null,
       "seriesNumber": null,
@@ -8368,6 +8913,7 @@
     },
     {
       "id": "55250697",
+      "reviewId": "5605373770",
       "title": "Coffee Roaster's Handbook: A How-To Guide for Home and Professional Roasters",
       "series": null,
       "seriesNumber": null,
@@ -8386,6 +8932,7 @@
     },
     {
       "id": "55660735",
+      "reviewId": "7754388073",
       "title": "Hero of Two Worlds: The Marquis de Lafayette in the Age of Revolution",
       "series": null,
       "seriesNumber": null,
@@ -8402,6 +8949,7 @@
     },
     {
       "id": "55723020",
+      "reviewId": "5605368110",
       "title": "Dopamine Nation: Finding Balance in the Age of Indulgence",
       "series": null,
       "seriesNumber": null,
@@ -8420,6 +8968,7 @@
     },
     {
       "id": "55881796",
+      "reviewId": "5619861247",
       "title": "Crossroads",
       "series": null,
       "seriesNumber": null,
@@ -8436,6 +8985,7 @@
     },
     {
       "id": "56269147",
+      "reviewId": "6531425952",
       "title": "Dirtbag: Essays",
       "series": null,
       "seriesNumber": null,
@@ -8452,6 +9002,7 @@
     },
     {
       "id": "56269264",
+      "reviewId": "9047478473",
       "title": "The Dawn of Everything: A New History of Humanity",
       "series": null,
       "seriesNumber": null,
@@ -8468,6 +9019,7 @@
     },
     {
       "id": "56823192",
+      "reviewId": "7758786704",
       "title": "The Palliative Society: Pain Today",
       "series": null,
       "seriesNumber": null,
@@ -8484,6 +9036,7 @@
     },
     {
       "id": "57004637",
+      "reviewId": "5619869891",
       "title": "The Book of Form and Emptiness",
       "series": null,
       "seriesNumber": null,
@@ -8500,6 +9053,7 @@
     },
     {
       "id": "57693457",
+      "reviewId": "7419549716",
       "title": "Mickey7",
       "series": "Mickey7",
       "seriesNumber": "1",
@@ -8518,6 +9072,7 @@
     },
     {
       "id": "57951389",
+      "reviewId": "5700108222",
       "title": "The Myth of Normal: Trauma, Illness & Healing in a Toxic Culture",
       "series": null,
       "seriesNumber": null,
@@ -8536,6 +9091,7 @@
     },
     {
       "id": "58046803",
+      "reviewId": "7620488161",
       "title": "The Age of Innocence",
       "series": null,
       "seriesNumber": null,
@@ -8552,6 +9108,7 @@
     },
     {
       "id": "58082714",
+      "reviewId": "7844399349",
       "title": "The Nineties",
       "series": null,
       "seriesNumber": null,
@@ -8570,6 +9127,7 @@
     },
     {
       "id": "58446227",
+      "reviewId": "5605370725",
       "title": "Sea of Tranquility",
       "series": null,
       "seriesNumber": null,
@@ -8586,6 +9144,7 @@
     },
     {
       "id": "58784475",
+      "reviewId": "5672455901",
       "title": "Tomorrow, and Tomorrow, and Tomorrow",
       "series": null,
       "seriesNumber": null,
@@ -8602,6 +9161,7 @@
     },
     {
       "id": "59107858",
+      "reviewId": "5616299245",
       "title": "1984",
       "series": null,
       "seriesNumber": null,
@@ -8618,6 +9178,7 @@
     },
     {
       "id": "59146081",
+      "reviewId": "8028793734",
       "title": "Hyperculture: Culture and Globalisation",
       "series": null,
       "seriesNumber": null,
@@ -8636,6 +9197,7 @@
     },
     {
       "id": "59228261",
+      "reviewId": "5605373804",
       "title": "How To Make The Best Coffee At Home",
       "series": null,
       "seriesNumber": null,
@@ -8654,6 +9216,7 @@
     },
     {
       "id": "59364173",
+      "reviewId": "5639931690",
       "title": "I'm Glad My Mom Died",
       "series": null,
       "seriesNumber": null,
@@ -8670,6 +9233,7 @@
     },
     {
       "id": "59410869",
+      "reviewId": "8792784311",
       "title": "Mr. President (Penguin Classics)",
       "series": null,
       "seriesNumber": null,
@@ -8688,6 +9252,7 @@
     },
     {
       "id": "59794522",
+      "reviewId": "7891777757",
       "title": "Non-things: Upheaval in the Lifeworld",
       "series": null,
       "seriesNumber": null,
@@ -8704,6 +9269,7 @@
     },
     {
       "id": "60185819",
+      "reviewId": "8883623690",
       "title": "The Sailor Who Fell From Grace With The Sea",
       "series": null,
       "seriesNumber": null,
@@ -8722,6 +9288,7 @@
     },
     {
       "id": "60194162",
+      "reviewId": "6301908131",
       "title": "Demon Copperhead",
       "series": null,
       "seriesNumber": null,
@@ -8738,6 +9305,7 @@
     },
     {
       "id": "60444444",
+      "reviewId": "5605372501",
       "title": "Starship Troopers",
       "series": null,
       "seriesNumber": null,
@@ -8756,6 +9324,7 @@
     },
     {
       "id": "60526802",
+      "reviewId": "5700112166",
       "title": "Stella Maris",
       "series": "The Passenger",
       "seriesNumber": "2",
@@ -8772,6 +9341,7 @@
     },
     {
       "id": "60659833",
+      "reviewId": "5605368807",
       "title": "The House at the End of the World",
       "series": null,
       "seriesNumber": null,
@@ -8788,6 +9358,7 @@
     },
     {
       "id": "60811826",
+      "reviewId": "8749736928",
       "title": "I Who Have Never Known Men",
       "series": null,
       "seriesNumber": null,
@@ -8804,6 +9375,7 @@
     },
     {
       "id": "61089492",
+      "reviewId": "5619862153",
       "title": "This Other Eden",
       "series": null,
       "seriesNumber": null,
@@ -8820,6 +9392,7 @@
     },
     {
       "id": "61108472",
+      "reviewId": "7682053209",
       "title": "Palo Alto: A History of California, Capitalism, and the World",
       "series": null,
       "seriesNumber": null,
@@ -8836,6 +9409,7 @@
     },
     {
       "id": "61130244",
+      "reviewId": "8446532174",
       "title": "Designing Your Life: How to Build a Well-Lived, Joyful Life",
       "series": null,
       "seriesNumber": null,
@@ -8852,6 +9426,7 @@
     },
     {
       "id": "61190770",
+      "reviewId": "8631895406",
       "title": "Chain-Gang All-Stars",
       "series": null,
       "seriesNumber": null,
@@ -8870,6 +9445,7 @@
     },
     {
       "id": "61204210",
+      "reviewId": "5605373743",
       "title": "Where the Crawdads Sing",
       "series": null,
       "seriesNumber": null,
@@ -8886,6 +9462,7 @@
     },
     {
       "id": "61282083",
+      "reviewId": "8451407967",
       "title": "Heaven",
       "series": null,
       "seriesNumber": null,
@@ -8904,6 +9481,7 @@
     },
     {
       "id": "61439040",
+      "reviewId": "5605360971",
       "title": "1984",
       "series": null,
       "seriesNumber": null,
@@ -8920,6 +9498,7 @@
     },
     {
       "id": "61918819",
+      "reviewId": "7910328239",
       "title": "The Wisdom of the Bullfrog: Leadership Made Simple (But Not Easy)",
       "series": null,
       "seriesNumber": null,
@@ -8936,6 +9515,7 @@
     },
     {
       "id": "62879904",
+      "reviewId": "7909982272",
       "title": "The Crocodile",
       "series": null,
       "seriesNumber": null,
@@ -8954,6 +9534,7 @@
     },
     {
       "id": "63079845",
+      "reviewId": "6893600814",
       "title": "Never Finished: Unshackle Your Mind and Win the War Within",
       "series": null,
       "seriesNumber": null,
@@ -8972,6 +9553,7 @@
     },
     {
       "id": "127281289",
+      "reviewId": "8671478499",
       "title": "Antimatter Blues",
       "series": "Mickey7",
       "seriesNumber": "2",
@@ -8990,6 +9572,7 @@
     },
     {
       "id": "173754979",
+      "reviewId": "8910872738",
       "title": "James",
       "series": null,
       "seriesNumber": null,
@@ -9006,6 +9589,7 @@
     },
     {
       "id": "180352109",
+      "reviewId": "6355201842",
       "title": "Why Everything That Doesn't Matter, Matters So Much: The Way of Love in a World of Hurt",
       "series": null,
       "seriesNumber": null,
@@ -9022,6 +9606,7 @@
     },
     {
       "id": "182099543",
+      "reviewId": "6230458396",
       "title": "Poor Things",
       "series": null,
       "seriesNumber": null,
@@ -9040,6 +9625,7 @@
     },
     {
       "id": "199275846",
+      "reviewId": "5605358936",
       "title": "Brave New World: (Original Classic Editions)",
       "series": null,
       "seriesNumber": null,
@@ -9058,6 +9644,7 @@
     },
     {
       "id": "199635125",
+      "reviewId": "8408624012",
       "title": "Rejection",
       "series": null,
       "seriesNumber": null,
@@ -9074,6 +9661,7 @@
     },
     {
       "id": "204593583",
+      "reviewId": "8916757255",
       "title": "Nothing Belongs to You",
       "series": null,
       "seriesNumber": null,
@@ -9090,6 +9678,7 @@
     },
     {
       "id": "206318561",
+      "reviewId": "8728477200",
       "title": "Slow Days, Fast Company: The World, the Flesh, and L.A.",
       "series": null,
       "seriesNumber": null,
@@ -9106,6 +9695,7 @@
     },
     {
       "id": "209401377",
+      "reviewId": "8736208762",
       "title": "White Nights (Warbler Classics Annotated Edition)",
       "series": null,
       "seriesNumber": null,
@@ -9124,6 +9714,7 @@
     },
     {
       "id": "212277996",
+      "reviewId": "8792780835",
       "title": "The Feast of the Goat",
       "series": null,
       "seriesNumber": null,
@@ -9142,6 +9733,7 @@
     },
     {
       "id": "212415737",
+      "reviewId": "7880165934",
       "title": "The Wind-Up Bird Chronicle",
       "series": null,
       "seriesNumber": null,
@@ -9160,6 +9752,7 @@
     },
     {
       "id": "213181082",
+      "reviewId": "7465056061",
       "title": "Radical Acceptance: Embracing Your Life With the Heart of a Buddha",
       "series": null,
       "seriesNumber": null,
@@ -9176,6 +9769,7 @@
     },
     {
       "id": "213395461",
+      "reviewId": "9010261322",
       "title": "Superbloom: How Technologies of Connection Tear Us Apart",
       "series": null,
       "seriesNumber": null,
@@ -9192,6 +9786,7 @@
     },
     {
       "id": "216351768",
+      "reviewId": "8713207673",
       "title": "The Let Them Theory",
       "series": null,
       "seriesNumber": null,
@@ -9208,6 +9803,7 @@
     },
     {
       "id": "216526680",
+      "reviewId": "8893555618",
       "title": "No Straight Road Takes You There: Essays for Uneven Terrain",
       "series": null,
       "seriesNumber": null,
@@ -9226,6 +9822,7 @@
     },
     {
       "id": "216970860",
+      "reviewId": "8177810813",
       "title": "Girl on Girl: How Pop Culture Turned a Generation of Women Against Themselves",
       "series": null,
       "seriesNumber": null,
@@ -9242,6 +9839,7 @@
     },
     {
       "id": "222685805",
+      "reviewId": "8949010350",
       "title": "I Deliver Parcels in Beijing",
       "series": null,
       "seriesNumber": null,
@@ -9258,6 +9856,7 @@
     },
     {
       "id": "230910361",
+      "reviewId": "8779712287",
       "title": "Shadow Ticket",
       "series": null,
       "seriesNumber": null,
@@ -9276,6 +9875,7 @@
     },
     {
       "id": "231364204",
+      "reviewId": "8713219603",
       "title": "The Score: How to Stop Playing Somebody Else's Game",
       "series": null,
       "seriesNumber": null,
@@ -9294,6 +9894,7 @@
     },
     {
       "id": "233895135",
+      "reviewId": "7845069203",
       "title": "The City and Its Uncertain Walls",
       "series": null,
       "seriesNumber": null,
@@ -9310,6 +9911,7 @@
     },
     {
       "id": "234054474",
+      "reviewId": "8784172890",
       "title": "Snow Crash",
       "series": null,
       "seriesNumber": null,
@@ -9328,6 +9930,7 @@
     },
     {
       "id": "238766789",
+      "reviewId": "8597286680",
       "title": "Korean Messiah: Kim Il Sung and the Christian Roots of North Korea's Personality Cult",
       "series": null,
       "seriesNumber": null,
@@ -9344,6 +9947,7 @@
     },
     {
       "id": "239308073",
+      "reviewId": "8201233304",
       "title": "As I Lay Dying",
       "series": null,
       "seriesNumber": null,
@@ -9360,6 +9964,7 @@
     },
     {
       "id": "242974735",
+      "reviewId": "8910878331",
       "title": "City on the Edge: Technology, Politics, and the Fight for the Soul of San Francisco",
       "series": null,
       "seriesNumber": null,
@@ -9376,6 +9981,7 @@
     },
     {
       "id": "244934769",
+      "reviewId": "8749816027",
       "title": "The Land and Its People",
       "series": null,
       "seriesNumber": null,
@@ -9392,6 +9998,7 @@
     },
     {
       "id": "244967529",
+      "reviewId": "8815473866",
       "title": "The Corrections: A Novel (25th Anniversary Edition)",
       "series": null,
       "seriesNumber": null,
@@ -9408,6 +10015,7 @@
     },
     {
       "id": "245325201",
+      "reviewId": "8910862314",
       "title": "Exit Party",
       "series": null,
       "seriesNumber": null,
@@ -9424,6 +10032,7 @@
     },
     {
       "id": "246519235",
+      "reviewId": "8910856965",
       "title": "Neuromancer",
       "series": null,
       "seriesNumber": null,
@@ -9440,6 +10049,7 @@
     },
     {
       "id": "246815778",
+      "reviewId": "8910868398",
       "title": "London Station: A Novel",
       "series": null,
       "seriesNumber": null,
@@ -9456,6 +10066,7 @@
     },
     {
       "id": "247255488",
+      "reviewId": "8910870310",
       "title": "The American Way of Killing: The Invention of an Epidemic",
       "series": null,
       "seriesNumber": null,
@@ -9472,6 +10083,7 @@
     },
     {
       "id": "252216796",
+      "reviewId": "8910858610",
       "title": "Clarity",
       "series": null,
       "seriesNumber": null,
@@ -9488,6 +10100,7 @@
     },
     {
       "id": "253015605",
+      "reviewId": "8910873295",
       "title": "Serious Music",
       "series": null,
       "seriesNumber": null,
@@ -9504,6 +10117,7 @@
     },
     {
       "id": "256926604",
+      "reviewId": "8869548857",
       "title": "Hopscotch",
       "series": null,
       "seriesNumber": null,
