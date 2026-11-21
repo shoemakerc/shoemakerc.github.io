@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-21T15:38:16.895Z",
+  "syncedAt": "2026-11-21T17:46:02.411Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66860,
@@ -141,7 +141,7 @@
       "year": 2023,
       "from": "2023-11-14",
       "to": "2023-11-21",
-      "plays": 202,
+      "plays": 207,
       "album": {
         "title": "Dizzy",
         "artist": "Dizzy",
@@ -231,7 +231,7 @@
       "year": 2020,
       "from": "2020-11-14",
       "to": "2020-11-21",
-      "plays": 189,
+      "plays": 190,
       "album": {
         "title": "Visions of Bodies Being Burned",
         "artist": "clipping.",
@@ -261,18 +261,18 @@
       "year": 2019,
       "from": "2019-11-14",
       "to": "2019-11-21",
-      "plays": 94,
+      "plays": 97,
       "album": {
         "title": "ZABA",
         "artist": "Glass Animals",
-        "plays": 18,
+        "plays": 21,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6051263a36ad604cbe0542205aa701ce.jpg",
         "url": "https://www.last.fm/music/Glass+Animals/ZABA"
       },
       "artists": [
         {
           "name": "Glass Animals",
-          "plays": 28,
+          "plays": 31,
           "url": "https://www.last.fm/music/Glass+Animals"
         },
         {
@@ -291,7 +291,7 @@
       "year": 2018,
       "from": "2018-11-14",
       "to": "2018-11-21",
-      "plays": 67,
+      "plays": 69,
       "album": {
         "title": "Peripheral Vision",
         "artist": "Turnover",
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-11-14",
       "to": "2016-11-21",
-      "plays": 95,
+      "plays": 99,
       "album": {
         "title": "XXX (Deluxe Edition)",
         "artist": "Danny Brown",
