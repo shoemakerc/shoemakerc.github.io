@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-11-20T18:49:26.696Z",
+  "syncedAt": "2026-11-21T15:38:16.895Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66845,
+  "totalPlays": 66860,
   "lastTrack": {
-    "name": "Motorlicker",
-    "artist": "Tobacco",
-    "album": "Maniac Meat",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0a257f365a737889786356122d32a655.jpg",
-    "url": "https://www.last.fm/music/Tobacco/_/Motorlicker",
-    "playedAt": 1795198731000
+    "name": "Marijuana",
+    "artist": "Chrome Sparks",
+    "album": "Sparks",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6827e869ae37488caad5166432ab51ff.jpg",
+    "url": "https://www.last.fm/music/Chrome+Sparks/_/Marijuana",
+    "playedAt": 1795246723000
   },
   "month": {
     "label": "November 2026",
     "partial": true,
     "from": "2026-11-01",
-    "to": "2026-11-20",
-    "plays": 268,
-    "artistCount": 168,
+    "to": "2026-11-21",
+    "plays": 283,
+    "artistCount": 177,
     "artists": [
       {
         "name": "Los Leo",
@@ -31,7 +31,7 @@
       },
       {
         "name": "Sophia Stel",
-        "plays": 11,
+        "plays": 12,
         "url": "https://www.last.fm/music/Sophia+Stel"
       },
       {
@@ -79,9 +79,9 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-11-13",
-      "to": "2025-11-20",
-      "plays": 45,
+      "from": "2025-11-14",
+      "to": "2025-11-21",
+      "plays": 50,
       "album": {
         "title": "In Rainbows",
         "artist": "Radiohead",
@@ -91,27 +91,27 @@
       },
       "artists": [
         {
-          "name": "Radiohead",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Radiohead"
-        },
-        {
           "name": "Can",
           "plays": 3,
           "url": "https://www.last.fm/music/Can"
         },
         {
-          "name": "The Stooges",
+          "name": "Radiohead",
           "plays": 3,
-          "url": "https://www.last.fm/music/The+Stooges"
+          "url": "https://www.last.fm/music/Radiohead"
+        },
+        {
+          "name": "Japandroids",
+          "plays": 2,
+          "url": "https://www.last.fm/music/Japandroids"
         }
       ]
     },
     {
       "year": 2024,
-      "from": "2024-11-13",
-      "to": "2024-11-20",
-      "plays": 83,
+      "from": "2024-11-14",
+      "to": "2024-11-21",
+      "plays": 91,
       "album": {
         "title": "Nonagon Infinity",
         "artist": "King Gizzard & The Lizard Wizard",
@@ -126,28 +126,28 @@
           "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard"
         },
         {
-          "name": "Foals",
-          "plays": 8,
-          "url": "https://www.last.fm/music/Foals"
-        },
-        {
           "name": "Viagra Boys",
           "plays": 7,
           "url": "https://www.last.fm/music/Viagra+Boys"
+        },
+        {
+          "name": "Foals",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Foals"
         }
       ]
     },
     {
       "year": 2023,
-      "from": "2023-11-13",
-      "to": "2023-11-20",
-      "plays": 190,
+      "from": "2023-11-14",
+      "to": "2023-11-21",
+      "plays": 202,
       "album": {
-        "title": "Heavy Heavy",
-        "artist": "Young Fathers",
-        "plays": 26,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a8a0fd8c4b4efa75f101c21b7af674c2.jpg",
-        "url": "https://www.last.fm/music/Young+Fathers/Heavy+Heavy"
+        "title": "Dizzy",
+        "artist": "Dizzy",
+        "plays": 21,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/cb88050dd00aace15b1a7fbfee8bf4a3.jpg",
+        "url": "https://www.last.fm/music/Dizzy/Dizzy"
       },
       "artists": [
         {
@@ -156,22 +156,22 @@
           "url": "https://www.last.fm/music/Dizzy"
         },
         {
-          "name": "Young Fathers",
-          "plays": 26,
-          "url": "https://www.last.fm/music/Young+Fathers"
+          "name": "Gilla Band",
+          "plays": 25,
+          "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
-          "name": "Gilla Band",
-          "plays": 19,
-          "url": "https://www.last.fm/music/Gilla+Band"
+          "name": "Young Fathers",
+          "plays": 16,
+          "url": "https://www.last.fm/music/Young+Fathers"
         }
       ]
     },
     {
       "year": 2022,
-      "from": "2022-11-13",
-      "to": "2022-11-20",
-      "plays": 25,
+      "from": "2022-11-14",
+      "to": "2022-11-21",
+      "plays": 26,
       "album": {
         "title": "Kodama",
         "artist": "Alcest",
@@ -199,20 +199,20 @@
     },
     {
       "year": 2021,
-      "from": "2021-11-13",
-      "to": "2021-11-20",
-      "plays": 40,
+      "from": "2021-11-14",
+      "to": "2021-11-21",
+      "plays": 37,
       "album": {
         "title": "In A Deep And Dreamless Sleep",
         "artist": "Mint Julep",
-        "plays": 8,
+        "plays": 7,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/34badde7603870bdac2e7d0c108e96b6.jpg",
         "url": "https://www.last.fm/music/Mint+Julep/In+A+Deep+And+Dreamless+Sleep"
       },
       "artists": [
         {
           "name": "Mint Julep",
-          "plays": 8,
+          "plays": 7,
           "url": "https://www.last.fm/music/Mint+Julep"
         },
         {
@@ -229,9 +229,9 @@
     },
     {
       "year": 2020,
-      "from": "2020-11-13",
-      "to": "2020-11-20",
-      "plays": 75,
+      "from": "2020-11-14",
+      "to": "2020-11-21",
+      "plays": 189,
       "album": {
         "title": "Visions of Bodies Being Burned",
         "artist": "clipping.",
@@ -251,77 +251,77 @@
           "url": "https://www.last.fm/music/Daughters"
         },
         {
-          "name": "Vasudeva",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Vasudeva"
+          "name": "Birds of Tokyo",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Birds+of+Tokyo"
         }
       ]
     },
     {
       "year": 2019,
-      "from": "2019-11-13",
-      "to": "2019-11-20",
-      "plays": 70,
+      "from": "2019-11-14",
+      "to": "2019-11-21",
+      "plays": 94,
       "album": {
         "title": "ZABA",
         "artist": "Glass Animals",
-        "plays": 15,
+        "plays": 18,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6051263a36ad604cbe0542205aa701ce.jpg",
         "url": "https://www.last.fm/music/Glass+Animals/ZABA"
       },
       "artists": [
         {
           "name": "Glass Animals",
-          "plays": 25,
+          "plays": 28,
           "url": "https://www.last.fm/music/Glass+Animals"
         },
         {
-          "name": "Revolverheld",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Revolverheld"
+          "name": "Mac Miller",
+          "plays": 5,
+          "url": "https://www.last.fm/music/Mac+Miller"
         },
         {
-          "name": "Tyler, The Creator",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Tyler%2C+The+Creator"
+          "name": "Revolverheld",
+          "plays": 4,
+          "url": "https://www.last.fm/music/Revolverheld"
         }
       ]
     },
     {
       "year": 2018,
-      "from": "2018-11-13",
-      "to": "2018-11-20",
-      "plays": 68,
+      "from": "2018-11-14",
+      "to": "2018-11-21",
+      "plays": 67,
       "album": {
-        "title": "Royal Blood",
-        "artist": "Royal Blood",
+        "title": "Peripheral Vision",
+        "artist": "Turnover",
         "plays": 10,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ca1bb68cf031479fc762e07469cd1ca1.jpg",
-        "url": "https://www.last.fm/music/Royal+Blood/Royal+Blood"
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0bc8948eb2c1ed4fc91ecdf067d9ae73.jpg",
+        "url": "https://www.last.fm/music/Turnover/Peripheral+Vision"
       },
       "artists": [
         {
-          "name": "Royal Blood",
+          "name": "Turnover",
           "plays": 10,
-          "url": "https://www.last.fm/music/Royal+Blood"
+          "url": "https://www.last.fm/music/Turnover"
+        },
+        {
+          "name": "Slum Sociable",
+          "plays": 7,
+          "url": "https://www.last.fm/music/Slum+Sociable"
         },
         {
           "name": "Massive Attack",
           "plays": 6,
           "url": "https://www.last.fm/music/Massive+Attack"
-        },
-        {
-          "name": "Slum Sociable",
-          "plays": 5,
-          "url": "https://www.last.fm/music/Slum+Sociable"
         }
       ]
     },
     {
       "year": 2017,
-      "from": "2017-11-13",
-      "to": "2017-11-20",
-      "plays": 5,
+      "from": "2017-11-14",
+      "to": "2017-11-21",
+      "plays": 6,
       "album": {
         "title": "Just Words",
         "artist": "skout",
@@ -341,17 +341,17 @@
           "url": "https://www.last.fm/music/The+Beatles"
         },
         {
-          "name": "Plastic Farm",
+          "name": "Air Traffic Controller",
           "plays": 1,
-          "url": "https://www.last.fm/music/Plastic+Farm"
+          "url": "https://www.last.fm/music/Air+Traffic+Controller"
         }
       ]
     },
     {
       "year": 2016,
-      "from": "2016-11-13",
-      "to": "2016-11-20",
-      "plays": 84,
+      "from": "2016-11-14",
+      "to": "2016-11-21",
+      "plays": 95,
       "album": {
         "title": "XXX (Deluxe Edition)",
         "artist": "Danny Brown",
@@ -379,9 +379,9 @@
     },
     {
       "year": 2015,
-      "from": "2015-11-13",
-      "to": "2015-11-20",
-      "plays": 147,
+      "from": "2015-11-14",
+      "to": "2015-11-21",
+      "plays": 138,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -409,9 +409,9 @@
     },
     {
       "year": 2014,
-      "from": "2014-11-13",
-      "to": "2014-11-20",
-      "plays": 329,
+      "from": "2014-11-14",
+      "to": "2014-11-21",
+      "plays": 352,
       "album": {
         "title": "Xtra Love",
         "artist": "We Are Twin",
@@ -431,9 +431,9 @@
           "url": "https://www.last.fm/music/Hellogoodbye"
         },
         {
-          "name": "Tennis",
+          "name": "Coldplay",
           "plays": 14,
-          "url": "https://www.last.fm/music/Tennis"
+          "url": "https://www.last.fm/music/Coldplay"
         }
       ]
     }
