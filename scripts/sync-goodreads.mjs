@@ -14,6 +14,9 @@
 //   finished since the last sync, so it gets today's date, and a book that
 //   sorts between two with the same rating has that rating too.
 //
+// - How far along a book is comes from the public list of status updates
+//   ("is on page 17 of 256 of Meditations"), which names the book each is for.
+//
 // What it can't see: a book with no cover on Goodreads (the widget leaves
 // those out, so they stay as the snapshot has them), a changed rating on a
 // book that already had one, and the real date for a book finished days ago.
@@ -35,6 +38,9 @@ const WIDGET = `https://www.goodreads.com/review/grid_widget/${USER_ID}`;
 const WIDGET_MAX = 200;
 /** Orders to ask for, first to last and last to first, to reach all of a shelf longer than that. */
 const SORTS = ["date_added", "title", "author", "date_pub", "num_pages", "avg_rating"];
+
+const STATUSES = `https://www.goodreads.com/user_status/list/${USER_ID}`;
+const MAX_STATUS_PAGES = 30;
 
 const today = new Date().toISOString().slice(0, 10);
 
@@ -166,6 +172,35 @@ async function fetchBook(id) {
   };
 }
 
+const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+/**
+ * The latest status update for each book it can find, by book id: the page
+ * (or just the percentage, for an update made that way) and the day. Updates
+ * come newest first, 30 to a page, and nothing older than `since` is new, so
+ * a daily sync reads one page. The first one reads them all.
+ */
+async function fetchProgress(since) {
+  const progress = new Map();
+  for (let page = 1; page <= MAX_STATUS_PAGES; page++) {
+    const html = await get(`${STATUSES}?page=${page}`);
+    const update = /user_status_header">([\s\S]*?)<\/span>[\s\S]*?\/user_status\/show\/\d+">(\w{3}) (\d{1,2}), (\d{4})/g;
+    let oldest = null;
+    for (const [, header, month, day, year] of html.matchAll(update)) {
+      const date = `${year}-${String(months.indexOf(month) + 1).padStart(2, "0")}-${day.padStart(2, "0")}`;
+      oldest = date;
+      const id = header.match(/\/book\/show\/(\d+)/)?.[1];
+      const paged = header.match(/is on page ([\d,]+) of ([\d,]+) of/);
+      const [at, pages] = paged ? paged.slice(1).map((n) => Number(n.replace(/,/g, ""))) : [null, null];
+      const percent = paged ? (100 * at) / pages : Number(header.match(/is (\d+)% done with/)?.[1]);
+      if (!id || progress.has(id) || !Number.isFinite(percent)) continue;
+      progress.set(id, { page: at, pages, percent: Math.round(Math.min(percent, 100)), date });
+    }
+    if (!oldest || (since && oldest < since)) break;
+  }
+  return progress;
+}
+
 const previous = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : null;
 const previousBooks = previous?.books ?? [];
 const byReview = new Map(previousBooks.filter((b) => b.reviewId).map((b) => [b.reviewId, b]));
@@ -226,6 +261,7 @@ for (const shelf of SHELVES) {
       year: details.year,
       cover: coverCandidates(entry.image),
       url: `https://www.goodreads.com/book/show/${entry.id}`,
+      ...(prev?.progress && { progress: prev.progress }),
     });
     if (!prev) console.log(`  New on ${shelf}: ${details.title}`);
     else if (prev.shelf !== shelf) console.log(`  ${prev.shelf} → ${shelf}: ${details.title}`);
@@ -289,6 +325,15 @@ for (const entry of read.seen.values()) {
 }
 
 const books = [...byNewId.values()].sort((a, b) => Number(a.id) - Number(b.id));
+
+// How far along the unfinished books are. A finished one has no use for it.
+const lastUpdate = previousBooks.reduce((latest, b) => (b.progress?.date > latest ? b.progress.date : latest), "");
+const progress = await fetchProgress(lastUpdate);
+for (const book of books) {
+  if (progress.has(book.id)) book.progress = progress.get(book.id);
+  if (book.shelf === "read") delete book.progress;
+}
+console.log(`progress: ${books.filter((b) => b.progress).length} books`);
 
 // Some resized covers 403, so check each one that's new since the last sync.
 // A cover saved as public/covers/<Goodreads id>.jpg replaces Goodreads' own,

@@ -120,11 +120,16 @@ function describe(work: Volume) {
     .join(", ");
 }
 
+/** A number from 0 to 996 that's the same for a piece of text every time. */
+function textHash(text: string) {
+  let hash = 0;
+  for (const char of text) hash = (hash * 31 + char.charCodeAt(0)) % 997;
+  return hash;
+}
+
 /** Between 90% and 100% of the shelf's height, the same for a title every time. */
 function spineHeight(title: string) {
-  let hash = 0;
-  for (const char of title) hash = (hash * 31 + char.charCodeAt(0)) % 997;
-  return 90 + (hash % 11);
+  return 90 + (textHash(title) % 11);
 }
 
 /** A book's spine, as wide as the book is long. */
@@ -255,6 +260,125 @@ function AuthorShelves({ authors }: { authors: Author[] }) {
 
 const keyOf = (book: Book) => `${book.title}|${book.byline}`;
 
+const count = new Intl.NumberFormat("en-US");
+
+/** Pages read so far, worked out from the percentage when that's all there is. */
+function pagesIn(book: Book) {
+  const { progress } = book;
+  if (!progress) return 0;
+  return progress.page ?? Math.round(((book.pages ?? 0) * progress.percent) / 100);
+}
+
+/**
+ * A book lying on its side: as thick as it is long, inked in as far as it's
+ * been read, with a ribbon where the bookmark is.
+ */
+function Slab({ book }: { book: Book }) {
+  const { progress } = book;
+  const title = displayTitle(book.title, true);
+  const place = progress
+    ? progress.page && progress.pages
+      ? `${count.format(progress.page)} / ${count.format(progress.pages)}`
+      : `${progress.percent}%`
+    : book.pages && `${count.format(book.pages)} pp.`;
+  const label = [
+    `${title} ${book.byline}.`,
+    !progress
+      ? "Not started."
+      : progress.page && progress.pages
+        ? `Page ${count.format(progress.page)} of ${count.format(progress.pages)},`
+        : `${progress.percent}% read,`,
+    progress && `as of ${dateFormat.format(new Date(progress.date))}.`,
+  ]
+    .filter(Boolean)
+    .join(" ");
+  const props = {
+    className: progress ? "slab" : "slab slab-unopened",
+    title: label,
+    "aria-label": label,
+  };
+  const face = (
+    <>
+      <span className="slab-title">{title}</span>
+      {place && <span className="slab-place">{place}</span>}
+    </>
+  );
+  const faces = (
+    <>
+      <span className="slab-face">{face}</span>
+      {progress && (
+        // The same face in ink, cut off where the reading stops.
+        <span className="slab-face slab-read" aria-hidden="true">
+          {face}
+        </span>
+      )}
+    </>
+  );
+  return (
+    <li
+      style={
+        {
+          "--pages": book.pages ?? progress?.pages ?? 300,
+          "--read": `${progress?.percent ?? 0}%`,
+          // No two books the same length, or squared up in the pile.
+          "--length": `${88 + (textHash(title) % 13)}%`,
+          "--nudge": `${((textHash(book.byline) % 9) - 4) / 10}rem`,
+        } as React.CSSProperties
+      }
+    >
+      {book.url ? (
+        <a href={book.url} {...props}>
+          {faces}
+        </a>
+      ) : (
+        <span role="img" {...props}>
+          {faces}
+        </span>
+      )}
+    </li>
+  );
+}
+
+function Pile({
+  name,
+  tally,
+  books,
+  aside = false,
+}: {
+  name: string;
+  /** What the count is of: "5 under way". */
+  tally: string;
+  books: Book[];
+  aside?: boolean;
+}) {
+  // The book picked up last goes on top.
+  const stacked = [...books].sort((a, b) =>
+    (b.progress?.date ?? "").localeCompare(a.progress?.date ?? ""),
+  );
+  const read = books.reduce((sum, book) => sum + pagesIn(book), 0);
+  const pages = books.reduce((sum, book) => sum + (book.pages ?? 0), 0);
+  const last = stacked[0]?.progress?.date;
+  return (
+    <div className={aside ? "pile pile-aside" : "pile"}>
+      <div className="pile-head">
+        <h3 className="pile-name">{name}</h3>
+        <p className="pile-tally">
+          <span className="pile-number">{books.length}</span> {tally}
+        </p>
+        <p className="meta">
+          {count.format(read)} of {count.format(pages)} pages
+          {last && ` · last picked up ${dateFormat.format(new Date(last))}`}
+        </p>
+      </div>
+      <ol className="stack" aria-label={`${name}, most recently picked up first`}>
+        {stacked.map((book) => (
+          <Slab key={keyOf(book)} book={book} />
+        ))}
+      </ol>
+    </div>
+  );
+}
+
 const byAuthor = (a: Book, b: Book) =>
   authorSortKey(a.byline).localeCompare(authorSortKey(b.byline)) ||
   a.title.localeCompare(b.title);
@@ -318,25 +442,15 @@ export default function Reading() {
         </dl>
       </section>
 
-      {reading.length > 0 && (
+      {(reading.length > 0 || paused.length > 0) && (
         <section>
           <Staff label="On the nightstand" />
-          <ul className="cover-grid cover-grid-large">
-            {reading.map((book) => (
-              <CoverCard key={keyOf(book)} book={book} />
-            ))}
-          </ul>
-          {paused.length > 0 && (
-            <p className="set-aside">
-              <span className="meta">Set aside for now</span>{" "}
-              {paused.map((book, i) => (
-                <span key={keyOf(book)}>
-                  {i > 0 && " · "}
-                  <LinkedTitle book={book} short />
-                </span>
-              ))}
-            </p>
-          )}
+          <div className="nightstand">
+            {reading.length > 0 && <Pile name="On the go" tally="under way" books={reading} />}
+            {paused.length > 0 && (
+              <Pile name="Set aside for now" tally="waiting" books={paused} aside />
+            )}
+          </div>
         </section>
       )}
 

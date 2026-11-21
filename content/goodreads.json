@@ -1,6 +1,6 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-11-21T07:30:34.584Z",
+  "syncedAt": "2026-11-21T07:40:32.375Z",
   "books": [
     {
       "id": "11",
@@ -1734,7 +1734,13 @@
       "pages": 561,
       "year": 1988,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281988101l/12781._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/12781"
+      "url": "https://www.goodreads.com/book/show/12781",
+      "progress": {
+        "page": 15,
+        "pages": 561,
+        "percent": 3,
+        "date": "2024-12-29"
+      }
     },
     {
       "id": "12867",
@@ -2285,7 +2291,13 @@
       "pages": 777,
       "year": 1979,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547125681l/24113._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/24113"
+      "url": "https://www.goodreads.com/book/show/24113",
+      "progress": {
+        "page": 35,
+        "pages": 777,
+        "percent": 5,
+        "date": "2024-07-05"
+      }
     },
     {
       "id": "24583",
@@ -3459,7 +3471,13 @@
       "pages": 1079,
       "year": 1996,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684015006l/75786._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/75786"
+      "url": "https://www.goodreads.com/book/show/75786",
+      "progress": {
+        "page": 531,
+        "pages": 1079,
+        "percent": 49,
+        "date": "2026-08-25"
+      }
     },
     {
       "id": "76670",
@@ -5047,7 +5065,13 @@
       "pages": 317,
       "year": 1914,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309209457l/764450._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/764450"
+      "url": "https://www.goodreads.com/book/show/764450",
+      "progress": {
+        "page": 49,
+        "pages": 317,
+        "percent": 15,
+        "date": "2026-11-13"
+      }
     },
     {
       "id": "797192",
@@ -5174,7 +5198,13 @@
       "pages": 256,
       "year": 180,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383681793l/1168191._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/1168191"
+      "url": "https://www.goodreads.com/book/show/1168191",
+      "progress": {
+        "page": 17,
+        "pages": 256,
+        "percent": 7,
+        "date": "2026-11-17"
+      }
     },
     {
       "id": "1237300",
@@ -5523,7 +5553,13 @@
       "pages": 346,
       "year": 400,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1267997708l/3425854._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/3425854"
+      "url": "https://www.goodreads.com/book/show/3425854",
+      "progress": {
+        "page": 157,
+        "pages": 346,
+        "percent": 45,
+        "date": "2024-12-28"
+      }
     },
     {
       "id": "4274612",
@@ -5682,7 +5718,13 @@
       "pages": 912,
       "year": 2004,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523541707l/6372225._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/6372225"
+      "url": "https://www.goodreads.com/book/show/6372225",
+      "progress": {
+        "page": 231,
+        "pages": 912,
+        "percent": 25,
+        "date": "2026-08-30"
+      }
     },
     {
       "id": "6405096",
@@ -5786,7 +5828,13 @@
       "pages": 335,
       "year": 2009,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320453731l/6658129._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/6658129"
+      "url": "https://www.goodreads.com/book/show/6658129",
+      "progress": {
+        "page": 119,
+        "pages": 335,
+        "percent": 36,
+        "date": "2025-12-10"
+      }
     },
     {
       "id": "6763725",
@@ -6683,7 +6731,13 @@
       "pages": 464,
       "year": 2014,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594559067l/18693771._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/18693771"
+      "url": "https://www.goodreads.com/book/show/18693771",
+      "progress": {
+        "page": 43,
+        "pages": 464,
+        "percent": 9,
+        "date": "2023-08-20"
+      }
     },
     {
       "id": "18693852",
@@ -7051,7 +7105,13 @@
       "pages": 432,
       "year": 1977,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403206780l/22253782._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/22253782"
+      "url": "https://www.goodreads.com/book/show/22253782",
+      "progress": {
+        "page": null,
+        "pages": null,
+        "percent": 30,
+        "date": "2024-12-28"
+      }
     },
     {
       "id": "22822858",
@@ -7752,7 +7812,13 @@
       "pages": 341,
       "year": 2017,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481084931l/33155369._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/33155369"
+      "url": "https://www.goodreads.com/book/show/33155369",
+      "progress": {
+        "page": 52,
+        "pages": 341,
+        "percent": 15,
+        "date": "2024-06-18"
+      }
     },
     {
       "id": "34196063",
@@ -8964,7 +9030,13 @@
       "pages": 304,
       "year": 2021,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629679336l/55723020._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/55723020"
+      "url": "https://www.goodreads.com/book/show/55723020",
+      "progress": {
+        "page": 69,
+        "pages": 304,
+        "percent": 23,
+        "date": "2026-06-23"
+      }
     },
     {
       "id": "55881796",
@@ -9087,7 +9159,13 @@
       "pages": 576,
       "year": 2022,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1662696382l/57951389._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/57951389"
+      "url": "https://www.goodreads.com/book/show/57951389",
+      "progress": {
+        "page": 94,
+        "pages": 576,
+        "percent": 16,
+        "date": "2024-03-25"
+      }
     },
     {
       "id": "58046803",

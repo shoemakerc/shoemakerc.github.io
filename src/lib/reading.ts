@@ -20,6 +20,16 @@ import path from "node:path";
 
 export type Status = "reading" | "paused" | "read" | "to-read" | "dnf";
 
+/** How far into a book the latest Goodreads status update got. */
+export type Progress = {
+  /** The page reached, of how many. Null when the update only gave a percentage. */
+  page: number | null;
+  pages: number | null;
+  percent: number;
+  /** ISO date of the update. */
+  date: string;
+};
+
 export type Book = {
   title: string;
   /** Whether the title was written in "quotes" (an essay or story) rather than _italics_. */
@@ -37,6 +47,8 @@ export type Book = {
   dateRead: string | null;
   dateAdded: string | null;
   pages: number | null;
+  /** Null for a book with no status updates, and for any that's finished. */
+  progress: Progress | null;
   cover: string | null;
   /** The book's Goodreads page. Null for books only on the old list. */
   url: string | null;
@@ -55,6 +67,7 @@ type GoodreadsBook = {
   dateRead: string | null;
   dateAdded: string | null;
   pages: number | null;
+  progress?: Progress;
   cover: string | null;
   url: string;
 };
@@ -257,6 +270,7 @@ export function getLibrary(): Library {
       dateRead: gr.dateRead,
       dateAdded: gr.dateAdded,
       pages: gr.pages,
+      progress: gr.progress ?? null,
       cover: gr.cover,
       url: gr.url,
       owned: gr.tags.includes("owned"),
@@ -295,6 +309,7 @@ export function getLibrary(): Library {
       dateRead: null,
       dateAdded: null,
       pages: null,
+      progress: null,
       cover: null,
       url: null,
       owned: false,

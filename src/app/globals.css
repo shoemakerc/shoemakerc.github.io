@@ -139,19 +139,10 @@
   gap: 2rem 1.5rem;
 }
 
-.cover-grid-large {
-  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-  gap: 2rem 2.5rem;
-}
-
 @media (max-width: 40rem) {
   .cover-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem 1rem;
-  }
-  .cover-grid-large {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.75rem 1.25rem;
   }
 }
 
@@ -161,10 +152,6 @@
   gap: 0.2rem;
   font-size: 0.875rem;
   line-height: 1.3;
-}
-
-.cover-grid-large .cover-card {
-  font-size: 1rem;
 }
 
 .cover-card-title {
@@ -237,14 +224,140 @@ a.cover:hover {
   color: var(--accent);
 }
 
-.set-aside {
-  margin: 2rem 0 0;
-  color: var(--ink-soft);
-  line-height: 1.7;
+/* Two piles of books lying flat on the nightstand: the ones on the go, and
+   the ones set aside. */
+.nightstand {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 3rem;
+  /* The top of the nightstand. */
+  border-bottom: 3px solid var(--ink);
 }
 
-.set-aside .meta {
-  margin-right: 0.5rem;
+.pile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pile-head {
+  margin-bottom: 1.75rem;
+}
+
+.pile-head .meta {
+  margin: 0;
+}
+
+.stack {
+  list-style: none;
+  margin: 0;
+  /* Room for the books to sit a little out of line. */
+  padding: 0 0.5rem 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.stack li {
+  width: var(--length);
+  transform: translateX(var(--nudge));
+}
+
+.slab {
+  position: relative;
+  display: block;
+  /* As thick as the book is long, on the same scale as the spines below. */
+  height: calc(1.3rem + var(--pages) * 0.003rem);
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--ink);
+  text-decoration: none;
+  transition: transform 160ms ease;
+}
+
+a.slab:hover {
+  color: var(--ink);
+  transform: translateX(6px);
+}
+
+.slab-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0 0.75rem;
+}
+
+.slab-title {
+  min-width: 0;
+  font-size: 0.9375rem;
+  font-style: italic;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.slab-place {
+  font-family: var(--mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  opacity: 0.8;
+}
+
+/* The pages read so far, inked in. */
+.slab-read {
+  background: var(--ink);
+  color: var(--paper);
+  clip-path: inset(0 calc(100% - var(--read)) 0 0);
+}
+
+/* The bookmark's ribbon, hanging out where the reading stops. */
+.slab::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: -5px;
+  left: calc(var(--read) - 1.5px);
+  width: 3px;
+  background: var(--accent);
+}
+
+.stack li:last-child .slab::after {
+  bottom: 0;
+}
+
+.slab-unopened::after {
+  content: none;
+}
+
+.pile-aside .slab {
+  color: var(--muted);
+  box-shadow: inset 0 0 0 1px var(--muted);
+}
+
+.pile-aside .slab-read {
+  background: var(--muted);
+  color: var(--paper);
+}
+
+.pile-aside .slab::after {
+  background: var(--muted);
+}
+
+@media (max-width: 40rem) {
+  .nightstand {
+    grid-template-columns: minmax(0, 1fr);
+    border-bottom: 0;
+  }
+  .pile {
+    border-bottom: 3px solid var(--ink);
+  }
+  .pile + .pile {
+    margin-top: 2.5rem;
+  }
 }
 
 .reading-year + .reading-year {
@@ -329,7 +442,8 @@ a.cover:hover {
   margin-top: 2.5rem;
 }
 
-.author-shelf-name {
+.author-shelf-name,
+.pile-name {
   font-size: 1.375rem;
   font-weight: 400;
   font-style: italic;
@@ -338,12 +452,14 @@ a.cover:hover {
   margin: 0 0 0.75rem;
 }
 
-.author-shelf-tally {
+.author-shelf-tally,
+.pile-tally {
   margin: 0 0 0.35rem;
   color: var(--ink-soft);
 }
 
-.author-shelf-number {
+.author-shelf-number,
+.pile-number {
   font-size: 2.5rem;
   line-height: 1;
   color: var(--ink);
