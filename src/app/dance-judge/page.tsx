@@ -6,7 +6,7 @@ import { Staff } from "@/components/ui";
 export const metadata: Metadata = {
   title: "Dance Judge",
   description:
-    "How cool (or not cool) would you look busting moves to a certain song? Pick one and the judge listens to its preview, then rules.",
+    "How cool (or not cool) would you look busting moves to a certain song? Pick one, or bring a file, and the judge listens, then rules.",
 };
 
 export default function DanceJudgePage() {
@@ -52,8 +52,16 @@ export default function DanceJudgePage() {
             measurements into Spotify’s old 0-to-1 scales. On songs it wasn’t
             fit to, the judge reaches the same verdict Spotify’s number would
             about three times in five, and comes within one verdict nearly
-            every time. It only hears thirty seconds, though, and has opinions
-            of its own. The verdicts are the same ones from 2017.
+            every time. From a search it only hears thirty seconds, though,
+            and it has opinions of its own. The verdicts are the same ones
+            from 2017.
+          </p>
+          <p>
+            If you have the song as a file, choose it or drop it on the page
+            and the judge hears all of it instead, in overlapping half-minute
+            stretches, then charts where the song takes off and where it sags.
+            The verdict is the average of those stretches. The file is read in
+            your browser and never leaves your computer.
           </p>
         </div>
         <p className="meta judge-credits">

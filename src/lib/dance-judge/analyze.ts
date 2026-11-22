@@ -507,7 +507,7 @@ const MINOR = [5, 2, 3.5, 4.5, 2, 4, 2, 4.5, 3.5, 2, 3.5, 2.5];
  * fundamentals, mostly, rather than their overtones) in ~370 ms frames,
  * matched against the 24 major and minor key profiles.
  */
-function estimateKey(samples: Float32Array, sampleRate: number) {
+export function estimateKey(samples: Float32Array, sampleRate: number) {
   const n = 2 ** Math.round(Math.log2(sampleRate * 0.37));
   const hop = n / 2;
   const p = plan(n);

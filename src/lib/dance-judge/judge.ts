@@ -1,4 +1,5 @@
 import type { Analysis } from "./analyze";
+import type { TrackAnalysis } from "./track";
 
 // Turns what the analyzer heard into Spotify's old 0–1 scales. The weights
 // come from scripts/calibrate-dance-judge.mjs: ridge regressions against
@@ -108,14 +109,83 @@ export type Verdict = {
   key: string;
 };
 
+const lineFor = (danceability: number) => VERDICTS.find(([limit]) => danceability < limit)![1];
+
+const keyName = (key: number, mode: number) =>
+  `${(mode ? MAJOR_NAMES : MINOR_NAMES)[key]} ${mode ? "major" : "minor"}`;
+
 export function judge(a: Analysis): Verdict {
   const x = inputs(a);
   const danceability = score(DANCEABILITY, x);
   return {
     danceability,
     energy: score(ENERGY, x),
-    line: VERDICTS.find(([limit]) => danceability < limit)![1],
+    line: lineFor(danceability),
     tempo: a.features.pulse >= STEADY_PULSE ? Math.round(a.tempo) : null,
-    key: `${(a.mode ? MAJOR_NAMES : MINOR_NAMES)[a.key]} ${a.mode ? "major" : "minor"}`,
+    key: keyName(a.key, a.mode),
   };
+}
+
+export type SectionVerdict = {
+  /** Seconds from the start of the song. */
+  start: number;
+  end: number;
+  danceability: number;
+  energy: number;
+  tempo: number | null;
+};
+
+export type TrackVerdict = Verdict & {
+  sections: SectionVerdict[];
+  /** The most danceable section. */
+  peak: SectionVerdict;
+};
+
+/**
+ * A whole song's verdict: each 30-second section scored as a preview would
+ * be, then averaged, since Spotify's numbers describe whole songs too. On
+ * the ten songs of a Creative Commons album (Nine Inch Nails' The Slip) the
+ * average landed within 0.07 of Spotify's danceability, the median within
+ * 0.09, and the songs' previews within 0.11.
+ */
+export function judgeTrack(t: TrackAnalysis): TrackVerdict {
+  const sections = t.sections.map((s): SectionVerdict => {
+    const v = judge(s.analysis);
+    return { start: s.start, end: s.end, danceability: v.danceability, energy: v.energy, tempo: v.tempo };
+  });
+  const danceability = mean(sections.map((s) => s.danceability));
+  return {
+    danceability,
+    energy: mean(sections.map((s) => s.energy)),
+    line: lineFor(danceability),
+    tempo: commonTempo(t),
+    key: keyName(t.key, t.mode),
+    sections,
+    peak: sections.reduce((best, s) => (s.danceability > best.danceability ? s : best)),
+  };
+}
+
+/**
+ * The tempo most of the song agrees on: sections within 4% of each other
+ * vote together, weighted by how strong their beat is. Null when fewer than
+ * a third of the sections have a steady beat at all.
+ */
+function commonTempo(t: TrackAnalysis) {
+  const steady = t.sections.map((s) => s.analysis).filter((a) => a.features.pulse >= STEADY_PULSE);
+  if (steady.length * 3 < t.sections.length) return null;
+  let best = { weight: 0, tempo: 0 };
+  for (const a of steady) {
+    const near = steady.filter((b) => Math.abs(b.tempo - a.tempo) / a.tempo < 0.04);
+    const weight = near.reduce((sum, b) => sum + b.features.pulse, 0);
+    if (weight > best.weight) best = { weight, tempo: median(near.map((b) => b.tempo)) };
+  }
+  return Math.round(best.tempo);
+}
+
+const mean = (xs: number[]) => xs.reduce((sum, x) => sum + x, 0) / xs.length;
+
+function median(xs: number[]) {
+  const s = xs.slice().sort((a, b) => a - b);
+  const mid = s.length >> 1;
+  return s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;
 }

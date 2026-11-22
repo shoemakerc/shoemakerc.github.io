@@ -72,6 +72,8 @@ npm run calibrate:dance-judge
 
 It prints new weights to paste into `judge.ts`.
 
+A visitor can also choose or drop a music file of their own, which is read in the browser and never uploaded. `tags.ts` pulls the title, artist and cover art from the file, and `track.ts` analyzes the whole song in overlapping 30-second sections, each scored the way a preview is; the verdict averages the sections, and the page charts them over time. All analysis runs in a Web Worker (`worker.ts`).
+
 ## Change the playlist
 
 Edit `playlist` in `src/lib/site.ts`.
