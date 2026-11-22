@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-22T15:41:41.811Z",
+  "syncedAt": "2026-11-22T18:02:20.756Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66873,
@@ -81,7 +81,7 @@
       "year": 2025,
       "from": "2025-11-15",
       "to": "2025-11-22",
-      "plays": 56,
+      "plays": 53,
       "album": {
         "title": "Celebration Rock",
         "artist": "Japandroids",
@@ -96,14 +96,14 @@
           "url": "https://www.last.fm/music/Japandroids"
         },
         {
-          "name": "Can",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Can"
-        },
-        {
           "name": "Radiohead",
           "plays": 3,
           "url": "https://www.last.fm/music/Radiohead"
+        },
+        {
+          "name": "my bloody valentine",
+          "plays": 2,
+          "url": "https://www.last.fm/music/my+bloody+valentine"
         }
       ]
     },
@@ -201,7 +201,7 @@
       "year": 2021,
       "from": "2021-11-15",
       "to": "2021-11-22",
-      "plays": 42,
+      "plays": 49,
       "album": {
         "title": "In A Deep And Dreamless Sleep",
         "artist": "Mint Julep",
@@ -216,14 +216,14 @@
           "url": "https://www.last.fm/music/Mint+Julep"
         },
         {
-          "name": "Blood Cultures",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Blood+Cultures"
+          "name": "Loathe",
+          "plays": 5,
+          "url": "https://www.last.fm/music/Loathe"
         },
         {
-          "name": "Caspian",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Caspian"
+          "name": "Badly Drawn Boy",
+          "plays": 4,
+          "url": "https://www.last.fm/music/Badly+Drawn+Boy"
         }
       ]
     },
@@ -261,7 +261,7 @@
       "year": 2019,
       "from": "2019-11-15",
       "to": "2019-11-22",
-      "plays": 114,
+      "plays": 118,
       "album": {
         "title": "ZABA",
         "artist": "Glass Animals",
@@ -277,7 +277,7 @@
         },
         {
           "name": "Mac Miller",
-          "plays": 11,
+          "plays": 12,
           "url": "https://www.last.fm/music/Mac+Miller"
         },
         {
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-11-15",
       "to": "2014-11-22",
-      "plays": 329,
+      "plays": 328,
       "album": {
         "title": "Xtra Love",
         "artist": "We Are Twin",
