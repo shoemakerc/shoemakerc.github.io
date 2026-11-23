@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-23T19:30:05.928Z",
+  "syncedAt": "2026-11-23T22:13:48.077Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66882,
@@ -141,13 +141,13 @@
       "year": 2023,
       "from": "2023-11-16",
       "to": "2023-11-23",
-      "plays": 182,
+      "plays": 175,
       "album": {
-        "title": "Heavy Heavy",
-        "artist": "Young Fathers",
-        "plays": 16,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a8a0fd8c4b4efa75f101c21b7af674c2.jpg",
-        "url": "https://www.last.fm/music/Young+Fathers/Heavy+Heavy"
+        "title": "Holding Hands With Jamie",
+        "artist": "Gilla Band",
+        "plays": 15,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b8d88e1d5b9b3028871b7b057f94fea7.jpg",
+        "url": "https://www.last.fm/music/Gilla+Band/Holding+Hands+With+Jamie"
       },
       "artists": [
         {
@@ -156,14 +156,14 @@
           "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
-          "name": "Young Fathers",
-          "plays": 16,
-          "url": "https://www.last.fm/music/Young+Fathers"
-        },
-        {
           "name": "Pearly Drops",
           "plays": 13,
           "url": "https://www.last.fm/music/Pearly+Drops"
+        },
+        {
+          "name": "Dizzy",
+          "plays": 10,
+          "url": "https://www.last.fm/music/Dizzy"
         }
       ]
     },
@@ -171,7 +171,7 @@
       "year": 2022,
       "from": "2022-11-16",
       "to": "2022-11-23",
-      "plays": 32,
+      "plays": 33,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -231,7 +231,7 @@
       "year": 2020,
       "from": "2020-11-16",
       "to": "2020-11-23",
-      "plays": 179,
+      "plays": 209,
       "album": {
         "title": "Visions of Bodies Being Burned",
         "artist": "clipping.",
@@ -247,13 +247,13 @@
         },
         {
           "name": "Daughters",
-          "plays": 9,
+          "plays": 16,
           "url": "https://www.last.fm/music/Daughters"
         },
         {
-          "name": "Birds of Tokyo",
-          "plays": 6,
-          "url": "https://www.last.fm/music/Birds+of+Tokyo"
+          "name": "Trampled by Turtles",
+          "plays": 12,
+          "url": "https://www.last.fm/music/Trampled+by+Turtles"
         }
       ]
     },
@@ -261,12 +261,12 @@
       "year": 2019,
       "from": "2019-11-16",
       "to": "2019-11-23",
-      "plays": 122,
+      "plays": 130,
       "album": {
         "title": "ZABA",
         "artist": "Glass Animals",
         "plays": 21,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6051263a36ad604cbe0542205aa701ce.jpg",
+        "image": null,
         "url": "https://www.last.fm/music/Glass+Animals/ZABA"
       },
       "artists": [
@@ -281,9 +281,9 @@
           "url": "https://www.last.fm/music/Mac+Miller"
         },
         {
-          "name": "BROCKHAMPTON",
-          "plays": 6,
-          "url": "https://www.last.fm/music/BROCKHAMPTON"
+          "name": "Kanye West",
+          "plays": 8,
+          "url": "https://www.last.fm/music/Kanye+West"
         }
       ]
     },
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-11-16",
       "to": "2016-11-23",
-      "plays": 89,
+      "plays": 87,
       "album": {
         "title": "My Thoughts on You",
         "artist": "The Band CAMINO",
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-11-16",
       "to": "2015-11-23",
-      "plays": 105,
+      "plays": 99,
       "album": {
         "title": "Islands",
         "artist": "Bear's Den",
@@ -396,14 +396,14 @@
           "url": "https://www.last.fm/music/Bear's+Den"
         },
         {
-          "name": "Buchanan",
-          "plays": 8,
-          "url": "https://www.last.fm/music/Buchanan"
-        },
-        {
           "name": "iamamiwhoami",
           "plays": 7,
           "url": "https://www.last.fm/music/iamamiwhoami"
+        },
+        {
+          "name": "Bloc Party",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Bloc+Party"
         }
       ]
     },
@@ -411,29 +411,29 @@
       "year": 2014,
       "from": "2014-11-16",
       "to": "2014-11-23",
-      "plays": 311,
+      "plays": 269,
       "album": {
-        "title": "Xtra Love",
-        "artist": "We Are Twin",
-        "plays": 14,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a01e36cb3fdb471bc7be70fd534187be.png",
-        "url": "https://www.last.fm/music/We+Are+Twin/Xtra+Love"
+        "title": "Young & Old",
+        "artist": "Tennis",
+        "plays": 12,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1dcb5ec68b2d47a7a29d2e75c20579a7.png",
+        "url": "https://www.last.fm/music/Tennis/Young+%26+Old"
       },
       "artists": [
-        {
-          "name": "Hellogoodbye",
-          "plays": 14,
-          "url": "https://www.last.fm/music/Hellogoodbye"
-        },
         {
           "name": "Tennis",
           "plays": 14,
           "url": "https://www.last.fm/music/Tennis"
         },
         {
-          "name": "We Are Twin",
-          "plays": 14,
-          "url": "https://www.last.fm/music/We+Are+Twin"
+          "name": "Coldplay",
+          "plays": 13,
+          "url": "https://www.last.fm/music/Coldplay"
+        },
+        {
+          "name": "Arctic Monkeys",
+          "plays": 13,
+          "url": "https://www.last.fm/music/Arctic+Monkeys"
         }
       ]
     }
