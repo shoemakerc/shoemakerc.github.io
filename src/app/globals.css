@@ -1,3 +1,12 @@
+/* The ♭ or ♯ of a key name. The music font draws them at notation size, a
+   little small beside capitals, hence the bump. */
+
+.accidental {
+  font-family: var(--font-music);
+  font-size: 1.25em;
+  line-height: 0;
+}
+
 /* ---------- Listening ---------- */
 
 .listening {

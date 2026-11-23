@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { KeyName } from "@/components/key-name";
 import { judge } from "@/lib/dance-judge/judge";
 import { listen } from "@/lib/dance-judge/listen";
 import { artworkAt, lookupSongs, searchSongs, type Song } from "@/lib/dance-judge/itunes";
@@ -649,7 +650,7 @@ function KeyField({
         }}
         onKeyDown={(e) => e.key === "Enter" && e.currentTarget.blur()}
       />
-      <span className="meta">{value ? shortKeyName(value) : ""}</span>
+      <span className="meta">{value && <KeyName name={shortKeyName(value)} />}</span>
     </span>
   );
 }

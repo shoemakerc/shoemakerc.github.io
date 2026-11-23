@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { KeyName } from "@/components/key-name";
 import type { Analysis } from "@/lib/dance-judge/analyze";
 import { artworkAt, lookupSong, searchSongs, type Song } from "@/lib/dance-judge/itunes";
 import { judge, judgeTrack, THRESHOLDS, type TrackVerdict, type Verdict } from "@/lib/dance-judge/judge";
@@ -488,7 +489,9 @@ function VerdictCard({ subject, heard }: { subject: Subject; heard: Heard }) {
         </div>
         <div>
           <dt className="meta">Key</dt>
-          <dd>{verdict.key}</dd>
+          <dd>
+            <KeyName name={verdict.key} />
+          </dd>
         </div>
       </dl>
       {heard.kind === "clip" ? (
