@@ -20,10 +20,15 @@ async function decode(bytes: ArrayBuffer) {
   // An offline context decodes without needing a click to unlock audio, and
   // resamples to its own rate as it goes.
   const audio = await new OfflineAudioContext(1, 1, SAMPLE_RATE).decodeAudioData(bytes);
+  // Channels are summed and divided by √(their number), not averaged. The
+  // scoring weights were calibrated on clips mixed that way (it's what
+  // afconvert does in the calibration script), and an average of stereo
+  // reads 3 dB quieter, which scores about 0.06 lower on energy.
+  const scale = 1 / Math.sqrt(audio.numberOfChannels);
   const samples = new Float32Array(audio.length);
   for (let c = 0; c < audio.numberOfChannels; c++) {
     const channel = audio.getChannelData(c);
-    for (let i = 0; i < channel.length; i++) samples[i] += channel[i] / audio.numberOfChannels;
+    for (let i = 0; i < channel.length; i++) samples[i] += channel[i] * scale;
   }
   return { samples, sampleRate: audio.sampleRate };
 }
