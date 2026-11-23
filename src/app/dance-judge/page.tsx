@@ -61,7 +61,7 @@ export default function DanceJudgePage() {
             and the judge hears all of it instead, in overlapping half-minute
             stretches, then charts where the song takes off and where it sags.
             The verdict is the average of those stretches. The file is read in
-            your browser and never leaves your computer.
+            your browser and never leaves your device.
           </p>
         </div>
         <p className="meta judge-credits">

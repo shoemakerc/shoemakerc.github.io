@@ -1469,6 +1469,13 @@ a.spine-reading:hover {
   font-size: 0.95em;
 }
 
+/* Nothing to drag a file from on a phone. */
+@media (hover: none) {
+  .judge-file-drop {
+    display: none;
+  }
+}
+
 .judge-drop {
   position: fixed;
   inset: 0;

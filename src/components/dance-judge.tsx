@@ -323,8 +323,8 @@ export function DanceJudge() {
               Choose a music file
             </button>
             <span className="judge-file-note">
-              or drop it anywhere on this page, and the judge hears the whole song. The file
-              stays on your computer.
+              <span className="judge-file-drop">or drop it anywhere on this page, </span>and the
+              judge hears the whole song. The file stays on your device.
             </span>
           </p>
         </>
@@ -675,8 +675,8 @@ const MAX_DOTS = 40;
 
 /**
  * A whole song's danceability, section by section, over a strip of its
- * loudness. Hover, or focus and use the arrow keys, to read a section; click
- * to play from there. The table underneath has every number.
+ * loudness. Hover, tap, or focus and use the arrow keys, to read a section;
+ * click or tap to play from there. The table underneath has every number.
  */
 function ThroughTheSong({ subject, track, verdict }: { subject: Subject; track: TrackAnalysis; verdict: TrackVerdict }) {
   const { duration } = track;
@@ -732,8 +732,12 @@ function ThroughTheSong({ subject, track, verdict }: { subject: Subject; track: 
           tabIndex={0}
           role="group"
           aria-label={`Danceability from ${formatScore(low.danceability)} to ${formatScore(peak.danceability)} over ${clock(duration)}. Arrow keys step through the sections, Enter plays from one, and the table below lists them all.`}
+          // A tap never moves, so a touch screen needs the press itself to
+          // pick the section; and a finger lifting counts as leaving, so only
+          // a mouse leaving clears the readout.
+          onPointerDown={(event) => setActive(nearest(fractionAt(event) * duration))}
           onPointerMove={(event) => setActive(nearest(fractionAt(event) * duration))}
-          onPointerLeave={() => setActive(null)}
+          onPointerLeave={(event) => event.pointerType === "mouse" && setActive(null)}
           onBlur={() => setActive(null)}
           onKeyDown={onKeyDown}
           onClick={(event) => player.seek(fractionAt(event))}
