@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-22T15:29:58.177Z",
+  "syncedAt": "2026-11-23T19:23:45.196Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -400,15 +400,15 @@
       "season": "2026",
       "phase": "regular",
       "wins": 7,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
       "otLosses": 0,
       "division": {
         "name": "NFC North",
-        "rank": 2,
+        "rank": 3,
         "teams": 4
       },
-      "streak": "W1",
+      "streak": "L1",
       "clincher": null,
       "recent": [
         {
@@ -500,16 +500,26 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-23T01:20Z",
+          "home": false,
+          "opponent": "49ers",
+          "us": 10,
+          "them": 35,
+          "result": "L",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-23T01:20Z",
+        "date": "2026-11-29T18:00Z",
         "timeKnown": true,
-        "home": false,
-        "opponent": "San Francisco 49ers",
+        "home": true,
+        "opponent": "Atlanta Falcons",
         "seasonType": 2,
         "stage": null,
-        "note": "NFL Mexico City Game"
+        "note": null
       }
     }
   ]
