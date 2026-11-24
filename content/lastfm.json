@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-24T19:06:41.357Z",
+  "syncedAt": "2026-11-24T20:52:37.083Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66886,
@@ -81,7 +81,7 @@
       "year": 2025,
       "from": "2025-11-17",
       "to": "2025-11-24",
-      "plays": 70,
+      "plays": 72,
       "album": {
         "title": "Fun House",
         "artist": "The Stooges",
@@ -141,7 +141,7 @@
       "year": 2023,
       "from": "2023-11-17",
       "to": "2023-11-24",
-      "plays": 173,
+      "plays": 180,
       "album": {
         "title": "Holding Hands With Jamie",
         "artist": "Gilla Band",
@@ -231,7 +231,7 @@
       "year": 2020,
       "from": "2020-11-17",
       "to": "2020-11-24",
-      "plays": 206,
+      "plays": 223,
       "album": {
         "title": "Visions of Bodies Being Burned",
         "artist": "clipping.",
@@ -251,9 +251,9 @@
           "url": "https://www.last.fm/music/Daughters"
         },
         {
-          "name": "Trampled by Turtles",
-          "plays": 12,
-          "url": "https://www.last.fm/music/Trampled+by+Turtles"
+          "name": "Aesop Rock",
+          "plays": 17,
+          "url": "https://www.last.fm/music/Aesop+Rock"
         }
       ]
     },
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-11-17",
       "to": "2016-11-24",
-      "plays": 84,
+      "plays": 83,
       "album": {
         "title": "My Thoughts on You",
         "artist": "The Band CAMINO",
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-11-17",
       "to": "2015-11-24",
-      "plays": 124,
+      "plays": 123,
       "album": {
         "title": "Islands",
         "artist": "Bear's Den",
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-11-17",
       "to": "2014-11-24",
-      "plays": 253,
+      "plays": 239,
       "album": {
         "title": "Young & Old",
         "artist": "Tennis",
