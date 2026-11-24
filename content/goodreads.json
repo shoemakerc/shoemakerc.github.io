@@ -1,6 +1,6 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-11-24T04:22:11.212Z",
+  "syncedAt": "2026-11-24T05:29:13.008Z",
   "books": [
     {
       "id": "11",
@@ -1312,33 +1312,6 @@
       }
     },
     {
-      "id": "6751",
-      "reviewId": "7410032140",
-      "title": "Consider the Lobster and Other Essays",
-      "series": null,
-      "seriesNumber": null,
-      "author": "David Foster Wallace",
-      "shelf": "read",
-      "tags": [
-        "owned"
-      ],
-      "rating": 5,
-      "dateRead": "2025-09-26",
-      "dateAdded": "2025-12-31",
-      "pages": 343,
-      "year": 2005,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388854217l/6751._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/6751",
-      "edition": {
-        "format": "Hardcover",
-        "publisher": "Little, Brown and Company",
-        "isbn": "9780316156110",
-        "nonfiction": true,
-        "height": null,
-        "thickness": null
-      }
-    },
-    {
       "id": "6867",
       "reviewId": "5619857967",
       "title": "Atonement",
@@ -2277,14 +2250,24 @@
       "seriesNumber": null,
       "author": "Hermann Hesse",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-11-21",
       "pages": 558,
       "year": 1943,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386922806l/16634._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/16634"
+      "url": "https://www.goodreads.com/book/show/16634",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Holt Paperbacks",
+        "isbn": "9780312278496",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "16703",
@@ -5643,6 +5626,33 @@
       "url": "https://www.goodreads.com/book/show/646453"
     },
     {
+      "id": "690051",
+      "reviewId": "7410032140",
+      "title": "Consider the Lobster: And Other Essays",
+      "series": null,
+      "seriesNumber": null,
+      "author": "David Foster Wallace",
+      "shelf": "read",
+      "tags": [
+        "owned"
+      ],
+      "rating": 5,
+      "dateRead": "2025-09-26",
+      "dateAdded": "2025-12-31",
+      "pages": 344,
+      "year": 2005,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344270421l/690051._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/690051",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Little, Brown Paperbacks",
+        "isbn": "9780316013321",
+        "nonfiction": true,
+        "height": 20.6,
+        "thickness": 2.8
+      }
+    },
+    {
       "id": "716381",
       "reviewId": "8816614468",
       "title": "Strait is the Gate",
@@ -5850,7 +5860,7 @@
       "series": "House of Earth",
       "seriesNumber": "1",
       "author": "Pearl S. Buck",
-      "shelf": "read",
+      "shelf": "to-read",
       "tags": [
         "owned"
       ],
@@ -5927,33 +5937,6 @@
         "isbn": "9780674868090",
         "nonfiction": true,
         "height": 23.4,
-        "thickness": null
-      }
-    },
-    {
-      "id": "1297985",
-      "reviewId": "5605363068",
-      "title": "Musicophilia: Tales of Music and the Brain",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Oliver Sacks",
-      "shelf": "to-read",
-      "tags": [
-        "owned"
-      ],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2025-08-21",
-      "pages": 400,
-      "year": 2007,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320494159l/1297985._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/1297985",
-      "edition": {
-        "format": "Hardcover",
-        "publisher": "Knopf Canada",
-        "isbn": null,
-        "nonfiction": true,
-        "height": null,
         "thickness": null
       }
     },
@@ -6252,6 +6235,33 @@
       "year": 2005,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684638853l/2429135._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/2429135"
+    },
+    {
+      "id": "2626281",
+      "reviewId": "5605363068",
+      "title": "Musicophilia: Tales of Music and the Brain",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Oliver Sacks",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2025-08-21",
+      "pages": 425,
+      "year": 2007,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348016169l/2626281._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/2626281",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9781400033539",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "2636730",
@@ -7164,6 +7174,33 @@
       "url": "https://www.goodreads.com/book/show/10108463"
     },
     {
+      "id": "10357575",
+      "reviewId": "9127622773",
+      "title": "1Q84 (1Q84, #1-3)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Haruki Murakami",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 944,
+      "year": 2009,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483103331l/10357575._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/10357575",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Knopf",
+        "isbn": "9780307593313",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "10451269",
       "reviewId": "9127699593",
       "title": "Pensées",
@@ -7568,33 +7605,6 @@
       "year": 2013,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363837230l/15797396._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/15797396"
-    },
-    {
-      "id": "15797663",
-      "reviewId": "9127622773",
-      "title": "1Q84 (1Q84 #1-3)",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Haruki Murakami",
-      "shelf": "to-read",
-      "tags": [
-        "owned"
-      ],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2026-11-24",
-      "pages": 1157,
-      "year": 2009,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358416910l/15797663._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/15797663",
-      "edition": {
-        "format": "Paperback",
-        "publisher": "Vintage",
-        "isbn": "9780307476463",
-        "nonfiction": false,
-        "height": null,
-        "thickness": null
-      }
     },
     {
       "id": "15811545",
@@ -8509,33 +8519,6 @@
       "url": "https://www.goodreads.com/book/show/23128334"
     },
     {
-      "id": "23453099",
-      "reviewId": "5619867200",
-      "title": "Eileen",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Ottessa Moshfegh",
-      "shelf": "read",
-      "tags": [
-        "owned"
-      ],
-      "rating": 4,
-      "dateRead": "2026-06-08",
-      "dateAdded": "2026-06-09",
-      "pages": 260,
-      "year": 2015,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479545528l/23453099._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/23453099",
-      "edition": {
-        "format": "Hardcover",
-        "publisher": "Penguin Press",
-        "isbn": "9781594206627",
-        "nonfiction": false,
-        "height": null,
-        "thickness": null
-      }
-    },
-    {
       "id": "23719482",
       "reviewId": "8441240684",
       "title": "The Best American Essays 2015: Daring Contemporary Writing on Life and Identity―Featuring David Sedaris, Zadie Smith, and Rebecca Solnit",
@@ -9012,6 +8995,33 @@
       "year": 2015,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523543089l/27834600._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/27834600"
+    },
+    {
+      "id": "27876745",
+      "reviewId": "5619867200",
+      "title": "Eileen",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Ottessa Moshfegh",
+      "shelf": "read",
+      "tags": [
+        "owned"
+      ],
+      "rating": 4,
+      "dateRead": "2026-06-08",
+      "dateAdded": "2026-06-09",
+      "pages": 260,
+      "year": 2015,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1659554266l/27876745._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/27876745",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books",
+        "isbn": "9780143128755",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "28214365",
@@ -9729,33 +9739,6 @@
         "publisher": "Princeton University Press",
         "isbn": "9780691180830",
         "nonfiction": true,
-        "height": null,
-        "thickness": null
-      }
-    },
-    {
-      "id": "37004370",
-      "reviewId": "7891777215",
-      "title": "The Memory Police",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Yōko Ogawa",
-      "shelf": "to-read",
-      "tags": [
-        "owned"
-      ],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2025-11-11",
-      "pages": 274,
-      "year": 1994,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544335119l/37004370._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/37004370",
-      "edition": {
-        "format": "Hardcover",
-        "publisher": "Pantheon",
-        "isbn": "9781101870600",
-        "nonfiction": false,
         "height": null,
         "thickness": null
       }
@@ -10676,6 +10659,33 @@
       }
     },
     {
+      "id": "50349968",
+      "reviewId": "7891777215",
+      "title": "The Memory Police",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Yōko Ogawa",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2025-11-11",
+      "pages": 274,
+      "year": 1994,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632925006l/50349968._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/50349968",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage Books",
+        "isbn": "9781101911815",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "50390591",
       "reviewId": "5641437514",
       "title": "Egress: On Mourning, Melancholy and Mark Fisher",
@@ -11143,6 +11153,7 @@
       "author": "Gabor Maté",
       "shelf": "currently-reading",
       "tags": [
+        "owned",
         "paused"
       ],
       "rating": null,
@@ -11157,6 +11168,14 @@
         "pages": 576,
         "percent": 16,
         "date": "2024-03-25"
+      },
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vermilion",
+        "isbn": "9781785042720",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
       }
     },
     {
