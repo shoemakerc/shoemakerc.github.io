@@ -738,6 +738,12 @@ a.volume:hover {
   opacity: 0.75;
 }
 
+/* Two rows of three: the whole, then its parts. */
+.reading-stats.bookcase-stats {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 34rem;
+}
+
 .shelf-legend.bookcase-legend {
   margin: 0 0 2rem;
 }

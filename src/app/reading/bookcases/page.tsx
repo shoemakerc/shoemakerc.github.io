@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Staff } from "@/components/ui";
-import { billy, getBookcases, spaceHeight, type Copy, type Shelf } from "@/lib/bookcase";
+import {
+  billy,
+  categories,
+  getBookcases,
+  spaceHeight,
+  type Copy,
+  type Shelf,
+} from "@/lib/bookcase";
 import { authorSortKey } from "@/lib/reading";
 
 export const metadata: Metadata = {
@@ -11,7 +18,7 @@ export const metadata: Metadata = {
 
 const count = new Intl.NumberFormat("en-US");
 
-const kinds = { fiction: "Fiction", nonfiction: "Nonfiction" } as const;
+const kinds = { fiction: "Fiction", nonfiction: "Nonfiction", classics: "Classics" } as const;
 
 const statusOf = (copy: Copy) => (copy.read ? "Read" : "On the shelf");
 
@@ -30,7 +37,7 @@ function surname(author: string) {
 function Volume({ copy }: { copy: Copy }) {
   const label = [
     `${shortTitle(copy.title)} by ${copy.author}`,
-    copy.year,
+    copy.year != null && (copy.year > 0 ? copy.year : `${Math.max(1, -copy.year)} BC`),
     `${copy.format.toLowerCase()}${copy.pages ? `, ${count.format(copy.pages)} pages` : ""}.`,
     `${statusOf(copy)}.`,
   ]
@@ -94,8 +101,8 @@ export default function Bookcases() {
   const stats = [
     { value: copies.length, label: "books in print" },
     { value: read, label: `read, ${copies.length - read} to go` },
-    { value: `${of("fiction").length} / ${of("nonfiction").length}`, label: "fiction / nonfiction" },
     { value: `${(length / 100).toFixed(1)} m`, label: "of shelf, spine to spine" },
+    ...categories.map((kind) => ({ value: of(kind).length, label: kinds[kind].toLowerCase() })),
   ];
 
   return (
@@ -107,12 +114,13 @@ export default function Bookcases() {
         <h1 className="page-title">The bookcases</h1>
         <p className="lede">
           The books I own on paper, shelved the way they are at home: fiction,
-          then nonfiction, each by author. Drawn to scale, so a long book is a
-          thick one and a hardcover stands taller than a paperback. Whatever
+          then nonfiction, then the ancients, each by author. Drawn to scale,
+          so a long book is a thick one and a hardcover stands taller than a
+          paperback. Whatever
           I’m in the middle of is on <Link href="/reading/">the nightstand</Link>{" "}
           instead.
         </p>
-        <dl className="reading-stats">
+        <dl className="reading-stats bookcase-stats">
           {stats.map((stat) => (
             <div key={stat.label}>
               <dt className="meta">{stat.label}</dt>
@@ -164,7 +172,7 @@ export default function Bookcases() {
             <span className="meta">Show as a list</span>
           </summary>
           <div className="shelf-list-columns">
-            {(["fiction", "nonfiction"] as const).map((kind) => (
+            {categories.map((kind) => (
               <div key={kind}>
                 <h2 className="meta shelf-list-author">{kinds[kind]}</h2>
                 <ol className="book-list">
