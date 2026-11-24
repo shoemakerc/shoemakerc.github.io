@@ -247,6 +247,21 @@ async function fetchSize(isbn) {
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 /**
+ * The day of a status update. Goodreads dates one "Nov 17, 2026 07:41PM"
+ * once it's a day or two old, and until then says how long ago it was:
+ * "22 hours, 22 min ago".
+ */
+function statusDate(when) {
+  const [, month, day, year] = when.match(/^(\w{3}) (\d{1,2}), (\d{4})/) ?? [];
+  if (months.includes(month)) {
+    return `${year}-${String(months.indexOf(month) + 1).padStart(2, "0")}-${day.padStart(2, "0")}`;
+  }
+  const ago = (unit) => Number(when.match(new RegExp(`(\\d+) ${unit}`))?.[1] ?? 0);
+  const minutes = ago("day") * 24 * 60 + ago("hour") * 60 + ago("min");
+  return new Date(started - minutes * 60_000).toISOString().slice(0, 10);
+}
+
+/**
  * The latest status update for each book it can find, by book id: the page
  * (or just the percentage, for an update made that way) and the day. Updates
  * come newest first, 30 to a page, and nothing older than `since` is new, so
@@ -255,11 +270,14 @@ const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "
 async function fetchProgress(since) {
   const progress = new Map();
   for (let page = 1; page <= MAX_STATUS_PAGES; page++) {
-    const html = await get(`${STATUSES}?page=${page}`);
-    const update = /user_status_header">([\s\S]*?)<\/span>[\s\S]*?\/user_status\/show\/\d+">(\w{3}) (\d{1,2}), (\d{4})/g;
+    const html = await get(`${STATUSES}?page=${page}&at=${started}`);
     let oldest = null;
-    for (const [, header, month, day, year] of html.matchAll(update)) {
-      const date = `${year}-${String(months.indexOf(month) + 1).padStart(2, "0")}-${day.padStart(2, "0")}`;
+    // One update at a time, so that a line missing from one can't borrow the next one's.
+    for (const update of html.split('id="user_status_').slice(1)) {
+      const header = update.match(/user_status_header">([\s\S]*?)<\/span>/)?.[1];
+      const when = update.match(/\/user_status\/show\/\d+">([^<]+)</)?.[1];
+      if (!header || !when) continue;
+      const date = statusDate(when.trim());
       oldest = date;
       const id = header.match(/\/book\/show\/(\d+)/)?.[1];
       const paged = header.match(/is on page ([\d,]+) of ([\d,]+) of/);

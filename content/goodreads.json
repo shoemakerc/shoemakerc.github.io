@@ -1,6 +1,6 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-11-24T19:30:11.513Z",
+  "syncedAt": "2026-11-24T22:08:37.409Z",
   "books": [
     {
       "id": "11",
@@ -3898,10 +3898,10 @@
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684015006l/75786._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/75786",
       "progress": {
-        "page": 531,
+        "page": 565,
         "pages": 1079,
-        "percent": 49,
-        "date": "2026-08-25"
+        "percent": 52,
+        "date": "2026-11-23"
       },
       "edition": {
         "format": "Paperback",
@@ -6271,6 +6271,33 @@
       "url": "https://www.goodreads.com/book/show/1681741"
     },
     {
+      "id": "1703614",
+      "reviewId": "9129446834",
+      "title": "The Power and the Glory",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Graham Greene",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 224,
+      "year": 1940,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364813896l/1703614._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1703614",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books",
+        "isbn": "9780140017915",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "1725523",
       "reviewId": "9047451321",
       "title": "PLUTO: Naoki Urasawa x Ozamu Tezuka, Vol.1",
@@ -7501,7 +7528,7 @@
         "page": 41,
         "pages": 496,
         "percent": 8,
-        "date": "2026-11-17"
+        "date": "2026-11-24"
       }
     },
     {
