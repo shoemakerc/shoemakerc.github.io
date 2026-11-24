@@ -1,6 +1,6 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-11-24T17:14:39.067Z",
+  "syncedAt": "2026-11-24T17:25:26.518Z",
   "uncovered": {
     "owned": 1,
     "to-read": 1
@@ -4249,7 +4249,7 @@
       "series": null,
       "seriesNumber": null,
       "author": "Milan Kundera",
-      "shelf": "read",
+      "shelf": "to-read",
       "tags": [
         "owned"
       ],
@@ -5368,7 +5368,7 @@
       "series": null,
       "seriesNumber": null,
       "author": "Haruki Murakami",
-      "shelf": "read",
+      "shelf": "to-read",
       "tags": [
         "owned"
       ],
@@ -5764,7 +5764,7 @@
       "series": null,
       "seriesNumber": null,
       "author": "Salman Rushdie",
-      "shelf": "read",
+      "shelf": "to-read",
       "tags": [
         "owned"
       ],
@@ -12039,7 +12039,7 @@
       "series": null,
       "seriesNumber": null,
       "author": "Fyodor Dostoevsky",
-      "shelf": "read",
+      "shelf": "to-read",
       "tags": [
         "owned"
       ],
@@ -12112,7 +12112,7 @@
       "series": null,
       "seriesNumber": null,
       "author": "Barbara Kingsolver",
-      "shelf": "read",
+      "shelf": "to-read",
       "tags": [
         "owned"
       ],
@@ -12861,7 +12861,7 @@
       "series": null,
       "seriesNumber": null,
       "author": "Philip K. Dick",
-      "shelf": "read",
+      "shelf": "to-read",
       "tags": [
         "owned"
       ],
@@ -13085,7 +13085,7 @@
       "series": null,
       "seriesNumber": null,
       "author": "Sylvia Plath",
-      "shelf": "read",
+      "shelf": "to-read",
       "tags": [
         "owned"
       ],

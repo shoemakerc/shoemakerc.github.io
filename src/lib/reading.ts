@@ -271,12 +271,13 @@ const progress: Record<Status, number> = {
 /**
  * Of two editions of a book, whether `a` is the one to show: the one furthest
  * along, or of two as far along as each other, the one with a date read or a
- * rating, which a second copy added later tends not to have.
+ * rating, or else the one that's owned, which is the copy on the shelf.
  */
 const better = (a: Book, b: Book) =>
   (progress[a.status] - progress[b.status] ||
     Number(!!a.dateRead) - Number(!!b.dateRead) ||
-    Number(!!a.rating) - Number(!!b.rating)) > 0;
+    Number(!!a.rating) - Number(!!b.rating) ||
+    Number(a.owned) - Number(b.owned)) > 0;
 
 export type Library = {
   books: Book[];
