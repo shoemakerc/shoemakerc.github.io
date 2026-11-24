@@ -268,6 +268,16 @@ const progress: Record<Status, number> = {
   read: 4,
 };
 
+/**
+ * Of two editions of a book, whether `a` is the one to show: the one furthest
+ * along, or of two as far along as each other, the one with a date read or a
+ * rating, which a second copy added later tends not to have.
+ */
+const better = (a: Book, b: Book) =>
+  (progress[a.status] - progress[b.status] ||
+    Number(!!a.dateRead) - Number(!!b.dateRead) ||
+    Number(!!a.rating) - Number(!!b.rating)) > 0;
+
 export type Library = {
   books: Book[];
   profile: string;
@@ -298,8 +308,13 @@ export function getLibrary(): Library {
       owned: gr.tags.includes("owned"),
     };
     const existing = byKey.get(key);
-    if (!existing || progress[book.status] > progress[existing.status]) {
+    if (!existing) {
       byKey.set(key, book);
+    } else {
+      const [kept, other] = better(book, existing) ? [book, existing] : [existing, book];
+      // Owning either copy is owning the book.
+      kept.owned ||= other.owned;
+      byKey.set(key, kept);
     }
   }
 

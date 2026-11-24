@@ -25,7 +25,8 @@
 //   the classics or keep it out of them whatever its year says.
 //
 // What it can't see: a book with no cover on Goodreads (the widget leaves
-// those out, so they stay as the snapshot has them), a changed rating on a
+// those out, so one the snapshot has stays as it is, and one it doesn't have
+// is only ever counted, in `uncovered`), a changed rating on a
 // book that already had one, and the real date for a book finished days ago.
 // Dates, ratings and editions in the snapshot are only ever filled in, never
 // replaced, so correcting one by hand in content/goodreads.json sticks.
@@ -124,16 +125,20 @@ async function fetchWidget(shelf, sort, order) {
   return entries;
 }
 
+const hasCover = (book) => /^https?:/.test(book.cover ?? "");
+
 /**
  * Every book the widget will show from a shelf (or tag) that the profile says
- * holds `count` books. `coverless` are the known books there that the widget
- * may be leaving out. `orders` are the sorts to always fetch, newest first.
+ * holds `count` books. `known` are the books the last snapshot had there, some
+ * of which the widget leaves out for having no cover. `orders` are the sorts
+ * to always fetch, newest first.
  */
-async function fetchShelf(shelf, count, coverless, orders = ["date_added"]) {
+async function fetchShelf(shelf, count, known, orders = ["date_added"]) {
   const seen = new Map();
   const seenIds = new Set();
   const lists = new Map();
-  const hidden = () => coverless.filter((book) => !seenIds.has(book.id)).length;
+  const shown = (book) => seenIds.has(book.id) || seen.has(book.reviewId);
+  const hidden = () => known.filter((book) => !hasCover(book) && !shown(book)).length;
   const add = async (sort, order) => {
     const key = `${sort}:${order}`;
     if (lists.has(key)) return;
@@ -148,7 +153,7 @@ async function fetchShelf(shelf, count, coverless, orders = ["date_added"]) {
   if (count > WIDGET_MAX) {
     for (const sort of [...orders, ...SORTS]) {
       for (const order of ["a", "d"]) {
-        if (seen.size + hidden() < count) await add(sort, order);
+        if (seen.size + hidden() + (uncovered[shelf] ?? 0) < count) await add(sort, order);
       }
     }
   }
@@ -156,9 +161,25 @@ async function fetchShelf(shelf, count, coverless, orders = ["date_added"]) {
     // An empty widget for a shelf with books on it means something broke.
     throw new Error(`The widget shows nothing on "${shelf}"; refusing to overwrite the snapshot.`);
   }
-  // Whole when every book the profile counts is either here or known to be left out.
-  const complete = seen.size + hidden() === count;
-  console.log(`${shelf}: ${seen.size}${hidden() ? `, and ${hidden()} without a cover` : ""}`);
+  // What Goodreads counts here beyond the books shown and the known ones
+  // without a cover: books with no cover that the snapshot has never had.
+  const short = count == null ? null : count - seen.size - hidden();
+  // A shelf that fits in one widget came back whole, whatever the count says:
+  // a book it doesn't show isn't there, or has no cover. A longer shelf is
+  // pieced together from several, and is whole only if the count bears it out.
+  const complete = count != null && (count <= WIDGET_MAX || short === (uncovered[shelf] ?? 0));
+  // On a longer shelf a shortfall could as well be a known book the widgets
+  // missed, so it only counts as coverless books when no known book is missing.
+  const missing = known.some((book) => hasCover(book) && !shown(book));
+  if (count != null && (count <= WIDGET_MAX || !missing)) {
+    if (short > 0) uncovered[shelf] = short;
+    else delete uncovered[shelf];
+  }
+  console.log(
+    `${shelf}: ${seen.size}` +
+      (hidden() ? `, and ${hidden()} without a cover` : "") +
+      (uncovered[shelf] ? `, and ${uncovered[shelf]} more that Goodreads counts but doesn't show` : ""),
+  );
   if (!complete) {
     console.warn(`  Goodreads counts ${count ?? "?"}. Books the widget doesn't show stay as they were.`);
   }
@@ -259,14 +280,17 @@ const byId = new Map(previousBooks.map((b) => [b.id, b]));
 // A review keeps its id when the book is switched to another edition; the
 // book's own id is the fallback for snapshots from before reviews were recorded.
 const previousOf = (entry) => byReview.get(entry.reviewId) ?? byId.get(entry.id);
-const coverless = (test) => previousBooks.filter((b) => test(b) && !/^https?:/.test(b.cover ?? ""));
+// How many books Goodreads counts on each shelf that it has never shown: ones
+// with no cover, added since the feeds went. Carried from sync to sync, since
+// a shelf too long for one widget is checked against its count.
+const uncovered = { ...previous?.uncovered };
 
 const counts = await fetchCounts();
 
 const shelves = new Map();
 for (const shelf of SHELVES) {
   const orders = shelf === "read" ? ["date_read", "rating"] : ["date_added"];
-  const known = coverless((b) => b.shelf === shelf);
+  const known = previousBooks.filter((b) => b.shelf === shelf);
   shelves.set(shelf, await fetchShelf(shelf, counts.shelf.get(shelf), known, orders));
 }
 if (shelves.get("read").seen.size === 0) {
@@ -277,7 +301,7 @@ if (shelves.get("read").seen.size === 0) {
 const tagNames = [...new Set([...counts.tag.keys(), ...previousBooks.flatMap((b) => b.tags)])];
 const tags = new Map();
 for (const tag of tagNames) {
-  const known = coverless((b) => b.tags.includes(tag));
+  const known = previousBooks.filter((b) => b.tags.includes(tag));
   tags.set(tag, await fetchShelf(tag, counts.tag.get(tag), known));
 }
 
@@ -327,7 +351,7 @@ for (const shelf of SHELVES) {
 // Known books that no widget showed: left out for having no cover, or off the shelves.
 for (const book of previousBooks) {
   if (matched.has(book.id)) continue;
-  if (/^https?:/.test(book.cover ?? "") && shelves.get(book.shelf).complete) {
+  if (hasCover(book) && shelves.get(book.shelf).complete) {
     console.log(`  No longer on ${book.shelf}: ${book.title}`);
   } else {
     byNewId.set(book.id, book);
@@ -445,12 +469,15 @@ for (const book of books) {
     }
   }
 }
-if (previous && JSON.stringify(previous.books) === JSON.stringify(books)) {
+const unshown = Object.fromEntries(Object.entries(uncovered).sort());
+const alike = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+if (previous && alike(previous.books, books) && alike(previous.uncovered ?? {}, unshown)) {
   console.log("No changes.");
 } else {
   const snapshot = {
     profile: PROFILE,
     syncedAt: new Date().toISOString(),
+    ...(Object.keys(unshown).length > 0 && { uncovered: unshown }),
     books,
   };
   fs.writeFileSync(OUT, JSON.stringify(snapshot, null, 2) + "\n");
