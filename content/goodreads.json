@@ -1,10 +1,6 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-11-24T17:25:26.518Z",
-  "uncovered": {
-    "owned": 1,
-    "to-read": 1
-  },
+  "syncedAt": "2026-11-24T17:35:59.780Z",
   "books": [
     {
       "id": "11",
@@ -6614,6 +6610,33 @@
       "year": 1956,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364525216l/3188964._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/3188964"
+    },
+    {
+      "id": "3218459",
+      "reviewId": "9128847635",
+      "title": "Amerika: The Missing Person",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Franz Kafka",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 299,
+      "year": 1927,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446731964l/3218459._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/3218459",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Fischer Taschenbuch Verlag GmbH",
+        "isbn": "9780805211610",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "3374076",
