@@ -1,6 +1,6 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-11-24T02:36:45.451Z",
+  "syncedAt": "2026-11-24T04:22:11.212Z",
   "books": [
     {
       "id": "11",
@@ -220,33 +220,6 @@
       }
     },
     {
-      "id": "413",
-      "reviewId": "8779712422",
-      "title": "Mason & Dixon",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Thomas Pynchon",
-      "shelf": "to-read",
-      "tags": [
-        "owned"
-      ],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2026-07-18",
-      "pages": 773,
-      "year": 1997,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657594655l/413._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/413",
-      "edition": {
-        "format": "Paperback",
-        "publisher": "Picador USA",
-        "isbn": "9780312423209",
-        "nonfiction": false,
-        "height": 20.6,
-        "thickness": 3.6
-      }
-    },
-    {
       "id": "415",
       "reviewId": "5641426644",
       "title": "Gravity’s Rainbow",
@@ -301,6 +274,33 @@
       }
     },
     {
+      "id": "424",
+      "reviewId": "9127653934",
+      "title": "Slouching Towards Bethlehem",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Joan Didion",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 238,
+      "year": 1968,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611927558l/424._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/424",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Farrar Straus Giroux",
+        "isbn": null,
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "656",
       "reviewId": "9047442076",
       "title": "War and Peace",
@@ -333,23 +333,6 @@
       "year": 1938,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388190459l/667._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/667"
-    },
-    {
-      "id": "816",
-      "reviewId": "6230460650",
-      "title": "Cryptonomicon",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Neal Stephenson",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2024-02-03",
-      "pages": 1152,
-      "year": 1999,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/816"
     },
     {
       "id": "840",
@@ -445,23 +428,6 @@
       "year": 1998,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924869l/1305._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/1305"
-    },
-    {
-      "id": "1381",
-      "reviewId": "5605358878",
-      "title": "The Odyssey",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Homer",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2023-06-08",
-      "pages": 541,
-      "year": null,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1711957706l/1381._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/1381"
     },
     {
       "id": "1617",
@@ -625,6 +591,33 @@
       "year": 2000,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473396980l/2612._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/2612"
+    },
+    {
+      "id": "2631",
+      "reviewId": "9127657782",
+      "title": "The Praise of Folly and Other Writings (Norton Critical Editions)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Erasmus",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 340,
+      "year": 1989,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328157422l/2631._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/2631",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "W. W. Norton & Company",
+        "isbn": "9780393957495",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "2657",
@@ -1099,6 +1092,33 @@
       "url": "https://www.goodreads.com/book/show/6174"
     },
     {
+      "id": "6175",
+      "reviewId": "9127692981",
+      "title": "The Reawakening",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Primo Levi",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 231,
+      "year": 1963,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668524218l/6175._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/6175",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Simon & Schuster",
+        "isbn": "9780684826356",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "6192",
       "reviewId": "8768300110",
       "title": "Disgrace",
@@ -1150,14 +1170,24 @@
       "seriesNumber": null,
       "author": "Kazuo Ishiguro",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2023-06-15",
       "pages": 288,
       "year": 2005,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353048590l/6334._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/6334"
+      "url": "https://www.goodreads.com/book/show/6334",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage Books",
+        "isbn": "9781400078776",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "6514",
@@ -1542,6 +1572,33 @@
       }
     },
     {
+      "id": "9646",
+      "reviewId": "9127697815",
+      "title": "Homage to Catalonia",
+      "series": null,
+      "seriesNumber": null,
+      "author": "George Orwell",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 232,
+      "year": 1938,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394868278l/9646._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/9646",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Harcourt, Inc.(Harvest Book)",
+        "isbn": "9780156421171",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "9717",
       "reviewId": "5619864994",
       "title": "The Unbearable Lightness of Being",
@@ -1753,14 +1810,24 @@
       "seriesNumber": null,
       "author": "Albert Camus",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-10-23",
       "pages": 318,
       "year": 1951,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547122397l/11990._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/11990"
+      "url": "https://www.goodreads.com/book/show/11990",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage Books",
+        "isbn": "9780679733843",
+        "nonfiction": true,
+        "height": 20.6,
+        "thickness": 1.8
+      }
     },
     {
       "id": "11991",
@@ -1770,14 +1837,24 @@
       "seriesNumber": null,
       "author": "Albert Camus",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2023-06-15",
       "pages": 147,
       "year": 1956,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738704293l/11991._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/11991"
+      "url": "https://www.goodreads.com/book/show/11991",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage Books",
+        "isbn": "9780679720225",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "12296",
@@ -1795,6 +1872,33 @@
       "year": 1850,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404810944l/12296._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/12296"
+    },
+    {
+      "id": "12321",
+      "reviewId": "9127695725",
+      "title": "Beyond Good and Evil",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Friedrich Nietzsche",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 240,
+      "year": 1886,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388607391l/12321._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/12321",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Classics",
+        "isbn": "9780140449235",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "12349",
@@ -1848,6 +1952,33 @@
       "url": "https://www.goodreads.com/book/show/12505"
     },
     {
+      "id": "12749",
+      "reviewId": "9127621360",
+      "title": "Swann’s Way",
+      "series": "In Search of Lost Time",
+      "seriesNumber": "1",
+      "author": "Marcel Proust",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 468,
+      "year": 1913,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735845760l/12749._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/12749",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Classics",
+        "isbn": "9780142437964",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "12781",
       "reviewId": "5619873633",
       "title": "The Satanic Verses",
@@ -1886,6 +2017,33 @@
       "year": 1990,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348209142l/12867._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/12867"
+    },
+    {
+      "id": "12915",
+      "reviewId": "9127705511",
+      "title": "The Aeneid of Virgil",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Virgil",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 413,
+      "year": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1223649644l/12915._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/12915",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "University of California Press",
+        "isbn": "9780520045507",
+        "nonfiction": false,
+        "height": 22.9,
+        "thickness": 2.8
+      }
     },
     {
       "id": "13470",
@@ -2289,14 +2447,24 @@
       "seriesNumber": null,
       "author": "Mark Epstein",
       "shelf": "read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-10-23",
       "pages": 200,
       "year": 1998,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403174011l/18736._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/18736"
+      "url": "https://www.goodreads.com/book/show/18736",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Harmony",
+        "isbn": "9780767902359",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "18825",
@@ -2469,6 +2637,33 @@
       "url": "https://www.goodreads.com/book/show/24583"
     },
     {
+      "id": "24970",
+      "reviewId": "9127685982",
+      "title": "Either/Or: A Fragment of Life",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Søren Kierkegaard",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 633,
+      "year": 1843,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1747674161l/24970._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/24970",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Classics",
+        "isbn": null,
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "25491",
       "reviewId": "5700113763",
       "title": "Escape from Freedom",
@@ -2571,33 +2766,6 @@
       "url": "https://www.goodreads.com/book/show/28676"
     },
     {
-      "id": "28700",
-      "reviewId": "8909055211",
-      "title": "Falling Man",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Don DeLillo",
-      "shelf": "to-read",
-      "tags": [
-        "owned"
-      ],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2026-09-01",
-      "pages": 246,
-      "year": 2007,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441139502l/28700._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/28700",
-      "edition": {
-        "format": "Hardcover",
-        "publisher": "Scribner",
-        "isbn": "9781416546023",
-        "nonfiction": false,
-        "height": 23.1,
-        "thickness": null
-      }
-    },
-    {
       "id": "28862",
       "reviewId": "5605365076",
       "title": "The Prince",
@@ -2622,14 +2790,24 @@
       "seriesNumber": null,
       "author": "Kazuo Ishiguro",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2023-06-15",
       "pages": 258,
       "year": 1989,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327128714l/28921._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/28921"
+      "url": "https://www.goodreads.com/book/show/28921",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Faber & Faber",
+        "isbn": null,
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "28922",
@@ -2639,14 +2817,24 @@
       "seriesNumber": null,
       "author": "Kazuo Ishiguro",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-08-31",
       "pages": 206,
       "year": 1986,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327786035l/28922._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/28922"
+      "url": "https://www.goodreads.com/book/show/28922",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Faber and Faber",
+        "isbn": "9780571225361",
+        "nonfiction": false,
+        "height": 19.3,
+        "thickness": 1.5
+      }
     },
     {
       "id": "29044",
@@ -2721,6 +2909,33 @@
         "format": "Paperback",
         "publisher": "Penguin Books",
         "isbn": "9780140449334",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "30735",
+      "reviewId": "9127694297",
+      "title": "The Complete Essays",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Michel de Montaigne",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 1344,
+      "year": 1580,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657542435l/30735._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/30735",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Classics",
+        "isbn": "9780140446043",
         "nonfiction": true,
         "height": null,
         "thickness": null
@@ -3439,23 +3654,6 @@
       "url": "https://www.goodreads.com/book/show/66354"
     },
     {
-      "id": "67896",
-      "reviewId": "9047473211",
-      "title": "Tao Te Ching",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Lao Tzu",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2026-10-23",
-      "pages": 107,
-      "year": null,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333578861l/67896._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/67896"
-    },
-    {
       "id": "68210",
       "reviewId": "5672456865",
       "title": "Gilead",
@@ -3851,23 +4049,6 @@
       "url": "https://www.goodreads.com/book/show/88340"
     },
     {
-      "id": "91950",
-      "reviewId": "5641437042",
-      "title": "The Myth of Sisyphus",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Albert Camus",
-      "shelf": "read",
-      "tags": [],
-      "rating": 4,
-      "dateRead": null,
-      "dateAdded": "2023-06-24",
-      "pages": 192,
-      "year": 1942,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347654509l/91950._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/91950"
-    },
-    {
       "id": "92303",
       "reviewId": "7783165073",
       "title": "The Importance of Being Earnest",
@@ -4038,6 +4219,33 @@
       "url": "https://www.goodreads.com/book/show/102908"
     },
     {
+      "id": "115577",
+      "reviewId": "9127703019",
+      "title": "Oedipus the King and Antigone (Crofts Classics)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Sophocles",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 120,
+      "year": 1960,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340764789l/115577._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/115577",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Wiley-Blackwell",
+        "isbn": "9780882950945",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "117833",
       "reviewId": "5641439967",
       "title": "The Master and Margarita",
@@ -4045,14 +4253,78 @@
       "seriesNumber": null,
       "author": "Mikhail Bulgakov",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2023-06-24",
       "pages": 372,
       "year": 1967,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327867963l/117833._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/117833"
+      "url": "https://www.goodreads.com/book/show/117833",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage International",
+        "isbn": "9780679760801",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "118053",
+      "reviewId": "6230460650",
+      "title": "Cryptonomicon: From cracking the Enigma code in WWII to building a modern data haven, two families chase a sunken Nazi sub's deadly secret.",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Neal Stephenson",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2024-02-03",
+      "pages": 918,
+      "year": 1999,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407707540l/118053._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/118053",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "William Morrow Paperbacks",
+        "isbn": "9780380788620",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "123845",
+      "reviewId": "9127655339",
+      "title": "Self-Reliance and Other Essays (Dover Thrift Editions: Philosophy)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Ralph Waldo Emerson",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 117,
+      "year": 1844,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520778510l/123845._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/123845",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Dover Publications",
+        "isbn": "9780486277905",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "126985",
@@ -4096,14 +4368,24 @@
       "seriesNumber": null,
       "author": "J. Krishnamurti",
       "shelf": "read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": 5,
       "dateRead": null,
       "dateAdded": "2023-06-24",
       "pages": 124,
       "year": 1969,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410132490l/143877._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/143877"
+      "url": "https://www.goodreads.com/book/show/143877",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "HarperOne",
+        "isbn": "9780060648084",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "151390",
@@ -4422,14 +4704,24 @@
       "seriesNumber": null,
       "author": "Venerable Bhikkhu Bodhi",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-10-23",
       "pages": 486,
       "year": 2005,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428915308l/209576._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/209576"
+      "url": "https://www.goodreads.com/book/show/209576",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Wisdom Publications",
+        "isbn": "9780861714919",
+        "nonfiction": true,
+        "height": 22.9,
+        "thickness": 3.6
+      }
     },
     {
       "id": "209577",
@@ -4517,6 +4809,33 @@
       "url": "https://www.goodreads.com/book/show/223380"
     },
     {
+      "id": "225406",
+      "reviewId": "6576131485",
+      "title": "Rip It Up and Start Again: Postpunk 1978-1984",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Simon Reynolds",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2024-06-10",
+      "pages": 416,
+      "year": 2005,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437517073l/225406._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/225406",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books",
+        "isbn": "9780143036722",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "230714",
       "reviewId": "5718057089",
       "title": "Buddha, Vol. 4: The Forest of Uruvela",
@@ -4578,23 +4897,6 @@
       "url": "https://www.goodreads.com/book/show/242472"
     },
     {
-      "id": "272642",
-      "reviewId": "6576131485",
-      "title": "Rip it Up and Start Again. Post-punk 1978-1984",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Simon Reynolds",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2024-06-10",
-      "pages": 752,
-      "year": 2005,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738701527l/272642._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/272642"
-    },
-    {
       "id": "297673",
       "reviewId": "6270730879",
       "title": "The Brief Wondrous Life of Oscar Wao",
@@ -4627,6 +4929,33 @@
       "year": 1972,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1316138606l/316328._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/316328"
+    },
+    {
+      "id": "316793",
+      "reviewId": "9127648090",
+      "title": "A Tour of the Calculus",
+      "series": null,
+      "seriesNumber": null,
+      "author": "David Berlinski",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 331,
+      "year": 1995,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618781746l/316793._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/316793",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9780679747888",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "317621",
@@ -4921,23 +5250,6 @@
       "url": "https://www.goodreads.com/book/show/395058"
     },
     {
-      "id": "397165",
-      "reviewId": "8908925289",
-      "title": "Sputnik Sweetheart",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Haruki Murakami",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2026-09-01",
-      "pages": 210,
-      "year": 1999,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541945254l/397165._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/397165"
-    },
-    {
       "id": "434903",
       "reviewId": "8380503848",
       "title": "The Rings of Saturn",
@@ -4982,6 +5294,33 @@
       }
     },
     {
+      "id": "448710",
+      "reviewId": "9127658668",
+      "title": "Medea and Other Plays",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Euripides",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 208,
+      "year": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1757450823l/448710._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/448710",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin",
+        "isbn": "9780140441291",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "463500",
       "reviewId": "9047441480",
       "title": "The Bhagavad Gita",
@@ -4989,14 +5328,24 @@
       "seriesNumber": null,
       "author": "Krishna-Dwaipayana Vyasa",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-10-23",
       "pages": 234,
       "year": null,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710806858l/463500._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/463500"
+      "url": "https://www.goodreads.com/book/show/463500",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Classics",
+        "isbn": "9780140447903",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "469571",
@@ -5058,23 +5407,6 @@
       "year": 1967,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345486299l/499653._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/499653"
-    },
-    {
-      "id": "514210",
-      "reviewId": "9047443566",
-      "title": "The Way of Zen",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Alan W. Watts",
-      "shelf": "read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2026-10-23",
-      "pages": 236,
-      "year": null,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348297121l/514210._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/514210"
     },
     {
       "id": "523494",
@@ -5187,23 +5519,6 @@
       "year": 1857,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1756677317l/536387._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/536387"
-    },
-    {
-      "id": "551520",
-      "reviewId": "5605414480",
-      "title": "The Wisdom of Insecurity: A Message for an Age of Anxiety",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Alan W. Watts",
-      "shelf": "read",
-      "tags": [],
-      "rating": 4,
-      "dateRead": null,
-      "dateAdded": "2023-06-08",
-      "pages": 152,
-      "year": 1951,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411152436l/551520._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/551520"
     },
     {
       "id": "563002",
@@ -5441,6 +5756,33 @@
       "url": "https://www.goodreads.com/book/show/832225"
     },
     {
+      "id": "869806",
+      "reviewId": "8779712422",
+      "title": "Mason & Dixon",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Thomas Pynchon",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-07-18",
+      "pages": 773,
+      "year": 1997,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312063386l/869806._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/869806",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Holt",
+        "isbn": "9780805037586",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "981522",
       "reviewId": "5641441694",
       "title": "England's Hidden Reverse:  A Secret History of the Esoteric Underground",
@@ -5502,6 +5844,33 @@
       }
     },
     {
+      "id": "1088141",
+      "reviewId": "9127605056",
+      "title": "The Good Earth",
+      "series": "House of Earth",
+      "seriesNumber": "1",
+      "author": "Pearl S. Buck",
+      "shelf": "read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 379,
+      "year": 1931,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388204251l/1088141._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1088141",
+      "edition": {
+        "format": "Mass Market Paperback",
+        "publisher": "Washington Square Press",
+        "isbn": "9780671510121",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "1168191",
       "reviewId": "6409685420",
       "title": "Meditations",
@@ -5535,30 +5904,30 @@
       }
     },
     {
-      "id": "1237300",
-      "reviewId": "7124825554",
-      "title": "The Shock Doctrine: The Rise of Disaster Capitalism",
+      "id": "1283910",
+      "reviewId": "9127680894",
+      "title": "The Taming of the Samurai: Honorific Individualism and the Making of Modern Japan",
       "series": null,
       "seriesNumber": null,
-      "author": "Naomi Klein",
+      "author": "Eiko Ikegami",
       "shelf": "to-read",
       "tags": [
         "owned"
       ],
       "rating": null,
       "dateRead": null,
-      "dateAdded": "2025-08-21",
-      "pages": 558,
-      "year": 2007,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442590618l/1237300._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/1237300",
+      "dateAdded": "2026-11-24",
+      "pages": 448,
+      "year": 1997,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348789914l/1283910._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1283910",
       "edition": {
-        "format": "Hardcover",
-        "publisher": "Metropolitan Books",
-        "isbn": "9780805079838",
+        "format": "Paperback",
+        "publisher": "Harvard University Press",
+        "isbn": "9780674868090",
         "nonfiction": true,
-        "height": 24.1,
-        "thickness": 4.6
+        "height": 23.4,
+        "thickness": null
       }
     },
     {
@@ -5604,6 +5973,33 @@
       "year": 1991,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330196571l/1311355._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/1311355"
+    },
+    {
+      "id": "1541073",
+      "reviewId": "8909055211",
+      "title": "Falling Man",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Don DeLillo",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-09-01",
+      "pages": 246,
+      "year": 2007,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1184937333l/1541073._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1541073",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Scribner",
+        "isbn": "9781416557210",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "1542752",
@@ -5674,6 +6070,33 @@
       "url": "https://www.goodreads.com/book/show/1772910"
     },
     {
+      "id": "1890922",
+      "reviewId": "9127649883",
+      "title": "Feeling Good: The New Mood Therapy",
+      "series": null,
+      "seriesNumber": null,
+      "author": "David D. Burns",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 736,
+      "year": 1980,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441673681l/1890922._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1890922",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "William Morrow Paperbacks",
+        "isbn": "9780380731763",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "1979250",
       "title": "The Princess of Clèves",
       "series": null,
@@ -5734,6 +6157,33 @@
       "year": 2007,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473397159l/2195464._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/2195464"
+    },
+    {
+      "id": "2245773",
+      "reviewId": "7124825554",
+      "title": "The Shock Doctrine: The Rise of Disaster Capitalism",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Naomi Klein",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2025-08-21",
+      "pages": 720,
+      "year": 2007,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344312989l/2245773._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/2245773",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Picador / Farrar, Straus and Giroux",
+        "isbn": "9780312427993",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "2247142",
@@ -5804,21 +6254,31 @@
       "url": "https://www.goodreads.com/book/show/2429135"
     },
     {
-      "id": "2475251",
-      "reviewId": "9047441596",
-      "title": "The Cellist of Sarajevo",
+      "id": "2636730",
+      "reviewId": "9127683820",
+      "title": "On the Road: The Original Scroll",
       "series": null,
       "seriesNumber": null,
-      "author": "Steven Galloway",
-      "shelf": "read",
-      "tags": [],
+      "author": "Jack Kerouac",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
-      "dateAdded": "2026-10-23",
-      "pages": 235,
-      "year": 2008,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442797420l/2475251._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/2475251"
+      "dateAdded": "2026-11-24",
+      "pages": 408,
+      "year": 1957,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348352641l/2636730._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/2636730",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Classics Deluxe Edition",
+        "isbn": "9780143105466",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "2786094",
@@ -5828,14 +6288,24 @@
       "seriesNumber": null,
       "author": "Alex  Ross",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-09-01",
       "pages": 715,
       "year": 2007,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1426998040l/2786094._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/2786094"
+      "url": "https://www.goodreads.com/book/show/2786094",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Picador USA",
+        "isbn": "9780312427719",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "2924318",
@@ -5897,6 +6367,7 @@
       "author": "Augustine of Hippo",
       "shelf": "currently-reading",
       "tags": [
+        "owned",
         "paused"
       ],
       "rating": null,
@@ -5911,6 +6382,41 @@
         "pages": 346,
         "percent": 45,
         "date": "2024-12-28"
+      },
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Hippocrene Books",
+        "isbn": "9780880291033",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "3619573",
+      "reviewId": "9047441596",
+      "title": "The Cellist of Sarajevo",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Steven Galloway",
+      "shelf": "read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 235,
+      "year": 2008,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355905565l/3619573._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/3619573",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Riverhead Books",
+        "isbn": "9781594483653",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
       }
     },
     {
@@ -6070,6 +6576,33 @@
       "url": "https://www.goodreads.com/book/show/6088007"
     },
     {
+      "id": "6290009",
+      "reviewId": "9127702106",
+      "title": "Renegade",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Mark E. Smith",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 236,
+      "year": 2008,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348903029l/6290009._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/6290009",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Global",
+        "isbn": "9780141028668",
+        "nonfiction": true,
+        "height": 19.6,
+        "thickness": 2
+      }
+    },
+    {
       "id": "6372225",
       "reviewId": "8832493041",
       "title": "2666",
@@ -6164,6 +6697,33 @@
       "url": "https://www.goodreads.com/book/show/6439148"
     },
     {
+      "id": "6500220",
+      "reviewId": "9047473211",
+      "title": "Lao-tzu's Taoteching",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Lao Tzu",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 200,
+      "year": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354209975l/6500220._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/6500220",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Copper Canyon Press",
+        "isbn": "9781556592904",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "6577631",
       "reviewId": "5605379376",
       "title": "Empire of Illusion: The End of Literacy and the Triumph of Spectacle",
@@ -6221,23 +6781,6 @@
       }
     },
     {
-      "id": "6763725",
-      "reviewId": "5641426304",
-      "title": "Capitalist Realism: Is There No Alternative?",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Mark Fisher",
-      "shelf": "read",
-      "tags": [],
-      "rating": 4,
-      "dateRead": null,
-      "dateAdded": "2023-06-24",
-      "pages": 81,
-      "year": 2009,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1732718088l/6763725._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/6763725"
-    },
-    {
       "id": "6892870",
       "reviewId": "9047447439",
       "title": "The Girl Who Kicked the Hornet’s Nest",
@@ -6253,6 +6796,33 @@
       "year": 2007,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327708260l/6892870._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/6892870"
+    },
+    {
+      "id": "6916961",
+      "reviewId": "9127693629",
+      "title": "Although of Course You End Up Becoming Yourself: A Road Trip with David Foster Wallace",
+      "series": null,
+      "seriesNumber": null,
+      "author": "David Lipsky",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 320,
+      "year": 2010,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320553939l/6916961._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/6916961",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Broadway",
+        "isbn": "9780307592439",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "7897556",
@@ -6333,6 +6903,33 @@
       }
     },
     {
+      "id": "8339684",
+      "reviewId": "9127698643",
+      "title": "The Erotic Poems",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Ovid",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 464,
+      "year": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1275231105l/8339684._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/8339684",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Classics",
+        "isbn": "9780140443608",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "8501350",
       "reviewId": "8458420240",
       "title": "There Is Power in a Union: The Epic Story of Labor in America",
@@ -6348,6 +6945,60 @@
       "year": 2010,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320476067l/8501350._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/8501350"
+    },
+    {
+      "id": "8554196",
+      "reviewId": "9127719475",
+      "title": "The Death of Bunny Munro",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Nick Cave",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 288,
+      "year": 2009,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1316130289l/8554196._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/8554196",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Farrar, Straus and Giroux",
+        "isbn": "9780865479401",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "8726220",
+      "reviewId": "9127644538",
+      "title": "The Wisdom Books: Job, Proverbs, and Ecclesiastes",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Robert Alter",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 416,
+      "year": 2010,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328052795l/8726220._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/8726220",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "W. W. Norton & Company",
+        "isbn": "9780393068122",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "9083994",
@@ -6513,6 +7164,33 @@
       "url": "https://www.goodreads.com/book/show/10108463"
     },
     {
+      "id": "10451269",
+      "reviewId": "9127699593",
+      "title": "Pensées",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Blaise Pascal",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 334,
+      "year": 1670,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349559029l/10451269._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/10451269",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books",
+        "isbn": "9780140446456",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "10454285",
       "reviewId": "6293898933",
       "title": "Brimstone Angels",
@@ -6625,6 +7303,33 @@
       "year": 2011,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328323797l/10875089._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/10875089"
+    },
+    {
+      "id": "11054461",
+      "reviewId": "9127678228",
+      "title": "The Iliad of Homer",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Homer",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 599,
+      "year": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344674047l/11054461._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/11054461",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "University of Chicago Press",
+        "isbn": "9780226470498",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "11084145",
@@ -6865,6 +7570,33 @@
       "url": "https://www.goodreads.com/book/show/15797396"
     },
     {
+      "id": "15797663",
+      "reviewId": "9127622773",
+      "title": "1Q84 (1Q84 #1-3)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Haruki Murakami",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 1157,
+      "year": 2009,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358416910l/15797663._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/15797663",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9780307476463",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "15811545",
       "reviewId": "5605823903",
       "title": "A Tale for the Time Being",
@@ -6880,6 +7612,33 @@
       "year": 2013,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613060369l/15811545._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/15811545"
+    },
+    {
+      "id": "15814168",
+      "reviewId": "9127692392",
+      "title": "This Town: Two Parties and a Funeral — plus plenty of valet parking! — in America's Gilded Capital",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Mark Leibovich",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 386,
+      "year": 2013,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394410311l/15814168._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/15814168",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Penguin Press",
+        "isbn": "9780399161308",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "15824232",
@@ -6926,23 +7685,6 @@
       "url": "https://www.goodreads.com/book/show/16085481"
     },
     {
-      "id": "16158591",
-      "reviewId": "9047442445",
-      "title": "The Trauma of Everyday Life",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Mark Epstein",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2026-10-23",
-      "pages": 240,
-      "year": 2013,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356195332l/16158591._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/16158591"
-    },
-    {
       "id": "16241799",
       "reviewId": "7633670215",
       "title": "Seiobo There Below",
@@ -6977,6 +7719,60 @@
       "url": "https://www.goodreads.com/book/show/17333223"
     },
     {
+      "id": "17333245",
+      "reviewId": "9127706461",
+      "title": "Both Flesh and Not: Essays",
+      "series": null,
+      "seriesNumber": null,
+      "author": "David Foster Wallace",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 336,
+      "year": 2012,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364181488l/17333245._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/17333245",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Little, Brown Paperbacks",
+        "isbn": "9780316182386",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "17383911",
+      "reviewId": "9127674631",
+      "title": "Fear: A Study of Fear Through Buddhist Mindfulness",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Thich Nhat Hanh",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 176,
+      "year": 2012,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362956054l/17383911._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/17383911",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "HarperOne",
+        "isbn": "9780062004734",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "17489103",
       "title": "Gravity and Grace",
       "series": null,
@@ -6993,6 +7789,33 @@
       "year": 1947,
       "cover": "/covers/17489103.jpg",
       "url": "https://www.goodreads.com/book/show/17489103"
+    },
+    {
+      "id": "17707599",
+      "reviewId": "9127662173",
+      "title": "Moral Tribes: Emotion, Reason, and the Gap Between Us and Them",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Joshua D. Greene",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 432,
+      "year": 2013,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624049262l/17707599._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/17707599",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Penguin Press",
+        "isbn": "9781594202605",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "17707616",
@@ -7073,6 +7896,33 @@
       "url": "https://www.goodreads.com/book/show/18007564"
     },
     {
+      "id": "18085401",
+      "reviewId": "9127724293",
+      "title": "The Sleepwalkers: How Europe Went to War in 1914",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Christopher   Clark",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 697,
+      "year": 2012,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614968763l/18085401._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/18085401",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Harper Perennial",
+        "isbn": "9780061146664",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "18283207",
       "reviewId": "5617962616",
       "title": "Strange Weather in Tokyo",
@@ -7088,6 +7938,33 @@
       "year": 2001,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375634096l/18283207._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/18283207"
+    },
+    {
+      "id": "18338444",
+      "reviewId": "9127704577",
+      "title": "Hagakure: The Secret Wisdom of the Samurai",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Yamamoto Tsunetomo",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 288,
+      "year": 1716,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399865615l/18338444._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/18338444",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Tuttle Publishing",
+        "isbn": "9784805311981",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "18453218",
@@ -7191,6 +8068,23 @@
       }
     },
     {
+      "id": "18693932",
+      "reviewId": "9047442445",
+      "title": "The Trauma of Everyday Life",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Mark Epstein",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 240,
+      "year": 2013,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398026332l/18693932._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/18693932"
+    },
+    {
       "id": "18932432",
       "reviewId": "7156919811",
       "title": "Lesser Evils",
@@ -7208,6 +8102,33 @@
       "year": 2012,
       "cover": "/covers/18932432.jpg",
       "url": "https://www.goodreads.com/book/show/18932432"
+    },
+    {
+      "id": "18998670",
+      "reviewId": "9127680435",
+      "title": "Unknown Pleasures: Inside Joy Division",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Peter Hook",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 328,
+      "year": 2012,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389994965l/18998670._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/18998670",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Simon & Schuster UK",
+        "isbn": "9781849833608",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "19087989",
@@ -7485,23 +8406,6 @@
       "url": "https://www.goodreads.com/book/show/21853621"
     },
     {
-      "id": "21856367",
-      "reviewId": "9047473683",
-      "title": "The Innovators: How a Group of Hackers, Geniuses and Geeks Created the Digital Revolution",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Walter Isaacson",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2026-10-23",
-      "pages": 542,
-      "year": 2014,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410191571l/21856367._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/21856367"
-    },
-    {
       "id": "22237171",
       "reviewId": "8019871146",
       "title": "The World Beyond Your Head: On Becoming an Individual in an Age of Distraction",
@@ -7764,6 +8668,33 @@
       "url": "https://www.goodreads.com/book/show/24724602"
     },
     {
+      "id": "25111130",
+      "reviewId": "9047473683",
+      "title": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Walter Isaacson",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 542,
+      "year": 2014,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439787245l/25111130._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/25111130",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Simon & Schuster",
+        "isbn": "9781476708706",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "25241923",
       "reviewId": "6399844151",
       "title": "Planetes Omnibus, Volume 1 (Planetes, #1-2)",
@@ -7815,14 +8746,51 @@
       "seriesNumber": null,
       "author": "Byung-Chul Han",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2023-06-23",
       "pages": 60,
       "year": 2010,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734622920l/25490360._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/25490360"
+      "url": "https://www.goodreads.com/book/show/25490360",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Stanford University Press",
+        "isbn": "9780804795098",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "25490453",
+      "reviewId": "9127671831",
+      "title": "The Transparency Society",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Byung-Chul Han",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 58,
+      "year": 2012,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448470151l/25490453._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/25490453",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Stanford University Press",
+        "isbn": "9780804794602",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "25499919",
@@ -8090,6 +9058,23 @@
       }
     },
     {
+      "id": "28259262",
+      "reviewId": "8908925289",
+      "title": "Sputnik Sweetheart",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Haruki Murakami",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-09-01",
+      "pages": 210,
+      "year": 1999,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482893524l/28259262._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/28259262"
+    },
+    {
       "id": "29496076",
       "reviewId": "5639935511",
       "title": "Killers of the Flower Moon: The Osage Murders and the Birth of the FBI",
@@ -8114,14 +9099,24 @@
       "seriesNumber": null,
       "author": "Mark Fisher",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-10-23",
       "pages": 134,
       "year": 2016,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460911059l/29845449._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/29845449"
+      "url": "https://www.goodreads.com/book/show/29845449",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Repeater Books",
+        "isbn": "9781910924389",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "30079724",
@@ -8194,21 +9189,58 @@
       "url": "https://www.goodreads.com/book/show/30555488"
     },
     {
-      "id": "31170723",
-      "reviewId": "9047474673",
-      "title": "Behave: The Biology of Humans at Our Best and Worst",
+      "id": "31850792",
+      "reviewId": "5639929626",
+      "title": "The Agony of Eros",
       "series": null,
       "seriesNumber": null,
-      "author": "Robert M. Sapolsky",
+      "author": "Byung-Chul Han",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
-      "dateAdded": "2026-10-23",
-      "pages": 790,
+      "dateAdded": "2023-06-23",
+      "pages": 88,
       "year": 2017,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517732866l/31170723._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/31170723"
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495762597l/31850792._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/31850792",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "The MIT Press",
+        "isbn": "9780262533379",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "32203858",
+      "reviewId": "9127677726",
+      "title": "The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Ryan Holiday",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 416,
+      "year": 2016,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474869618l/32203858._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/32203858",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Profile Books Ltd",
+        "isbn": "9781781257654",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "32722510",
@@ -8228,21 +9260,31 @@
       "url": "https://www.goodreads.com/book/show/32722510"
     },
     {
-      "id": "32830355",
+      "id": "32830359",
       "reviewId": "9047442902",
       "title": "Isonomia and the Origins of Philosophy",
       "series": null,
       "seriesNumber": null,
       "author": "Kōjin Karatani",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-10-23",
       "pages": 176,
-      "year": null,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493507262l/32830355._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/32830355"
+      "year": 2017,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493507300l/32830359._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/32830359",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Duke University Press",
+        "isbn": "9780822369134",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "32919052",
@@ -8350,6 +9392,33 @@
       "url": "https://www.goodreads.com/book/show/34196063"
     },
     {
+      "id": "34356485",
+      "reviewId": "5639929541",
+      "title": "Psychopolitics: Neoliberalism and New Technologies of Power (Futures)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Byung-Chul Han",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2023-06-23",
+      "pages": 96,
+      "year": 2014,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498924934l/34356485._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/34356485",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Verso",
+        "isbn": "9781784785772",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "34466958",
       "reviewId": "9047469535",
       "title": "Bullshit Jobs: A Theory",
@@ -8382,23 +9451,6 @@
       "year": 2017,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494431478l/34555335._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/34555335"
-    },
-    {
-      "id": "34848070",
-      "reviewId": "5639929626",
-      "title": "The Agony of Eros",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Byung-Chul Han",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2023-06-23",
-      "pages": 76,
-      "year": 2017,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492050857l/34848070._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/34848070"
     },
     {
       "id": "34915570",
@@ -8462,6 +9514,33 @@
       "url": "https://www.goodreads.com/book/show/35215524"
     },
     {
+      "id": "35355633",
+      "reviewId": "9127669745",
+      "title": "Saving Beauty",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Byung-Chul Han",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 120,
+      "year": 2015,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497264528l/35355633._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/35355633",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Polity",
+        "isbn": "9781509515103",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "35886439",
       "reviewId": "8338163689",
       "title": "Berlin Alexanderplatz",
@@ -8479,21 +9558,31 @@
       "url": "https://www.goodreads.com/book/show/35886439"
     },
     {
-      "id": "36064445",
-      "reviewId": "9047450506",
-      "title": "Skin in the Game: The Hidden Asymmetries in Daily Life",
+      "id": "36014145",
+      "reviewId": "9047474673",
+      "title": "Behave: The Biology of Humans at Our Best and Worst",
       "series": null,
       "seriesNumber": null,
-      "author": "Nassim Nicholas Taleb",
+      "author": "Robert M. Sapolsky",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-10-23",
-      "pages": 272,
-      "year": 2018,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510319798l/36064445._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/36064445"
+      "pages": 800,
+      "year": 2017,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1783806223l/36014145._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/36014145",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books",
+        "isbn": "9780143110910",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "36070337",
@@ -8591,6 +9680,60 @@
       "url": "https://www.goodreads.com/book/show/36402034"
     },
     {
+      "id": "36507099",
+      "reviewId": "9047450506",
+      "title": "Skin in the Game: Hidden Asymmetries in Daily Life (Incerto)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Nassim Nicholas Taleb",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 304,
+      "year": 2018,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1509420883l/36507099._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/36507099",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Random House",
+        "isbn": "9780425284629",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "36738701",
+      "reviewId": "9127684720",
+      "title": "The Lily of the Field and the Bird of the Air: Three Godly Discourses",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Søren Kierkegaard",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 128,
+      "year": 1849,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574746471l/36738701._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/36738701",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Princeton University Press",
+        "isbn": "9780691180830",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "37004370",
       "reviewId": "7891777215",
       "title": "The Memory Police",
@@ -8616,23 +9759,6 @@
         "height": null,
         "thickness": null
       }
-    },
-    {
-      "id": "37133029",
-      "reviewId": "5639929541",
-      "title": "Psychopolitics: Neoliberalism and New Technologies of Power",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Byung-Chul Han",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2023-06-23",
-      "pages": 96,
-      "year": 2014,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1757828699l/37133029._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/37133029"
     },
     {
       "id": "37647493",
@@ -8740,6 +9866,33 @@
       }
     },
     {
+      "id": "38212119",
+      "reviewId": "5605358878",
+      "title": "The Odyssey",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Homer",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2023-06-08",
+      "pages": 582,
+      "year": null,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519082825l/38212119._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/38212119",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "W. W. Norton & Company",
+        "isbn": "9780393356250",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "38532183",
       "reviewId": "9047449631",
       "title": "How to Be Alone: If You Want To, and Even If You Don't",
@@ -8774,21 +9927,85 @@
       "url": "https://www.goodreads.com/book/show/38820047"
     },
     {
-      "id": "39079243",
+      "id": "39087947",
       "reviewId": "5605379824",
       "title": "K-punk: The Collected and Unpublished Writings of Mark Fisher",
       "series": null,
       "seriesNumber": null,
       "author": "Mark Fisher",
       "shelf": "read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": 5,
       "dateRead": null,
       "dateAdded": "2023-06-08",
-      "pages": 821,
+      "pages": 833,
       "year": 2018,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520482502l/39079243._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/39079243"
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701169810l/39087947._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/39087947",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Repeater",
+        "isbn": "9781912248285",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "39776179",
+      "reviewId": "5605376927",
+      "title": "Dune",
+      "series": "Dune",
+      "seriesNumber": "1",
+      "author": "Frank Herbert",
+      "shelf": "read",
+      "tags": [
+        "owned"
+      ],
+      "rating": 5,
+      "dateRead": null,
+      "dateAdded": "2023-06-08",
+      "pages": 687,
+      "year": 1965,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620503959l/39776179._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/39776179",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Ace",
+        "isbn": null,
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "39947376",
+      "reviewId": "5641437042",
+      "title": "The Myth of Sisyphus",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Albert Camus",
+      "shelf": "read",
+      "tags": [
+        "owned"
+      ],
+      "rating": 4,
+      "dateRead": null,
+      "dateAdded": "2023-06-24",
+      "pages": 161,
+      "year": 1942,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1761476589l/39947376._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/39947376",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Knopf Doubleday Publishing Group",
+        "isbn": "9780525564454",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "39999461",
@@ -8808,23 +10025,6 @@
       "url": "https://www.goodreads.com/book/show/39999461"
     },
     {
-      "id": "40121378",
-      "reviewId": "5605366237",
-      "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
-      "series": null,
-      "seriesNumber": null,
-      "author": "James Clear",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2023-06-08",
-      "pages": 319,
-      "year": 2018,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655988385l/40121378._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/40121378"
-    },
-    {
       "id": "40121985",
       "reviewId": "7124841993",
       "title": "How to Hide an Empire: A History of the Greater United States",
@@ -8840,6 +10040,23 @@
       "year": 2019,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627757585l/40121985._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/40121985"
+    },
+    {
+      "id": "40244063",
+      "reviewId": "5605366237",
+      "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+      "series": null,
+      "seriesNumber": null,
+      "author": "James Clear",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2023-06-08",
+      "pages": 306,
+      "year": 2018,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655988239l/40244063._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/40244063"
     },
     {
       "id": "40672036",
@@ -9012,6 +10229,60 @@
       "url": "https://www.goodreads.com/book/show/41881472"
     },
     {
+      "id": "42357662",
+      "reviewId": "9127715057",
+      "title": "Convenience Store Woman",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Sayaka Murata",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 172,
+      "year": 2016,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680105422l/42357662._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/42357662",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Grove Press",
+        "isbn": "9780802129628",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "42420363",
+      "reviewId": "9127635032",
+      "title": "Nausea",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Jean-Paul Sartre",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 192,
+      "year": 1938,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540282802l/42420363._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/42420363",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "New Directions",
+        "isbn": "9780811220309",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "42585103",
       "reviewId": "5700108784",
       "title": "The Code of Capital: How the Law Creates Wealth and Inequality",
@@ -9148,14 +10419,24 @@
       "seriesNumber": "2",
       "author": "Frank Herbert",
       "shelf": "read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": 5,
       "dateRead": null,
       "dateAdded": "2023-06-08",
       "pages": 336,
       "year": 1969,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/44492285"
+      "url": "https://www.goodreads.com/book/show/44492285",
+      "edition": {
+        "format": "Mass Market Paperback",
+        "publisher": "Ace",
+        "isbn": "9780593098233",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "44492286",
@@ -9219,23 +10500,6 @@
       "url": "https://www.goodreads.com/book/show/44716583"
     },
     {
-      "id": "44767458",
-      "reviewId": "5605376927",
-      "title": "Dune",
-      "series": "Dune",
-      "seriesNumber": "1",
-      "author": "Frank Herbert",
-      "shelf": "read",
-      "tags": [],
-      "rating": 5,
-      "dateRead": null,
-      "dateAdded": "2023-06-08",
-      "pages": 658,
-      "year": 1965,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/44767458"
-    },
-    {
       "id": "45320354",
       "reviewId": "7131282407",
       "title": "The People, No: A Brief History of Anti-Populism",
@@ -9287,6 +10551,60 @@
       "url": "https://www.goodreads.com/book/show/46041168"
     },
     {
+      "id": "48890486",
+      "reviewId": "9127694783",
+      "title": "Breath: The New Science of a Lost Art",
+      "series": null,
+      "seriesNumber": null,
+      "author": "James Nestor",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 280,
+      "year": 2020,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575339793l/48890486._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/48890486",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Riverhead Books",
+        "isbn": "9780735213616",
+        "nonfiction": true,
+        "height": 23.6,
+        "thickness": 2.6
+      }
+    },
+    {
+      "id": "49933576",
+      "reviewId": "9127723367",
+      "title": "Kraftwerk: Future Music from Germany",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Uwe Schütte",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 336,
+      "year": 2018,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582831070l/49933576._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/49933576",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin",
+        "isbn": "9780141986753",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "50130878",
       "reviewId": "5605378600",
       "title": "The Art of Solitude",
@@ -9304,28 +10622,55 @@
       "url": "https://www.goodreads.com/book/show/50130878"
     },
     {
-      "id": "50202953",
-      "reviewId": "7895176091",
-      "title": "Piranesi",
+      "id": "50233662",
+      "reviewId": "9047443566",
+      "title": "The Way of Zen",
       "series": null,
       "seriesNumber": null,
-      "author": "Susanna Clarke",
-      "shelf": "to-read",
+      "author": "Alan W. Watts",
+      "shelf": "read",
       "tags": [
         "owned"
       ],
       "rating": null,
       "dateRead": null,
-      "dateAdded": "2025-11-11",
-      "pages": 245,
-      "year": 2020,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1773750050l/50202953._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/50202953",
+      "dateAdded": "2026-10-23",
+      "pages": 236,
+      "year": 2019,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577843645l/50233662._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/50233662",
       "edition": {
-        "format": "Hardcover",
-        "publisher": "Bloomsbury",
+        "format": "Paperback",
+        "publisher": "Vintage",
         "isbn": null,
-        "nonfiction": false,
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "50254112",
+      "reviewId": "5605414480",
+      "title": "The Wisdom of Insecurity: A Message for an Age of Anxiety",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Alan W. Watts",
+      "shelf": "read",
+      "tags": [
+        "owned"
+      ],
+      "rating": 4,
+      "dateRead": null,
+      "dateAdded": "2023-06-08",
+      "pages": 152,
+      "year": 1951,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597508004l/50254112._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/50254112",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9780307741202",
+        "nonfiction": true,
         "height": null,
         "thickness": null
       }
@@ -9406,14 +10751,24 @@
       "seriesNumber": null,
       "author": "Byung-Chul Han",
       "shelf": "read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": 5,
       "dateRead": "2026-01-27",
       "dateAdded": "2026-01-28",
       "pages": 104,
       "year": 2019,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585150528l/51650770._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/51650770"
+      "url": "https://www.goodreads.com/book/show/51650770",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Polity",
+        "isbn": "9781509542765",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "52761023",
@@ -9648,6 +11003,33 @@
       "url": "https://www.goodreads.com/book/show/55881796"
     },
     {
+      "id": "56268907",
+      "reviewId": "7895176091",
+      "title": "Piranesi",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Susanna Clarke",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2025-11-11",
+      "pages": 245,
+      "year": 2020,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623122811l/56268907._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/56268907",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Bloomsbury Publishing",
+        "isbn": "9781635577808",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "56269147",
       "reviewId": "6531425952",
       "title": "Dirtbag: Essays",
@@ -9682,21 +11064,58 @@
       "url": "https://www.goodreads.com/book/show/56269264"
     },
     {
-      "id": "56823192",
+      "id": "56649152",
+      "reviewId": "9127712918",
+      "title": "Postcapitalist Desire: The Final Lectures",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Mark Fisher",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 252,
+      "year": 2020,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610478495l/56649152._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/56649152",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Repeater",
+        "isbn": "9781913462482",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "56850478",
       "reviewId": "7758786704",
       "title": "The Palliative Society: Pain Today",
       "series": null,
       "seriesNumber": null,
       "author": "Byung-Chul Han",
       "shelf": "read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": 4,
       "dateRead": "2025-08-19",
       "dateAdded": "2025-08-20",
-      "pages": 67,
+      "pages": 76,
       "year": 2020,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1619098233l/56823192._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/56823192"
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614684716l/56850478._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/56850478",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Polity",
+        "isbn": "9781509547241",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "57004637",
@@ -9714,33 +11133,6 @@
       "year": 2021,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623850374l/57004637._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/57004637"
-    },
-    {
-      "id": "57693457",
-      "reviewId": "7419549716",
-      "title": "Mickey7",
-      "series": "Mickey7",
-      "seriesNumber": "1",
-      "author": "Edward Ashton",
-      "shelf": "read",
-      "tags": [
-        "owned"
-      ],
-      "rating": 4,
-      "dateRead": "2025-08-25",
-      "dateAdded": "2025-12-31",
-      "pages": 296,
-      "year": 2022,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636369192l/57693457._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/57693457",
-      "edition": {
-        "format": "Hardcover",
-        "publisher": "St. Martin's Press",
-        "isbn": "9781250275035",
-        "nonfiction": false,
-        "height": null,
-        "thickness": null
-      }
     },
     {
       "id": "57951389",
@@ -9953,23 +11345,6 @@
       }
     },
     {
-      "id": "59794522",
-      "reviewId": "7891777757",
-      "title": "Non-things: Upheaval in the Lifeworld",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Byung-Chul Han",
-      "shelf": "read",
-      "tags": [],
-      "rating": 4,
-      "dateRead": "2025-10-28",
-      "dateAdded": "2025-10-29",
-      "pages": 110,
-      "year": 2021,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678498223l/59794522._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/59794522"
-    },
-    {
       "id": "60185819",
       "reviewId": "8883623690",
       "title": "The Sailor Who Fell From Grace With The Sea",
@@ -10012,6 +11387,33 @@
       "year": 2022,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660050779l/60194162._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/60194162"
+    },
+    {
+      "id": "60207167",
+      "reviewId": "9127675735",
+      "title": "How to Focus",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Thich Nhat Hanh",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 128,
+      "year": 2022,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643077339l/60207167._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/60207167",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Parallax Press",
+        "isbn": "9781952692178",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "60444444",
@@ -10073,6 +11475,33 @@
       "year": 2023,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1662822202l/60659833._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/60659833"
+    },
+    {
+      "id": "60784349",
+      "reviewId": "7419549716",
+      "title": "Mickey7",
+      "series": "Mickey7",
+      "seriesNumber": "1",
+      "author": "Edward Ashton",
+      "shelf": "read",
+      "tags": [
+        "owned"
+      ],
+      "rating": 4,
+      "dateRead": "2025-08-25",
+      "dateAdded": "2025-12-31",
+      "pages": 296,
+      "year": 2022,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1667853565l/60784349._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/60784349",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "St. Martin’s Griffin",
+        "isbn": "9781250875280",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "60811826",
@@ -10143,33 +11572,6 @@
       "url": "https://www.goodreads.com/book/show/61130244"
     },
     {
-      "id": "61190770",
-      "reviewId": "8631895406",
-      "title": "Chain-Gang All-Stars",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Nana Kwame Adjei-Brenyah",
-      "shelf": "to-read",
-      "tags": [
-        "owned"
-      ],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2026-06-09",
-      "pages": 367,
-      "year": 2023,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682956296l/61190770._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/61190770",
-      "edition": {
-        "format": "Hardcover",
-        "publisher": "Pantheon",
-        "isbn": "9780593317334",
-        "nonfiction": false,
-        "height": null,
-        "thickness": null
-      }
-    },
-    {
       "id": "61204210",
       "reviewId": "5605373743",
       "title": "Where the Crawdads Sing",
@@ -10209,6 +11611,33 @@
         "publisher": "Europa Editions",
         "isbn": "9781609457457",
         "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "61357212",
+      "reviewId": "7891777757",
+      "title": "Non-Things: Upheaval in the Lifeworld",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Byung-Chul Han",
+      "shelf": "read",
+      "tags": [
+        "owned"
+      ],
+      "rating": 4,
+      "dateRead": "2025-10-28",
+      "dateAdded": "2025-10-29",
+      "pages": 110,
+      "year": 2021,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656283782l/61357212._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/61357212",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Polity Press",
+        "isbn": "9781509551705",
+        "nonfiction": true,
         "height": null,
         "thickness": null
       }
@@ -10286,6 +11715,33 @@
       "url": "https://www.goodreads.com/book/show/63079845"
     },
     {
+      "id": "65925479",
+      "reviewId": "5641426304",
+      "title": "Capitalist Realism: Is There No Alternative?",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Mark Fisher",
+      "shelf": "read",
+      "tags": [
+        "owned"
+      ],
+      "rating": 4,
+      "dateRead": null,
+      "dateAdded": "2023-06-24",
+      "pages": 87,
+      "year": 2009,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1672017949l/65925479._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/65925479",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Zer0 Books",
+        "isbn": "9781803414300",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "127281289",
       "reviewId": "8671478499",
       "title": "Antimatter Blues",
@@ -10320,14 +11776,51 @@
       "seriesNumber": null,
       "author": "Percival Everett",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-09-01",
       "pages": 303,
       "year": 2024,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704107491l/173754979._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/173754979"
+      "url": "https://www.goodreads.com/book/show/173754979",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Knopf Doubleday",
+        "isbn": "9780385550369",
+        "nonfiction": false,
+        "height": 21.7,
+        "thickness": 3
+      }
+    },
+    {
+      "id": "177281799",
+      "reviewId": "9127672628",
+      "title": "Vita Contemplativa: In Praise of Inactivity",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Byung-Chul Han",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 128,
+      "year": 2023,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1688422984l/177281799._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/177281799",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Polity",
+        "isbn": "9781509558018",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "180352109",
@@ -10410,6 +11903,60 @@
       "url": "https://www.goodreads.com/book/show/199635125"
     },
     {
+      "id": "202468406",
+      "reviewId": "8631895406",
+      "title": "Chain Gang All Stars",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Nana Kwame Adjei-Brenyah",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-06-09",
+      "pages": 411,
+      "year": 2023,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1700539040l/202468406._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/202468406",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Knopf Doubleday Publishing Group",
+        "isbn": "9780593469316",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "203572184",
+      "reviewId": "9127713736",
+      "title": "The Courage to Be Disliked: The Japanese Phenomenon That Shows You How to Change Your Life and Achieve Real Happiness",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Ichiro Kishimi",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 288,
+      "year": 2013,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719783740l/203572184._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/203572184",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Atria Books",
+        "isbn": "9781668065969",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "204593583",
       "reviewId": "8916757255",
       "title": "Nothing Belongs to You",
@@ -10417,14 +11964,24 @@
       "seriesNumber": null,
       "author": "Nathacha Appanah",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-09-03",
       "pages": 144,
       "year": 2021,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704081755l/204593583._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/204593583"
+      "url": "https://www.goodreads.com/book/show/204593583",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Arcadia",
+        "isbn": "9781529422832",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "206318561",
@@ -10525,6 +12082,33 @@
       }
     },
     {
+      "id": "213096504",
+      "reviewId": "9127671271",
+      "title": "The Spirit of Hope",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Byung-Chul Han",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 111,
+      "year": 2024,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715245524l/213096504._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/213096504",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Polity",
+        "isbn": "9781509565191",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "213181082",
       "reviewId": "7465056061",
       "title": "Radical Acceptance: Embracing Your Life With the Heart of a Buddha",
@@ -10620,6 +12204,33 @@
       "url": "https://www.goodreads.com/book/show/216970860"
     },
     {
+      "id": "220160614",
+      "reviewId": "9127676890",
+      "title": "Challenger: A True Story of Heroism and Disaster on the Edge of Space",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Adam Higginbotham",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 576,
+      "year": 2024,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1736862940l/220160614._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/220160614",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Avid Reader Press / Simon & Schuster",
+        "isbn": "9781982176624",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "222685805",
       "reviewId": "8949010350",
       "title": "I Deliver Parcels in Beijing",
@@ -10635,6 +12246,60 @@
       "year": 2023,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741319477l/222685805._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/222685805"
+    },
+    {
+      "id": "228085123",
+      "reviewId": "9127701303",
+      "title": "The Tale of Genji",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Murasaki Shikibu",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": null,
+      "year": 1000,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739786287l/228085123._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/228085123",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9780679729532",
+        "nonfiction": false,
+        "height": 20.3,
+        "thickness": 2
+      }
+    },
+    {
+      "id": "230118837",
+      "reviewId": "9127636399",
+      "title": "The Eleventh Hour: A Quintet of Stories",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Salman Rushdie",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 254,
+      "year": 2025,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743220120l/230118837._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/230118837",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Random House",
+        "isbn": "9798217154197",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "230910361",
@@ -10660,6 +12325,33 @@
         "isbn": "9781594206108",
         "nonfiction": false,
         "height": 23.5,
+        "thickness": null
+      }
+    },
+    {
+      "id": "231098125",
+      "reviewId": "9127727106",
+      "title": "The 5 Love Languages: The Secret to Love That Lasts",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Gary Chapman",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 224,
+      "year": 1990,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743955981l/231098125._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/231098125",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Northfield Publishing",
+        "isbn": "9780802412706",
+        "nonfiction": true,
+        "height": null,
         "thickness": null
       }
     },

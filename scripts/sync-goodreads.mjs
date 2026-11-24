@@ -47,7 +47,8 @@ const SORTS = ["date_added", "title", "author", "date_pub", "num_pages", "avg_ra
 const STATUSES = `https://www.goodreads.com/user_status/list/${USER_ID}`;
 const MAX_STATUS_PAGES = 30;
 
-const today = new Date().toISOString().slice(0, 10);
+const started = Date.now();
+const today = new Date(started).toISOString().slice(0, 10);
 
 /** "Dune Messiah (Dune, #2)" → { title: "Dune Messiah", series: "Dune", seriesNumber: "2" } */
 function splitSeries(full) {
@@ -103,7 +104,9 @@ async function fetchCounts() {
 
 /** One widget's worth of a shelf (or tag), in the order asked for. */
 async function fetchWidget(shelf, sort, order) {
-  const url = `${WIDGET}?shelf=${encodeURIComponent(shelf)}&num_books=${WIDGET_MAX}&sort=${sort}&order=${order}`;
+  // Goodreads keeps each widget it has made for hours, by its exact address,
+  // and would hand a daily sync the same stale shelf. The time makes it new.
+  const url = `${WIDGET}?shelf=${encodeURIComponent(shelf)}&num_books=${WIDGET_MAX}&sort=${sort}&order=${order}&at=${started}`;
   const js = await get(url);
   if (!js.includes("widget_code")) throw new Error(`${url} did not return a widget`);
   // The widget arrives as HTML inside a JavaScript string.
