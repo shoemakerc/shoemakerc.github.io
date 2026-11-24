@@ -45,6 +45,14 @@ export type Category = (typeof categories)[number];
  */
 const antiquityEnds = 500;
 
+/**
+ * Whether a book goes with the classics. Its edition's `classic` in the
+ * snapshot overrules the year, for the likes of The Tale of Genji: old enough
+ * in spirit, five centuries too late by the calendar.
+ */
+const isClassic = (book: GoodreadsBook) =>
+  book.edition?.classic ?? (book.year != null && book.year < antiquityEnds);
+
 export type Copy = {
   title: string;
   author: string;
@@ -134,12 +142,7 @@ export function getBookcases(): Bookcases {
         year: book.year,
         pages: book.pages,
         format: book.edition?.format ?? "Paperback",
-        category:
-          book.year != null && book.year < antiquityEnds
-            ? "classics"
-            : book.edition?.nonfiction
-              ? "nonfiction"
-              : "fiction",
+        category: isClassic(book) ? "classics" : book.edition?.nonfiction ? "nonfiction" : "fiction",
         read: read.has(editionKey(book.title)),
         url: book.url,
         height: book.edition?.height ?? usualHeight(binding, book.edition?.publisher ?? null),

@@ -12271,7 +12271,8 @@
         "isbn": "9780679729532",
         "nonfiction": false,
         "height": 20.3,
-        "thickness": 2
+        "thickness": 2,
+        "classic": true
       }
     },
     {

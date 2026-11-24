@@ -67,6 +67,11 @@ export type Edition = {
   /** In centimetres, where Open Library has the edition's size. */
   height: number | null;
   thickness: number | null;
+  /**
+   * Set by hand, to shelve the book with the classics, or keep it out of
+   * them, whatever its year says.
+   */
+  classic?: boolean;
 };
 
 export type GoodreadsBook = {
