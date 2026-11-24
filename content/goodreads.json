@@ -1,6 +1,6 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-11-21T07:40:32.375Z",
+  "syncedAt": "2026-11-24T02:36:45.451Z",
   "books": [
     {
       "id": "11",
@@ -104,7 +104,15 @@
       "pages": 417,
       "year": 1967,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327881361l/320._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/320"
+      "url": "https://www.goodreads.com/book/show/320",
+      "edition": {
+        "format": "Mass Market Paperback",
+        "publisher": "Harper",
+        "isbn": null,
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "343",
@@ -174,7 +182,15 @@
       "pages": 1085,
       "year": 2006,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1276429450l/409._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/409"
+      "url": "https://www.goodreads.com/book/show/409",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Penguin Press",
+        "isbn": "9781594201202",
+        "nonfiction": false,
+        "height": 23.9,
+        "thickness": 5.6
+      }
     },
     {
       "id": "410",
@@ -193,7 +209,15 @@
       "pages": 547,
       "year": 1963,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657594519l/410._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/410"
+      "url": "https://www.goodreads.com/book/show/410",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Harper Perennial Modern Classics",
+        "isbn": "9780060930219",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "413",
@@ -212,7 +236,15 @@
       "pages": 773,
       "year": 1997,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657594655l/413._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/413"
+      "url": "https://www.goodreads.com/book/show/413",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Picador USA",
+        "isbn": "9780312423209",
+        "nonfiction": false,
+        "height": 20.6,
+        "thickness": 3.6
+      }
     },
     {
       "id": "415",
@@ -231,7 +263,15 @@
       "pages": 776,
       "year": 1973,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657594227l/415._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/415"
+      "url": "https://www.goodreads.com/book/show/415",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books",
+        "isbn": "9780143039945",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "421",
@@ -250,7 +290,15 @@
       "pages": 224,
       "year": 1979,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611928161l/421._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/421"
+      "url": "https://www.goodreads.com/book/show/421",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "FSG Adult",
+        "isbn": "9780374532079",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "656",
@@ -371,7 +419,15 @@
       "pages": 1246,
       "year": 1974,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403194611l/1111._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/1111"
+      "url": "https://www.goodreads.com/book/show/1111",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage Books",
+        "isbn": "9780394720241",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "1305",
@@ -526,7 +582,15 @@
       "pages": 707,
       "year": 1851,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328851163l/2390._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/2390"
+      "url": "https://www.goodreads.com/book/show/2390",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Barnes & Noble Classics",
+        "isbn": "9781593080181",
+        "nonfiction": false,
+        "height": 19.6,
+        "thickness": 4.8
+      }
     },
     {
       "id": "2547",
@@ -596,7 +660,15 @@
       "pages": 152,
       "year": 1965,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657594162l/2794._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/2794"
+      "url": "https://www.goodreads.com/book/show/2794",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Harper Perennial Modern Classics",
+        "isbn": null,
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "3532",
@@ -649,7 +721,15 @@
       "pages": 448,
       "year": 2000,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374739885l/3711._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/3711"
+      "url": "https://www.goodreads.com/book/show/3711",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9780375703867",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "3805",
@@ -838,7 +918,15 @@
       "pages": 530,
       "year": 2000,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327714834l/4953._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/4953"
+      "url": "https://www.goodreads.com/book/show/4953",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9780375725784",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "4981",
@@ -1027,7 +1115,15 @@
       "pages": 220,
       "year": 1999,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385161943l/6192._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/6192"
+      "url": "https://www.goodreads.com/book/show/6192",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books",
+        "isbn": "9780143036371",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "6288",
@@ -1148,7 +1244,15 @@
       "pages": 329,
       "year": 2004,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311905400l/6749._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/6749"
+      "url": "https://www.goodreads.com/book/show/6749",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Back Bay Books",
+        "isbn": "9780316010764",
+        "nonfiction": false,
+        "height": 21.3,
+        "thickness": null
+      }
     },
     {
       "id": "6750",
@@ -1167,7 +1271,15 @@
       "pages": 467,
       "year": 1987,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386923908l/6750._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/6750"
+      "url": "https://www.goodreads.com/book/show/6750",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books",
+        "isbn": "9780142002421",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "6751",
@@ -1186,7 +1298,15 @@
       "pages": 343,
       "year": 2005,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388854217l/6751._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/6751"
+      "url": "https://www.goodreads.com/book/show/6751",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Little, Brown and Company",
+        "isbn": "9780316156110",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "6867",
@@ -1411,7 +1531,15 @@
       "pages": 341,
       "year": 1952,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506301341l/9597._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/9597"
+      "url": "https://www.goodreads.com/book/show/9597",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Dial Press",
+        "isbn": "9780385333788",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "9717",
@@ -1895,7 +2023,15 @@
       "pages": 242,
       "year": 1927,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435861573l/14941._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/14941"
+      "url": "https://www.goodreads.com/book/show/14941",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Mariner Books",
+        "isbn": "9780156030472",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "14942",
@@ -1914,7 +2050,15 @@
       "pages": 194,
       "year": 1925,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646148221l/14942._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/14942"
+      "url": "https://www.goodreads.com/book/show/14942",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Houghton Mifflin Harcourt",
+        "isbn": "9780151009985",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "15645",
@@ -2297,6 +2441,14 @@
         "pages": 777,
         "percent": 5,
         "date": "2024-07-05"
+      },
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Basic Books",
+        "isbn": "9780465026562",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
       }
     },
     {
@@ -2435,7 +2587,15 @@
       "pages": 246,
       "year": 2007,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441139502l/28700._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/28700"
+      "url": "https://www.goodreads.com/book/show/28700",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Scribner",
+        "isbn": "9781416546023",
+        "nonfiction": false,
+        "height": 23.1,
+        "thickness": null
+      }
     },
     {
       "id": "28862",
@@ -2556,7 +2716,15 @@
       "pages": 254,
       "year": 180,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421618636l/30659._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/30659"
+      "url": "https://www.goodreads.com/book/show/30659",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books",
+        "isbn": "9780140449334",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "32585",
@@ -2609,7 +2777,15 @@
       "pages": 580,
       "year": 1959,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327945103l/35743._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/35743"
+      "url": "https://www.goodreads.com/book/show/35743",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9780099483502",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "37328",
@@ -2885,7 +3061,15 @@
       "pages": 136,
       "year": 1864,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657562670l/49455._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/49455"
+      "url": "https://www.goodreads.com/book/show/49455",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage Classics",
+        "isbn": "9780679734529",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "49552",
@@ -3091,7 +3275,15 @@
       "pages": 480,
       "year": 1990,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357603865l/59721._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/59721"
+      "url": "https://www.goodreads.com/book/show/59721",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Rowohlt Tb.",
+        "isbn": "9783499136283",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "60551",
@@ -3280,7 +3472,15 @@
       "pages": 247,
       "year": 2004,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558681761l/68210._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/68210"
+      "url": "https://www.goodreads.com/book/show/68210",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Picador",
+        "isbn": "9780312424404",
+        "nonfiction": false,
+        "height": 20.6,
+        "thickness": null
+      }
     },
     {
       "id": "69928",
@@ -3473,10 +3673,18 @@
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684015006l/75786._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/75786",
       "progress": {
-        "page": 531,
+        "page": 565,
         "pages": 1079,
-        "percent": 49,
-        "date": "2026-08-25"
+        "percent": 52,
+        "date": "2026-11-17"
+      },
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Little, Brown Paperbacks",
+        "isbn": "9780316066525",
+        "nonfiction": false,
+        "height": 22.6,
+        "thickness": 4.6
       }
     },
     {
@@ -3513,7 +3721,15 @@
       "pages": 482,
       "year": 1934,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1282892439l/77287._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/77287"
+      "url": "https://www.goodreads.com/book/show/77287",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9780679767923",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "78129",
@@ -4025,7 +4241,15 @@
       "pages": 292,
       "year": 1965,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1742326950l/166997._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/166997"
+      "url": "https://www.goodreads.com/book/show/166997",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "New York Review Books",
+        "isbn": "9781590171998",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "168642",
@@ -4061,7 +4285,15 @@
       "pages": 453,
       "year": 1961,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463157317l/168668._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/168668"
+      "url": "https://www.goodreads.com/book/show/168668",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Simon & Schuster",
+        "isbn": "9780684833392",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "170448",
@@ -4318,7 +4550,15 @@
       "pages": 391,
       "year": 1987,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328126537l/239404._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/239404"
+      "url": "https://www.goodreads.com/book/show/239404",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Anchor",
+        "isbn": "9780679720454",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "242472",
@@ -4575,7 +4815,15 @@
       "pages": 296,
       "year": 1862,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388798930l/373813._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/373813"
+      "url": "https://www.goodreads.com/book/show/373813",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Oxford University Press",
+        "isbn": "9780192833921",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "381440",
@@ -4645,7 +4893,15 @@
       "pages": 351,
       "year": 1985,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701688704l/394535._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/394535"
+      "url": "https://www.goodreads.com/book/show/394535",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage Books",
+        "isbn": null,
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "395058",
@@ -4715,7 +4971,15 @@
       "pages": 304,
       "year": 1831,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657538916l/441200._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/441200"
+      "url": "https://www.goodreads.com/book/show/441200",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Classics",
+        "isbn": "9780140448108",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "463500",
@@ -4751,7 +5015,15 @@
       "pages": 302,
       "year": 1992,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1706386113l/469571._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/469571"
+      "url": "https://www.goodreads.com/book/show/469571",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9780679744399",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "485894",
@@ -4838,7 +5110,15 @@
       "pages": 541,
       "year": 2006,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358116980l/525461._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/525461"
+      "url": "https://www.goodreads.com/book/show/525461",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage Books (Random House)",
+        "isbn": "9781400030842",
+        "nonfiction": true,
+        "height": 19.8,
+        "thickness": 3.3
+      }
     },
     {
       "id": "530415",
@@ -4942,7 +5222,15 @@
       "pages": 332,
       "year": 1989,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387740566l/563002._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/563002"
+      "url": "https://www.goodreads.com/book/show/563002",
+      "edition": {
+        "format": "Mass Market Paperback",
+        "publisher": "Ivy Books",
+        "isbn": "9780804106306",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "574925",
@@ -4978,7 +5266,15 @@
       "pages": 321,
       "year": 1999,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281329429l/574933._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/574933"
+      "url": "https://www.goodreads.com/book/show/574933",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Little, Brown Paperbacks",
+        "isbn": "9780316925198",
+        "nonfiction": false,
+        "height": 20.3,
+        "thickness": null
+      }
     },
     {
       "id": "607639",
@@ -5071,6 +5367,14 @@
         "pages": 317,
         "percent": 15,
         "date": "2026-11-13"
+      },
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books",
+        "isbn": "9780140186475",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
       }
     },
     {
@@ -5090,7 +5394,15 @@
       "pages": 119,
       "year": 1995,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328874887l/797192._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/797192"
+      "url": "https://www.goodreads.com/book/show/797192",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Harcourt",
+        "isbn": "9780156030809",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "822361",
@@ -5179,7 +5491,15 @@
       "pages": null,
       "year": null,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699201955l/1080460._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/1080460"
+      "url": "https://www.goodreads.com/book/show/1080460",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Wiley-Blackwell",
+        "isbn": "9780882951270",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "1168191",
@@ -5204,6 +5524,14 @@
         "pages": 256,
         "percent": 7,
         "date": "2026-11-17"
+      },
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Modern Library",
+        "isbn": "9780812968255",
+        "nonfiction": true,
+        "height": 20.1,
+        "thickness": 1.5
       }
     },
     {
@@ -5223,7 +5551,15 @@
       "pages": 558,
       "year": 2007,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442590618l/1237300._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/1237300"
+      "url": "https://www.goodreads.com/book/show/1237300",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Metropolitan Books",
+        "isbn": "9780805079838",
+        "nonfiction": true,
+        "height": 24.1,
+        "thickness": 4.6
+      }
     },
     {
       "id": "1297985",
@@ -5242,7 +5578,15 @@
       "pages": 400,
       "year": 2007,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320494159l/1297985._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/1297985"
+      "url": "https://www.goodreads.com/book/show/1297985",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Knopf Canada",
+        "isbn": null,
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "1311355",
@@ -5345,7 +5689,15 @@
       "pages": 170,
       "year": 1678,
       "cover": "/covers/1979250.jpg",
-      "url": "https://www.goodreads.com/book/show/1979250"
+      "url": "https://www.goodreads.com/book/show/1979250",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "New American Library",
+        "isbn": "9780452009868",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "1999475",
@@ -5646,7 +5998,15 @@
       "pages": 369,
       "year": 2009,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347697574l/5933841._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/5933841"
+      "url": "https://www.goodreads.com/book/show/5933841",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Penguin Press",
+        "isbn": "9781594202247",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "5986375",
@@ -5665,7 +6025,15 @@
       "pages": 138,
       "year": 2009,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668700884l/5986375._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/5986375"
+      "url": "https://www.goodreads.com/book/show/5986375",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Little, Brown and Company",
+        "isbn": "9780316068222",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "6015333",
@@ -5724,6 +6092,14 @@
         "pages": 912,
         "percent": 25,
         "date": "2026-08-30"
+      },
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Picador",
+        "isbn": "9780312429218",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
       }
     },
     {
@@ -5760,7 +6136,15 @@
       "pages": 640,
       "year": 1979,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348209709l/6417357._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/6417357"
+      "url": "https://www.goodreads.com/book/show/6417357",
+      "edition": {
+        "format": "Mass Market Paperback",
+        "publisher": "Ballantine Books",
+        "isbn": "9780345334534",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "6439148",
@@ -5938,7 +6322,15 @@
       "pages": 256,
       "year": 1977,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1316738164l/8270125._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/8270125"
+      "url": "https://www.goodreads.com/book/show/8270125",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Hill and Wang",
+        "isbn": "9780374532314",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "8501350",
@@ -5974,7 +6366,15 @@
       "pages": 165,
       "year": 2007,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312024054l/9083994._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/9083994"
+      "url": "https://www.goodreads.com/book/show/9083994",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Graywolf Press",
+        "isbn": "9781555975753",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "9118135",
@@ -6199,7 +6599,15 @@
       "pages": 342,
       "year": 1856,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311702537l/10823495._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/10823495"
+      "url": "https://www.goodreads.com/book/show/10823495",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Classics",
+        "isbn": "9780143106494",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "10875089",
@@ -6490,7 +6898,15 @@
       "pages": 104,
       "year": 2009,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1346806723l/15824232._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/15824232"
+      "url": "https://www.goodreads.com/book/show/15824232",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "The New Press",
+        "isbn": "9781595588777",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "16085481",
@@ -6595,7 +7011,15 @@
       "pages": 416,
       "year": 2012,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377634587l/17707616._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/17707616"
+      "url": "https://www.goodreads.com/book/show/17707616",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books",
+        "isbn": "9780143123934",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "17834864",
@@ -6756,7 +7180,15 @@
       "pages": 477,
       "year": 2013,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408923349l/18693852._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/18693852"
+      "url": "https://www.goodreads.com/book/show/18693852",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Publishing Group",
+        "isbn": "9780143125754",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "18932432",
@@ -6964,7 +7396,15 @@
       "pages": 497,
       "year": 2013,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494789333l/20890470._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/20890470"
+      "url": "https://www.goodreads.com/book/show/20890470",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage Books",
+        "isbn": "9780345807298",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "20893314",
@@ -7000,7 +7440,15 @@
       "pages": 245,
       "year": 1995,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394318006l/21054576._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/21054576"
+      "url": "https://www.goodreads.com/book/show/21054576",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin",
+        "isbn": "9780241969816",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "21563974",
@@ -7111,6 +7559,14 @@
         "pages": null,
         "percent": 30,
         "date": "2024-12-28"
+      },
+      "edition": {
+        "format": "Paperback",
+        "publisher": "W. W. Norton & Company",
+        "isbn": "9780393350876",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
       }
     },
     {
@@ -7165,7 +7621,15 @@
       "pages": 260,
       "year": 2015,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479545528l/23453099._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/23453099"
+      "url": "https://www.goodreads.com/book/show/23453099",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Penguin Press",
+        "isbn": "9781594206627",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "23719482",
@@ -7184,7 +7648,15 @@
       "pages": 272,
       "year": 2015,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421139890l/23719482._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/23719482"
+      "url": "https://www.goodreads.com/book/show/23719482",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Mariner Books",
+        "isbn": "9780544569621",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "23995368",
@@ -7203,7 +7675,15 @@
       "pages": 336,
       "year": 2014,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644068428l/23995368._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/23995368"
+      "url": "https://www.goodreads.com/book/show/23995368",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9780804172448",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "24571362",
@@ -7222,7 +7702,15 @@
       "pages": 320,
       "year": 2014,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428862275l/24571362._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/24571362"
+      "url": "https://www.goodreads.com/book/show/24571362",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9780804172899",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "24612118",
@@ -7309,7 +7797,15 @@
       "pages": 184,
       "year": 2004,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645802940l/25330235._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/25330235"
+      "url": "https://www.goodreads.com/book/show/25330235",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Haymarket Books",
+        "isbn": "9781608465767",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "25490360",
@@ -7583,7 +8079,15 @@
       "pages": 320,
       "year": 1985,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476807953l/28251250._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/28251250"
+      "url": "https://www.goodreads.com/book/show/28251250",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Classics",
+        "isbn": "9780143129554",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "29496076",
@@ -7774,7 +8278,15 @@
       "pages": 359,
       "year": 1847,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1478641029l/32929156._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/32929156"
+      "url": "https://www.goodreads.com/book/show/32929156",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Classics",
+        "isbn": "9780141439556",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "33128934",
@@ -7905,7 +8417,15 @@
       "pages": 294,
       "year": 2017,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498829142l/34915570._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/34915570"
+      "url": "https://www.goodreads.com/book/show/34915570",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books",
+        "isbn": "9780399562907",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "35024337",
@@ -7992,7 +8512,15 @@
       "pages": 453,
       "year": 2016,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617578030l/36070337._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/36070337"
+      "url": "https://www.goodreads.com/book/show/36070337",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin",
+        "isbn": "9780241980262",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "36289256",
@@ -8079,7 +8607,15 @@
       "pages": 274,
       "year": 1994,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544335119l/37004370._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/37004370"
+      "url": "https://www.goodreads.com/book/show/37004370",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Pantheon",
+        "isbn": "9781101870600",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "37133029",
@@ -8115,7 +8651,15 @@
       "pages": 415,
       "year": 2001,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1534236792l/37647493._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/37647493"
+      "url": "https://www.goodreads.com/book/show/37647493",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books Ltd",
+        "isbn": "9780241984482",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "37901607",
@@ -8185,7 +8729,15 @@
       "pages": 368,
       "year": 1978,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519082992l/38212112._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/38212112"
+      "url": "https://www.goodreads.com/book/show/38212112",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "W. W. Norton & Company",
+        "isbn": "9780393356175",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "38532183",
@@ -8561,7 +9113,15 @@
       "pages": 587,
       "year": 1981,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564025916l/44439415._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/44439415"
+      "url": "https://www.goodreads.com/book/show/44439415",
+      "edition": {
+        "format": "Mass Market Paperback",
+        "publisher": "Ace",
+        "isbn": "9780593098257",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "44439416",
@@ -8614,7 +9174,15 @@
       "pages": 609,
       "year": 1976,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564783201l/44492286._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/44492286"
+      "url": "https://www.goodreads.com/book/show/44492286",
+      "edition": {
+        "format": "Mass Market Paperback",
+        "publisher": "Ace",
+        "isbn": "9780593098240",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "44492287",
@@ -8752,7 +9320,15 @@
       "pages": 245,
       "year": 2020,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1773750050l/50202953._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/50202953"
+      "url": "https://www.goodreads.com/book/show/50202953",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Bloomsbury",
+        "isbn": null,
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "50390591",
@@ -8975,7 +9551,15 @@
       "pages": 256,
       "year": 2021,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601937850l/54814676._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/54814676"
+      "url": "https://www.goodreads.com/book/show/54814676",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Knopf",
+        "isbn": "9780525657743",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "55250697",
@@ -8994,7 +9578,15 @@
       "pages": 170,
       "year": null,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599430133l/55250697._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/55250697"
+      "url": "https://www.goodreads.com/book/show/55250697",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Callisto",
+        "isbn": "9781646118571",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "55660735",
@@ -9140,7 +9732,15 @@
       "pages": 296,
       "year": 2022,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636369192l/57693457._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/57693457"
+      "url": "https://www.goodreads.com/book/show/57693457",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "St. Martin's Press",
+        "isbn": "9781250275035",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "57951389",
@@ -9201,7 +9801,15 @@
       "pages": 370,
       "year": 2022,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1695136161l/58082714._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/58082714"
+      "url": "https://www.goodreads.com/book/show/58082714",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Penguin Press",
+        "isbn": "9780735217959",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "58446227",
@@ -9290,7 +9898,15 @@
       "pages": 224,
       "year": 2022,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639953448l/59228261._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/59228261"
+      "url": "https://www.goodreads.com/book/show/59228261",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Mitchell Beazley",
+        "isbn": "9781784727246",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "59364173",
@@ -9326,7 +9942,15 @@
       "pages": 282,
       "year": 1946,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635245424l/59410869._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/59410869"
+      "url": "https://www.goodreads.com/book/show/59410869",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Classics",
+        "isbn": "9780143136385",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "59794522",
@@ -9362,7 +9986,15 @@
       "pages": 182,
       "year": 1963,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686149807l/60185819._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/60185819"
+      "url": "https://www.goodreads.com/book/show/60185819",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9781784874230",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "60194162",
@@ -9398,7 +10030,15 @@
       "pages": 340,
       "year": 1959,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645199992l/60444444._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/60444444"
+      "url": "https://www.goodreads.com/book/show/60444444",
+      "edition": {
+        "format": "Mass Market Paperback",
+        "publisher": "Ace Books",
+        "isbn": "9780441783588",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "60526802",
@@ -9519,7 +10159,15 @@
       "pages": 367,
       "year": 2023,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682956296l/61190770._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/61190770"
+      "url": "https://www.goodreads.com/book/show/61190770",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Pantheon",
+        "isbn": "9780593317334",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "61204210",
@@ -9555,7 +10203,15 @@
       "pages": 176,
       "year": 2009,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655137693l/61282083._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/61282083"
+      "url": "https://www.goodreads.com/book/show/61282083",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Europa Editions",
+        "isbn": "9781609457457",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "61439040",
@@ -9646,7 +10302,15 @@
       "pages": 292,
       "year": 2023,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682980889l/127281289._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/127281289"
+      "url": "https://www.goodreads.com/book/show/127281289",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Griffin",
+        "isbn": "9781250322012",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "173754979",
@@ -9699,7 +10363,15 @@
       "pages": 336,
       "year": 1992,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699294500l/182099543._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/182099543"
+      "url": "https://www.goodreads.com/book/show/182099543",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Mariner Books",
+        "isbn": "9780063374683",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "199275846",
@@ -9788,7 +10460,15 @@
       "pages": 88,
       "year": 1848,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1709385839l/209401377._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/209401377"
+      "url": "https://www.goodreads.com/book/show/209401377",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Warbler Classics",
+        "isbn": "9781962572521",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "212277996",
@@ -9807,7 +10487,15 @@
       "pages": 416,
       "year": 2000,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714325261l/212277996._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/212277996"
+      "url": "https://www.goodreads.com/book/show/212277996",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Picador",
+        "isbn": "9780312420277",
+        "nonfiction": false,
+        "height": 20.8,
+        "thickness": 2.3
+      }
     },
     {
       "id": "212415737",
@@ -9826,7 +10514,15 @@
       "pages": 607,
       "year": 1994,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1754402221l/212415737._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/212415737"
+      "url": "https://www.goodreads.com/book/show/212415737",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage International",
+        "isbn": "9780679775430",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "213181082",
@@ -9896,7 +10592,15 @@
       "pages": 176,
       "year": 2025,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1728062351l/216526680._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/216526680"
+      "url": "https://www.goodreads.com/book/show/216526680",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Haymarket Books",
+        "isbn": "9798888903636",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "216970860",
@@ -9949,7 +10653,15 @@
       "pages": 293,
       "year": 2025,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1752683302l/230910361._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/230910361"
+      "url": "https://www.goodreads.com/book/show/230910361",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Penguin Press",
+        "isbn": "9781594206108",
+        "nonfiction": false,
+        "height": 23.5,
+        "thickness": null
+      }
     },
     {
       "id": "231364204",
@@ -10004,7 +10716,15 @@
       "pages": 440,
       "year": 1992,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1747235599l/234054474._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/234054474"
+      "url": "https://www.goodreads.com/book/show/234054474",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin",
+        "isbn": "9781405966832",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "238766789",
@@ -10210,7 +10930,15 @@
       "pages": 592,
       "year": 1963,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1786734877l/256926604._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/256926604"
+      "url": "https://www.goodreads.com/book/show/256926604",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Pantheon",
+        "isbn": "9780394752846",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     }
   ]
 }
