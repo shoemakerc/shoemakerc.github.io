@@ -21,6 +21,8 @@
 //   publisher and whether Goodreads' readers file it under nonfiction, from its
 //   Goodreads page, and its height and thickness from Open Library, where
 //   that has them for the ISBN. The bookcase page draws the book from those.
+//   An edition can also carry `classic`, set by hand, to shelve a book with
+//   the classics or keep it out of them whatever its year says.
 //
 // What it can't see: a book with no cover on Goodreads (the widget leaves
 // those out, so they stay as the snapshot has them), a changed rating on a
@@ -281,6 +283,8 @@ for (const tag of tagNames) {
 
 const byNewId = new Map();
 const matched = new Set();
+// Books now in another edition, and the edition each was in before.
+const switched = new Map();
 for (const shelf of SHELVES) {
   for (const entry of shelves.get(shelf).seen.values()) {
     if (byNewId.has(entry.id)) continue;
@@ -289,6 +293,7 @@ for (const shelf of SHELVES) {
     // A book that's new here, or now in another edition, needs looking up.
     const same = prev?.id === entry.id;
     const details = same ? prev : await fetchBook(entry.id);
+    if (prev?.edition && !same) switched.set(entry.id, prev.edition);
     // A tag whose widget came back short can add to a book's tags but not take away.
     const tagged = tagNames.filter(
       (tag) =>
@@ -397,7 +402,16 @@ for (const book of books) {
   try {
     const { edition } = await fetchBook(book.id);
     const size = edition.isbn ? await fetchSize(edition.isbn) : null;
-    book.edition = { ...edition, height: size?.height ?? null, thickness: size?.thickness ?? null };
+    // Another edition of a book is still the same kind of book, so how the
+    // last one was filed carries over, corrections by hand included.
+    const was = switched.get(book.id);
+    book.edition = {
+      ...edition,
+      ...(was && { nonfiction: was.nonfiction }),
+      height: size?.height ?? null,
+      thickness: size?.thickness ?? null,
+      ...(was?.classic != null && { classic: was.classic }),
+    };
     console.log(`  Edition: ${book.title} (${edition.format ?? "format unknown"}${size ? `, ${size.height} cm` : ""})`);
   } catch (error) {
     console.warn(`  No edition yet for ${book.title}: ${error.message}`);
