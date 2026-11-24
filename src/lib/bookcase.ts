@@ -13,6 +13,9 @@ import {
 // or philosophy), each by author and then by when the book came out. The
 // shelves are IKEA's narrow BILLY, drawn to scale, and so are the books, so a
 // shelf holds what 36 cm of shelf would.
+//
+// The books tagged "kindle" have no shelf to stand on, so the page shows them
+// the way the Kindle does: its library, a screenful of covers at a time.
 
 /** The 40 cm BILLY, in centimetres. Six spaces, as it comes out of the box. */
 export const billy = {
@@ -114,6 +117,59 @@ const inPrint = (book: GoodreadsBook) => !/kindle|ebook|e-book|audio/i.test(book
 /** "garcia marquez" → "GAR", for the label on the edge of a shelf. */
 const callLetters = (copy: Copy) =>
   authorSortKey(`by ${copy.author}`).replace(/[^a-z]/g, "").slice(0, 3).toUpperCase();
+
+/** A book on the Kindle: no spine to draw, so it's shown by its cover. */
+export type Ebook = {
+  title: string;
+  author: string;
+  cover: string | null;
+  url: string;
+  status: Copy["status"] | "reading";
+  /** How far in, for a book being read or set aside with a status update to go by. */
+  percent: number | null;
+};
+
+/** How many covers the Kindle's library shows to a page, three across. */
+export const kindlePage = 9;
+
+/**
+ * The books tagged "kindle" on Goodreads, by author like the bookcases. All
+ * of them, whatever's being read included: the Kindle holds its whole library
+ * wherever it's lying.
+ */
+export function getKindle(): Ebook[] {
+  const read = new Set(
+    getLibrary()
+      .books.filter((book) => book.status === "read")
+      .map((book) => editionKey(book.title)),
+  );
+  const byAuthor = (book: GoodreadsBook) => authorSortKey(`by ${book.author}`);
+  return readSnapshot()
+    .books.filter((book) => book.tags.includes("kindle"))
+    .sort(
+      (a, b) =>
+        byAuthor(a).localeCompare(byAuthor(b)) ||
+        (a.year ?? 0) - (b.year ?? 0) ||
+        a.title.localeCompare(b.title),
+    )
+    .map((book): Ebook => {
+      const underWay = book.shelf === "currently-reading";
+      return {
+        title: book.title,
+        author: book.author.replace(/\s+/g, " "),
+        cover: book.cover,
+        url: book.url,
+        status: underWay
+          ? book.tags.includes("paused")
+            ? "aside"
+            : "reading"
+          : read.has(editionKey(book.title))
+            ? "read"
+            : "unread",
+        percent: underWay ? (book.progress?.percent ?? null) : null,
+      };
+    });
+}
 
 export type Bookcases = {
   /** Each bookcase, top shelf first. The last has empty shelves to spare. */

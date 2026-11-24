@@ -5,15 +5,18 @@ import {
   billy,
   categories,
   getBookcases,
+  getKindle,
+  kindlePage,
   spaceHeight,
   type Copy,
+  type Ebook,
   type Shelf,
 } from "@/lib/bookcase";
 import { authorSortKey } from "@/lib/reading";
 
 export const metadata: Metadata = {
   title: "The bookcases",
-  description: "The books I own in print, shelved the way they are at home.",
+  description: "The books I own, shelved the way they are at home, and the ones on the Kindle.",
 };
 
 const count = new Intl.NumberFormat("en-US");
@@ -28,6 +31,69 @@ const statuses = {
 } as const;
 
 const statusOf = (copy: Copy) => statuses[copy.status].label;
+
+/** What the Kindle puts under a cover: how far in, or that it's done. */
+function standing(book: Ebook) {
+  if (book.status === "read") return "Read";
+  if (book.status === "unread") return "Unread";
+  if (book.percent != null) return `${book.percent}%`;
+  return book.status === "aside" ? "Set aside" : "Reading";
+}
+
+/** The same in a sentence, for the list and for a screen reader. */
+function standingInFull(book: Ebook) {
+  if (book.status === "read") return "Read";
+  if (book.status === "unread") return "Not read yet";
+  const far = book.percent != null ? `, ${book.percent}% in` : "";
+  return `${book.status === "aside" ? "Set aside" : "Reading now"}${far}`;
+}
+
+/** One screen of the Kindle's library: a page of covers, three across. */
+function Kindle({ books, page, pages }: { books: Ebook[]; page: number; pages: number }) {
+  // A page that isn't full still takes up the whole screen.
+  const blanks = Array.from({ length: kindlePage - books.length });
+  return (
+    <div className="kindle" role="group" aria-label={`Kindle library, page ${page} of ${pages}`}>
+      <div className="kindle-screen">
+        <p className="kindle-bar" aria-hidden="true">
+          <span>Library</span>
+          <span>Downloaded</span>
+        </p>
+        <ol className="kindle-grid">
+          {books.map((book) => (
+            <li key={book.url}>
+              <a
+                href={book.url}
+                className="kindle-cover"
+                aria-label={`${shortTitle(book.title)} by ${book.author}. ${standingInFull(book)}.`}
+                title={`${shortTitle(book.title)} by ${book.author}. ${standingInFull(book)}.`}
+              >
+                {book.cover ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={book.cover} alt="" loading="lazy" decoding="async" />
+                ) : (
+                  <span className="kindle-untitled">{shortTitle(book.title)}</span>
+                )}
+              </a>
+              <span className={`kindle-standing kindle-${book.status}`} aria-hidden="true">
+                {standing(book)}
+              </span>
+            </li>
+          ))}
+          {blanks.map((_, i) => (
+            <li key={i} aria-hidden="true" />
+          ))}
+        </ol>
+        <p className="kindle-bar kindle-foot" aria-hidden="true">
+          Page {page} of {pages}
+        </p>
+      </div>
+      <p className="kindle-name" aria-hidden="true">
+        kindle
+      </p>
+    </div>
+  );
+}
 
 /** Drops edition notes like "(Penguin Classics)" and the subtitle. */
 const shortTitle = (title: string) => title.replace(/\s*\([^)]*\)$/, "").split(/:\s/)[0];
@@ -111,6 +177,12 @@ export default function Bookcases() {
   );
   const of = (kind: Copy["category"]) => copies.filter((copy) => copy.category === kind);
 
+  const ebooks = getKindle();
+  const screens = Array.from({ length: Math.ceil(ebooks.length / kindlePage) }, (_, i) =>
+    ebooks.slice(i * kindlePage, (i + 1) * kindlePage),
+  );
+  const ebooksRead = ebooks.filter((book) => book.status === "read").length;
+
   const stats = [
     { value: copies.length, label: "books in print" },
     { value: read, label: `read, ${copies.length - read} to go` },
@@ -132,6 +204,13 @@ export default function Bookcases() {
           paperback. Whatever I’m in the middle of is on{" "}
           <Link href="/reading/">the nightstand</Link> instead, though a book
           I’ve set aside is back on its shelf here as well.
+          {ebooks.length > 0 && (
+            <>
+              {" "}
+              The ones with no spine to show are <a href="#kindle">on the Kindle</a>, further
+              down.
+            </>
+          )}
         </p>
         <dl className="reading-stats bookcase-stats">
           {stats.map((stat) => (
@@ -213,6 +292,41 @@ export default function Bookcases() {
           has them.
         </p>
       </section>
+
+      {ebooks.length > 0 && (
+        <section id="kindle">
+          <Staff label="On the Kindle" />
+          <p className="lede-small shelves-lede">
+            The shelf that weighs nothing: {ebooks.length} books, {ebooksRead} of them read, shown
+            the way the Kindle shows them, a screenful of covers at a time and all of it in grey.
+          </p>
+          <div className="kindles">
+            {screens.map((books, i) => (
+              <Kindle key={i} books={books} page={i + 1} pages={screens.length} />
+            ))}
+          </div>
+          <details className="shelf-list">
+            <summary>
+              <span className="meta">Show as a list</span>
+            </summary>
+            <ol className="book-list">
+              {ebooks.map((book) => (
+                <li key={book.url} className="book">
+                  <div className="book-line">
+                    <span className="book-text">
+                      <a href={book.url}>
+                        <em>{shortTitle(book.title)}</em>
+                      </a>
+                      <span className="book-byline"> by {book.author}</span>
+                    </span>
+                    <span className="meta">{standingInFull(book)}</span>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </details>
+        </section>
+      )}
     </>
   );
 }
