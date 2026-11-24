@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-11-23T22:13:48.077Z",
+  "syncedAt": "2026-11-24T19:06:41.357Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66882,
+  "totalPlays": 66886,
   "lastTrack": {
-    "name": "4am",
-    "artist": "Soft Siren",
-    "album": "4am",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2e91120431980162aee610b86e780d1f.jpg",
-    "url": "https://www.last.fm/music/Soft+Siren/_/4am",
-    "playedAt": 1795408394000
+    "name": "Heartbeat in the Brain",
+    "artist": "The World Is a Beautiful Place & I Am No Longer Afraid to Die",
+    "album": "Whenever, If Ever",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/640a079125b040d7b3a26beebad91a2b.png",
+    "url": "https://www.last.fm/music/The+World+Is+a+Beautiful+Place+&+I+Am+No+Longer+Afraid+to+Die/_/Heartbeat+in+the+Brain",
+    "playedAt": 1795536990000
   },
   "month": {
     "label": "November 2026",
     "partial": true,
     "from": "2026-11-01",
-    "to": "2026-11-23",
-    "plays": 305,
-    "artistCount": 194,
+    "to": "2026-11-24",
+    "plays": 309,
+    "artistCount": 197,
     "artists": [
       {
         "name": "Los Leo",
@@ -79,9 +79,9 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-11-16",
-      "to": "2025-11-23",
-      "plays": 68,
+      "from": "2025-11-17",
+      "to": "2025-11-24",
+      "plays": 70,
       "album": {
         "title": "Fun House",
         "artist": "The Stooges",
@@ -109,50 +109,50 @@
     },
     {
       "year": 2024,
-      "from": "2024-11-16",
-      "to": "2024-11-23",
-      "plays": 100,
+      "from": "2024-11-17",
+      "to": "2024-11-24",
+      "plays": 90,
       "album": {
         "title": "Nonagon Infinity",
         "artist": "King Gizzard & The Lizard Wizard",
-        "plays": 16,
+        "plays": 13,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/45d2570199853ec87e5da6dd8c1ea1a3.jpg",
         "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard/Nonagon+Infinity"
       },
       "artists": [
         {
           "name": "King Gizzard & The Lizard Wizard",
-          "plays": 19,
+          "plays": 13,
           "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard"
         },
         {
           "name": "Viagra Boys",
-          "plays": 13,
+          "plays": 12,
           "url": "https://www.last.fm/music/Viagra+Boys"
         },
         {
           "name": "Mint Royale",
-          "plays": 5,
+          "plays": 6,
           "url": "https://www.last.fm/music/Mint+Royale"
         }
       ]
     },
     {
       "year": 2023,
-      "from": "2023-11-16",
-      "to": "2023-11-23",
-      "plays": 175,
+      "from": "2023-11-17",
+      "to": "2023-11-24",
+      "plays": 173,
       "album": {
         "title": "Holding Hands With Jamie",
         "artist": "Gilla Band",
-        "plays": 15,
+        "plays": 16,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b8d88e1d5b9b3028871b7b057f94fea7.jpg",
         "url": "https://www.last.fm/music/Gilla+Band/Holding+Hands+With+Jamie"
       },
       "artists": [
         {
           "name": "Gilla Band",
-          "plays": 23,
+          "plays": 24,
           "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
@@ -162,15 +162,15 @@
         },
         {
           "name": "Dizzy",
-          "plays": 10,
+          "plays": 9,
           "url": "https://www.last.fm/music/Dizzy"
         }
       ]
     },
     {
       "year": 2022,
-      "from": "2022-11-16",
-      "to": "2022-11-23",
+      "from": "2022-11-17",
+      "to": "2022-11-24",
       "plays": 33,
       "album": {
         "title": "Dust and Disquiet",
@@ -199,9 +199,9 @@
     },
     {
       "year": 2021,
-      "from": "2021-11-16",
-      "to": "2021-11-23",
-      "plays": 51,
+      "from": "2021-11-17",
+      "to": "2021-11-24",
+      "plays": 47,
       "album": {
         "title": "In A Deep And Dreamless Sleep",
         "artist": "Mint Julep",
@@ -229,9 +229,9 @@
     },
     {
       "year": 2020,
-      "from": "2020-11-16",
-      "to": "2020-11-23",
-      "plays": 209,
+      "from": "2020-11-17",
+      "to": "2020-11-24",
+      "plays": 206,
       "album": {
         "title": "Visions of Bodies Being Burned",
         "artist": "clipping.",
@@ -247,7 +247,7 @@
         },
         {
           "name": "Daughters",
-          "plays": 16,
+          "plays": 19,
           "url": "https://www.last.fm/music/Daughters"
         },
         {
@@ -259,14 +259,14 @@
     },
     {
       "year": 2019,
-      "from": "2019-11-16",
-      "to": "2019-11-23",
+      "from": "2019-11-17",
+      "to": "2019-11-24",
       "plays": 130,
       "album": {
         "title": "ZABA",
         "artist": "Glass Animals",
         "plays": 21,
-        "image": null,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6051263a36ad604cbe0542205aa701ce.jpg",
         "url": "https://www.last.fm/music/Glass+Animals/ZABA"
       },
       "artists": [
@@ -289,8 +289,8 @@
     },
     {
       "year": 2018,
-      "from": "2018-11-16",
-      "to": "2018-11-23",
+      "from": "2018-11-17",
+      "to": "2018-11-24",
       "plays": 52,
       "album": {
         "title": "Peripheral Vision",
@@ -319,8 +319,8 @@
     },
     {
       "year": 2017,
-      "from": "2017-11-16",
-      "to": "2017-11-23",
+      "from": "2017-11-17",
+      "to": "2017-11-24",
       "plays": 3,
       "album": {
         "title": "Jasmine (Demo)",
@@ -349,9 +349,9 @@
     },
     {
       "year": 2016,
-      "from": "2016-11-16",
-      "to": "2016-11-23",
-      "plays": 87,
+      "from": "2016-11-17",
+      "to": "2016-11-24",
+      "plays": 84,
       "album": {
         "title": "My Thoughts on You",
         "artist": "The Band CAMINO",
@@ -379,20 +379,20 @@
     },
     {
       "year": 2015,
-      "from": "2015-11-16",
-      "to": "2015-11-23",
-      "plays": 99,
+      "from": "2015-11-17",
+      "to": "2015-11-24",
+      "plays": 124,
       "album": {
         "title": "Islands",
         "artist": "Bear's Den",
-        "plays": 9,
+        "plays": 10,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/70eebd0f1f344fb3cfe71dfd87e89f8e.jpg",
         "url": "https://www.last.fm/music/Bear's+Den/Islands"
       },
       "artists": [
         {
           "name": "Bear's Den",
-          "plays": 9,
+          "plays": 10,
           "url": "https://www.last.fm/music/Bear's+Den"
         },
         {
@@ -401,17 +401,17 @@
           "url": "https://www.last.fm/music/iamamiwhoami"
         },
         {
-          "name": "Bloc Party",
+          "name": "Julia Holter",
           "plays": 6,
-          "url": "https://www.last.fm/music/Bloc+Party"
+          "url": "https://www.last.fm/music/Julia+Holter"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-11-16",
-      "to": "2014-11-23",
-      "plays": 269,
+      "from": "2014-11-17",
+      "to": "2014-11-24",
+      "plays": 253,
       "album": {
         "title": "Young & Old",
         "artist": "Tennis",
@@ -426,14 +426,14 @@
           "url": "https://www.last.fm/music/Tennis"
         },
         {
+          "name": "Passion Pit",
+          "plays": 13,
+          "url": "https://www.last.fm/music/Passion+Pit"
+        },
+        {
           "name": "Coldplay",
           "plays": 13,
           "url": "https://www.last.fm/music/Coldplay"
-        },
-        {
-          "name": "Arctic Monkeys",
-          "plays": 13,
-          "url": "https://www.last.fm/music/Arctic+Monkeys"
         }
       ]
     }
