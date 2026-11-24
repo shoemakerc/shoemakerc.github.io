@@ -1,6 +1,6 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-11-24T17:35:59.780Z",
+  "syncedAt": "2026-11-24T19:30:11.513Z",
   "books": [
     {
       "id": "11",
@@ -3898,10 +3898,10 @@
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684015006l/75786._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/75786",
       "progress": {
-        "page": 565,
+        "page": 531,
         "pages": 1079,
-        "percent": 52,
-        "date": "2026-11-17"
+        "percent": 49,
+        "date": "2026-08-25"
       },
       "edition": {
         "format": "Paperback",
@@ -6191,6 +6191,25 @@
       "url": "https://www.goodreads.com/book/show/1311355"
     },
     {
+      "id": "1398830",
+      "reviewId": "9128969204",
+      "title": "Love and Limerence: The Experience of Being in Love",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Dorothy Tennov",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 340,
+      "year": 1979,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347798363l/1398830._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1398830"
+    },
+    {
       "id": "1541073",
       "reviewId": "8909055211",
       "title": "Falling Man",
@@ -7459,6 +7478,31 @@
       "year": 2011,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320561517l/10108463._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/10108463"
+    },
+    {
+      "id": "10159189",
+      "reviewId": "9128980898",
+      "title": "Oblomov",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Ivan Goncharov",
+      "shelf": "currently-reading",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 496,
+      "year": 1859,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645060071l/10159189._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/10159189",
+      "progress": {
+        "page": 41,
+        "pages": 496,
+        "percent": 8,
+        "date": "2026-11-17"
+      }
     },
     {
       "id": "10357575",
@@ -8771,6 +8815,25 @@
       }
     },
     {
+      "id": "22633221",
+      "reviewId": "9128972056",
+      "title": "Portrait of the Artist as a Young Man",
+      "series": null,
+      "seriesNumber": null,
+      "author": "James Joyce",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 255,
+      "year": 1916,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404398751l/22633221._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/22633221"
+    },
+    {
       "id": "22822858",
       "reviewId": "8496347943",
       "title": "A Little Life",
@@ -9486,6 +9549,25 @@
       "url": "https://www.goodreads.com/book/show/30555488"
     },
     {
+      "id": "31850791",
+      "reviewId": "9128976373",
+      "title": "In the Swarm: Digital Prospects",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Byung-Chul Han",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 104,
+      "year": 2013,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489031253l/31850791._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/31850791"
+    },
+    {
       "id": "31850792",
       "reviewId": "5639929626",
       "title": "The Agony of Eros",
@@ -9907,6 +9989,25 @@
         "height": null,
         "thickness": null
       }
+    },
+    {
+      "id": "36265560",
+      "reviewId": "9128974431",
+      "title": "Advice Not Given: A Guide to Getting Over Yourself",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Mark Epstein",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 224,
+      "year": 2018,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505790243l/36265560._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/36265560"
     },
     {
       "id": "36289256",
