@@ -1,6 +1,10 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-11-24T05:29:13.008Z",
+  "syncedAt": "2026-11-24T17:25:26.518Z",
+  "uncovered": {
+    "owned": 1,
+    "to-read": 1
+  },
   "books": [
     {
       "id": "11",
@@ -147,6 +151,33 @@
       "year": 1961,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1156897088l/350._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/350"
+    },
+    {
+      "id": "399",
+      "reviewId": "9128751471",
+      "title": "Underworld",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Don DeLillo",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 827,
+      "year": 1997,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716745257l/399._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/399",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Scribner",
+        "isbn": "9780684848150",
+        "nonfiction": false,
+        "height": 20.3,
+        "thickness": 4.6
+      }
     },
     {
       "id": "408",
@@ -1830,6 +1861,33 @@
       }
     },
     {
+      "id": "12094",
+      "reviewId": "9128737042",
+      "title": "Rhinoceros and Other Plays",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Eugène Ionesco",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 141,
+      "year": 1959,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457500750l/12094._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/12094",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Grove Press",
+        "isbn": "9780394172262",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "12296",
       "reviewId": "5605358764",
       "title": "The Scarlet Letter",
@@ -2172,24 +2230,14 @@
       "seriesNumber": null,
       "author": "Virginia Woolf",
       "shelf": "read",
-      "tags": [
-        "owned"
-      ],
+      "tags": [],
       "rating": 3,
       "dateRead": "2025-10-17",
       "dateAdded": "2025-10-18",
       "pages": 194,
       "year": 1925,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646148221l/14942._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/14942",
-      "edition": {
-        "format": "Hardcover",
-        "publisher": "Houghton Mifflin Harcourt",
-        "isbn": "9780151009985",
-        "nonfiction": false,
-        "height": null,
-        "thickness": null
-      }
+      "url": "https://www.goodreads.com/book/show/14942"
     },
     {
       "id": "15645",
@@ -4151,6 +4199,33 @@
       "url": "https://www.goodreads.com/book/show/93376"
     },
     {
+      "id": "93426",
+      "reviewId": "9128749433",
+      "title": "Genghis Khan and the Making of the Modern World",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Jack Weatherford",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 312,
+      "year": 2004,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320531289l/93426._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/93426",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Broadway Books",
+        "isbn": "9780609809648",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "95558",
       "reviewId": "8753733388",
       "title": "Solaris",
@@ -4166,6 +4241,33 @@
       "year": 1961,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498631519l/95558._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/95558"
+    },
+    {
+      "id": "96573",
+      "reviewId": "9128711883",
+      "title": "The Unbearable Lightness of Being",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Milan Kundera",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 314,
+      "year": 1984,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387737384l/96573._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/96573",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Harpercollins",
+        "isbn": "9780060914653",
+        "nonfiction": false,
+        "height": 20.3,
+        "thickness": 2.3
+      }
     },
     {
       "id": "101157",
@@ -4897,6 +4999,33 @@
       "url": "https://www.goodreads.com/book/show/297673"
     },
     {
+      "id": "310612",
+      "reviewId": "9128746601",
+      "title": "A Confederacy of Dunces",
+      "series": null,
+      "seriesNumber": null,
+      "author": "John Kennedy Toole",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 394,
+      "year": 1980,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562554946l/310612._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/310612",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Grove Press",
+        "isbn": "9780802130204",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "316328",
       "reviewId": "7124814507",
       "title": "Super Imperialism: The Origin and Fundamentals of U.S. World Dominance",
@@ -5231,6 +5360,60 @@
       "year": 1955,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309209622l/395058._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/395058"
+    },
+    {
+      "id": "397165",
+      "reviewId": "9128775667",
+      "title": "Sputnik Sweetheart",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Haruki Murakami",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 210,
+      "year": 1999,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541945254l/397165._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/397165",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "isbn": "9780375726057",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "426504",
+      "reviewId": "9128750111",
+      "title": "Ficciones",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Jorge Luis Borges",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 174,
+      "year": 1944,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621713120l/426504._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/426504",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Grove Press",
+        "isbn": "9780802130303",
+        "nonfiction": false,
+        "height": 19.8,
+        "thickness": 1.8
+      }
     },
     {
       "id": "434903",
@@ -5575,6 +5758,33 @@
       }
     },
     {
+      "id": "581331",
+      "reviewId": "9128710458",
+      "title": "The Satanic Verses",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Salman Rushdie",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 576,
+      "year": 1988,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312058938l/581331._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/581331",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Henry Holt and Company",
+        "isbn": "9780805053098",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "607639",
       "reviewId": "7130092474",
       "title": "The Beach",
@@ -5787,6 +5997,33 @@
         "format": "Hardcover",
         "publisher": "Holt",
         "isbn": "9780805037586",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "876726",
+      "reviewId": "9128783321",
+      "title": "Tinker Tailor Soldier Spy",
+      "series": null,
+      "seriesNumber": null,
+      "author": "John le Carré",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": null,
+      "year": 1974,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558644943l/876726._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/876726",
+      "edition": {
+        "format": "Mass Market Paperback",
+        "publisher": "Penguin Canada",
+        "isbn": "9780140127591",
         "nonfiction": false,
         "height": null,
         "thickness": null
@@ -6333,6 +6570,33 @@
       "year": 2008,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1426188598l/2924318._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/2924318"
+    },
+    {
+      "id": "3104354",
+      "reviewId": "9128771979",
+      "title": "Hunger",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Knut Hamsun",
+      "shelf": "read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 242,
+      "year": 1890,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1382142937l/3104354._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/3104354",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Farrar, Straus and Giroux",
+        "isbn": "9780374531102",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "3188964",
@@ -11462,6 +11726,33 @@
       }
     },
     {
+      "id": "60481796",
+      "reviewId": "9128743109",
+      "title": "The Complete Stories",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Franz Kafka",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 486,
+      "year": 1915,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645633238l/60481796._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/60481796",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Schocken",
+        "isbn": "9780805210552",
+        "nonfiction": false,
+        "height": 19.8,
+        "thickness": 2.8
+      }
+    },
+    {
       "id": "60526802",
       "reviewId": "5700112166",
       "title": "Stella Maris",
@@ -11635,6 +11926,33 @@
       }
     },
     {
+      "id": "61317863",
+      "reviewId": "9128773527",
+      "title": "Tatsuki Fujimoto Before Chainsaw Man: 17–21",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Tatsuki Fujimoto",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 168,
+      "year": 2021,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1662304989l/61317863._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/61317863",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "VIZ Media LLC",
+        "isbn": "9781974734771",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "61357212",
       "reviewId": "7891777757",
       "title": "Non-Things: Upheaval in the Lifeworld",
@@ -11715,6 +12033,33 @@
       "url": "https://www.goodreads.com/book/show/62879904"
     },
     {
+      "id": "63017096",
+      "reviewId": "9128769762",
+      "title": "Crime and Punishment",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Fyodor Dostoevsky",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 624,
+      "year": 1866,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665965305l/63017096._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/63017096",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Vintage Classics",
+        "isbn": "9780679734505",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "63079845",
       "reviewId": "6893600814",
       "title": "Never Finished: Unshackle Your Mind and Win the War Within",
@@ -11756,6 +12101,33 @@
         "publisher": "Zer0 Books",
         "isbn": "9781803414300",
         "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "78296940",
+      "reviewId": "9128712581",
+      "title": "Demon Copperhead",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Barbara Kingsolver",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 548,
+      "year": 2022,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1721840737l/78296940._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/78296940",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Harper Perennial",
+        "isbn": "9780063251984",
+        "nonfiction": false,
         "height": null,
         "thickness": null
       }
@@ -12439,6 +12811,33 @@
       }
     },
     {
+      "id": "235609109",
+      "reviewId": "9128757833",
+      "title": "Mrs. Dalloway",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Virginia Woolf",
+      "shelf": "read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 196,
+      "year": 1925,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1748891874l/235609109._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/235609109",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Page Publications",
+        "isbn": "9781648337444",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
       "id": "238766789",
       "reviewId": "8597286680",
       "title": "Korean Messiah: Kim Il Sung and the Christian Roots of North Korea's Personality Cult",
@@ -12454,6 +12853,33 @@
       "year": 2026,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1752547538l/238766789._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/238766789"
+    },
+    {
+      "id": "238775195",
+      "reviewId": "9128744940",
+      "title": "Do Androids Dream of Electric Sheep?",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Philip K. Dick",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 224,
+      "year": 1968,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1752565153l/238775195._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/238775195",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Del Rey",
+        "isbn": "9780345404473",
+        "nonfiction": false,
+        "height": 20.1,
+        "thickness": 1.5
+      }
     },
     {
       "id": "239308073",
@@ -12647,6 +13073,33 @@
         "format": "Paperback",
         "publisher": "Pantheon",
         "isbn": "9780394752846",
+        "nonfiction": false,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "260446769",
+      "reviewId": "9128745847",
+      "title": "The Bell Jar",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Sylvia Plath",
+      "shelf": "to-read",
+      "tags": [
+        "owned"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-24",
+      "pages": 272,
+      "year": 1963,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1791305021l/260446769._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/260446769",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Harper Perennial",
+        "isbn": "9780060837020",
         "nonfiction": false,
         "height": null,
         "thickness": null
