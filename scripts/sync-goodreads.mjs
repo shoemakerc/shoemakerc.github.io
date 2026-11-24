@@ -178,14 +178,15 @@ async function fetchBook(id) {
   const author = state[book.primaryContributorEdge?.node?.__ref]?.name;
   // The work's date is the first publication; the book's is this edition's.
   const published = state[book.work?.__ref]?.details?.publicationTime ?? book.details?.publicationTime;
-  const year = published == null ? 0 : new Date(published).getUTCFullYear();
+  // A year before 1 is BC: the Odyssey's is -800.
+  const year = published == null ? null : new Date(published).getUTCFullYear();
   const pages = Number(book.details?.numPages);
   const genres = (book.bookGenres ?? []).map((g) => g.genre?.name);
   const details = {
     ...splitSeries((book.titleComplete ?? book.title).trim()),
     author: (author ?? "").trim(),
     pages: pages > 0 ? pages : null,
-    year: year > 0 ? year : null,
+    year,
     edition: {
       format: book.details?.format ?? null,
       publisher: book.details?.publisher?.trim() || null,

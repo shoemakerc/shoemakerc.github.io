@@ -80,7 +80,7 @@ export type GoodreadsBook = {
   dateRead: string | null;
   dateAdded: string | null;
   pages: number | null;
-  /** When the book first came out, whichever edition this is. */
+  /** When the book first came out, whichever edition this is. Before 1 is BC. */
   year: number | null;
   progress?: Progress;
   /** Only on books shelved as "owned". */

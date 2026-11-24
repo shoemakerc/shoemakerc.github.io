@@ -7,8 +7,9 @@ import {
 } from "@/lib/reading";
 
 // The books owned in print, shelved for the bookcase page: everything on the
-// Goodreads "owned" shelf except what's on the nightstand, fiction first and
-// then nonfiction, each by author and then by when the book came out. The
+// Goodreads "owned" shelf except what's on the nightstand, fiction first,
+// then nonfiction, then the classics (anything from the ancient world, verse
+// or philosophy), each by author and then by when the book came out. The
 // shelves are IKEA's narrow BILLY, drawn to scale, and so are the books, so a
 // shelf holds what 36 cm of shelf would.
 
@@ -32,12 +33,22 @@ export const spaceHeight =
     ((billy.height - billy.plinth - (billy.spaces + 1) * billy.panel) / billy.spaces) * 10,
   ) / 10;
 
-export type Category = "fiction" | "nonfiction";
+/** In the order they're shelved. */
+export const categories = ["fiction", "nonfiction", "classics"] as const;
+
+export type Category = (typeof categories)[number];
+
+/**
+ * The ancient world ends, for shelving purposes, with Rome: a book first
+ * published before this year is a classic. Goodreads sometimes has only the
+ * date of a modern edition, and then the snapshot's year wants setting by hand.
+ */
+const antiquityEnds = 500;
 
 export type Copy = {
   title: string;
   author: string;
-  /** When the book first came out. */
+  /** When the book first came out. Before 1 is BC. */
   year: number | null;
   pages: number | null;
   format: string;
@@ -123,7 +134,12 @@ export function getBookcases(): Bookcases {
         year: book.year,
         pages: book.pages,
         format: book.edition?.format ?? "Paperback",
-        category: book.edition?.nonfiction ? "nonfiction" : "fiction",
+        category:
+          book.year != null && book.year < antiquityEnds
+            ? "classics"
+            : book.edition?.nonfiction
+              ? "nonfiction"
+              : "fiction",
         read: read.has(editionKey(book.title)),
         url: book.url,
         height: book.edition?.height ?? usualHeight(binding, book.edition?.publisher ?? null),
@@ -139,7 +155,7 @@ export function getBookcases(): Bookcases {
     );
 
   const shelves: Shelf[] = [];
-  for (const category of ["fiction", "nonfiction"] as const) {
+  for (const category of categories) {
     // Each kind starts on a shelf of its own.
     let shelf: Shelf | null = null;
     let used = 0;
