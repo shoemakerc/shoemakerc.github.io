@@ -24,7 +24,7 @@ const projects: Project[] = [
     tags: ["TypeScript", "Phaser", "Vite"],
     href: "/bong-quest/",
     summary:
-      "A keyboard-only 2D platformer about a guy who collects bongs, each of which grants a new power: double jump, dash, wall jump, and glide. Nine levels so far, playable in the browser; the art is still placeholder rectangles.",
+      "A 2D platformer about a guy who collects bongs, each of which grants a new power: double jump, dash, wall jump, and glide. Nineteen levels so far, with enemies to stomp, lighters that relight a spent jump in midair, and a new hat, shirt, necklace, or pair of shoes to find each day. Plays in the browser with a keyboard or on a phone's touchscreen; the art is still placeholder rectangles.",
   },
   {
     name: "Coffee Calculator",
