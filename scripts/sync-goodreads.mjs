@@ -17,11 +17,16 @@
 // - How far along a book is comes from the public list of status updates
 //   ("is on page 17 of 256 of Meditations"), which names the book each is for.
 //
+// - A book shelved as "owned" also gets its edition looked up, once: the format,
+//   publisher and whether Goodreads' readers file it under nonfiction, from its
+//   Goodreads page, and its height and thickness from Open Library, where
+//   that has them for the ISBN. The bookcase page draws the book from those.
+//
 // What it can't see: a book with no cover on Goodreads (the widget leaves
 // those out, so they stay as the snapshot has them), a changed rating on a
 // book that already had one, and the real date for a book finished days ago.
-// Dates and ratings in the snapshot are only ever filled in, never replaced,
-// so correcting one by hand in content/goodreads.json sticks.
+// Dates, ratings and editions in the snapshot are only ever filled in, never
+// replaced, so correcting one by hand in content/goodreads.json sticks.
 //
 // Runs daily from .github/workflows/sync-goodreads.yml; `npm run sync:goodreads`
 // does the same locally.
@@ -63,17 +68,22 @@ function coverCandidates(url) {
   return [full.replace(/(\.\w+)$/, "._SY300_$1"), full];
 }
 
-async function get(url) {
-  // Goodreads answers the odd request with a 503, so try a few times.
+/**
+ * The text at a URL, or null for a 404 when `optional`. Goodreads answers the
+ * odd request with a 503, or with nothing at all, so this tries a few times.
+ */
+async function get(url, { optional = false, agent = "shoemakerc.github.io reading sync" } = {}) {
   for (let attempt = 1; ; attempt++) {
     // A sync is a couple of dozen requests; no need to send them all at once.
     await new Promise((resolve) => setTimeout(resolve, 500 * attempt ** 2));
-    const res = await fetch(url, {
-      headers: { "User-Agent": "shoemakerc.github.io reading sync" },
-    }).catch(() => null);
-    if (res?.ok) return res.text();
-    const passing = !res || res.status === 429 || res.status >= 500;
-    if (!passing || attempt === 4) throw new Error(`${url} → ${res ? `HTTP ${res.status}` : "no response"}`);
+    const res = await fetch(url, { headers: { "User-Agent": agent } }).catch(() => null);
+    const text = res?.ok ? await res.text().catch(() => "") : "";
+    if (text) return text;
+    if (optional && res?.status === 404) return null;
+    const passing = !res || res.ok || res.status === 429 || res.status >= 500;
+    if (!passing || attempt === 4) {
+      throw new Error(`${url} → ${!res ? "no response" : res.ok ? "an empty page" : `HTTP ${res.status}`}`);
+    }
   }
 }
 
@@ -150,8 +160,11 @@ async function fetchShelf(shelf, count, coverless, orders = ["date_added"]) {
   return { seen, lists, complete };
 }
 
+const bookPages = new Map();
+
 /** The details the widget leaves out, from the book's own page. */
 async function fetchBook(id) {
+  if (bookPages.has(id)) return bookPages.get(id);
   const url = `https://www.goodreads.com/book/show/${id}`;
   const html = await get(url);
   const data = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
@@ -164,12 +177,44 @@ async function fetchBook(id) {
   const published = state[book.work?.__ref]?.details?.publicationTime ?? book.details?.publicationTime;
   const year = published == null ? 0 : new Date(published).getUTCFullYear();
   const pages = Number(book.details?.numPages);
-  return {
+  const genres = (book.bookGenres ?? []).map((g) => g.genre?.name);
+  const details = {
     ...splitSeries((book.titleComplete ?? book.title).trim()),
     author: (author ?? "").trim(),
     pages: pages > 0 ? pages : null,
     year: year > 0 ? year : null,
+    edition: {
+      format: book.details?.format ?? null,
+      publisher: book.details?.publisher?.trim() || null,
+      isbn: book.details?.isbn13 ?? book.details?.isbn ?? null,
+      // The genres are what readers shelve the book under, most used first.
+      nonfiction: genres.includes("Nonfiction"),
+    },
   };
+  bookPages.set(id, details);
+  return details;
+}
+
+/**
+ * A book's height and thickness in centimetres, from Open Library's record of
+ * the edition with this ISBN: "8.1 x 5.4 x 1.4 inches". Null where it has no
+ * record or no size, which is most of the time.
+ */
+async function fetchSize(isbn) {
+  const json = await get(`https://openlibrary.org/isbn/${isbn}.json`, { optional: true, agent: "reading-sync" });
+  const text = json && JSON.parse(json).physical_dimensions;
+  const numbers = (text?.match(/\d+(\.\d+)?/g) ?? []).map(Number).sort((a, b) => b - a);
+  if (numbers.length < 2 || numbers.length > 3) return null;
+  const perUnit = /cent|cm/i.test(text) ? 1 : /mm|milli/i.test(text) ? 0.1 : 2.54;
+  const cm = (n) => Math.round(n * perUnit * 10) / 10;
+  // Whichever way round they're given, a book is taller than it is wide, and
+  // wider than it is thick.
+  const height = cm(numbers[0]);
+  const thick = numbers.length === 3 ? numbers[2] : null;
+  // A thickness of exactly an inch or two has been rounded past any use.
+  const thickness = thick && !(perUnit === 2.54 && Number.isInteger(thick)) ? cm(thick) : null;
+  if (height < 10 || height > 40) return null;
+  return { height, thickness: thickness >= 0.3 && thickness <= 12 ? thickness : null };
 }
 
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -238,7 +283,8 @@ for (const shelf of SHELVES) {
     const prev = previousOf(entry);
     if (prev) matched.add(prev.id);
     // A book that's new here, or now in another edition, needs looking up.
-    const details = prev?.id === entry.id ? prev : await fetchBook(entry.id);
+    const same = prev?.id === entry.id;
+    const details = same ? prev : await fetchBook(entry.id);
     // A tag whose widget came back short can add to a book's tags but not take away.
     const tagged = tagNames.filter(
       (tag) =>
@@ -262,6 +308,7 @@ for (const shelf of SHELVES) {
       cover: coverCandidates(entry.image),
       url: `https://www.goodreads.com/book/show/${entry.id}`,
       ...(prev?.progress && { progress: prev.progress }),
+      ...(same && prev.edition && { edition: prev.edition }),
     });
     if (!prev) console.log(`  New on ${shelf}: ${details.title}`);
     else if (prev.shelf !== shelf) console.log(`  ${prev.shelf} → ${shelf}: ${details.title}`);
@@ -334,6 +381,25 @@ for (const book of books) {
   if (book.shelf === "read") delete book.progress;
 }
 console.log(`progress: ${books.filter((b) => b.progress).length} books`);
+
+// The edition of each book that's owned, for the bookcase page. One that
+// can't be looked up today is left for the next sync to try.
+for (const book of books) {
+  if (!book.tags.includes("owned")) {
+    delete book.edition;
+    continue;
+  }
+  if (book.edition) continue;
+  try {
+    const { edition } = await fetchBook(book.id);
+    const size = edition.isbn ? await fetchSize(edition.isbn) : null;
+    book.edition = { ...edition, height: size?.height ?? null, thickness: size?.thickness ?? null };
+    console.log(`  Edition: ${book.title} (${edition.format ?? "format unknown"}${size ? `, ${size.height} cm` : ""})`);
+  } catch (error) {
+    console.warn(`  No edition yet for ${book.title}: ${error.message}`);
+  }
+}
+console.log(`editions: ${books.filter((b) => b.edition).length} owned books`);
 
 // Some resized covers 403, so check each one that's new since the last sync.
 // A cover saved as public/covers/<Goodreads id>.jpg replaces Goodreads' own,

@@ -56,7 +56,20 @@ export type Book = {
   owned: boolean;
 };
 
-type GoodreadsBook = {
+/** The copy that's owned: what Goodreads and Open Library know about it. */
+export type Edition = {
+  /** "Paperback", "Hardcover", "Mass Market Paperback"… */
+  format: string | null;
+  publisher: string | null;
+  isbn: string | null;
+  /** Whether Goodreads' readers file it under nonfiction. */
+  nonfiction: boolean;
+  /** In centimetres, where Open Library has the edition's size. */
+  height: number | null;
+  thickness: number | null;
+};
+
+export type GoodreadsBook = {
   id: string;
   title: string;
   series: string | null;
@@ -67,7 +80,11 @@ type GoodreadsBook = {
   dateRead: string | null;
   dateAdded: string | null;
   pages: number | null;
+  /** When the book first came out, whichever edition this is. */
+  year: number | null;
   progress?: Progress;
+  /** Only on books shelved as "owned". */
+  edition?: Edition;
   cover: string | null;
   url: string;
 };
@@ -213,7 +230,7 @@ function readList(): ListBook[] {
   return books.filter((b) => !("hasChildren" in b && b.hasChildren));
 }
 
-function readSnapshot(): Snapshot {
+export function readSnapshot(): Snapshot {
   return JSON.parse(
     fs.readFileSync(path.join(process.cwd(), "content", "goodreads.json"), "utf8"),
   );

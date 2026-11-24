@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Staff } from "@/components/ui";
 import { getAuthors, type Author, type Volume } from "@/lib/authors";
 import { authorSortKey, getLibrary, type Book } from "@/lib/reading";
@@ -451,6 +452,10 @@ export default function Reading() {
               <Pile name="Set aside for now" tally="waiting" books={paused} aside />
             )}
           </div>
+          <p className="shelves-companions">
+            Everything else I own on paper is on{" "}
+            <Link href="/reading/bookcases/">the bookcases</Link>.
+          </p>
         </section>
       )}
 

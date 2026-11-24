@@ -616,6 +616,136 @@ a.spine-reading:hover {
   margin: 1rem 0 0.25rem;
 }
 
+/* The bookcases: IKEA's narrow BILLY in black oak, drawn to scale. Every
+   length is in centimetres times --cm, so a narrow screen shrinks the lot. */
+.bookcases {
+  --cm: min(9px, (100vw - 2 * var(--gutter)) / var(--billy-width));
+  --oak: #2b2520;
+  --on-oak: #ece7dc;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  /* Side by side they stand flush, the way a row of them does. */
+  gap: 2.5rem 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .bookcases {
+    /* Lighter than it is, to show against a dark page. */
+    --oak: #4b4037;
+  }
+}
+
+.billy {
+  box-sizing: border-box;
+  width: calc(var(--billy-width) * var(--cm));
+  border: solid var(--oak);
+  border-width: calc(var(--billy-panel) * var(--cm)) calc(var(--billy-panel) * var(--cm)) 0;
+  /* The back panel, in the shade. */
+  background: var(--highlight);
+}
+
+.billy-books {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+  height: calc(var(--billy-space) * var(--cm));
+}
+
+.billy-books li {
+  display: flex;
+}
+
+.billy-shelf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(var(--billy-panel) * var(--cm));
+  margin: 0;
+  padding: 0 0.35rem;
+  background: var(--oak);
+  color: var(--on-oak);
+  font-family: var(--mono);
+  font-size: min(0.5625rem, var(--billy-panel) * var(--cm) * 0.6);
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* The kick board, set back under the bottom shelf. */
+.billy-plinth {
+  height: calc(var(--billy-plinth) * var(--cm));
+  background: color-mix(in srgb, var(--oak) 80%, var(--paper));
+}
+
+.volume {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+  width: calc(var(--thick) * var(--cm));
+  height: calc(var(--tall) * var(--cm));
+  padding: 0.5rem 0 0.4rem;
+  overflow: hidden;
+  font-size: 0.6875rem;
+  line-height: 1;
+  text-decoration: none;
+  transition: transform 160ms ease;
+}
+
+a.volume:hover {
+  transform: translateY(-4px);
+}
+
+/* Not see-through to the back of the bookcase, as an outline alone would be. */
+.volume.spine-owned {
+  background: var(--paper);
+}
+
+/* A hairline between one read book and the next. */
+.volume.spine-read {
+  box-shadow: inset -1px 0 0 var(--highlight);
+}
+
+.volume-title,
+.volume-author {
+  writing-mode: vertical-rl;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.volume-title {
+  min-height: 0;
+  font-style: italic;
+}
+
+.volume-slim {
+  font-size: 0.5625rem;
+}
+
+.volume-author {
+  flex: none;
+  max-height: 45%;
+  font-family: var(--mono);
+  font-size: 0.5rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.shelf-legend.bookcase-legend {
+  margin: 0 0 2rem;
+}
+
+.bookcases + .shelf-list {
+  margin-top: 2.25rem;
+}
+
 .shelves-companions {
   max-width: var(--measure);
   margin: 1.5rem 0 0;
