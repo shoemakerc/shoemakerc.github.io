@@ -453,8 +453,9 @@ export default function Reading() {
             )}
           </div>
           <p className="shelves-companions">
-            Everything else I own on paper is on{" "}
-            <Link href="/reading/bookcases/">the bookcases</Link>.
+            Everything else I own is on{" "}
+            <Link href="/reading/bookcases/">the bookcases</Link>, or on the Kindle
+            beside them.
           </p>
         </section>
       )}
