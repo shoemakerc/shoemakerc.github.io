@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-23T19:23:45.196Z",
+  "syncedAt": "2026-11-24T18:59:35.813Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -139,7 +139,7 @@
       "url": "https://www.espn.com/nhl/team/_/name/min/minnesota-wild",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 17,
+      "wins": 18,
       "losses": 3,
       "ties": 0,
       "otLosses": 5,
@@ -148,19 +148,9 @@
         "rank": 1,
         "teams": 8
       },
-      "streak": "L1",
+      "streak": "W1",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-11-01T20:30Z",
-          "home": false,
-          "opponent": "Capitals",
-          "us": 5,
-          "them": 1,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-11-04T00:00Z",
           "home": false,
@@ -250,13 +240,23 @@
           "result": "OTL",
           "extra": "SO",
           "postseason": false
+        },
+        {
+          "date": "2026-11-24T03:00Z",
+          "home": false,
+          "opponent": "Sharks",
+          "us": 5,
+          "them": 2,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-24T03:00Z",
+        "date": "2026-11-26T01:00Z",
         "timeKnown": true,
-        "home": false,
-        "opponent": "San Jose Sharks",
+        "home": true,
+        "opponent": "Utah Mammoth",
         "seasonType": 2,
         "stage": null,
         "note": null
@@ -269,7 +269,7 @@
       "url": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 12,
+      "wins": 13,
       "losses": 5,
       "ties": 0,
       "otLosses": 0,
@@ -278,19 +278,9 @@
         "rank": 1,
         "teams": 5
       },
-      "streak": "W1",
+      "streak": "W2",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-11-03T01:00Z",
-          "home": true,
-          "opponent": "Bucks",
-          "us": 112,
-          "them": 100,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-11-05T01:30Z",
           "home": false,
@@ -380,16 +370,26 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-24T00:30Z",
+          "home": true,
+          "opponent": "Nets",
+          "us": 142,
+          "them": 116,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-24T00:30Z",
+        "date": "2026-11-26T00:30Z",
         "timeKnown": true,
-        "home": true,
-        "opponent": "Brooklyn Nets",
+        "home": false,
+        "opponent": "Oklahoma City Thunder",
         "seasonType": 2,
         "stage": null,
-        "note": null
+        "note": "NBA Cup - Group Play"
       }
     },
     {
