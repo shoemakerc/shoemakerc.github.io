@@ -706,8 +706,9 @@ a.volume:hover {
   background: var(--paper);
 }
 
-/* A hairline between one read book and the next. */
-.volume.spine-read {
+/* A hairline between one filled-in book and the next. */
+.volume.spine-read,
+.volume.spine-reading {
   box-shadow: inset -1px 0 0 var(--highlight);
 }
 

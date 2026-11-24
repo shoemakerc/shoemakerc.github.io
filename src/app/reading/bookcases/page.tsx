@@ -20,17 +20,27 @@ const count = new Intl.NumberFormat("en-US");
 
 const kinds = { fiction: "Fiction", nonfiction: "Nonfiction", classics: "Classics" } as const;
 
-const statusOf = (copy: Copy) => (copy.read ? "Read" : "On the shelf");
+/** What each status is called, and the spine it gets, as on the author shelves. */
+const statuses = {
+  read: { label: "Read", spine: "spine-read" },
+  aside: { label: "Set aside", spine: "spine-reading" },
+  unread: { label: "On the shelf", spine: "spine-owned" },
+} as const;
+
+const statusOf = (copy: Copy) => statuses[copy.status].label;
 
 /** Drops edition notes like "(Penguin Classics)" and the subtitle. */
 const shortTitle = (title: string) => title.replace(/\s*\([^)]*\)$/, "").split(/:\s/)[0];
 
-/** The name on the spine: "Kurt Vonnegut Jr." → "Vonnegut". */
+/** The name on the spine: "Kurt Vonnegut Jr." → "vonnegut", "Augustine of Hippo" → "augustine". */
 function surname(author: string) {
   const key = authorSortKey(`by ${author}`);
   const words = author.replace(/[.,]/g, "").split(" ");
-  // The sort key is the surname in lowercase, without its accents.
-  return words.slice(-key.split(" ").length).join(" ");
+  const ending = words.slice(-key.split(" ").length).join(" ");
+  const plain = ending.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
+  // The sort key has no accents, so where the name ends with it, take it from
+  // the name. Where it doesn't, the key is the part that matters.
+  return plain === key ? ending : key;
 }
 
 /** A book standing on the shelf, as tall and as thick as the book. */
@@ -43,7 +53,7 @@ function Volume({ copy }: { copy: Copy }) {
   ]
     .filter(Boolean)
     .join(", ")
-    .replace(/, (Read|On the shelf)\.$/, " $1.");
+    .replace(/, (Read|Set aside|On the shelf)\.$/, " $1.");
   // A thin spine has room for the title in small type, and a very thin one
   // for nothing at all.
   const lettering = copy.thickness >= 1.6 ? "full" : copy.thickness >= 1.15 ? "slim" : "none";
@@ -53,7 +63,7 @@ function Volume({ copy }: { copy: Copy }) {
         href={copy.url}
         className={[
           "volume",
-          copy.read ? "spine-read" : "spine-owned",
+          statuses[copy.status].spine,
           lettering === "slim" && "volume-slim",
         ]
           .filter(Boolean)
@@ -95,7 +105,10 @@ function Space({ shelf }: { shelf: Shelf }) {
 
 export default function Bookcases() {
   const { units, copies, length } = getBookcases();
-  const read = copies.filter((copy) => copy.read).length;
+  const read = copies.filter((copy) => copy.status === "read").length;
+  const shown = (["read", "aside", "unread"] as const).filter((status) =>
+    copies.some((copy) => copy.status === status),
+  );
   const of = (kind: Copy["category"]) => copies.filter((copy) => copy.category === kind);
 
   const stats = [
@@ -116,9 +129,9 @@ export default function Bookcases() {
           The books I own on paper, shelved the way they are at home: fiction,
           then nonfiction, then the ancients, each by author. Drawn to scale,
           so a long book is a thick one and a hardcover stands taller than a
-          paperback. Whatever
-          I’m in the middle of is on <Link href="/reading/">the nightstand</Link>{" "}
-          instead.
+          paperback. Whatever I’m in the middle of is on{" "}
+          <Link href="/reading/">the nightstand</Link> instead, though a book
+          I’ve set aside is back on its shelf here as well.
         </p>
         <dl className="reading-stats bookcase-stats">
           {stats.map((stat) => (
@@ -133,14 +146,12 @@ export default function Bookcases() {
       <section>
         <Staff label="In print" />
         <ul className="shelf-legend bookcase-legend">
-          <li className="meta">
-            <span className="shelf-swatch spine-read" aria-hidden="true" />
-            Read
-          </li>
-          <li className="meta">
-            <span className="shelf-swatch spine-owned" aria-hidden="true" />
-            On the shelf
-          </li>
+          {shown.map((status) => (
+            <li key={status} className="meta">
+              <span className={`shelf-swatch ${statuses[status].spine}`} aria-hidden="true" />
+              {statuses[status].label}
+            </li>
+          ))}
         </ul>
         <div
           className="bookcases"
