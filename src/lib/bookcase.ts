@@ -7,7 +7,8 @@ import {
 } from "@/lib/reading";
 
 // The books owned in print, shelved for the bookcase page: everything on the
-// Goodreads "owned" shelf except what's on the nightstand, fiction first,
+// Goodreads "owned" shelf except what's being read (a book set aside is back
+// on its shelf, though it's on the nightstand's second pile too), fiction first,
 // then nonfiction, then the classics (anything from the ancient world, verse
 // or philosophy), each by author and then by when the book came out. The
 // shelves are IKEA's narrow BILLY, drawn to scale, and so are the books, so a
@@ -61,7 +62,8 @@ export type Copy = {
   pages: number | null;
   format: string;
   category: Category;
-  read: boolean;
+  /** Set aside: begun, and put back on the shelf with the bookmark in. */
+  status: "read" | "aside" | "unread";
   url: string;
   /** In centimetres. */
   height: number;
@@ -131,8 +133,9 @@ export function getBookcases(): Bookcases {
 
   const copies = readSnapshot()
     .books.filter((book) => book.tags.includes("owned"))
-    // What's on the nightstand stays there, set aside or not.
-    .filter((book) => book.shelf !== "currently-reading")
+    // What's being read is on the nightstand. What's been set aside is in
+    // both places: back on the shelf, and in the nightstand's second pile.
+    .filter((book) => book.shelf !== "currently-reading" || book.tags.includes("paused"))
     .filter(inPrint)
     .map((book): Copy => {
       const binding = bindingOf(book.edition?.format ?? null);
@@ -143,7 +146,12 @@ export function getBookcases(): Bookcases {
         pages: book.pages,
         format: book.edition?.format ?? "Paperback",
         category: isClassic(book) ? "classics" : book.edition?.nonfiction ? "nonfiction" : "fiction",
-        read: read.has(editionKey(book.title)),
+        status:
+          book.shelf === "currently-reading"
+            ? "aside"
+            : read.has(editionKey(book.title))
+              ? "read"
+              : "unread",
         url: book.url,
         height: book.edition?.height ?? usualHeight(binding, book.edition?.publisher ?? null),
         thickness: book.edition?.thickness ?? usualThickness(binding, book.pages),
