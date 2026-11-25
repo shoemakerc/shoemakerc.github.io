@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Kindle, type KindleBook } from "@/components/kindle";
 import { Staff } from "@/components/ui";
 import {
   billy,
@@ -46,53 +47,6 @@ function standingInFull(book: Ebook) {
   if (book.status === "unread") return "Not read yet";
   const far = book.percent != null ? `, ${book.percent}% in` : "";
   return `${book.status === "aside" ? "Set aside" : "Reading now"}${far}`;
-}
-
-/** One screen of the Kindle's library: a page of covers, three across. */
-function Kindle({ books, page, pages }: { books: Ebook[]; page: number; pages: number }) {
-  // A page that isn't full still takes up the whole screen.
-  const blanks = Array.from({ length: kindlePage - books.length });
-  return (
-    <div className="kindle" role="group" aria-label={`Kindle library, page ${page} of ${pages}`}>
-      <div className="kindle-screen">
-        <p className="kindle-bar" aria-hidden="true">
-          <span>Library</span>
-          <span>Downloaded</span>
-        </p>
-        <ol className="kindle-grid">
-          {books.map((book) => (
-            <li key={book.url}>
-              <a
-                href={book.url}
-                className="kindle-cover"
-                aria-label={`${shortTitle(book.title)} by ${book.author}. ${standingInFull(book)}.`}
-                title={`${shortTitle(book.title)} by ${book.author}. ${standingInFull(book)}.`}
-              >
-                {book.cover ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img src={book.cover} alt="" loading="lazy" decoding="async" />
-                ) : (
-                  <span className="kindle-untitled">{shortTitle(book.title)}</span>
-                )}
-              </a>
-              <span className={`kindle-standing kindle-${book.status}`} aria-hidden="true">
-                {standing(book)}
-              </span>
-            </li>
-          ))}
-          {blanks.map((_, i) => (
-            <li key={i} aria-hidden="true" />
-          ))}
-        </ol>
-        <p className="kindle-bar kindle-foot" aria-hidden="true">
-          Page {page} of {pages}
-        </p>
-      </div>
-      <p className="kindle-name" aria-hidden="true">
-        kindle
-      </p>
-    </div>
-  );
 }
 
 /** Drops edition notes like "(Penguin Classics)" and the subtitle. */
@@ -178,10 +132,20 @@ export default function Bookcases() {
   const of = (kind: Copy["category"]) => copies.filter((copy) => copy.category === kind);
 
   const ebooks = getKindle();
-  const screens = Array.from({ length: Math.ceil(ebooks.length / kindlePage) }, (_, i) =>
-    ebooks.slice(i * kindlePage, (i + 1) * kindlePage),
-  );
   const ebooksRead = ebooks.filter((book) => book.status === "read").length;
+  const onScreen = ebooks.map(
+    (book): KindleBook => ({
+      title: shortTitle(book.title),
+      cover: book.cover,
+      url: book.url,
+      standing: standing(book),
+      faint: book.status === "unread",
+      label: `${shortTitle(book.title)} by ${book.author}. ${standingInFull(book)}.`,
+    }),
+  );
+  const kindlePages = Array.from({ length: Math.ceil(onScreen.length / kindlePage) }, (_, i) =>
+    onScreen.slice(i * kindlePage, (i + 1) * kindlePage),
+  );
 
   const stats = [
     { value: copies.length, label: "books in print" },
@@ -298,12 +262,11 @@ export default function Bookcases() {
           <Staff label="On the Kindle" />
           <p className="lede-small shelves-lede">
             The shelf that weighs nothing: {ebooks.length} books, {ebooksRead} of them read, shown
-            the way the Kindle shows them, a screenful of covers at a time and all of it in grey.
+            the way my Paperwhite shows them, a page of covers at a time and all of it in grey.
+            Swipe the screen or use its arrows to turn the page.
           </p>
           <div className="kindles">
-            {screens.map((books, i) => (
-              <Kindle key={i} books={books} page={i + 1} pages={screens.length} />
-            ))}
+            <Kindle pages={kindlePages} count={ebooks.length} />
           </div>
           <details className="shelf-list">
             <summary>

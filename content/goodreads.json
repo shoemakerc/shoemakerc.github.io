@@ -1,6 +1,10 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-11-24T22:08:37.409Z",
+  "syncedAt": "2026-11-25T04:31:13.086Z",
+  "uncovered": {
+    "kindle": 2,
+    "to-read": 2
+  },
   "books": [
     {
       "id": "11",
@@ -1665,6 +1669,23 @@
       "year": -500,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630683326l/10534._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/10534"
+    },
+    {
+      "id": "10543",
+      "reviewId": "9130242030",
+      "title": "Ulysses Annotated: Notes for James Joyce's Ulysses",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Don   Gifford",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 698,
+      "year": 1989,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1166254003l/10543._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/10543"
     },
     {
       "id": "11229",
@@ -4300,6 +4321,44 @@
       "url": "https://www.goodreads.com/book/show/102908"
     },
     {
+      "id": "108379",
+      "reviewId": "9130243903",
+      "title": "Zen Mind, Beginner's Mind",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Shunryu Suzuki",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 208,
+      "year": 1970,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320427376l/108379._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/108379"
+    },
+    {
+      "id": "112588",
+      "reviewId": "9130244346",
+      "title": "The Mindful Way through Depression: Freeing Yourself from Chronic Unhappiness",
+      "series": null,
+      "seriesNumber": null,
+      "author": "J. Mark G. Williams",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 273,
+      "year": 2007,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351661334l/112588._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/112588"
+    },
+    {
       "id": "115577",
       "reviewId": "9127703019",
       "title": "Oedipus the King and Antigone (Crofts Classics)",
@@ -4469,6 +4528,25 @@
       }
     },
     {
+      "id": "145391",
+      "reviewId": "9130242506",
+      "title": "I Hate You—Don't Leave Me: Understanding the Borderline Personality",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Jerold J. Kreisman",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 207,
+      "year": 1989,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347849174l/145391._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/145391"
+    },
+    {
       "id": "151390",
       "reviewId": "8718964671",
       "title": "The Letters of Abélard and Héloïse",
@@ -4586,6 +4664,25 @@
       "year": 1981,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327948704l/161037._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/161037"
+    },
+    {
+      "id": "162757",
+      "reviewId": "9130241583",
+      "title": "Escape from Evil",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Ernest Becker",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 188,
+      "year": 1975,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348205845l/162757._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/162757"
     },
     {
       "id": "166997",
@@ -5100,6 +5197,25 @@
       "url": "https://www.goodreads.com/book/show/318335"
     },
     {
+      "id": "322444",
+      "reviewId": "9130241386",
+      "title": "Minima Moralia: Reflections from a Damaged Life",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Theodor W. Adorno",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 256,
+      "year": 1951,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387703497l/322444._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/322444"
+    },
+    {
       "id": "325128",
       "reviewId": "5619872736",
       "title": "Kidnapped",
@@ -5217,6 +5333,25 @@
       "year": 1928,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632027397l/355697._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/355697"
+    },
+    {
+      "id": "364397",
+      "reviewId": "9130243337",
+      "title": "The History of Scepticism: From Savonarola to Bayle",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Richard H. Popkin",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 440,
+      "year": 2003,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348723907l/364397._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/364397"
     },
     {
       "id": "368772",
@@ -6026,6 +6161,25 @@
       }
     },
     {
+      "id": "887139",
+      "reviewId": "9130243838",
+      "title": "Edda",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Snorri Sturluson",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 260,
+      "year": 1220,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1542969183l/887139._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/887139"
+    },
+    {
       "id": "981522",
       "reviewId": "5641441694",
       "title": "England's Hidden Reverse:  A Secret History of the Esoteric Underground",
@@ -6147,6 +6301,25 @@
       }
     },
     {
+      "id": "1239887",
+      "reviewId": "9130242364",
+      "title": "The Concept of Anxiety: A Simple Psychologically Orienting Deliberation on the Dogmatic Issue of Hereditary Sin",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Søren Kierkegaard",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 293,
+      "year": 1844,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1182179048l/1239887._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1239887"
+    },
+    {
       "id": "1283910",
       "reviewId": "9127680894",
       "title": "The Taming of the Samurai: Honorific Individualism and the Making of Modern Japan",
@@ -6208,6 +6381,25 @@
       "year": 1979,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347798363l/1398830._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/1398830"
+    },
+    {
+      "id": "1408649",
+      "reviewId": "9130241777",
+      "title": "The Pilgrimage",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Paulo Coelho; Alan R. Clarke",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 276,
+      "year": 1987,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1205984746l/1408649._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1408649"
     },
     {
       "id": "1541073",
@@ -6332,6 +6524,44 @@
       "url": "https://www.goodreads.com/book/show/1772910"
     },
     {
+      "id": "1789175",
+      "reviewId": "9130241518",
+      "title": "The Cloud of Unknowing and Other Works",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Anonymous",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 232,
+      "year": 1399,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1188368457l/1789175._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1789175"
+    },
+    {
+      "id": "1839265",
+      "reviewId": "9130244073",
+      "title": "The Courage to Be",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Paul Tillich",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 207,
+      "year": 1952,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1189034876l/1839265._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1839265"
+    },
+    {
       "id": "1890922",
       "reviewId": "9127649883",
       "title": "Feeling Good: The New Mood Therapy",
@@ -6419,6 +6649,44 @@
       "year": 2007,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473397159l/2195464._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/2195464"
+    },
+    {
+      "id": "2214278",
+      "reviewId": "9130243483",
+      "title": "Introduction to Tibetan Buddhism",
+      "series": null,
+      "seriesNumber": null,
+      "author": "John      Powers",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 592,
+      "year": 1995,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348186151l/2214278._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/2214278"
+    },
+    {
+      "id": "2218102",
+      "reviewId": "9130243265",
+      "title": "Maps of Meaning: The Architecture of Belief",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Jordan B. Peterson",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 564,
+      "year": 1999,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364057072l/2218102._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/2218102"
     },
     {
       "id": "2245773",
@@ -6919,6 +7187,23 @@
       "url": "https://www.goodreads.com/book/show/6088007"
     },
     {
+      "id": "6165676",
+      "reviewId": "9130242713",
+      "title": "The Kalevala",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Elias Lönnrot",
+      "shelf": "read",
+      "tags": [],
+      "rating": 4,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 679,
+      "year": 1835,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348935708l/6165676._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/6165676"
+    },
+    {
       "id": "6290009",
       "reviewId": "9127702106",
       "title": "Renegade",
@@ -7166,6 +7451,63 @@
         "height": null,
         "thickness": null
       }
+    },
+    {
+      "id": "6929420",
+      "reviewId": "9130243407",
+      "title": "A Bull of a Man: Images of Masculinity, Sex, and the Body in Indian Buddhism",
+      "series": null,
+      "seriesNumber": null,
+      "author": "John      Powers",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 336,
+      "year": 2009,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347943678l/6929420._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/6929420"
+    },
+    {
+      "id": "7083575",
+      "reviewId": "9130244200",
+      "title": "Mother Night",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Kurt Vonnegut Jr.",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 186,
+      "year": 1962,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413747354l/7083575._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/7083575"
+    },
+    {
+      "id": "7681813",
+      "reviewId": "9130241461",
+      "title": "The Five Books of Moses: A Translation with Commentary",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Robert Alter",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 1120,
+      "year": 2004,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1268664921l/7681813._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/7681813"
     },
     {
       "id": "7897556",
@@ -7456,6 +7798,25 @@
       "url": "https://www.goodreads.com/book/show/9670246"
     },
     {
+      "id": "9756371",
+      "reviewId": "9130243205",
+      "title": "The Book of Disquiet",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Fernando Pessoa",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 544,
+      "year": 1982,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348802545l/9756371._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/9756371"
+    },
+    {
       "id": "9778945",
       "reviewId": "7891163036",
       "title": "The Shallows: What the Internet Is Doing to Our Brains",
@@ -7639,6 +8000,25 @@
       "url": "https://www.goodreads.com/book/show/10644930"
     },
     {
+      "id": "10700078",
+      "reviewId": "9130242936",
+      "title": "Pnin (Everyman's Library)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Vladimir Nabokov",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 191,
+      "year": 1957,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328318983l/10700078._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/10700078"
+    },
+    {
       "id": "10756240",
       "reviewId": "5619857473",
       "title": "Telegraph Avenue",
@@ -7698,6 +8078,25 @@
       "year": 2011,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328323797l/10875089._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/10875089"
+    },
+    {
+      "id": "10932958",
+      "reviewId": "9130242172",
+      "title": "Mindfulness in Plain English",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Henepola Gunaratana",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 206,
+      "year": 1992,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388340280l/10932958._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/10932958"
     },
     {
       "id": "11054461",
@@ -7776,6 +8175,25 @@
       "year": 2011,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444230617l/12005936._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/12005936"
+    },
+    {
+      "id": "12115191",
+      "reviewId": "9130242646",
+      "title": "Spinoza's Ethics: An Edinburgh Philosophical Guide",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Beth Lord",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 192,
+      "year": 2010,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370839400l/12115191._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/12115191"
     },
     {
       "id": "12352452",
@@ -8068,6 +8486,25 @@
       "year": 2008,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656784782l/16241799._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/16241799"
+    },
+    {
+      "id": "17331360",
+      "reviewId": "9130243080",
+      "title": "The Art of Communicating",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Thich Nhat Hanh",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 176,
+      "year": 2013,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364845277l/17331360._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/17331360"
     },
     {
       "id": "17333223",
@@ -8443,14 +8880,43 @@
       "seriesNumber": null,
       "author": "Mark Epstein",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-10-23",
       "pages": 240,
       "year": 2013,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398026332l/18693932._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/18693932"
+      "url": "https://www.goodreads.com/book/show/18693932",
+      "edition": {
+        "format": "Paperback",
+        "publisher": "Penguin Books",
+        "isbn": "9780143125747",
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
+    },
+    {
+      "id": "18894906",
+      "reviewId": "9130242229",
+      "title": "Each Moment Is the Universe: Zen and the Way of Being Time",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Dainin Katagiri",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 268,
+      "year": 2007,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385175640l/18894906._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/18894906"
     },
     {
       "id": "18932432",
@@ -8548,6 +9014,25 @@
       "year": 2010,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387256978l/19520499._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/19520499"
+    },
+    {
+      "id": "19776547",
+      "reviewId": "9130242802",
+      "title": "Essentialism: The Disciplined Pursuit of Less",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Greg McKeown",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 290,
+      "year": 2011,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755208457l/19776547._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/19776547"
     },
     {
       "id": "20454672",
@@ -8861,6 +9346,25 @@
       "url": "https://www.goodreads.com/book/show/22633221"
     },
     {
+      "id": "22757892",
+      "reviewId": "9130241966",
+      "title": "Upside Down: A Primer for the Looking-Glass World",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Eduardo Galeano",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 369,
+      "year": 1998,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406063479l/22757892._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/22757892"
+    },
+    {
       "id": "22822858",
       "reviewId": "8496347943",
       "title": "A Little Life",
@@ -8876,6 +9380,25 @@
       "year": 2015,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446469353l/22822858._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/22822858"
+    },
+    {
+      "id": "23012735",
+      "reviewId": "9130244269",
+      "title": "ON THE ABOLITION OF ALL POLITICAL PARTIES",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Simone Weil",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 96,
+      "year": 1957,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1412531966l/23012735._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/23012735"
     },
     {
       "id": "23128334",
@@ -8894,6 +9417,44 @@
       "year": 1969,
       "cover": "/covers/23128334.jpg",
       "url": "https://www.goodreads.com/book/show/23128334"
+    },
+    {
+      "id": "23282062",
+      "reviewId": "9130243613",
+      "title": "The Year of Living Danishly: Uncovering the Secrets of the World's Happiest Country",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Helen Russell",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 304,
+      "year": 2015,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1422925714l/23282062._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/23282062"
+    },
+    {
+      "id": "23466395",
+      "reviewId": "9130242445",
+      "title": "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Martin Kleppmann",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 614,
+      "year": 2015,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1501626846l/23466395._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/23466395"
     },
     {
       "id": "23719482",
@@ -9055,6 +9616,25 @@
       }
     },
     {
+      "id": "25193106",
+      "reviewId": "9130243545",
+      "title": "Letters to a Young Poet",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Rainer Maria Rilke",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 160,
+      "year": 1929,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427014023l/25193106._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/25193106"
+    },
+    {
       "id": "25241923",
       "reviewId": "6399844151",
       "title": "Planetes Omnibus, Volume 1 (Planetes, #1-2)",
@@ -9185,6 +9765,25 @@
       "year": 2016,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447957962l/25744928._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/25744928"
+    },
+    {
+      "id": "25759395",
+      "reviewId": "9130244555",
+      "title": "How To Meditate: A Beginner's Guide To Peace",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Yuttadhammo Bhikkhu",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 31,
+      "year": 2010,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1758866502l/25759395._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/25759395"
     },
     {
       "id": "25776606",
@@ -9401,6 +10000,25 @@
       }
     },
     {
+      "id": "28185864",
+      "reviewId": "9130243989",
+      "title": "Incerto 4-Book Bundle: Fooled by Randomness, The Black Swan, The Bed of Procrustes, Antifragile",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Nassim Nicholas Taleb",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 1596,
+      "year": 2011,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567022451l/28185864._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/28185864"
+    },
+    {
       "id": "28214365",
       "reviewId": "5619870261",
       "title": "Commonwealth",
@@ -9576,6 +10194,25 @@
       "url": "https://www.goodreads.com/book/show/30555488"
     },
     {
+      "id": "31445578",
+      "reviewId": "9130242093",
+      "title": "Loving-Kindness in Plain English: The Practice of Metta",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Henepola Gunaratana",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 128,
+      "year": 2017,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487512162l/31445578._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/31445578"
+    },
+    {
       "id": "31850791",
       "reviewId": "9128976373",
       "title": "In the Swarm: Digital Prospects",
@@ -9647,6 +10284,25 @@
         "height": null,
         "thickness": null
       }
+    },
+    {
+      "id": "32311993",
+      "reviewId": "9130243679",
+      "title": "Goodbye, Things: The New Japanese Minimalism",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Fumio Sasaki",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 260,
+      "year": 2015,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475126215l/32311993._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/32311993"
     },
     {
       "id": "32722510",
@@ -9779,6 +10435,44 @@
         "percent": 15,
         "date": "2024-06-18"
       }
+    },
+    {
+      "id": "33284800",
+      "reviewId": "9130243138",
+      "title": "Free Women, Free Men: Sex, Gender, Feminism",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Camille Paglia",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 335,
+      "year": 2017,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481117339l/33284800._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/33284800"
+    },
+    {
+      "id": "33804873",
+      "reviewId": "9130241844",
+      "title": "The Way of the Superior Man: A Spiritual Guide to Mastering the Challenges of Women, Work, and Sexual Desire",
+      "series": null,
+      "seriesNumber": null,
+      "author": "David Deida",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 204,
+      "year": 1997,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483705344l/33804873._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/33804873"
     },
     {
       "id": "34196063",
@@ -10159,6 +10853,25 @@
       }
     },
     {
+      "id": "37502596",
+      "reviewId": "9130243759",
+      "title": "The 5 AM Club: Own Your Morning. Elevate Your Life",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Robin Sharma",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 336,
+      "year": 2018,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545910967l/37502596._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/37502596"
+    },
+    {
       "id": "37647493",
       "reviewId": "8869546482",
       "title": "Austerlitz",
@@ -10352,6 +11065,25 @@
       }
     },
     {
+      "id": "39740529",
+      "reviewId": "9130242874",
+      "title": "The Strange Death of Europe: Immigration, Identity, Islam",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Douglas Murray",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 352,
+      "year": 2017,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677835448l/39740529._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/39740529"
+    },
+    {
       "id": "39776179",
       "reviewId": "5605376927",
       "title": "Dune",
@@ -10447,14 +11179,24 @@
       "seriesNumber": null,
       "author": "James Clear",
       "shelf": "to-read",
-      "tags": [],
+      "tags": [
+        "owned"
+      ],
       "rating": null,
       "dateRead": null,
       "dateAdded": "2023-06-08",
       "pages": 306,
       "year": 2018,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655988239l/40244063._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/40244063"
+      "url": "https://www.goodreads.com/book/show/40244063",
+      "edition": {
+        "format": "Hardcover",
+        "publisher": "Avery",
+        "isbn": null,
+        "nonfiction": true,
+        "height": null,
+        "thickness": null
+      }
     },
     {
       "id": "40672036",
@@ -10713,6 +11455,25 @@
       "year": 2019,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550694436l/43885149._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/43885149"
+    },
+    {
+      "id": "44016152",
+      "reviewId": "9130244148",
+      "title": "Sex and Culture",
+      "series": null,
+      "seriesNumber": null,
+      "author": "J.D. Unwin",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 721,
+      "year": 1934,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550237656l/44016152._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/44016152"
     },
     {
       "id": "44146682",
@@ -11020,6 +11781,25 @@
       "url": "https://www.goodreads.com/book/show/50130878"
     },
     {
+      "id": "50165174",
+      "reviewId": "9130241648",
+      "title": "Personal Writings",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Albert Camus",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 224,
+      "year": 2020,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592244422l/50165174._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/50165174"
+    },
+    {
       "id": "50233662",
       "reviewId": "9047443566",
       "title": "The Way of Zen",
@@ -11099,6 +11879,25 @@
         "height": null,
         "thickness": null
       }
+    },
+    {
+      "id": "50375820",
+      "reviewId": "9130244615",
+      "title": "Zhuangzi: The Complete Writings (English Edition)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Zhuangzi",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 336,
+      "year": -350,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578623688l/50375820._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/50375820"
     },
     {
       "id": "50390591",
@@ -11543,6 +12342,25 @@
       }
     },
     {
+      "id": "56876312",
+      "reviewId": "9130242575",
+      "title": "Virtue Hoarders: The Case against the Professional Managerial Class",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Catherine Liu",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 90,
+      "year": 2021,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611919255l/56876312._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/56876312"
+    },
+    {
       "id": "57004637",
       "reviewId": "5619869891",
       "title": "The Book of Form and Emptiness",
@@ -11777,6 +12595,25 @@
         "height": null,
         "thickness": null
       }
+    },
+    {
+      "id": "60036243",
+      "reviewId": "9130242296",
+      "title": "Fear and Trembling: Dialectical Lyric by Johannes De Silentio",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Søren Kierkegaard",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": null,
+      "year": 1843,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677851812l/60036243._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/60036243"
     },
     {
       "id": "60185819",

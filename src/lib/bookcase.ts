@@ -15,7 +15,7 @@ import {
 // shelf holds what 36 cm of shelf would.
 //
 // The books tagged "kindle" have no shelf to stand on, so the page shows them
-// the way the Kindle does: its library, a screenful of covers at a time.
+// the way the Kindle does: its library, a page of covers at a time.
 
 /** The 40 cm BILLY, in centimetres. Six spaces, as it comes out of the box. */
 export const billy = {
@@ -129,8 +129,11 @@ export type Ebook = {
   percent: number | null;
 };
 
-/** How many covers the Kindle's library shows to a page, three across. */
-export const kindlePage = 9;
+/**
+ * How many covers the Kindle's library shows to a page: three across and two
+ * down, which is what fits a Paperwhite's screen.
+ */
+export const kindlePage = 6;
 
 /**
  * The books tagged "kindle" on Goodreads, by author like the bookcases. All

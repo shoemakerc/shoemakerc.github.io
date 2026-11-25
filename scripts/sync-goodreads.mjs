@@ -334,7 +334,19 @@ for (const shelf of SHELVES) {
     if (prev) matched.add(prev.id);
     // A book that's new here, or now in another edition, needs looking up.
     const same = prev?.id === entry.id;
-    const details = same ? prev : await fetchBook(entry.id);
+    let details = prev;
+    if (!same) {
+      try {
+        details = await fetchBook(entry.id);
+      } catch (error) {
+        // Goodreads turns the odd request away, and one book it won't describe
+        // today isn't worth the whole sync. A new book waits for the next one;
+        // a book in a new edition stays in its old one until then.
+        console.warn(`  Leaving ${prev?.title ?? `book ${entry.id}`} for the next sync: ${error.message}`);
+        if (prev) byNewId.set(prev.id, prev);
+        continue;
+      }
+    }
     if (prev?.edition && !same) switched.set(entry.id, prev.edition);
     // A tag whose widget came back short can add to a book's tags but not take away.
     const tagged = tagNames.filter(
@@ -397,6 +409,8 @@ const knownRead = (entry, key) => {
 };
 for (const entry of read.seen.values()) {
   const book = byNewId.get(entry.id);
+  // One that couldn't be looked up this time.
+  if (!book) continue;
   const place = (list) => list?.findIndex((e) => e.reviewId === entry.reviewId) ?? -1;
 
   if (!book.dateRead && previousOf(entry)?.shelf !== "read") {
