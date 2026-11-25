@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-11-25T18:12:22.044Z",
+  "syncedAt": "2026-11-25T20:11:03.405Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66888,
+  "totalPlays": 66893,
   "lastTrack": {
-    "name": "Dog Dribble",
-    "artist": "Getdown Services",
-    "album": "Your Medal's In The Post",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e4f219abf4fda354eafd9f33fea3aab2.jpg",
-    "url": "https://www.last.fm/music/Getdown+Services/_/Dog+Dribble",
-    "playedAt": 1795629901000
+    "name": "Wink Wink",
+    "artist": "Charli xcx",
+    "album": "Music, Fashion, Film",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0c7b97699bdec08629fa2de8d353a06e.png",
+    "url": "https://www.last.fm/music/Charli+xcx/_/Wink+Wink",
+    "playedAt": 1795634143000
   },
   "month": {
     "label": "November 2026",
     "partial": true,
     "from": "2026-11-01",
     "to": "2026-11-25",
-    "plays": 311,
-    "artistCount": 197,
+    "plays": 316,
+    "artistCount": 200,
     "artists": [
       {
         "name": "Los Leo",
@@ -26,7 +26,7 @@
       },
       {
         "name": "Viagra Boys",
-        "plays": 13,
+        "plays": 14,
         "url": "https://www.last.fm/music/Viagra+Boys"
       },
       {
@@ -111,7 +111,7 @@
       "year": 2024,
       "from": "2024-11-18",
       "to": "2024-11-25",
-      "plays": 109,
+      "plays": 106,
       "album": {
         "title": "Street Worms",
         "artist": "Viagra Boys",
@@ -127,7 +127,7 @@
         },
         {
           "name": "King Gizzard & The Lizard Wizard",
-          "plays": 14,
+          "plays": 11,
           "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard"
         },
         {
@@ -141,7 +141,7 @@
       "year": 2023,
       "from": "2023-11-18",
       "to": "2023-11-25",
-      "plays": 159,
+      "plays": 161,
       "album": {
         "title": "Holding Hands With Jamie",
         "artist": "Gilla Band",
@@ -161,9 +161,9 @@
           "url": "https://www.last.fm/music/Dizzy"
         },
         {
-          "name": "Laveda",
+          "name": "Viagra Boys",
           "plays": 7,
-          "url": "https://www.last.fm/music/Laveda"
+          "url": "https://www.last.fm/music/Viagra+Boys"
         }
       ]
     },
@@ -231,13 +231,13 @@
       "year": 2020,
       "from": "2020-11-18",
       "to": "2020-11-25",
-      "plays": 239,
+      "plays": 226,
       "album": {
-        "title": "Visions of Bodies Being Burned",
-        "artist": "clipping.",
-        "plays": 25,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a9822ca9cbff432fc6b74c55be4b7bd1.png",
-        "url": "https://www.last.fm/music/clipping./Visions+of+Bodies+Being+Burned"
+        "title": "Skelethon (Deluxe Edition)",
+        "artist": "Aesop Rock",
+        "plays": 19,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1d85868a9b88cb3916629de5fd8a0882.jpg",
+        "url": "https://www.last.fm/music/Aesop+Rock/Skelethon+(Deluxe+Edition)"
       },
       "artists": [
         {
@@ -246,14 +246,14 @@
           "url": "https://www.last.fm/music/Aesop+Rock"
         },
         {
-          "name": "clipping.",
-          "plays": 28,
-          "url": "https://www.last.fm/music/clipping."
+          "name": "Daughters",
+          "plays": 19,
+          "url": "https://www.last.fm/music/Daughters"
         },
         {
-          "name": "Daughters",
-          "plays": 20,
-          "url": "https://www.last.fm/music/Daughters"
+          "name": "Russ Chimes",
+          "plays": 14,
+          "url": "https://www.last.fm/music/Russ+Chimes"
         }
       ]
     },
@@ -261,11 +261,11 @@
       "year": 2019,
       "from": "2019-11-18",
       "to": "2019-11-25",
-      "plays": 140,
+      "plays": 145,
       "album": {
         "title": "ZABA",
         "artist": "Glass Animals",
-        "plays": 21,
+        "plays": 23,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6051263a36ad604cbe0542205aa701ce.jpg",
         "url": "https://www.last.fm/music/Glass+Animals/ZABA"
       },
@@ -351,13 +351,13 @@
       "year": 2016,
       "from": "2016-11-18",
       "to": "2016-11-25",
-      "plays": 68,
+      "plays": 60,
       "album": {
-        "title": "My Thoughts on You",
-        "artist": "The Band CAMINO",
-        "plays": 6,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9f42d4efb536dea2ea930e3464c2d0e7.jpg",
-        "url": "https://www.last.fm/music/The+Band+CAMINO/My+Thoughts+on+You"
+        "title": "Dust and Disquiet",
+        "artist": "Caspian",
+        "plays": 5,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8d1ca89a4f3c0c1ecba56a361778c340.jpg",
+        "url": "https://www.last.fm/music/Caspian/Dust+and+Disquiet"
       },
       "artists": [
         {
@@ -366,14 +366,14 @@
           "url": "https://www.last.fm/music/Caspian"
         },
         {
-          "name": "The Band CAMINO",
-          "plays": 6,
-          "url": "https://www.last.fm/music/The+Band+CAMINO"
-        },
-        {
           "name": "Fait",
           "plays": 5,
           "url": "https://www.last.fm/music/Fait"
+        },
+        {
+          "name": "Handsome Ghost",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Handsome+Ghost"
         }
       ]
     },
@@ -381,15 +381,20 @@
       "year": 2015,
       "from": "2015-11-18",
       "to": "2015-11-25",
-      "plays": 158,
+      "plays": 146,
       "album": {
-        "title": "Christine and the Queens",
-        "artist": "Christine and the Queens",
-        "plays": 11,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/74774a16b95a33a61c10a2d475d76eb0.jpg",
-        "url": "https://www.last.fm/music/Christine+and+the+Queens/Christine+and+the+Queens"
+        "title": "Lucky Shiner",
+        "artist": "Gold Panda",
+        "plays": 12,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/465c822a8de64690a9bf5e1df3c97452.png",
+        "url": "https://www.last.fm/music/Gold+Panda/Lucky+Shiner"
       },
       "artists": [
+        {
+          "name": "Gold Panda",
+          "plays": 12,
+          "url": "https://www.last.fm/music/Gold+Panda"
+        },
         {
           "name": "Christine and the Queens",
           "plays": 11,
@@ -399,11 +404,6 @@
           "name": "School of Seven Bells",
           "plays": 11,
           "url": "https://www.last.fm/music/School+of+Seven+Bells"
-        },
-        {
-          "name": "Bear's Den",
-          "plays": 10,
-          "url": "https://www.last.fm/music/Bear's+Den"
         }
       ]
     },
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-11-18",
       "to": "2014-11-25",
-      "plays": 206,
+      "plays": 186,
       "album": {
         "title": "Young & Old",
         "artist": "Tennis",
