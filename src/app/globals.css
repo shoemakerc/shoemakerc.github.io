@@ -745,15 +745,13 @@ a.volume:hover {
   max-width: 34rem;
 }
 
-/* The Kindle: its library, a page of covers to a screen. Not to scale, or
-   it would be smaller than a paperback. */
+/* The Kindle: a Paperwhite showing its library, a page of covers at a time.
+   Not to the bookcases' scale, or it would be smaller than a paperback, but
+   in its own proportions: 124.6 by 174.2 mm, around a screen 3 wide by 4. */
 .kindles {
   --device: #201d1a;
   --eink: #e8e5de;
   --eink-ink: #1c1b18;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -768,20 +766,24 @@ a.volume:hover {
 
 .kindle {
   box-sizing: border-box;
-  width: min(18.5rem, 100%);
-  padding: 1.1rem 1.1rem 0;
-  border-radius: 1rem;
+  width: min(20rem, 100%);
+  padding: 1.7rem 1.7rem 0;
+  border-radius: 1.6rem;
   background: var(--device);
 }
 
 .kindle-screen {
-  padding: 0.6rem 0.7rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 3 / 4;
+  padding: 0.6rem 0.75rem 0.4rem;
   background: var(--eink);
   color: var(--eink-ink);
 }
 
 .kindle-bar {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin: 0;
   padding-bottom: 0.45rem;
@@ -794,36 +796,68 @@ a.volume:hover {
 }
 
 .kindle-foot {
-  justify-content: center;
-  padding: 0.45rem 0 0;
+  padding: 0.2rem 0 0;
   border-top: 1px solid color-mix(in srgb, var(--eink-ink) 35%, transparent);
   border-bottom: 0;
 }
 
-.kindle-grid {
-  list-style: none;
-  margin: 0;
-  padding: 0.7rem 0;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.6rem 0.7rem;
+/* The arrows that turn the page. */
+.kindle-foot button {
+  padding: 0.15rem 0.6rem 0.3rem;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  font-size: 1.125rem;
+  line-height: 1;
+  cursor: pointer;
 }
 
-/* Every place takes the room of a cover and its line, taken or not. */
+.kindle-foot button:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+/* Every page side by side, one showing: a swipe brings on the next. */
+.kindle-pages {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.kindle-pages::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kindle-pages {
+    scroll-behavior: auto;
+  }
+}
+
+.kindle-grid {
+  flex: none;
+  box-sizing: border-box;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  /* Room for the hairline around the covers at either edge. */
+  padding: 0 1px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-content: space-evenly;
+  gap: 0.6rem 0.75rem;
+  scroll-snap-align: start;
+}
+
 .kindle-grid li {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
-}
-
-.kindle-grid li:empty::before {
-  content: "";
-  aspect-ratio: 2 / 3;
-}
-
-.kindle-grid li:empty::after {
-  content: "";
-  height: 0.5rem;
 }
 
 .kindle-cover {
@@ -864,19 +898,22 @@ a.volume:hover {
   text-transform: uppercase;
 }
 
-.kindle-unread {
+.kindle-faint {
   opacity: 0.55;
 }
 
+/* The deeper bezel under the screen, with the name on it. */
 .kindle-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.1rem;
   margin: 0;
-  padding: 0.8rem 0 0.9rem;
   color: #8f897e;
   font-family: var(--serif);
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   letter-spacing: 0.04em;
   line-height: 1;
-  text-align: center;
 }
 
 .kindles + .shelf-list {
