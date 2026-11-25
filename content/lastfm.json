@@ -1,22 +1,22 @@
 {
-  "syncedAt": "2026-11-24T20:52:37.083Z",
+  "syncedAt": "2026-11-25T18:12:22.044Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66886,
+  "totalPlays": 66888,
   "lastTrack": {
-    "name": "Heartbeat in the Brain",
-    "artist": "The World Is a Beautiful Place & I Am No Longer Afraid to Die",
-    "album": "Whenever, If Ever",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/640a079125b040d7b3a26beebad91a2b.png",
-    "url": "https://www.last.fm/music/The+World+Is+a+Beautiful+Place+&+I+Am+No+Longer+Afraid+to+Die/_/Heartbeat+in+the+Brain",
-    "playedAt": 1795536990000
+    "name": "Dog Dribble",
+    "artist": "Getdown Services",
+    "album": "Your Medal's In The Post",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e4f219abf4fda354eafd9f33fea3aab2.jpg",
+    "url": "https://www.last.fm/music/Getdown+Services/_/Dog+Dribble",
+    "playedAt": 1795629901000
   },
   "month": {
     "label": "November 2026",
     "partial": true,
     "from": "2026-11-01",
-    "to": "2026-11-24",
-    "plays": 309,
+    "to": "2026-11-25",
+    "plays": 311,
     "artistCount": 197,
     "artists": [
       {
@@ -79,21 +79,21 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-11-17",
-      "to": "2025-11-24",
-      "plays": 72,
+      "from": "2025-11-18",
+      "to": "2025-11-25",
+      "plays": 65,
       "album": {
-        "title": "Fun House",
-        "artist": "The Stooges",
+        "title": "Celebration Rock",
+        "artist": "Japandroids",
         "plays": 3,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c1bc149e960d80c3bd55e3920695b663.jpg",
-        "url": "https://www.last.fm/music/The+Stooges/Fun+House"
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a8718e11c970d7f25e3a5abf363298cf.jpg",
+        "url": "https://www.last.fm/music/Japandroids/Celebration+Rock"
       },
       "artists": [
         {
-          "name": "The Stooges",
+          "name": "Viagra Boys",
           "plays": 3,
-          "url": "https://www.last.fm/music/The+Stooges"
+          "url": "https://www.last.fm/music/Viagra+Boys"
         },
         {
           "name": "Japandroids",
@@ -101,77 +101,77 @@
           "url": "https://www.last.fm/music/Japandroids"
         },
         {
-          "name": "Radiohead",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Radiohead"
+          "name": "Massive Attack",
+          "plays": 2,
+          "url": "https://www.last.fm/music/Massive+Attack"
         }
       ]
     },
     {
       "year": 2024,
-      "from": "2024-11-17",
-      "to": "2024-11-24",
-      "plays": 90,
+      "from": "2024-11-18",
+      "to": "2024-11-25",
+      "plays": 109,
       "album": {
-        "title": "Nonagon Infinity",
-        "artist": "King Gizzard & The Lizard Wizard",
-        "plays": 13,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/45d2570199853ec87e5da6dd8c1ea1a3.jpg",
-        "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard/Nonagon+Infinity"
+        "title": "Street Worms",
+        "artist": "Viagra Boys",
+        "plays": 15,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d33b34877998da3ef033b5cb335a634d.jpg",
+        "url": "https://www.last.fm/music/Viagra+Boys/Street+Worms"
       },
       "artists": [
         {
-          "name": "King Gizzard & The Lizard Wizard",
-          "plays": 13,
-          "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard"
-        },
-        {
           "name": "Viagra Boys",
-          "plays": 12,
+          "plays": 17,
           "url": "https://www.last.fm/music/Viagra+Boys"
         },
         {
+          "name": "King Gizzard & The Lizard Wizard",
+          "plays": 14,
+          "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard"
+        },
+        {
           "name": "Mint Royale",
-          "plays": 6,
+          "plays": 8,
           "url": "https://www.last.fm/music/Mint+Royale"
         }
       ]
     },
     {
       "year": 2023,
-      "from": "2023-11-17",
-      "to": "2023-11-24",
-      "plays": 180,
+      "from": "2023-11-18",
+      "to": "2023-11-25",
+      "plays": 159,
       "album": {
         "title": "Holding Hands With Jamie",
         "artist": "Gilla Band",
-        "plays": 16,
+        "plays": 12,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b8d88e1d5b9b3028871b7b057f94fea7.jpg",
         "url": "https://www.last.fm/music/Gilla+Band/Holding+Hands+With+Jamie"
       },
       "artists": [
         {
           "name": "Gilla Band",
-          "plays": 24,
+          "plays": 20,
           "url": "https://www.last.fm/music/Gilla+Band"
-        },
-        {
-          "name": "Pearly Drops",
-          "plays": 13,
-          "url": "https://www.last.fm/music/Pearly+Drops"
         },
         {
           "name": "Dizzy",
           "plays": 9,
           "url": "https://www.last.fm/music/Dizzy"
+        },
+        {
+          "name": "Laveda",
+          "plays": 7,
+          "url": "https://www.last.fm/music/Laveda"
         }
       ]
     },
     {
       "year": 2022,
-      "from": "2022-11-17",
-      "to": "2022-11-24",
-      "plays": 33,
+      "from": "2022-11-18",
+      "to": "2022-11-25",
+      "plays": 34,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -199,9 +199,9 @@
     },
     {
       "year": 2021,
-      "from": "2021-11-17",
-      "to": "2021-11-24",
-      "plays": 47,
+      "from": "2021-11-18",
+      "to": "2021-11-25",
+      "plays": 56,
       "album": {
         "title": "In A Deep And Dreamless Sleep",
         "artist": "Mint Julep",
@@ -216,52 +216,52 @@
           "url": "https://www.last.fm/music/Mint+Julep"
         },
         {
+          "name": "Loathe",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Loathe"
+        },
+        {
           "name": "Badly Drawn Boy",
           "plays": 6,
           "url": "https://www.last.fm/music/Badly+Drawn+Boy"
-        },
-        {
-          "name": "Loathe",
-          "plays": 5,
-          "url": "https://www.last.fm/music/Loathe"
         }
       ]
     },
     {
       "year": 2020,
-      "from": "2020-11-17",
-      "to": "2020-11-24",
-      "plays": 223,
+      "from": "2020-11-18",
+      "to": "2020-11-25",
+      "plays": 239,
       "album": {
         "title": "Visions of Bodies Being Burned",
         "artist": "clipping.",
-        "plays": 34,
+        "plays": 25,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a9822ca9cbff432fc6b74c55be4b7bd1.png",
         "url": "https://www.last.fm/music/clipping./Visions+of+Bodies+Being+Burned"
       },
       "artists": [
         {
+          "name": "Aesop Rock",
+          "plays": 30,
+          "url": "https://www.last.fm/music/Aesop+Rock"
+        },
+        {
           "name": "clipping.",
-          "plays": 37,
+          "plays": 28,
           "url": "https://www.last.fm/music/clipping."
         },
         {
           "name": "Daughters",
-          "plays": 19,
+          "plays": 20,
           "url": "https://www.last.fm/music/Daughters"
-        },
-        {
-          "name": "Aesop Rock",
-          "plays": 17,
-          "url": "https://www.last.fm/music/Aesop+Rock"
         }
       ]
     },
     {
       "year": 2019,
-      "from": "2019-11-17",
-      "to": "2019-11-24",
-      "plays": 130,
+      "from": "2019-11-18",
+      "to": "2019-11-25",
+      "plays": 140,
       "album": {
         "title": "ZABA",
         "artist": "Glass Animals",
@@ -272,7 +272,7 @@
       "artists": [
         {
           "name": "Glass Animals",
-          "plays": 33,
+          "plays": 28,
           "url": "https://www.last.fm/music/Glass+Animals"
         },
         {
@@ -289,9 +289,9 @@
     },
     {
       "year": 2018,
-      "from": "2018-11-17",
-      "to": "2018-11-24",
-      "plays": 52,
+      "from": "2018-11-18",
+      "to": "2018-11-25",
+      "plays": 46,
       "album": {
         "title": "Peripheral Vision",
         "artist": "Turnover",
@@ -306,52 +306,52 @@
           "url": "https://www.last.fm/music/Turnover"
         },
         {
-          "name": "Slum Sociable",
-          "plays": 7,
-          "url": "https://www.last.fm/music/Slum+Sociable"
-        },
-        {
           "name": "Massive Attack",
           "plays": 7,
           "url": "https://www.last.fm/music/Massive+Attack"
+        },
+        {
+          "name": "Slum Sociable",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Slum+Sociable"
         }
       ]
     },
     {
       "year": 2017,
-      "from": "2017-11-17",
-      "to": "2017-11-24",
-      "plays": 3,
+      "from": "2017-11-18",
+      "to": "2017-11-25",
+      "plays": 18,
       "album": {
-        "title": "Jasmine (Demo)",
-        "artist": "Jai Paul",
-        "plays": 1,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5a3ed60b57f1415588e1b14f4952e5ff.png",
-        "url": "https://www.last.fm/music/Jai+Paul/Jasmine+(Demo)"
+        "title": "How to Be a Human Being",
+        "artist": "Glass Animals",
+        "plays": 3,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/05646a91f163b15d9f08642bbe170abf.jpg",
+        "url": "https://www.last.fm/music/Glass+Animals/How+to+Be+a+Human+Being"
       },
       "artists": [
         {
-          "name": "Jai Paul",
-          "plays": 1,
-          "url": "https://www.last.fm/music/Jai+Paul"
+          "name": "Glass Animals",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Glass+Animals"
         },
         {
-          "name": "Vince Staples",
-          "plays": 1,
-          "url": "https://www.last.fm/music/Vince+Staples"
+          "name": "BROCKHAMPTON",
+          "plays": 3,
+          "url": "https://www.last.fm/music/BROCKHAMPTON"
         },
         {
-          "name": "Air Traffic Controller",
+          "name": "Ten Fé",
           "plays": 1,
-          "url": "https://www.last.fm/music/Air+Traffic+Controller"
+          "url": "https://www.last.fm/music/Ten+F%C3%A9"
         }
       ]
     },
     {
       "year": 2016,
-      "from": "2016-11-17",
-      "to": "2016-11-24",
-      "plays": 83,
+      "from": "2016-11-18",
+      "to": "2016-11-25",
+      "plays": 68,
       "album": {
         "title": "My Thoughts on You",
         "artist": "The Band CAMINO",
@@ -379,39 +379,39 @@
     },
     {
       "year": 2015,
-      "from": "2015-11-17",
-      "to": "2015-11-24",
-      "plays": 123,
+      "from": "2015-11-18",
+      "to": "2015-11-25",
+      "plays": 158,
       "album": {
-        "title": "Islands",
-        "artist": "Bear's Den",
-        "plays": 10,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/70eebd0f1f344fb3cfe71dfd87e89f8e.jpg",
-        "url": "https://www.last.fm/music/Bear's+Den/Islands"
+        "title": "Christine and the Queens",
+        "artist": "Christine and the Queens",
+        "plays": 11,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/74774a16b95a33a61c10a2d475d76eb0.jpg",
+        "url": "https://www.last.fm/music/Christine+and+the+Queens/Christine+and+the+Queens"
       },
       "artists": [
+        {
+          "name": "Christine and the Queens",
+          "plays": 11,
+          "url": "https://www.last.fm/music/Christine+and+the+Queens"
+        },
+        {
+          "name": "School of Seven Bells",
+          "plays": 11,
+          "url": "https://www.last.fm/music/School+of+Seven+Bells"
+        },
         {
           "name": "Bear's Den",
           "plays": 10,
           "url": "https://www.last.fm/music/Bear's+Den"
-        },
-        {
-          "name": "iamamiwhoami",
-          "plays": 7,
-          "url": "https://www.last.fm/music/iamamiwhoami"
-        },
-        {
-          "name": "Julia Holter",
-          "plays": 6,
-          "url": "https://www.last.fm/music/Julia+Holter"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-11-17",
-      "to": "2014-11-24",
-      "plays": 239,
+      "from": "2014-11-18",
+      "to": "2014-11-25",
+      "plays": 206,
       "album": {
         "title": "Young & Old",
         "artist": "Tennis",
