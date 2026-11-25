@@ -1,6 +1,6 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-11-25T04:31:13.086Z",
+  "syncedAt": "2026-11-25T19:57:47.016Z",
   "uncovered": {
     "kindle": 2,
     "to-read": 2
@@ -6320,6 +6320,25 @@
       "url": "https://www.goodreads.com/book/show/1239887"
     },
     {
+      "id": "1260143",
+      "reviewId": "9131281861",
+      "title": "Curfew: A Novel (Modern Middle East Literatures in Translation Series)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Adalet Ağaoğlu",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 250,
+      "year": 1984,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1182331815l/1260143._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/1260143"
+    },
+    {
       "id": "1283910",
       "reviewId": "9127680894",
       "title": "The Taming of the Samurai: Honorific Individualism and the Making of Modern Japan",
@@ -7491,6 +7510,25 @@
       "url": "https://www.goodreads.com/book/show/7083575"
     },
     {
+      "id": "7633992",
+      "reviewId": "9131281895",
+      "title": "With the Old Breed: At Peleliu and Okinawa",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Eugene B. Sledge",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 384,
+      "year": 1981,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1402305240l/7633992._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/7633992"
+    },
+    {
       "id": "7681813",
       "reviewId": "9130241461",
       "title": "The Five Books of Moses: A Translation with Commentary",
@@ -7684,6 +7722,25 @@
         "height": null,
         "thickness": null
       }
+    },
+    {
+      "id": "8966610",
+      "reviewId": "9131281694",
+      "title": "Anna Karenina",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Leo Tolstoy",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 1373,
+      "year": 1878,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601659643l/8966610._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/8966610"
     },
     {
       "id": "9083994",
@@ -8211,6 +8268,25 @@
       "year": 2012,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329324459l/12352452._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/12352452"
+    },
+    {
+      "id": "12424908",
+      "reviewId": "9131281924",
+      "title": "The Diary of Anaïs Nin, 1931-1934",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Anaïs Nin",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 384,
+      "year": 1969,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403203948l/12424908._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/12424908"
     },
     {
       "id": "12609433",
@@ -9259,6 +9335,25 @@
       "url": "https://www.goodreads.com/book/show/21853621"
     },
     {
+      "id": "22124901",
+      "reviewId": "9131281727",
+      "title": "Men Explain Things to Me",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Rebecca Solnit",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 130,
+      "year": 2014,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1619183683l/22124901._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/22124901"
+    },
+    {
       "id": "22237171",
       "reviewId": "8019871146",
       "title": "The World Beyond Your Head: On Becoming an Individual in an Age of Distraction",
@@ -9325,6 +9420,25 @@
         "height": null,
         "thickness": null
       }
+    },
+    {
+      "id": "22608356",
+      "reviewId": "9131281951",
+      "title": "Gesturing Toward Reality: David Foster Wallace and Philosophy",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Robert K. Bolger",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 450,
+      "year": 2014,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404180213l/22608356._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/22608356"
     },
     {
       "id": "22633221",
@@ -11155,6 +11269,25 @@
       "url": "https://www.goodreads.com/book/show/39999461"
     },
     {
+      "id": "40004190",
+      "reviewId": "9131281756",
+      "title": "The Ethics of Ambiguity",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Simone de Beauvoir",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 192,
+      "year": 1947,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525484748l/40004190._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/40004190"
+    },
+    {
       "id": "40121985",
       "reviewId": "7124841993",
       "title": "How to Hide an Empire: A History of the Greater United States",
@@ -12361,6 +12494,25 @@
       "url": "https://www.goodreads.com/book/show/56876312"
     },
     {
+      "id": "56964486",
+      "reviewId": "9131281781",
+      "title": "Staff Engineer: Leadership Beyond the Management Track",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Will Larson",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 371,
+      "year": 2021,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612570390l/56964486._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/56964486"
+    },
+    {
       "id": "57004637",
       "reviewId": "5619869891",
       "title": "The Book of Form and Emptiness",
@@ -12687,6 +12839,25 @@
       }
     },
     {
+      "id": "60282070",
+      "reviewId": "9131281803",
+      "title": "The Guide to James Joyce's Ulysses",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Patrick Hastings",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 328,
+      "year": 2022,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643692119l/60282070._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/60282070"
+    },
+    {
       "id": "60444444",
       "reviewId": "5605372501",
       "title": "Starship Troopers",
@@ -12739,6 +12910,25 @@
         "height": 19.8,
         "thickness": 2.8
       }
+    },
+    {
+      "id": "60492507",
+      "reviewId": "9131281982",
+      "title": "The Sickness Unto Death: A Christian Psychological Exposition of Edification and Awakening by Anti-Climacus",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Søren Kierkegaard",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": null,
+      "year": 1849,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677852297l/60492507._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/60492507"
     },
     {
       "id": "60526802",
@@ -13608,6 +13798,25 @@
         "height": null,
         "thickness": null
       }
+    },
+    {
+      "id": "220914753",
+      "reviewId": "9131281834",
+      "title": "Death and the Gardener",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Georgi Gospodinov",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 208,
+      "year": 2024,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1743583067l/220914753._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/220914753"
     },
     {
       "id": "222685805",
