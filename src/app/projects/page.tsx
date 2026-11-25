@@ -43,6 +43,14 @@ const projects: Project[] = [
       "How cool (or not cool) would you look dancing to a given song? Pick a track and the judge listens to its 30-second preview, finds the beat and the key, and delivers a verdict. It started in 2017 as the Spotify Dance Judge; when Spotify shut off the data it relied on, it learned to listen for itself.",
   },
   {
+    name: "Matrix Lab",
+    year: "2026",
+    tags: ["TypeScript", "React", "Linear algebra"],
+    href: "/matrix-lab/",
+    summary:
+      "Eleven short chapters on matrices and what you can do with them, each built around something to drag or step through: multiply row by column, watch a 2×2 matrix move the whole plane, then undo it with an inverse. There's a calculator too, which keeps exact fractions and shows its steps. It grew out of a from-scratch Matrix class in Python.",
+  },
+  {
     name: "Qt-Looper",
     year: "2026",
     tags: ["TypeScript", "Web Audio", "Web MIDI"],
