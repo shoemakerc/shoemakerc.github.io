@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-24T18:59:35.813Z",
+  "syncedAt": "2026-11-26T17:50:00.284Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -140,7 +140,7 @@
       "season": "2026-27",
       "phase": "regular",
       "wins": 18,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
       "otLosses": 5,
       "division": {
@@ -148,19 +148,9 @@
         "rank": 1,
         "teams": 8
       },
-      "streak": "W1",
+      "streak": "L1",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-11-04T00:00Z",
-          "home": false,
-          "opponent": "Flyers",
-          "us": 4,
-          "them": 2,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-11-07T01:00Z",
           "home": true,
@@ -250,13 +240,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-26T01:00Z",
+          "home": true,
+          "opponent": "Mammoth",
+          "us": 3,
+          "them": 4,
+          "result": "L",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-26T01:00Z",
+        "date": "2026-11-27T21:00Z",
         "timeKnown": true,
         "home": true,
-        "opponent": "Utah Mammoth",
+        "opponent": "Colorado Avalanche",
         "seasonType": 2,
         "stage": null,
         "note": null
@@ -269,7 +269,7 @@
       "url": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
       "season": "2026-27",
       "phase": "regular",
-      "wins": 13,
+      "wins": 14,
       "losses": 5,
       "ties": 0,
       "otLosses": 0,
@@ -278,19 +278,9 @@
         "rank": 1,
         "teams": 5
       },
-      "streak": "W2",
+      "streak": "W3",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-11-05T01:30Z",
-          "home": false,
-          "opponent": "Rockets",
-          "us": 117,
-          "them": 107,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-11-07T01:00Z",
           "home": false,
@@ -380,13 +370,23 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-26T00:30Z",
+          "home": false,
+          "opponent": "Thunder",
+          "us": 113,
+          "them": 106,
+          "result": "W",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-26T00:30Z",
+        "date": "2026-11-28T01:30Z",
         "timeKnown": true,
-        "home": false,
-        "opponent": "Oklahoma City Thunder",
+        "home": true,
+        "opponent": "Memphis Grizzlies",
         "seasonType": 2,
         "stage": null,
         "note": "NBA Cup - Group Play"
