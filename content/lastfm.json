@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-11-25T20:11:03.405Z",
+  "syncedAt": "2026-11-26T17:54:24.928Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66893,
+  "totalPlays": 66903,
   "lastTrack": {
-    "name": "Wink Wink",
-    "artist": "Charli xcx",
-    "album": "Music, Fashion, Film",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0c7b97699bdec08629fa2de8d353a06e.png",
-    "url": "https://www.last.fm/music/Charli+xcx/_/Wink+Wink",
-    "playedAt": 1795634143000
+    "name": "Jacobsons",
+    "artist": "Gilla Band",
+    "album": "Pugnello",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
+    "url": "https://www.last.fm/music/Gilla+Band/_/Jacobsons",
+    "playedAt": 1795683562000
   },
   "month": {
     "label": "November 2026",
     "partial": true,
     "from": "2026-11-01",
-    "to": "2026-11-25",
-    "plays": 316,
-    "artistCount": 200,
+    "to": "2026-11-26",
+    "plays": 326,
+    "artistCount": 203,
     "artists": [
       {
         "name": "Los Leo",
@@ -30,22 +30,29 @@
         "url": "https://www.last.fm/music/Viagra+Boys"
       },
       {
+        "name": "Aaron Copland",
+        "plays": 12,
+        "url": "https://www.last.fm/music/Aaron+Copland"
+      },
+      {
         "name": "Sophia Stel",
         "plays": 12,
         "url": "https://www.last.fm/music/Sophia+Stel"
       },
       {
-        "name": "Aaron Copland",
-        "plays": 10,
-        "url": "https://www.last.fm/music/Aaron+Copland"
-      },
-      {
         "name": "Gilla Band",
-        "plays": 9,
+        "plays": 10,
         "url": "https://www.last.fm/music/Gilla+Band"
       }
     ],
     "albums": [
+      {
+        "title": "Copland: Appalachian Spring, Rodeo, Billy the Kid & Fanfare for the Common Man",
+        "artist": "Aaron Copland",
+        "plays": 9,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5ca376bb74398df3d1b5ac88b525370e.jpg",
+        "url": "https://www.last.fm/music/Aaron+Copland/Copland%3A+Appalachian+Spring%2C+Rodeo%2C+Billy+the+Kid+%26+Fanfare+for+the+Common+Man"
+      },
       {
         "title": "How to Win At Solitaire (Deluxe Edition)",
         "artist": "Sophia Stel",
@@ -54,11 +61,11 @@
         "url": "https://www.last.fm/music/Sophia+Stel/How+to+Win+At+Solitaire+(Deluxe+Edition)"
       },
       {
-        "title": "Copland: Appalachian Spring, Rodeo, Billy the Kid & Fanfare for the Common Man",
-        "artist": "Aaron Copland",
-        "plays": 7,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5ca376bb74398df3d1b5ac88b525370e.jpg",
-        "url": "https://www.last.fm/music/Aaron+Copland/Copland%3A+Appalachian+Spring%2C+Rodeo%2C+Billy+the+Kid+%26+Fanfare+for+the+Common+Man"
+        "title": "Pugnello",
+        "artist": "Gilla Band",
+        "plays": 6,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
+        "url": "https://www.last.fm/music/Gilla+Band/Pugnello"
       },
       {
         "title": "LL-1000",
@@ -66,22 +73,15 @@
         "plays": 6,
         "image": null,
         "url": "https://www.last.fm/music/Los+Leo/LL-1000"
-      },
-      {
-        "title": "Pugnello",
-        "artist": "Gilla Band",
-        "plays": 5,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
-        "url": "https://www.last.fm/music/Gilla+Band/Pugnello"
       }
     ]
   },
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-11-18",
-      "to": "2025-11-25",
-      "plays": 65,
+      "from": "2025-11-19",
+      "to": "2025-11-26",
+      "plays": 68,
       "album": {
         "title": "Celebration Rock",
         "artist": "Japandroids",
@@ -91,68 +91,68 @@
       },
       "artists": [
         {
+          "name": "Hotline TNT",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Hotline+TNT"
+        },
+        {
+          "name": "Oklou",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Oklou"
+        },
+        {
           "name": "Viagra Boys",
           "plays": 3,
           "url": "https://www.last.fm/music/Viagra+Boys"
-        },
-        {
-          "name": "Japandroids",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Japandroids"
-        },
-        {
-          "name": "Massive Attack",
-          "plays": 2,
-          "url": "https://www.last.fm/music/Massive+Attack"
         }
       ]
     },
     {
       "year": 2024,
-      "from": "2024-11-18",
-      "to": "2024-11-25",
-      "plays": 106,
+      "from": "2024-11-19",
+      "to": "2024-11-26",
+      "plays": 110,
       "album": {
         "title": "Street Worms",
         "artist": "Viagra Boys",
-        "plays": 15,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d33b34877998da3ef033b5cb335a634d.jpg",
+        "plays": 18,
+        "image": null,
         "url": "https://www.last.fm/music/Viagra+Boys/Street+Worms"
       },
       "artists": [
         {
           "name": "Viagra Boys",
-          "plays": 17,
+          "plays": 22,
           "url": "https://www.last.fm/music/Viagra+Boys"
         },
         {
           "name": "King Gizzard & The Lizard Wizard",
-          "plays": 11,
+          "plays": 8,
           "url": "https://www.last.fm/music/King+Gizzard+%26+The+Lizard+Wizard"
         },
         {
           "name": "Mint Royale",
-          "plays": 8,
+          "plays": 7,
           "url": "https://www.last.fm/music/Mint+Royale"
         }
       ]
     },
     {
       "year": 2023,
-      "from": "2023-11-18",
-      "to": "2023-11-25",
-      "plays": 161,
+      "from": "2023-11-19",
+      "to": "2023-11-26",
+      "plays": 157,
       "album": {
-        "title": "Holding Hands With Jamie",
+        "title": "Most Normal",
         "artist": "Gilla Band",
         "plays": 12,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b8d88e1d5b9b3028871b7b057f94fea7.jpg",
-        "url": "https://www.last.fm/music/Gilla+Band/Holding+Hands+With+Jamie"
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/537a15c77e18305188c58e58b9efd992.jpg",
+        "url": "https://www.last.fm/music/Gilla+Band/Most+Normal"
       },
       "artists": [
         {
           "name": "Gilla Band",
-          "plays": 20,
+          "plays": 27,
           "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
@@ -161,17 +161,17 @@
           "url": "https://www.last.fm/music/Dizzy"
         },
         {
-          "name": "Viagra Boys",
-          "plays": 7,
-          "url": "https://www.last.fm/music/Viagra+Boys"
+          "name": "Temple of Angels",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Temple+of+Angels"
         }
       ]
     },
     {
       "year": 2022,
-      "from": "2022-11-18",
-      "to": "2022-11-25",
-      "plays": 34,
+      "from": "2022-11-19",
+      "to": "2022-11-26",
+      "plays": 35,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -199,45 +199,45 @@
     },
     {
       "year": 2021,
-      "from": "2021-11-18",
-      "to": "2021-11-25",
-      "plays": 56,
+      "from": "2021-11-19",
+      "to": "2021-11-26",
+      "plays": 50,
       "album": {
-        "title": "In A Deep And Dreamless Sleep",
-        "artist": "Mint Julep",
+        "title": "The Hour of Bewilderbeast",
+        "artist": "Badly Drawn Boy",
         "plays": 7,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/34badde7603870bdac2e7d0c108e96b6.jpg",
-        "url": "https://www.last.fm/music/Mint+Julep/In+A+Deep+And+Dreamless+Sleep"
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0812f3fb2e414787842c0066f459df88.jpg",
+        "url": "https://www.last.fm/music/Badly+Drawn+Boy/The+Hour+of+Bewilderbeast"
       },
       "artists": [
         {
-          "name": "Mint Julep",
+          "name": "Badly Drawn Boy",
           "plays": 7,
-          "url": "https://www.last.fm/music/Mint+Julep"
+          "url": "https://www.last.fm/music/Badly+Drawn+Boy"
         },
         {
           "name": "Loathe",
-          "plays": 6,
+          "plays": 7,
           "url": "https://www.last.fm/music/Loathe"
         },
         {
-          "name": "Badly Drawn Boy",
-          "plays": 6,
-          "url": "https://www.last.fm/music/Badly+Drawn+Boy"
+          "name": "The Body",
+          "plays": 4,
+          "url": "https://www.last.fm/music/The+Body"
         }
       ]
     },
     {
       "year": 2020,
-      "from": "2020-11-18",
-      "to": "2020-11-25",
-      "plays": 226,
+      "from": "2020-11-19",
+      "to": "2020-11-26",
+      "plays": 245,
       "album": {
-        "title": "Skelethon (Deluxe Edition)",
-        "artist": "Aesop Rock",
+        "title": "You Won't Get What You Want",
+        "artist": "Daughters",
         "plays": 19,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1d85868a9b88cb3916629de5fd8a0882.jpg",
-        "url": "https://www.last.fm/music/Aesop+Rock/Skelethon+(Deluxe+Edition)"
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/15e2aa6fbb9db93a7236039ae64ee1a3.jpg",
+        "url": "https://www.last.fm/music/Daughters/You+Won't+Get+What+You+Want"
       },
       "artists": [
         {
@@ -247,21 +247,21 @@
         },
         {
           "name": "Daughters",
-          "plays": 19,
+          "plays": 23,
           "url": "https://www.last.fm/music/Daughters"
         },
         {
           "name": "Russ Chimes",
-          "plays": 14,
+          "plays": 17,
           "url": "https://www.last.fm/music/Russ+Chimes"
         }
       ]
     },
     {
       "year": 2019,
-      "from": "2019-11-18",
-      "to": "2019-11-25",
-      "plays": 145,
+      "from": "2019-11-19",
+      "to": "2019-11-26",
+      "plays": 137,
       "album": {
         "title": "ZABA",
         "artist": "Glass Animals",
@@ -272,26 +272,26 @@
       "artists": [
         {
           "name": "Glass Animals",
-          "plays": 28,
+          "plays": 27,
           "url": "https://www.last.fm/music/Glass+Animals"
         },
         {
           "name": "Mac Miller",
-          "plays": 12,
+          "plays": 11,
           "url": "https://www.last.fm/music/Mac+Miller"
         },
         {
           "name": "Kanye West",
-          "plays": 8,
+          "plays": 7,
           "url": "https://www.last.fm/music/Kanye+West"
         }
       ]
     },
     {
       "year": 2018,
-      "from": "2018-11-18",
-      "to": "2018-11-25",
-      "plays": 46,
+      "from": "2018-11-19",
+      "to": "2018-11-26",
+      "plays": 43,
       "album": {
         "title": "Peripheral Vision",
         "artist": "Turnover",
@@ -312,46 +312,46 @@
         },
         {
           "name": "Slum Sociable",
-          "plays": 6,
+          "plays": 3,
           "url": "https://www.last.fm/music/Slum+Sociable"
         }
       ]
     },
     {
       "year": 2017,
-      "from": "2017-11-18",
-      "to": "2017-11-25",
-      "plays": 18,
+      "from": "2017-11-19",
+      "to": "2017-11-26",
+      "plays": 35,
       "album": {
         "title": "How to Be a Human Being",
         "artist": "Glass Animals",
-        "plays": 3,
+        "plays": 4,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/05646a91f163b15d9f08642bbe170abf.jpg",
         "url": "https://www.last.fm/music/Glass+Animals/How+to+Be+a+Human+Being"
       },
       "artists": [
         {
-          "name": "Glass Animals",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Glass+Animals"
-        },
-        {
           "name": "BROCKHAMPTON",
-          "plays": 3,
+          "plays": 6,
           "url": "https://www.last.fm/music/BROCKHAMPTON"
         },
         {
-          "name": "Ten Fé",
-          "plays": 1,
-          "url": "https://www.last.fm/music/Ten+F%C3%A9"
+          "name": "Glass Animals",
+          "plays": 4,
+          "url": "https://www.last.fm/music/Glass+Animals"
+        },
+        {
+          "name": "Paul Thomas Saunders",
+          "plays": 2,
+          "url": "https://www.last.fm/music/Paul+Thomas+Saunders"
         }
       ]
     },
     {
       "year": 2016,
-      "from": "2016-11-18",
-      "to": "2016-11-25",
-      "plays": 60,
+      "from": "2016-11-19",
+      "to": "2016-11-26",
+      "plays": 48,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -366,52 +366,52 @@
           "url": "https://www.last.fm/music/Caspian"
         },
         {
-          "name": "Fait",
-          "plays": 5,
-          "url": "https://www.last.fm/music/Fait"
-        },
-        {
           "name": "Handsome Ghost",
           "plays": 3,
           "url": "https://www.last.fm/music/Handsome+Ghost"
+        },
+        {
+          "name": "Midnight Faces",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Midnight+Faces"
         }
       ]
     },
     {
       "year": 2015,
-      "from": "2015-11-18",
-      "to": "2015-11-25",
-      "plays": 146,
+      "from": "2015-11-19",
+      "to": "2015-11-26",
+      "plays": 164,
       "album": {
         "title": "Lucky Shiner",
         "artist": "Gold Panda",
-        "plays": 12,
+        "plays": 14,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/465c822a8de64690a9bf5e1df3c97452.png",
         "url": "https://www.last.fm/music/Gold+Panda/Lucky+Shiner"
       },
       "artists": [
         {
           "name": "Gold Panda",
-          "plays": 12,
+          "plays": 14,
           "url": "https://www.last.fm/music/Gold+Panda"
+        },
+        {
+          "name": "Cub Sport",
+          "plays": 11,
+          "url": "https://www.last.fm/music/Cub+Sport"
         },
         {
           "name": "Christine and the Queens",
           "plays": 11,
           "url": "https://www.last.fm/music/Christine+and+the+Queens"
-        },
-        {
-          "name": "School of Seven Bells",
-          "plays": 11,
-          "url": "https://www.last.fm/music/School+of+Seven+Bells"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-11-18",
-      "to": "2014-11-25",
-      "plays": 186,
+      "from": "2014-11-19",
+      "to": "2014-11-26",
+      "plays": 165,
       "album": {
         "title": "Young & Old",
         "artist": "Tennis",
