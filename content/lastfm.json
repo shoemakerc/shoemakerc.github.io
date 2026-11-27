@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-11-26T19:49:21.344Z",
+  "syncedAt": "2026-11-27T17:39:50.482Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
-  "totalPlays": 66903,
+  "totalPlays": 66913,
   "lastTrack": {
-    "name": "Jacobsons",
-    "artist": "Gilla Band",
-    "album": "Pugnello",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
-    "url": "https://www.last.fm/music/Gilla+Band/_/Jacobsons",
-    "playedAt": 1795683562000
+    "name": "Thorn",
+    "artist": "Pendant",
+    "album": "Harp",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2d8035970e75d9666477755ff4b043a6.jpg",
+    "url": "https://www.last.fm/music/Pendant/_/Thorn",
+    "playedAt": 1795763769000
   },
   "month": {
     "label": "November 2026",
     "partial": true,
     "from": "2026-11-01",
-    "to": "2026-11-26",
-    "plays": 326,
-    "artistCount": 203,
+    "to": "2026-11-27",
+    "plays": 336,
+    "artistCount": 207,
     "artists": [
       {
         "name": "Los Leo",
@@ -41,7 +41,7 @@
       },
       {
         "name": "Gilla Band",
-        "plays": 10,
+        "plays": 11,
         "url": "https://www.last.fm/music/Gilla+Band"
       }
     ],
@@ -63,7 +63,7 @@
       {
         "title": "Pugnello",
         "artist": "Gilla Band",
-        "plays": 6,
+        "plays": 7,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0ecfdfe9121d06a8e6f49eda1a72899.jpg",
         "url": "https://www.last.fm/music/Gilla+Band/Pugnello"
       },
@@ -79,9 +79,9 @@
   "yearsAgo": [
     {
       "year": 2025,
-      "from": "2025-11-19",
-      "to": "2025-11-26",
-      "plays": 68,
+      "from": "2025-11-20",
+      "to": "2025-11-27",
+      "plays": 65,
       "album": {
         "title": "Celebration Rock",
         "artist": "Japandroids",
@@ -96,33 +96,33 @@
           "url": "https://www.last.fm/music/Hotline+TNT"
         },
         {
-          "name": "Oklou",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Oklou"
-        },
-        {
           "name": "Viagra Boys",
           "plays": 3,
           "url": "https://www.last.fm/music/Viagra+Boys"
+        },
+        {
+          "name": "Japandroids",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Japandroids"
         }
       ]
     },
     {
       "year": 2024,
-      "from": "2024-11-19",
-      "to": "2024-11-26",
-      "plays": 110,
+      "from": "2024-11-20",
+      "to": "2024-11-27",
+      "plays": 101,
       "album": {
         "title": "Street Worms",
         "artist": "Viagra Boys",
-        "plays": 18,
+        "plays": 17,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d33b34877998da3ef033b5cb335a634d.jpg",
         "url": "https://www.last.fm/music/Viagra+Boys/Street+Worms"
       },
       "artists": [
         {
           "name": "Viagra Boys",
-          "plays": 22,
+          "plays": 21,
           "url": "https://www.last.fm/music/Viagra+Boys"
         },
         {
@@ -132,57 +132,57 @@
         },
         {
           "name": "Mint Royale",
-          "plays": 7,
+          "plays": 6,
           "url": "https://www.last.fm/music/Mint+Royale"
         }
       ]
     },
     {
       "year": 2023,
-      "from": "2023-11-19",
-      "to": "2023-11-26",
-      "plays": 157,
+      "from": "2023-11-20",
+      "to": "2023-11-27",
+      "plays": 156,
       "album": {
-        "title": "Most Normal",
+        "title": "Holding Hands With Jamie",
         "artist": "Gilla Band",
-        "plays": 12,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/537a15c77e18305188c58e58b9efd992.jpg",
-        "url": "https://www.last.fm/music/Gilla+Band/Most+Normal"
+        "plays": 11,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b8d88e1d5b9b3028871b7b057f94fea7.jpg",
+        "url": "https://www.last.fm/music/Gilla+Band/Holding+Hands+With+Jamie"
       },
       "artists": [
         {
           "name": "Gilla Band",
-          "plays": 27,
+          "plays": 25,
           "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
           "name": "Dizzy",
-          "plays": 9,
+          "plays": 8,
           "url": "https://www.last.fm/music/Dizzy"
         },
         {
-          "name": "Temple of Angels",
+          "name": "METZ",
           "plays": 6,
-          "url": "https://www.last.fm/music/Temple+of+Angels"
+          "url": "https://www.last.fm/music/METZ"
         }
       ]
     },
     {
       "year": 2022,
-      "from": "2022-11-19",
-      "to": "2022-11-26",
-      "plays": 34,
+      "from": "2022-11-20",
+      "to": "2022-11-27",
+      "plays": 36,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
-        "plays": 15,
+        "plays": 14,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8d1ca89a4f3c0c1ecba56a361778c340.jpg",
         "url": "https://www.last.fm/music/Caspian/Dust+and+Disquiet"
       },
       "artists": [
         {
           "name": "Caspian",
-          "plays": 15,
+          "plays": 14,
           "url": "https://www.last.fm/music/Caspian"
         },
         {
@@ -191,17 +191,17 @@
           "url": "https://www.last.fm/music/Alcest"
         },
         {
-          "name": "Hozier",
+          "name": "black midi",
           "plays": 2,
-          "url": "https://www.last.fm/music/Hozier"
+          "url": "https://www.last.fm/music/black+midi"
         }
       ]
     },
     {
       "year": 2021,
-      "from": "2021-11-19",
-      "to": "2021-11-26",
-      "plays": 50,
+      "from": "2021-11-20",
+      "to": "2021-11-27",
+      "plays": 42,
       "album": {
         "title": "The Hour of Bewilderbeast",
         "artist": "Badly Drawn Boy",
@@ -222,20 +222,20 @@
         },
         {
           "name": "The Body",
-          "plays": 4,
+          "plays": 3,
           "url": "https://www.last.fm/music/The+Body"
         }
       ]
     },
     {
       "year": 2020,
-      "from": "2020-11-19",
-      "to": "2020-11-26",
+      "from": "2020-11-20",
+      "to": "2020-11-27",
       "plays": 245,
       "album": {
         "title": "You Won't Get What You Want",
         "artist": "Daughters",
-        "plays": 19,
+        "plays": 21,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/15e2aa6fbb9db93a7236039ae64ee1a3.jpg",
         "url": "https://www.last.fm/music/Daughters/You+Won't+Get+What+You+Want"
       },
@@ -247,51 +247,51 @@
         },
         {
           "name": "Daughters",
-          "plays": 23,
+          "plays": 24,
           "url": "https://www.last.fm/music/Daughters"
         },
         {
-          "name": "Russ Chimes",
-          "plays": 17,
-          "url": "https://www.last.fm/music/Russ+Chimes"
+          "name": "Battles",
+          "plays": 18,
+          "url": "https://www.last.fm/music/Battles"
         }
       ]
     },
     {
       "year": 2019,
-      "from": "2019-11-19",
-      "to": "2019-11-26",
-      "plays": 140,
+      "from": "2019-11-20",
+      "to": "2019-11-27",
+      "plays": 142,
       "album": {
-        "title": "ZABA",
-        "artist": "Glass Animals",
-        "plays": 19,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6051263a36ad604cbe0542205aa701ce.jpg",
-        "url": "https://www.last.fm/music/Glass+Animals/ZABA"
+        "title": "The Chief",
+        "artist": "Jidenna",
+        "plays": 14,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a78c1a4b84266306fd86e203da0b55e.jpg",
+        "url": "https://www.last.fm/music/Jidenna/The+Chief"
       },
       "artists": [
         {
+          "name": "Jidenna",
+          "plays": 14,
+          "url": "https://www.last.fm/music/Jidenna"
+        },
+        {
           "name": "Glass Animals",
-          "plays": 22,
+          "plays": 13,
           "url": "https://www.last.fm/music/Glass+Animals"
         },
         {
           "name": "Mac Miller",
           "plays": 11,
           "url": "https://www.last.fm/music/Mac+Miller"
-        },
-        {
-          "name": "Kanye West",
-          "plays": 7,
-          "url": "https://www.last.fm/music/Kanye+West"
         }
       ]
     },
     {
       "year": 2018,
-      "from": "2018-11-19",
-      "to": "2018-11-26",
-      "plays": 49,
+      "from": "2018-11-20",
+      "to": "2018-11-27",
+      "plays": 70,
       "album": {
         "title": "Peripheral Vision",
         "artist": "Turnover",
@@ -311,16 +311,16 @@
           "url": "https://www.last.fm/music/Massive+Attack"
         },
         {
-          "name": "Slum Sociable",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Slum+Sociable"
+          "name": "Wild Cub",
+          "plays": 6,
+          "url": "https://www.last.fm/music/Wild+Cub"
         }
       ]
     },
     {
       "year": 2017,
-      "from": "2017-11-19",
-      "to": "2017-11-26",
+      "from": "2017-11-20",
+      "to": "2017-11-27",
       "plays": 35,
       "album": {
         "title": "How to Be a Human Being",
@@ -349,9 +349,9 @@
     },
     {
       "year": 2016,
-      "from": "2016-11-19",
-      "to": "2016-11-26",
-      "plays": 48,
+      "from": "2016-11-20",
+      "to": "2016-11-27",
+      "plays": 39,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -366,22 +366,22 @@
           "url": "https://www.last.fm/music/Caspian"
         },
         {
-          "name": "Handsome Ghost",
-          "plays": 3,
-          "url": "https://www.last.fm/music/Handsome+Ghost"
-        },
-        {
           "name": "Midnight Faces",
           "plays": 3,
           "url": "https://www.last.fm/music/Midnight+Faces"
+        },
+        {
+          "name": "The 1975",
+          "plays": 2,
+          "url": "https://www.last.fm/music/The+1975"
         }
       ]
     },
     {
       "year": 2015,
-      "from": "2015-11-19",
-      "to": "2015-11-26",
-      "plays": 164,
+      "from": "2015-11-20",
+      "to": "2015-11-27",
+      "plays": 180,
       "album": {
         "title": "Lucky Shiner",
         "artist": "Gold Panda",
@@ -391,6 +391,11 @@
       },
       "artists": [
         {
+          "name": "School of Seven Bells",
+          "plays": 22,
+          "url": "https://www.last.fm/music/School+of+Seven+Bells"
+        },
+        {
           "name": "Gold Panda",
           "plays": 14,
           "url": "https://www.last.fm/music/Gold+Panda"
@@ -399,41 +404,36 @@
           "name": "Cub Sport",
           "plays": 11,
           "url": "https://www.last.fm/music/Cub+Sport"
-        },
-        {
-          "name": "Christine and the Queens",
-          "plays": 11,
-          "url": "https://www.last.fm/music/Christine+and+the+Queens"
         }
       ]
     },
     {
       "year": 2014,
-      "from": "2014-11-19",
-      "to": "2014-11-26",
-      "plays": 167,
+      "from": "2014-11-20",
+      "to": "2014-11-27",
+      "plays": 157,
       "album": {
-        "title": "Young & Old",
-        "artist": "Tennis",
-        "plays": 12,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1dcb5ec68b2d47a7a29d2e75c20579a7.png",
-        "url": "https://www.last.fm/music/Tennis/Young+%26+Old"
+        "title": "Torches",
+        "artist": "Foster the People",
+        "plays": 10,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/af29e149b06245e19ecb31a1871cc4c8.png",
+        "url": "https://www.last.fm/music/Foster+the+People/Torches"
       },
       "artists": [
-        {
-          "name": "Tennis",
-          "plays": 14,
-          "url": "https://www.last.fm/music/Tennis"
-        },
-        {
-          "name": "Passion Pit",
-          "plays": 13,
-          "url": "https://www.last.fm/music/Passion+Pit"
-        },
         {
           "name": "Coldplay",
           "plays": 13,
           "url": "https://www.last.fm/music/Coldplay"
+        },
+        {
+          "name": "Passion Pit",
+          "plays": 11,
+          "url": "https://www.last.fm/music/Passion+Pit"
+        },
+        {
+          "name": "Foster the People",
+          "plays": 10,
+          "url": "https://www.last.fm/music/Foster+the+People"
         }
       ]
     }
