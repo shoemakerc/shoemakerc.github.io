@@ -48,7 +48,7 @@ const projects: Project[] = [
     tags: ["TypeScript", "React", "Linear algebra"],
     href: "/matrix-lab/",
     summary:
-      "Eleven short chapters on matrices and what you can do with them, each built around something to drag or step through: multiply row by column, watch a 2×2 matrix move the whole plane, then undo it with an inverse. There's a calculator too, which keeps exact fractions and shows its steps. It grew out of a from-scratch Matrix class in Python.",
+      "Twelve short chapters on matrices and what you can do with them, each built around something to drag or step through: multiply row by column, watch a 2×2 matrix move the whole plane, then undo it with an inverse. There's a calculator too, which keeps exact fractions and shows its steps. It grew out of a from-scratch Matrix class in Python.",
   },
   {
     name: "Qt-Looper",
