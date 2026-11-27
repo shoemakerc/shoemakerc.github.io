@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-27T17:39:50.482Z",
+  "syncedAt": "2026-11-27T19:38:59.097Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66913,
@@ -111,7 +111,7 @@
       "year": 2024,
       "from": "2024-11-20",
       "to": "2024-11-27",
-      "plays": 101,
+      "plays": 102,
       "album": {
         "title": "Street Worms",
         "artist": "Viagra Boys",
@@ -141,7 +141,7 @@
       "year": 2023,
       "from": "2023-11-20",
       "to": "2023-11-27",
-      "plays": 156,
+      "plays": 155,
       "album": {
         "title": "Holding Hands With Jamie",
         "artist": "Gilla Band",
@@ -156,14 +156,14 @@
           "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
-          "name": "Dizzy",
-          "plays": 8,
-          "url": "https://www.last.fm/music/Dizzy"
-        },
-        {
           "name": "METZ",
           "plays": 6,
           "url": "https://www.last.fm/music/METZ"
+        },
+        {
+          "name": "Dizzy",
+          "plays": 5,
+          "url": "https://www.last.fm/music/Dizzy"
         }
       ]
     },
@@ -171,7 +171,7 @@
       "year": 2022,
       "from": "2022-11-20",
       "to": "2022-11-27",
-      "plays": 36,
+      "plays": 32,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -187,7 +187,7 @@
         },
         {
           "name": "Alcest",
-          "plays": 10,
+          "plays": 6,
           "url": "https://www.last.fm/music/Alcest"
         },
         {
@@ -231,11 +231,11 @@
       "year": 2020,
       "from": "2020-11-20",
       "to": "2020-11-27",
-      "plays": 245,
+      "plays": 244,
       "album": {
         "title": "You Won't Get What You Want",
         "artist": "Daughters",
-        "plays": 21,
+        "plays": 20,
         "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/15e2aa6fbb9db93a7236039ae64ee1a3.jpg",
         "url": "https://www.last.fm/music/Daughters/You+Won't+Get+What+You+Want"
       },
@@ -247,7 +247,7 @@
         },
         {
           "name": "Daughters",
-          "plays": 24,
+          "plays": 23,
           "url": "https://www.last.fm/music/Daughters"
         },
         {
@@ -261,7 +261,7 @@
       "year": 2019,
       "from": "2019-11-20",
       "to": "2019-11-27",
-      "plays": 142,
+      "plays": 141,
       "album": {
         "title": "The Chief",
         "artist": "Jidenna",
@@ -282,7 +282,7 @@
         },
         {
           "name": "Mac Miller",
-          "plays": 11,
+          "plays": 10,
           "url": "https://www.last.fm/music/Mac+Miller"
         }
       ]
@@ -291,29 +291,29 @@
       "year": 2018,
       "from": "2018-11-20",
       "to": "2018-11-27",
-      "plays": 70,
+      "plays": 54,
       "album": {
-        "title": "Peripheral Vision",
-        "artist": "Turnover",
-        "plays": 10,
-        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0bc8948eb2c1ed4fc91ecdf067d9ae73.jpg",
-        "url": "https://www.last.fm/music/Turnover/Peripheral+Vision"
+        "title": "Closer",
+        "artist": "Wild Cub",
+        "plays": 6,
+        "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/02e3c2f2e47e99165304cd8d792a6993.jpg",
+        "url": "https://www.last.fm/music/Wild+Cub/Closer"
       },
       "artists": [
-        {
-          "name": "Turnover",
-          "plays": 10,
-          "url": "https://www.last.fm/music/Turnover"
-        },
-        {
-          "name": "Massive Attack",
-          "plays": 7,
-          "url": "https://www.last.fm/music/Massive+Attack"
-        },
         {
           "name": "Wild Cub",
           "plays": 6,
           "url": "https://www.last.fm/music/Wild+Cub"
+        },
+        {
+          "name": "The 1975",
+          "plays": 5,
+          "url": "https://www.last.fm/music/The+1975"
+        },
+        {
+          "name": "Slum Sociable",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Slum+Sociable"
         }
       ]
     },
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-11-20",
       "to": "2016-11-27",
-      "plays": 39,
+      "plays": 26,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -381,7 +381,7 @@
       "year": 2015,
       "from": "2015-11-20",
       "to": "2015-11-27",
-      "plays": 180,
+      "plays": 187,
       "album": {
         "title": "Lucky Shiner",
         "artist": "Gold Panda",
@@ -411,7 +411,7 @@
       "year": 2014,
       "from": "2014-11-20",
       "to": "2014-11-27",
-      "plays": 157,
+      "plays": 149,
       "album": {
         "title": "Torches",
         "artist": "Foster the People",
@@ -421,11 +421,6 @@
       },
       "artists": [
         {
-          "name": "Coldplay",
-          "plays": 13,
-          "url": "https://www.last.fm/music/Coldplay"
-        },
-        {
           "name": "Passion Pit",
           "plays": 11,
           "url": "https://www.last.fm/music/Passion+Pit"
@@ -434,6 +429,11 @@
           "name": "Foster the People",
           "plays": 10,
           "url": "https://www.last.fm/music/Foster+the+People"
+        },
+        {
+          "name": "Baths",
+          "plays": 9,
+          "url": "https://www.last.fm/music/Baths"
         }
       ]
     }
