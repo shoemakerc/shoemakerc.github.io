@@ -1,6 +1,6 @@
 {
   "profile": "https://www.goodreads.com/user/show/166556608",
-  "syncedAt": "2026-11-25T19:57:47.016Z",
+  "syncedAt": "2026-11-28T16:53:25.976Z",
   "uncovered": {
     "kindle": 2,
     "to-read": 2
@@ -1530,6 +1530,23 @@
       "year": 2003,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388358707l/7820._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/7820"
+    },
+    {
+      "id": "8737",
+      "reviewId": "9135922425",
+      "title": "The Last Temptation of Christ",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Nikos Kazantzakis",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 506,
+      "year": 1955,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481512264l/8737._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/8737"
     },
     {
       "id": "9555",
@@ -3255,6 +3272,23 @@
       "url": "https://www.goodreads.com/book/show/43945"
     },
     {
+      "id": "45760",
+      "reviewId": "9135917097",
+      "title": "Girl With Curious Hair",
+      "series": null,
+      "seriesNumber": null,
+      "author": "David Foster Wallace",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 373,
+      "year": 1988,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1350027419l/45760._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/45760"
+    },
+    {
       "id": "45876",
       "reviewId": "9047468388",
       "title": "Psychotherapy East and West",
@@ -3270,6 +3304,25 @@
       "year": 1961,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390194257l/45876._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/45876"
+    },
+    {
+      "id": "45974",
+      "reviewId": "9130243205",
+      "title": "The Book of Disquiet",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Fernando Pessoa",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 544,
+      "year": 1982,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631144816l/45974._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/45974"
     },
     {
       "id": "48335",
@@ -3547,23 +3600,6 @@
         "height": null,
         "thickness": null
       }
-    },
-    {
-      "id": "60551",
-      "reviewId": "9047480260",
-      "title": "The Book: On the Taboo Against Knowing Who You Are",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Alan W. Watts",
-      "shelf": "read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2026-10-23",
-      "pages": 163,
-      "year": 1966,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403166178l/60551._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/60551"
     },
     {
       "id": "60930",
@@ -4243,23 +4279,6 @@
       }
     },
     {
-      "id": "95558",
-      "reviewId": "8753733388",
-      "title": "Solaris",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Stanisław Lem",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2026-07-08",
-      "pages": 204,
-      "year": 1961,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498631519l/95558._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/95558"
-    },
-    {
       "id": "96573",
       "reviewId": "9128711883",
       "title": "The Unbearable Lightness of Being",
@@ -4581,6 +4600,23 @@
       "url": "https://www.goodreads.com/book/show/154091"
     },
     {
+      "id": "156188",
+      "reviewId": "9135917721",
+      "title": "Omensetter's Luck",
+      "series": null,
+      "seriesNumber": null,
+      "author": "William H. Gass",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 315,
+      "year": 1966,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347246872l/156188._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/156188"
+    },
+    {
       "id": "159979",
       "reviewId": "7676832170",
       "title": "The Image: A Guide to Pseudo-Events in America",
@@ -4807,6 +4843,23 @@
       "url": "https://www.goodreads.com/book/show/179609"
     },
     {
+      "id": "183199",
+      "reviewId": "9136086233",
+      "title": "Warlock",
+      "series": "Legends West",
+      "seriesNumber": "1",
+      "author": "Oakley Hall",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 488,
+      "year": 1958,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618858211l/183199._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/183199"
+    },
+    {
       "id": "190372",
       "reviewId": "8764661241",
       "title": "The Last Samurai",
@@ -4822,6 +4875,23 @@
       "year": 2000,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348618641l/190372._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/190372"
+    },
+    {
+      "id": "192955",
+      "reviewId": "9135893185",
+      "title": "The Proud Tower: A Portrait of the World Before the War, 1890-1914",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Barbara W. Tuchman",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 588,
+      "year": 1965,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570758492l/192955._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/192955"
     },
     {
       "id": "194746",
@@ -5476,23 +5546,6 @@
       }
     },
     {
-      "id": "395058",
-      "reviewId": "5641425785",
-      "title": "The Recognitions",
-      "series": null,
-      "seriesNumber": null,
-      "author": "William Gaddis",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2023-06-24",
-      "pages": 976,
-      "year": 1955,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309209622l/395058._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/395058"
-    },
-    {
       "id": "397165",
       "reviewId": "9128775667",
       "title": "Sputnik Sweetheart",
@@ -5965,6 +6018,23 @@
       "year": 50,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1791659060l/646453._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/646453"
+    },
+    {
+      "id": "683106",
+      "reviewId": "9136089843",
+      "title": "The Gay Science",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Friedrich Nietzsche",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 305,
+      "year": 1882,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408313930l/683106._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/683106"
     },
     {
       "id": "690051",
@@ -7428,6 +7498,23 @@
       }
     },
     {
+      "id": "6798263",
+      "reviewId": "9135911641",
+      "title": "Bluets",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Maggie Nelson",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 99,
+      "year": 2009,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354902976l/6798263._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/6798263"
+    },
+    {
       "id": "6892870",
       "reviewId": "9047447439",
       "title": "The Girl Who Kicked the Hornet’s Nest",
@@ -7855,25 +7942,6 @@
       "url": "https://www.goodreads.com/book/show/9670246"
     },
     {
-      "id": "9756371",
-      "reviewId": "9130243205",
-      "title": "The Book of Disquiet",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Fernando Pessoa",
-      "shelf": "to-read",
-      "tags": [
-        "kindle"
-      ],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2026-11-25",
-      "pages": 544,
-      "year": 1982,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348802545l/9756371._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/9756371"
-    },
-    {
       "id": "9778945",
       "reviewId": "7891163036",
       "title": "The Shallows: What the Internet Is Doing to Our Brains",
@@ -7948,6 +8016,23 @@
         "percent": 8,
         "date": "2026-11-24"
       }
+    },
+    {
+      "id": "10241509",
+      "reviewId": "9135921699",
+      "title": "Secret Stairs: East Bay: A Walking Guide to the Historic Staircases of Berkeley and Oakland (Revised September 2020)",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Charles Fleming",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 232,
+      "year": 2011,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389828667l/10241509._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/10241509"
     },
     {
       "id": "10357575",
@@ -8055,25 +8140,6 @@
       "year": 2011,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327876792l/10644930._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/10644930"
-    },
-    {
-      "id": "10700078",
-      "reviewId": "9130242936",
-      "title": "Pnin (Everyman's Library)",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Vladimir Nabokov",
-      "shelf": "to-read",
-      "tags": [
-        "kindle"
-      ],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2026-11-25",
-      "pages": 191,
-      "year": 1957,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328318983l/10700078._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/10700078"
     },
     {
       "id": "10756240",
@@ -8287,23 +8353,6 @@
       "year": 1969,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403203948l/12424908._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/12424908"
-    },
-    {
-      "id": "12609433",
-      "reviewId": "5605367100",
-      "title": "The Power of Habit: Why We Do What We Do in Life and Business",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Charles Duhigg",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2023-06-08",
-      "pages": 375,
-      "year": 2012,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545854312l/12609433._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/12609433"
     },
     {
       "id": "12700353",
@@ -8899,6 +8948,23 @@
       "url": "https://www.goodreads.com/book/show/18465509"
     },
     {
+      "id": "18594642",
+      "reviewId": "5605367100",
+      "title": "The Power of Habit: Why We Do What We Do in Life and Business",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Charles Duhigg",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2023-06-08",
+      "pages": 379,
+      "year": 2012,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389103994l/18594642._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/18594642"
+    },
+    {
       "id": "18693771",
       "reviewId": "5641442298",
       "title": "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma",
@@ -9420,6 +9486,23 @@
         "height": null,
         "thickness": null
       }
+    },
+    {
+      "id": "22357838",
+      "reviewId": "9135901413",
+      "title": "The Door",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Magda Szabó",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 262,
+      "year": 1987,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417413611l/22357838._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/22357838"
     },
     {
       "id": "22608356",
@@ -10940,6 +11023,23 @@
       }
     },
     {
+      "id": "36709664",
+      "reviewId": "9136089325",
+      "title": "The Expulsion of the Other: Society, Perception and Communication Today",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Byung-Chul Han",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 100,
+      "year": 2016,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513336221l/36709664._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/36709664"
+    },
+    {
       "id": "36738701",
       "reviewId": "9127684720",
       "title": "The Lily of the Field and the Bird of the Air: Three Godly Discourses",
@@ -11225,6 +11325,23 @@
       }
     },
     {
+      "id": "39872917",
+      "reviewId": "9135920921",
+      "title": "McGlue",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Ottessa Moshfegh",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 145,
+      "year": 2014,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527367075l/39872917._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/39872917"
+    },
+    {
       "id": "39947376",
       "reviewId": "5641437042",
       "title": "The Myth of Sisyphus",
@@ -11332,7 +11449,7 @@
       }
     },
     {
-      "id": "40672036",
+      "id": "40405444",
       "reviewId": "9047449787",
       "title": "Digital Minimalism: Choosing a Focused Life in a Noisy World",
       "series": null,
@@ -11343,10 +11460,10 @@
       "rating": null,
       "dateRead": null,
       "dateAdded": "2026-10-23",
-      "pages": 302,
+      "pages": 284,
       "year": 2019,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549433350l/40672036._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/40672036"
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544192948l/40405444._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/40405444"
     },
     {
       "id": "40718304",
@@ -11483,23 +11600,6 @@
       "year": 1962,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549260060l/41817486._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/41817486"
-    },
-    {
-      "id": "41881472",
-      "reviewId": "5641442126",
-      "title": "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
-      "series": null,
-      "seriesNumber": null,
-      "author": "Morgan Housel",
-      "shelf": "to-read",
-      "tags": [],
-      "rating": null,
-      "dateRead": null,
-      "dateAdded": "2023-06-24",
-      "pages": 242,
-      "year": 2020,
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581527774l/41881472._SY300_.jpg",
-      "url": "https://www.goodreads.com/book/show/41881472"
     },
     {
       "id": "42357662",
@@ -11870,6 +11970,23 @@
       }
     },
     {
+      "id": "49247302",
+      "reviewId": "9135898866",
+      "title": "The Topeka School",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Ben Lerner",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 284,
+      "year": 2019,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599564703l/49247302._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/49247302"
+    },
+    {
       "id": "49933576",
       "reviewId": "9127723367",
       "title": "Kraftwerk: Future Music from Germany",
@@ -12101,6 +12218,40 @@
       "url": "https://www.goodreads.com/book/show/50998056"
     },
     {
+      "id": "51007395",
+      "reviewId": "9047480260",
+      "title": "The Book on the Taboo Against Knowing Who You Are",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Alan W. Watts",
+      "shelf": "read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-10-23",
+      "pages": 163,
+      "year": 1966,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580937002l/51007395._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/51007395"
+    },
+    {
+      "id": "51077757",
+      "reviewId": "8753733388",
+      "title": "Solaris",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Stanisław Lem",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-07-08",
+      "pages": 204,
+      "year": 1961,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565362528l/51077757._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/51077757"
+    },
+    {
       "id": "51650770",
       "reviewId": "8308912197",
       "title": "The Disappearance of Rituals: A Topology of the Present",
@@ -12126,6 +12277,40 @@
         "height": null,
         "thickness": null
       }
+    },
+    {
+      "id": "52142022",
+      "reviewId": "9136085253",
+      "title": "J R",
+      "series": null,
+      "seriesNumber": null,
+      "author": "William Gaddis",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 770,
+      "year": 1975,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656962392l/52142022._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/52142022"
+    },
+    {
+      "id": "52142237",
+      "reviewId": "5641425785",
+      "title": "The Recognitions",
+      "series": null,
+      "seriesNumber": null,
+      "author": "William Gaddis",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2023-06-24",
+      "pages": 968,
+      "year": 1955,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656961877l/52142237._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/52142237"
     },
     {
       "id": "52761023",
@@ -12528,6 +12713,23 @@
       "year": 2021,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623850374l/57004637._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/57004637"
+    },
+    {
+      "id": "57630684",
+      "reviewId": "9136105559",
+      "title": "M: Son of the Century",
+      "series": "Il romanzo di Mussolini",
+      "seriesNumber": "1",
+      "author": "Antonio Scurati",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 784,
+      "year": 2018,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632078663l/57630684._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/57630684"
     },
     {
       "id": "57951389",
@@ -13192,6 +13394,23 @@
       "url": "https://www.goodreads.com/book/show/61918819"
     },
     {
+      "id": "62038807",
+      "reviewId": "9135897251",
+      "title": "Oryx and Crake",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Margaret Atwood",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 389,
+      "year": 2003,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1661083554l/62038807._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/62038807"
+    },
+    {
       "id": "62879904",
       "reviewId": "7909982272",
       "title": "The Crocodile",
@@ -13436,6 +13655,40 @@
       }
     },
     {
+      "id": "196426254",
+      "reviewId": "9135898014",
+      "title": "Technofeudalism: What Killed Capitalism",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Yanis Varoufakis",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 304,
+      "year": 2023,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699322584l/196426254._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/196426254"
+    },
+    {
+      "id": "197773418",
+      "reviewId": "9136090448",
+      "title": "Slow Productivity: The Lost Art of Accomplishment Without Burnout",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Cal Newport",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 244,
+      "year": 2024,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1692883158l/197773418._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/197773418"
+    },
+    {
       "id": "199275846",
       "reviewId": "5605358936",
       "title": "Brave New World: (Original Classic Editions)",
@@ -13595,6 +13848,23 @@
         "height": null,
         "thickness": null
       }
+    },
+    {
+      "id": "211365801",
+      "reviewId": "9135916203",
+      "title": "Against Interpretation: And Other Essays",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Susan Sontag",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-28",
+      "pages": 336,
+      "year": 1966,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718950739l/211365801._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/211365801"
     },
     {
       "id": "212277996",
@@ -14130,6 +14400,25 @@
       "url": "https://www.goodreads.com/book/show/244934769"
     },
     {
+      "id": "244952007",
+      "reviewId": "9130242936",
+      "title": "Pnin",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Vladimir Nabokov",
+      "shelf": "to-read",
+      "tags": [
+        "kindle"
+      ],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2026-11-25",
+      "pages": 208,
+      "year": 1957,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1765219405l/244952007._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/244952007"
+    },
+    {
       "id": "244967529",
       "reviewId": "8815473866",
       "title": "The Corrections: A Novel (25th Anniversary Edition)",
@@ -14162,6 +14451,23 @@
       "year": 2026,
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1767777046l/245325201._SY300_.jpg",
       "url": "https://www.goodreads.com/book/show/245325201"
+    },
+    {
+      "id": "245699987",
+      "reviewId": "5641442126",
+      "title": "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
+      "series": null,
+      "seriesNumber": null,
+      "author": "Morgan Housel",
+      "shelf": "to-read",
+      "tags": [],
+      "rating": null,
+      "dateRead": null,
+      "dateAdded": "2023-06-24",
+      "pages": 256,
+      "year": 2020,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1766511370l/245699987._SY300_.jpg",
+      "url": "https://www.goodreads.com/book/show/245699987"
     },
     {
       "id": "246519235",
