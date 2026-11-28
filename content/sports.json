@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-26T17:50:00.284Z",
+  "syncedAt": "2026-11-28T16:18:44.472Z",
   "source": "https://www.espn.com",
   "teams": [
     {
@@ -142,25 +142,15 @@
       "wins": 18,
       "losses": 4,
       "ties": 0,
-      "otLosses": 5,
+      "otLosses": 6,
       "division": {
         "name": "Central",
         "rank": 1,
         "teams": 8
       },
-      "streak": "L1",
+      "streak": "L2",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-11-07T01:00Z",
-          "home": true,
-          "opponent": "Sharks",
-          "us": 4,
-          "them": 1,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-11-08T01:00Z",
           "home": true,
@@ -250,13 +240,23 @@
           "result": "L",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-27T21:00Z",
+          "home": true,
+          "opponent": "Avalanche",
+          "us": 3,
+          "them": 4,
+          "result": "OTL",
+          "extra": "SO",
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-27T21:00Z",
+        "date": "2026-11-29T19:00Z",
         "timeKnown": true,
-        "home": true,
-        "opponent": "Colorado Avalanche",
+        "home": false,
+        "opponent": "Chicago Blackhawks",
         "seasonType": 2,
         "stage": null,
         "note": null
@@ -270,7 +270,7 @@
       "season": "2026-27",
       "phase": "regular",
       "wins": 14,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
       "otLosses": 0,
       "division": {
@@ -278,19 +278,9 @@
         "rank": 1,
         "teams": 5
       },
-      "streak": "W3",
+      "streak": "L1",
       "clincher": null,
       "recent": [
-        {
-          "date": "2026-11-07T01:00Z",
-          "home": false,
-          "opponent": "Pelicans",
-          "us": 115,
-          "them": 109,
-          "result": "W",
-          "extra": null,
-          "postseason": false
-        },
         {
           "date": "2026-11-09T00:00Z",
           "home": true,
@@ -380,16 +370,26 @@
           "result": "W",
           "extra": null,
           "postseason": false
+        },
+        {
+          "date": "2026-11-28T01:30Z",
+          "home": true,
+          "opponent": "Grizzlies",
+          "us": 109,
+          "them": 114,
+          "result": "L",
+          "extra": null,
+          "postseason": false
         }
       ],
       "next": {
-        "date": "2026-11-28T01:30Z",
+        "date": "2026-11-30T02:00Z",
         "timeKnown": true,
-        "home": true,
-        "opponent": "Memphis Grizzlies",
+        "home": false,
+        "opponent": "Sacramento Kings",
         "seasonType": 2,
         "stage": null,
-        "note": "NBA Cup - Group Play"
+        "note": null
       }
     },
     {
