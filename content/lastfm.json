@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-28T16:25:35.393Z",
+  "syncedAt": "2026-11-28T18:29:06.022Z",
   "profile": "https://www.last.fm/user/shoeman27",
   "registered": "2013-02-18",
   "totalPlays": 66926,
@@ -111,7 +111,7 @@
       "year": 2024,
       "from": "2024-11-21",
       "to": "2024-11-28",
-      "plays": 90,
+      "plays": 83,
       "album": {
         "title": "Street Worms",
         "artist": "Viagra Boys",
@@ -141,7 +141,7 @@
       "year": 2023,
       "from": "2023-11-21",
       "to": "2023-11-28",
-      "plays": 119,
+      "plays": 112,
       "album": {
         "title": "Most Normal",
         "artist": "Gilla Band",
@@ -152,7 +152,7 @@
       "artists": [
         {
           "name": "Gilla Band",
-          "plays": 19,
+          "plays": 22,
           "url": "https://www.last.fm/music/Gilla+Band"
         },
         {
@@ -171,7 +171,7 @@
       "year": 2022,
       "from": "2022-11-21",
       "to": "2022-11-28",
-      "plays": 41,
+      "plays": 45,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -191,9 +191,9 @@
           "url": "https://www.last.fm/music/Alcest"
         },
         {
-          "name": "Hammock",
-          "plays": 2,
-          "url": "https://www.last.fm/music/Hammock"
+          "name": "Man Mountain",
+          "plays": 3,
+          "url": "https://www.last.fm/music/Man+Mountain"
         }
       ]
     },
@@ -231,7 +231,7 @@
       "year": 2020,
       "from": "2020-11-21",
       "to": "2020-11-28",
-      "plays": 137,
+      "plays": 136,
       "album": {
         "title": "You Won't Get What You Want",
         "artist": "Daughters",
@@ -261,7 +261,7 @@
       "year": 2019,
       "from": "2019-11-21",
       "to": "2019-11-28",
-      "plays": 151,
+      "plays": 148,
       "album": {
         "title": "The Chief",
         "artist": "Jidenna",
@@ -281,9 +281,9 @@
           "url": "https://www.last.fm/music/The+Weeknd"
         },
         {
-          "name": "Glass Animals",
-          "plays": 9,
-          "url": "https://www.last.fm/music/Glass+Animals"
+          "name": "Mac Miller",
+          "plays": 8,
+          "url": "https://www.last.fm/music/Mac+Miller"
         }
       ]
     },
@@ -291,7 +291,7 @@
       "year": 2018,
       "from": "2018-11-21",
       "to": "2018-11-28",
-      "plays": 58,
+      "plays": 70,
       "album": {
         "title": "Closer",
         "artist": "Wild Cub",
@@ -301,14 +301,14 @@
       },
       "artists": [
         {
+          "name": "The 1975",
+          "plays": 6,
+          "url": "https://www.last.fm/music/The+1975"
+        },
+        {
           "name": "Wild Cub",
           "plays": 6,
           "url": "https://www.last.fm/music/Wild+Cub"
-        },
-        {
-          "name": "The 1975",
-          "plays": 5,
-          "url": "https://www.last.fm/music/The+1975"
         },
         {
           "name": "Twenty One Pilots",
@@ -351,7 +351,7 @@
       "year": 2016,
       "from": "2016-11-21",
       "to": "2016-11-28",
-      "plays": 17,
+      "plays": 12,
       "album": {
         "title": "Dust and Disquiet",
         "artist": "Caspian",
@@ -362,18 +362,13 @@
       "artists": [
         {
           "name": "Caspian",
-          "plays": 12,
+          "plays": 11,
           "url": "https://www.last.fm/music/Caspian"
         },
         {
           "name": "This Will Destroy You",
           "plays": 1,
           "url": "https://www.last.fm/music/This+Will+Destroy+You"
-        },
-        {
-          "name": "The 1975",
-          "plays": 1,
-          "url": "https://www.last.fm/music/The+1975"
         }
       ]
     },
